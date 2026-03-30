@@ -31,9 +31,17 @@ For example, the e-book store [BOOK WALKER](https://global.bookwalker.jp/) integ
 
 ## Experience LINE Login on the demo site 
 
-[LINE API Use Case](https://lineapiusecase.com/en/top.html) provides a demo site integrating LINE Login and its source code. Try using the demo site to experience LINE Login for yourself.
+Try using the demo to experience LINE Login for yourself. You can view the demo on your smartphone by scanning the QR code to access the demo site.
 
-- [Experience LINE Login on the demo site provided by LINE API Use Case](https://lineapiusecase.com/en/api/login.html)
+![](https://developers.line.biz/media/line-login/demo/login-demo-qr-code-en.png)
+
+<!-- note start -->
+
+**Data the demo site retrieves**
+
+Before using, please note that the LINE Login demo app will retrieve the profile information (display name, profile image URL, and user ID) from the LINE accounts of users who use the demo. Of the retrieved information, only the user ID is stored on the server, and the stored data is deleted daily.
+
+<!-- note end -->
 
 ## Start development to integrate LINE Login 
 

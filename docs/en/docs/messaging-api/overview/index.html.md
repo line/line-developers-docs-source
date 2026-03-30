@@ -22,7 +22,17 @@ With the Messaging API, a bot server can send and receive data to and from the L
 
 ## Try the demo 
 
-The [LINE API Use Case](https://lineapiusecase.com/en/top.html) site lets you try LINE Official Accounts and features that are implemented with the Messaging API. You can also see the code for the demo samples. Add different LINE Official Accounts from the site, as a friend on your smartphone and experience the Messaging API. For more information, see [Chatbot (Messaging API)](https://lineapiusecase.com/en/api/msgapi.html).
+Try using the demo to experience Messaging API for yourself. You can view the demo on your smartphone. Scan the QR code to add the LINE Official Account for the demo as a friend.
+
+![](https://developers.line.biz/media/messaging-api/demo/messaging-api-demo-qr-code-en.png)
+
+<!-- note start -->
+
+**Data the Demo App Retrieves**
+
+The LINE Official Account for the demo has a function to send your device's location information. If you do not wish to send this information, turn off the location sharing function on your device before using the service. We will also collect some of your profile information (user ID) from your LINE account. However, this information isn't stored on the server. Please understand the above before using this service.
+
+<!-- note end -->
 
 ## What you can do with the Messaging API 
 
