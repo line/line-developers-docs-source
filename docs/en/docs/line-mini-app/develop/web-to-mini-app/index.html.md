@@ -18,7 +18,7 @@ As described above, by implementing the web app as a LINE MINI App, you can prev
 
 **Comparison between LINE MINI Apps and native apps**
 
-For more information on the advantages of LINE MINI Apps over native apps, see [comparison article between native apps and LINE MINI Apps](https://lineapiusecase.com/ja/api/native-mini.html) (only available in Japanese) in the LINE API Use Case.
+For more information on the advantages of LINE MINI Apps over native apps, see [The differences between native apps and LINE MINI Apps](https://developers.line.biz/en/docs/line-mini-app/discover/native-mini/).
 
 <!-- tip end -->
 

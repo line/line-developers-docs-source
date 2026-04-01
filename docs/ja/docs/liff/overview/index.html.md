@@ -22,15 +22,6 @@ LINEヤフー株式会社では開発者向けに[LIFFプレイグラウンド](
 
 <!-- note end -->
 
-## デモ用のLIFFアプリを体験する 
-
-[LINE API Use Case](https://lineapiusecase.com/)では、デモ用のLIFFアプリと、そのソースコードを公開しています。お手持ちのスマートフォンでデモ用のLIFFアプリを開いて、店舗予約やテーブルオーダーを体験してみましょう。
-
-- [デモ用のLIFFアプリでヘアサロンやレストランの店舗予約を体験する](https://lineapiusecase.com/ja/usecase/reservation.html)
-- [デモ用のLIFFアプリでデジタル会員証を体験する](https://lineapiusecase.com/ja/usecase/membership.html)
-- [デモ用のLIFFアプリでテーブルオーダーを体験する](https://lineapiusecase.com/ja/usecase/tableorder.html)
-- [デモ用のLIFFアプリでスマホレジを体験する](https://lineapiusecase.com/ja/usecase/smartretail.html)
-
 ## 推奨環境 
 
 LIFFの推奨環境は以下のとおりです。

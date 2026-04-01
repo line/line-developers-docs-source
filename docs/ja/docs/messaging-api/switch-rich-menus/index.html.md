@@ -106,7 +106,7 @@ curl -v -X POST https://api-data.line.me/v2/bot/richmenu/richmenu-19682466851b21
   - 切替先：リッチメニューA（richMenuAliasId：`richmenu-alias-a`）
 - **リッチメニューBの右側のタップ領域**
   - アクション：[URIアクション](https://developers.line.biz/ja/reference/messaging-api/#uri-action)
-  - URI：[LINE API Use Case](https://lineapiusecase.com/)
+  - URI：[LINEヤフー Tech Blog](https://techblog.lycorp.co.jp/)
 
 ```sh
 curl -v -X POST https://api.line.me/v2/bot/richmenu \
@@ -144,7 +144,7 @@ curl -v -X POST https://api.line.me/v2/bot/richmenu \
             },
             "action": {
                 "type": "uri",
-                "uri": "https://lineapiusecase.com/"
+                "uri": "https://techblog.lycorp.co.jp/"
             }
         }
     ]

@@ -84,7 +84,7 @@ curl -v -X POST https://api.line.me/v2/bot/richmenu \
             "action": {
                 "type": "uri",
                 "label": "Tap area B",
-                "uri": "https://lineapiusecase.com/en/top.html"
+                "uri": "https://api.line-status.info/"
             }
         },
         {

@@ -22,15 +22,6 @@ Currently, LIFF apps are not officially supported in OpenChat, which means some 
 
 <!-- note end -->
 
-## Experience LIFF app for demo 
-
-[LINE API Use Case](https://lineapiusecase.com/en/top.html) provides LIFF app for demo and its source code. Open the LIFF app for demo to experience store reservations and table orders.
-
-- [Experience making restaurant or hair salon reservations with LIFF app for demo](https://lineapiusecase.com/en/usecase/reservation.html)
-- [Experience a digital membership card with LIFF app for demo](https://lineapiusecase.com/en/usecase/membership.html)
-- [Experience table ordering with LIFF app for demo](https://lineapiusecase.com/en/usecase/tableorder.html)
-- [Experience smartphone self-checkout with LIFF app for demo](https://lineapiusecase.com/en/usecase/smartretail.html)
-
 ## Recommended operating environment 
 
 The recommended versions of operating systems and LINE for LIFF are as follows.

@@ -106,7 +106,7 @@ Create rich menu B (`richmenu-b`) in the same way as rich menu A. Specify action
   - Switching target: Rich menu A (richMenuAliasId: `richmenu-alias-a`)
 - **Rich menu B's tappable area on the right**
   - Action: [URI action](https://developers.line.biz/en/reference/messaging-api/#uri-action)
-  - URI: [LINE API Use Case](https://lineapiusecase.com/en/top.html)
+  - URI: [LY Corporation Tech Blog](https://techblog.lycorp.co.jp/)
 
 ```sh
 curl -v -X POST https://api.line.me/v2/bot/richmenu \
@@ -144,7 +144,7 @@ curl -v -X POST https://api.line.me/v2/bot/richmenu \
             },
             "action": {
                 "type": "uri",
-                "uri": "https://lineapiusecase.com/en/top.html"
+                "uri": "https://techblog.lycorp.co.jp/"
             }
         }
     ]

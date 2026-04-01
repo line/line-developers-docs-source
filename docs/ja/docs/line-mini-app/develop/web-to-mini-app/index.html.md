@@ -18,7 +18,7 @@
 
 **LINEミニアプリとネイティブアプリの比較について**
 
-ネイティブアプリに対するLINEミニアプリのメリットについては、『LINE API Use Case』の[ネイティブアプリとLINEミニアプリの比較記事](https://lineapiusecase.com/ja/api/native-mini.html)を参照してください。
+ネイティブアプリに対するLINEミニアプリのメリットについては、[ネイティブアプリとLINEミニアプリの違い](https://developers.line.biz/ja/docs/line-mini-app/discover/native-mini/)を参照してください。
 
 <!-- tip end -->
 

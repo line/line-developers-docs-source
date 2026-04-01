@@ -84,7 +84,7 @@ curl -v -X POST https://api.line.me/v2/bot/richmenu \
             "action": {
                 "type": "uri",
                 "label": "タップ領域B",
-                "uri": "https://lineapiusecase.com/"
+                "uri": "https://api.line-status.info/"
             }
         },
         {

@@ -2,14 +2,6 @@
 
 Rich Menu Playground is a LINE Official Account where you can test rich menu features. This account is serviced only in Japanese. You can get your hands on rich menu features, such as date selection with the [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action) and switching between rich menus with [rich menu aliases](https://developers.line.biz/en/docs/messaging-api/switch-rich-menus/).
 
-<!-- tip start -->
-
-**Why use rich menu?**
-
-Visit [LINE API Use Case](https://lineapiusecase.com/en/api/msgapi.html) and learn the benefits of rich menus, from the perspective of service providers and end users.
-
-<!-- tip end -->
-
 ![Rich Menu Playground main screen](https://developers.line.biz/media/messaging-api/rich-menu-playground/richmenu-playground-bot-overview.png)
 
 ## Add Rich Menu Playground 

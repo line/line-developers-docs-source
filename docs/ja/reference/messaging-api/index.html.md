@@ -13311,7 +13311,7 @@ _レスポンスの例_
     },
     {
       "seq": 1,
-      "url": "https://lineapiusecase.com/",
+      "url": "https://api.line-status.info/",
       "click": 29,
       "uniqueClick": null,
       "uniqueClickOfRequest": null
