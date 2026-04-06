@@ -77,7 +77,7 @@ The LINE Notification Message API sends a message to the user if all of the foll
 - User agrees to receive LINE notification messages.
 - User hasn't blocked your LINE Official Account.
 - The phone number is issued in Japan, Thailand, and Taiwan, and [the phone number can be used to authenticate by phone number in the LINE app](https://help.line.me/line/smartphone/pc?lang=en&contentId=20000104).
-- User agrees to [LINE's Privacy Policy (revised March 2022)](https://guide.line.me/privacy-policy_update/2022/0001/?lang=en-jp).
+- User agrees to LINE's Privacy Policy (revised in March 2022 or later).
 
 For more information on setting up LINE notification messages in the LINE app, see [How to receive LINE notification messages](https://guide.line.me/ja/services/notification-message.html) (only available in Japanese) in the LINE user's guide.
 

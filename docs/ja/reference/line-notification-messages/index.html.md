@@ -323,7 +323,7 @@ _レスポンスの例_
 | --- | --- |
 | `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li><li>このLINE公式アカウントでは指定したテンプレートは使用できません。</li></ul> |
 | `403` | このエンドポイントを使う権限がありません。 |
-| `422` | LINE通知メッセージ（テンプレート）の送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーは、[LINEのプライバシーポリシー（2022年3月改定）](https://guide.line.me/privacy-policy_update/2022/0001/?lang=ja-jp)に同意していません。</li></ul> |
+| `422` | LINE通知メッセージ（テンプレート）の送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが、LINEのプライバシーポリシー（2022年3月改定以降のもの）に同意していません。</li></ul> |
 
 詳しくは、『Messaging APIリファレンス』の「[ステータスコード](https://developers.line.biz/ja/reference/messaging-api/#status-codes)」および「[エラーレスポンス](https://developers.line.biz/ja/reference/messaging-api/#error-responses)」を参照してください。
 
@@ -683,7 +683,7 @@ _レスポンスの例_
 | コード | 説明 |
 | --- | --- |
 | `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li></ul> |
-| `422` | LINE通知メッセージの送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーは、[LINEのプライバシーポリシー（2022年3月改定）](https://guide.line.me/privacy-policy_update/2022/0001/?lang=ja-jp)に同意していません。</li></ul> |
+| `422` | LINE通知メッセージの送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーは、LINEのプライバシーポリシー（2022年3月改定以降のもの）に同意していません。</li></ul> |
 
 詳しくは、『Messaging APIリファレンス』の「[ステータスコード](https://developers.line.biz/ja/reference/messaging-api/#status-codes)」および「[エラーレスポンス](https://developers.line.biz/ja/reference/messaging-api/#error-responses)」を参照してください。
 

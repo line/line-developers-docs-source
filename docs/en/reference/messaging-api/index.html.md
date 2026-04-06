@@ -7966,9 +7966,9 @@ The number of users included in the audience (`audienceGroup.audienceCount`) of 
 
 <!-- note start -->
 
-**Only users who have agreed to the LY Corporation Privacy Policy (revised March 2022) will be added**
+**Only users who have agreed to LINE's Privacy Policy (revised in March 2022 or later) will be added**
 
-When adding user IDs to an audience for uploading user IDs, if the user IDs include those of users who haven't agreed to [the privacy policy (revised March 2022)](https://guide.line.me/privacy-policy_update/2022/0001/?lang=en-jp), users who haven't agreed will be ignored and only users who have agreed will be added.
+When you add user IDs to an audience for uploading user IDs, any IDs belonging to users who haven't agreed to LINE's Privacy Policy (revised in March 2022 or later) will be ignored. Only the IDs of users who have agreed will be added.
 
 Therefore, the number of valid recipients of the audience may be less than that of user IDs specified.
 
@@ -8271,9 +8271,9 @@ For information on narrowcast message restrictions, see [Restrictions on sending
 
 <!-- note start -->
 
-**Only users who have agreed to the LY Corporation Privacy Policy (revised March 2022) will be added**
+**Only users who have agreed to LINE's Privacy Policy (revised in March 2022 or later) will be added**
 
-When adding user IDs to an audience for uploading user IDs, if the user IDs include those of users who haven't agreed to [the privacy policy (revised March 2022)](https://guide.line.me/privacy-policy_update/2022/0001/?lang=en-jp), users who haven't agreed will be ignored and only users who have agreed will be added.
+When you add user IDs to an audience for uploading user IDs, any IDs belonging to users who haven't agreed to LINE's Privacy Policy (revised in March 2022 or later) will be ignored. Only the IDs of users who have agreed will be added.
 
 Therefore, the number of valid recipients of the audience may be less than that of user IDs specified.
 
@@ -8578,9 +8578,9 @@ You cannot delete a user ID or IFA after adding it.
 
 <!-- note start -->
 
-**Only users who have agreed to the LY Corporation Privacy Policy (revised March 2022) will be added**
+**Only users who have agreed to LINE's Privacy Policy (revised in March 2022 or later) will be added**
 
-When adding user IDs to an audience for uploading user IDs, if the user IDs include those of users who haven't agreed to [the privacy policy (revised March 2022)](https://guide.line.me/privacy-policy_update/2022/0001/?lang=en-jp), users who haven't agreed will be ignored and only users who have agreed will be added.
+When you add user IDs to an audience for uploading user IDs, any IDs belonging to users who haven't agreed to LINE's Privacy Policy (revised in March 2022 or later) will be ignored. Only the IDs of users who have agreed will be added.
 
 Therefore, the number of valid recipients of the audience may be less than that of user IDs specified.
 
@@ -8788,9 +8788,9 @@ You cannot delete a user ID or IFA after adding it.
 
 <!-- note start -->
 
-**Only users who have agreed to the LY Corporation Privacy Policy (revised March 2022) will be added**
+**Only users who have agreed to LINE's Privacy Policy (revised in March 2022 or later) will be added**
 
-When adding user IDs to an audience for uploading user IDs, if the user IDs include those of users who haven't agreed to [the privacy policy (revised March 2022)](https://guide.line.me/privacy-policy_update/2022/0001/?lang=en-jp), users who haven't agreed will be ignored and only users who have agreed will be added.
+When you add user IDs to an audience for uploading user IDs, any IDs belonging to users who haven't agreed to LINE's Privacy Policy (revised in March 2022 or later) will be ignored. Only the IDs of users who have agreed will be added.
 
 Therefore, the number of valid recipients of the audience may be less than that of user IDs specified.
 
