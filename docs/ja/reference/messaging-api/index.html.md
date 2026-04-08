@@ -11764,7 +11764,7 @@ Number
 
 LINE Official Account Managerでステップ配信を使って送信されたメッセージの数。
 
-詳しくは、『LINEヤフー for Business』の「[ステップ配信](https://www.linebiz.com/jp/manual/OfficialAccountManager/step-message/)」を参照してください。
+詳しくは、『LINEヤフー for Business』の「[ステップ配信](https://www.lycbiz.com/jp/manual/OfficialAccountManager/step-message/)」を参照してください。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="含まれないことがあります") -->

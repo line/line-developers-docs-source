@@ -1,24 +1,24 @@
 # Handling payments
 
-Enable users to make transactions on your LINE MINI App with LINE Pay or other payment systems. Additionally, only in Japan, you can use the [LINE MINI App in-app purchase](https://developers.line.biz/en/docs/line-mini-app/develop/payment/#in-app-purchase) feature.
+You can provide users with a payment feature by integrating a payment system into your LINE MINI App.
+
+## Available payment system 
+
+The payment systems available on LINE MINI Apps vary by country or region.
+
+| Payment methods | Japan | Taiwan | Thailand |
+| --- | :-: | :-: | :-: |
+| [LINE Pay](https://developers.line.biz/en/docs/line-mini-app/develop/payment/#line-pay) | ❌ | ✅ | ✅ |
+| [In-app purchase for the LINE MINI App](https://developers.line.biz/en/docs/line-mini-app/develop/payment/#in-app-purchase) | ✅ | ❌ | ❌ |
+| [Other methods](https://developers.line.biz/en/docs/line-mini-app/develop/payment/#other-payment-methods) | ✅ | ✅ | ✅ |
 
 <!-- note start -->
 
 **The LINE Pay service in Japan has been terminated**
 
-The LINE Pay service in Japan has been terminated as of April 30, 2025. For more information, see [Notice of the LINE Pay service termination](https://line-pay-info.landpress.line.me/payment-info/) (only available in Japanese).
-
-The LINE Pay services in Taiwan and Thailand continue to be available.
+The LINE Pay service in Japan has been terminated as of April 30, 2025. The LINE Pay services in Taiwan and Thailand continue to be available.
 
 <!-- note end -->
-
-<!-- tip start -->
-
-**Tip**
-
-To avoid prompting users to enter credential information such as credit card numbers, we recommend that you use LINE Pay.
-
-<!-- tip end -->
 
 ## LINE Pay 
 
@@ -48,7 +48,7 @@ When using LINE Pay, the payment will be processed as follows:
 
 To test your payment process implementation, you can use the [sandbox](https://developers-pay.line.me/sandbox) provided by LINE Pay.
 
-## In-app purchase for LINE MINI App 
+## In-app purchase for the LINE MINI App 
 
 [In-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/overview/) is a system that allows users to buy digital content provided within a LINE MINI App. Users launch the LINE MINI App within the LINE app to begin purchasing digital content, and the payment is processed using the App Store or Google Play payment system.
 
@@ -56,4 +56,4 @@ Currently, in-app purchase is available only in Japan. For more information on e
 
 ## Other payment methods 
 
-To offer other means of payment on your LINE MINI App, implement them as you would on ordinary web pages. However, you must design the process so that users are redirected to your LINE MINI App page after completing a transaction on an external domain or app.
+To offer other payment methods other than those mentioned above in your LINE MINI App, implement them as you would on ordinary web pages. However, you must design the process so that users are redirected to your LINE MINI App page after completing a transaction on an external domain or app.

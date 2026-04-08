@@ -21,7 +21,7 @@ See the following for pricing plans for each country or region:
 | Japan | [LINE Official Account pricing plan](https://www.lycbiz.com/jp/service/line-official-account/plan/) <br> [Activity and billing (subscription plan changes and payment related management)](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings_plan/) |
 | Taiwan | [LINE Official Account](https://tw.linebiz.com/service/account-solutions/line-official-account/) <br> [LINE Official Account - FAQ](https://tw.linebiz.com/faq/oa-price/) |
 | Thailand | [LINE Official Account](https://lineforbusiness.com/th/service/line-oa-features/broadcast-message) |
-| Other regions | [LINE Official Account](https://www.linebiz.com/jp-en/other/) |
+| Other regions | [LINE Official Account](https://www.lycbiz.jp/en/other/) |
 
 ### Example of subscription plans 
 
@@ -34,6 +34,7 @@ The following table shows an example of subscription plans in Japan:
 | Cost of additional messages [^1] | N/A | N/A | Up to JPY 3/message [^2] |
 
 [^1]: Excluding tax.
+
 [^2]: The unit price for additional messages varies depending on the number of messages sent.
 
 For example, if you want to send 1,000 messages per month, select the Light Plan with 5,000 free messages.

@@ -93,7 +93,7 @@ When the users tap the beacon banner, the web page specified by the LINE Officia
 
 **Note**
 
-The beacon banner is available only to corporate users. To use the beacon banner, contact your LINE representative or make an inquiry through the [LINE for Business](https://www.linebiz.com/jp-en/) website.
+The beacon banner is available only to corporate users. To use the beacon banner, contact your LINE representative or make an inquiry through the [LY for Business](https://www.lycbiz.jp/en/) website.
 
 <!-- note end -->
 

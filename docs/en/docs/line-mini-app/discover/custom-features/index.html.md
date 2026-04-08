@@ -1,18 +1,19 @@
-# Custom Features
+# Custom features
 
 You can add the following features to your LINE MINI App to further enhance the user experience. The features you can use depend on whether the LINE MINI App is an unverified MINI App or a verified MINI App.
 
 | Feature | Unverified MINI App | Verified MINI App |
 | --- | --- | --- |
-| [Service Messages](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#service-messages) | ❌ | ✅ |
+| [Service messages](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#service-messages) | ❌ | ✅ |
 | [Custom Path](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#custom-path) | ❌ | ✅ |
 | [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#create-shortcut-on-home-screen) | ❌ | ✅ |
-| [Inducing users to add your Official Account as a friend](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#OA-friend) | ✅ | ✅ |
-| [Using Payment Systems](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#using-payment-systems) | ✅ | ✅ |
-| [Custom action button](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#custom-action-button) | ✅ | ✅ |
 | [Common Profile Quick-fill](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#quick-fill) | ❌ | ✅ |
+| [Inducing users to add your Official Account as a friend](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#OA-friend) | ✅ | ✅ |
+| [Custom action button](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#custom-action-button) | ✅ | ✅ |
+| [Using payment systems](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#using-payment-systems) | ✅ | ✅ |
+| [Place ads](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#place-ads) | ✅ | ✅ |
 
-## Service Messages 
+## Service messages 
 
 Service messages can be used if you want to send users the confirmation of their restaurant or accommodation reservations.
 
@@ -56,6 +57,14 @@ Using this feature for services that users frequently use, such as membership ca
 
 For more information, see [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/develop/add-to-home-screen/).
 
+## Common Profile Quick-fill 
+
+Quick-fill is a feature that automatically fills in the necessary profile information when you tap **Auto-fill** in LINE MINI Apps. The information from the Common Profile set up in the Account Center can be easily used in LINE MINI Apps. For more information, see [Overview of Common Profile Quick-fill](https://developers.line.biz/en/docs/line-mini-app/quick-fill/overview/).
+
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+
+By implementing Quick-fill in LINE MINI Apps, users can automatically fill in required information such as addresses and phone numbers with a single tap of a button. This eliminates the need for manual input, making it more convenient for users when making reservations at stores or placing orders on online stores.
+
 ## Inducing users to add your Official Account as a friend 
 
 With LINE MINI App, you can induce users to add your Official Account as a friend from the [verification screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#verification-screen) or the [channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#consent-screen-settings), using the add friend option.
@@ -67,22 +76,30 @@ For more information, see [Add the LINE Official Account as a friend on the LINE
 
 You can also use the [`liff.requestFriendship()`](https://developers.line.biz/en/reference/liff/#request-friendship) method to display a subwindow at any time, prompting users to add your LINE Official Account as a friend or unblock it.
 
-## Using Payment Systems 
-
-Methods of payment other than LINE Pay, such as credit cards, can be integrated into your LINE MINI App. Additionally, only in Japan, you can use the LINE MINI App in-app purchase feature. For more information, see [Using payment systems](https://developers.line.biz/en/docs/line-mini-app/develop/payment/).
-
-![mini intro linepay](https://developers.line.biz/media/line-mini-app/mini_intro_linepay.png)
-
 ## Custom action button 
 
 The [built-in action button](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#action-button) is provided to enable users to easily share LINE MINI App among friends, but there is also the option of [implementing a custom action button](https://developers.line.biz/en/docs/line-mini-app/develop/share-messages/).
 
 ![](https://developers.line.biz/media/line-mini-app/mini_share_custom.png)
 
-## Common Profile Quick-fill 
+## Using payment systems 
 
-Quick-fill is a feature that automatically fills in the necessary profile information when you tap **Auto-fill** in LINE MINI Apps. The information from the Common Profile set up in the Account Center can be easily used in LINE MINI Apps. For more information, see [Overview of Common Profile Quick-fill](https://developers.line.biz/en/docs/line-mini-app/quick-fill/overview/).
+You can integrate payment methods such as LINE Pay into your LINE MINI App. Additionally, only in Japan, you can use the [LINE MINI App in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/overview/) feature.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+The payment systems available on LINE MINI Apps vary by country or region.
 
-By implementing Quick-fill in LINE MINI Apps, users can automatically fill in required information such as addresses and phone numbers with a single tap of a button. This eliminates the need for manual input, making it more convenient for users when making reservations at stores or placing orders on online stores.
+| Payment methods                       | Japan | Taiwan | Thailand |
+| ------------------------------------- | :---: | :----: | :------: |
+| LINE Pay                              |  ❌   |   ✅   |    ✅    |
+| In-app purchase for the LINE MINI App |  ✅   |   ❌   |    ❌    |
+| Other methods                         |  ✅   |   ✅   |    ✅    |
+
+For more information, see [Handling payments](https://developers.line.biz/en/docs/line-mini-app/develop/payment/).
+
+![mini intro linepay](https://developers.line.biz/media/line-mini-app/mini_intro_linepay.png)
+
+## Place ads 
+
+LINE MINI Apps can be monetized by displaying [LY Ads Display Ads](https://www.lycbiz.jp/en/#service). Ads can be placed in both verified and unverified MINI Apps, but the service must be provided in Japan.
+
+For more information, see [Place ads in LINE MINI Apps](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-ads/).
