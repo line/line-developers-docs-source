@@ -10592,7 +10592,7 @@ How the audience was created. One of:
 - `POINT_AD`: Audience created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
 - `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
-- `YAHOO_DISPLAY_ADS`: Audience created with [Yahoo! JAPAN Ads Display Ads](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/)
+- `YAHOO_DISPLAY_ADS`: Audience created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising)
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10872,7 +10872,7 @@ Name of the service that created the audience. One of:
 - `bm`: Business Manager
 - `lap`: LINE Ads
 - `account`: LINE Official Account
-- `yda`: Yahoo! JAPAN Ads
+- `yda`: LY Ads
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -11243,7 +11243,7 @@ How the audience was created. If omitted, all audiences are included.
 - `POINT_AD`: Return only audiences created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese).
 - `AD_MANAGER`: Return only audiences created with [LINE Ads](https://admanager.line.biz/).
 - `BUSINESS_MANAGER`: Return only audiences created with [Business Manager](https://data.linebiz.com/solutions/business-manager).
-- `YAHOO_DISPLAY_ADS`: Return only audiences created with [Yahoo! JAPAN Ads Display Ads](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/).
+- `YAHOO_DISPLAY_ADS`: Return only audiences created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising).
 
 If you specify multiple parameters, the OR condition is used.
 
@@ -11294,7 +11294,7 @@ How the audience was created. One of:
 - `POINT_AD`: Audience created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
 - `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
-- `YAHOO_DISPLAY_ADS`: Audience created with [Yahoo! JAPAN Ads Display Ads](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/)
+- `YAHOO_DISPLAY_ADS`: Audience created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising)
 
 <!-- parameter end -->
 <!-- parameter start -->

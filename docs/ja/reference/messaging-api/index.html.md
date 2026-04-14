@@ -10593,7 +10593,7 @@ String
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
 - `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
-- `YAHOO_DISPLAY_ADS`：[Yahoo!広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/)で作成したオーディエンス
+- `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンス
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10873,7 +10873,7 @@ String
 - `bm`：ビジネスマネージャー
 - `lap`：LINE広告
 - `account`：LINE公式アカウント
-- `yda`：Yahoo!広告
+- `yda`：LINEヤフー広告
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -11244,7 +11244,7 @@ createRoute
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンスのみを取得
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンスのみを取得
 - `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンスのみを取得
-- `YAHOO_DISPLAY_ADS`：[Yahoo!広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/)で作成したオーディエンスのみを取得
+- `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンスのみを取得
 
 複数のパラメータを指定した場合、OR条件となります。
 
@@ -11295,7 +11295,7 @@ String
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
 - `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
-- `YAHOO_DISPLAY_ADS`：[Yahoo!広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/yahoo-ads/displayads-auc/)で作成したオーディエンス
+- `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンス
 
 <!-- parameter end -->
 <!-- parameter start -->

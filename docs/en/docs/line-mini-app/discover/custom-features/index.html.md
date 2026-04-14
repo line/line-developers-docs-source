@@ -100,6 +100,6 @@ For more information, see [Handling payments](https://developers.line.biz/en/doc
 
 ## Place ads 
 
-LINE MINI Apps can be monetized by displaying [LY Ads Display Ads](https://www.lycbiz.jp/en/#service). Ads can be placed in both verified and unverified MINI Apps, but the service must be provided in Japan.
+LINE MINI Apps can be monetized by displaying [LY Ads Network Display Ads (Web)](https://www.lycbiz.com/jp/partner/adnetwork/ly-ads/) (only available in Japanese). Ads can be placed in both verified and unverified MINI Apps, but the service must be provided in Japan.
 
 For more information, see [Place ads in LINE MINI Apps](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-ads/).

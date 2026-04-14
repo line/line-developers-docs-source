@@ -6,7 +6,7 @@ Use the Messaging API to build bots to provide personalized experiences on LINE 
 
 **What is LINE Official Account**
 
-If you are unfamiliar with LINE Official Account, visit the comprehensive learning platform, [LINE Campus](https://lymcampus.jp/) (only available in Japanese).
+If you are unfamiliar with LINE Official Account, visit the comprehensive learning platform, [LY Marketing Campus](https://lymcampus.jp/) (only available in Japanese).
 
 <!-- tip end -->
 
