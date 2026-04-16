@@ -40,7 +40,7 @@ LINE SDK for Androidを組み込むには、必要なライブラリをプロジ
 
 モジュールレベルの`build.gradle`ファイルに、LINE SDKの依存性を追加します。
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.linecorp.linesdk/linesdk.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.linecorp.linesdk%22%20AND%20a:%22linesdk%22)
+[![Maven Central](https://img.shields.io/maven-central/v/com.linecorp.linesdk/linesdk.svg?label=Maven%20Central){:zoom="false"}](https://search.maven.org/search?q=g:%22com.linecorp.linesdk%22%20AND%20a:%22linesdk%22)
 
 ```groovy
 repositories {
