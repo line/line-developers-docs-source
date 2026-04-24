@@ -601,6 +601,8 @@ When [adding a LIFF app to your channel](https://developers.line.biz/en/docs/lif
 
 Displays a subwindow that prompts the user to add the LINE Official Account as a friend, or to unblock it.
 
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-en.png)
+
 - If the user has not added the LINE Official Account as a friend, a subwindow that prompts the user to add it as a friend is displayed.
 - If the user has blocked the LINE Official Account, a subwindow that prompts the user to unblock it is displayed.
 - If the user is already friends with the LINE Official Account, the subwindow is displayed and then automatically closed.

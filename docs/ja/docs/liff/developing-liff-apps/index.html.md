@@ -601,6 +601,8 @@ liff.getFriendship().then((data) => {
 
 LINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウを表示します。
 
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-ja.png)
+
 - LINE公式アカウントと友だちになっていない場合は、友だち追加を促すサブウィンドウが表示されます。
 - LINE公式アカウントをブロックしている場合は、ブロック解除を促すサブウィンドウが表示されます。
 - LINE公式アカウントと既に友だちになっている場合は、サブウィンドウが表示された後、自動で閉じられます。
