@@ -1,4 +1,4 @@
-# LINE Front-end Framework (LIFF)
+# LIFF overview
 
 LINE Front-end Framework (LIFF) is a platform for web apps provided by LY Corporation. The web apps running on this platform are called LIFF apps.
 
@@ -26,7 +26,7 @@ Currently, LIFF apps are not officially supported in OpenChat, which means some 
 
 The recommended versions of operating systems and LINE for LIFF are as follows.
 
-Which functions you can use depends on whether the LIFF app is opened in a [LIFF browser](https://developers.line.biz/en/docs/liff/overview/#liff-browser) or an [external browser](https://developers.line.biz/en/glossary/#external-browser). For example, you can't use `liff.scanCode()` in an external browser. For more information, see the [LIFF v2 API reference](https://developers.line.biz/en/reference/liff/).
+Which functions you can use depends on whether the LIFF app is opened in a [LIFF browser](https://developers.line.biz/en/docs/liff/overview/#liff-browser) or an [external browser](https://developers.line.biz/en/glossary/#external-browser). For example, you can't use `liff.scanCode()` in an external browser. For more information, see the [LIFF API reference](https://developers.line.biz/en/reference/liff/).
 
 ### When the LIFF app is opened in a LIFF browser 
 

@@ -40,19 +40,17 @@ You can see how LINE Login works using our starter app. See [Trying the starter 
 
 This guide explains how to integrate the LINE SDK with your Unity game and use the available API functions in the SDK from your app. The table below lists the topics and their contents in this guide.
 
-Title | Content
--|-
-[LINE SDK for Unity overview](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/overview/) | SDK features and high-level steps for using the SDK.
-[Setting up project](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/project-setup/) | The prerequisites and environment needed for integrating the LINE SDK for Unity.
-[Trying the starter app](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/try-line-login/) | How to run our starter app.
-[Integrating LINE Login with your Unity game](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/integrate-line-login/) | How to integrate the LINE SDK into your project and leverage LINE Login to improve your app's user experience.
-[Using the SDK](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/using-sdk/) | Usage and other details of LINE SDK for Unity.
-[LINE SDK for Unity reference](https://developers.line.biz/en/reference/unity-sdk/) | Detailed information on the interfaces and classes available in the SDK.
+| Title | Content |
+| --- | --- |
+| [LINE SDK for Unity overview](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/overview/) | SDK features and high-level steps for using the SDK. |
+| [Setting up project](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/project-setup/) | The prerequisites and environment needed for integrating the LINE SDK for Unity. |
+| [Trying the starter app](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/try-line-login/) | How to run our starter app. |
+| [Integrating LINE Login with your Unity game](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/integrate-line-login/) | How to integrate the LINE SDK into your project and leverage LINE Login to improve your app's user experience. |
+| [Using LINE SDK for other APIs and result handling](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/using-sdk/) | Usage and other details of LINE SDK for Unity. |
+| [LINE SDK for Unity reference](https://developers.line.biz/en/reference/unity-sdk/) | Detailed information on the interfaces and classes available in the SDK. |
 
 ## Other resources 
 
-You can access the following information from the [top page](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/) of the LINE SDK for Unity guide.
-
-Title | Content
--|-
-[Release notes](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/release-notes/) | Change log for the SDK.
+| Title | Content |
+| --- | --- |
+| [Release notes for LINE SDK for Unity](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/release-notes/) | Change log for the SDK. |

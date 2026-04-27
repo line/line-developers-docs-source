@@ -196,5 +196,5 @@ LINE Developersコンソールで既存チャネルを編集する際に、［**
 ## 関連ページ 
 
 - [LINEログイン開発ガイドライン](https://developers.line.biz/ja/docs/line-login/development-guidelines/)
-- [セキュリティチェックリスト](https://developers.line.biz/ja/docs/line-login/security-checklist/)
+- [LINEログインのセキュリティチェックリスト](https://developers.line.biz/ja/docs/line-login/security-checklist/)
 - [LINEログイン v2.1 APIリファレンス](https://developers.line.biz/ja/reference/line-login/)

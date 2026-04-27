@@ -11,7 +11,7 @@ LINEログインAPIで管理するアクセストークンは、LINEプラット
 **LINEログイン：**
 
 - [ウェブアプリにLINEログインを組み込む](https://developers.line.biz/ja/docs/line-login/integrate-line-login/)
-- [iOSアプリにLINEログインを組み込む - Swift](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
+- [iOSアプリにLINEログインを組み込む](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
 - [AndroidアプリにLINEログインを組み込む](https://developers.line.biz/ja/docs/line-login-sdks/android-sdk/integrate-line-login/)
 - [UnityゲームにLINEログインを組み込む](https://developers.line.biz/ja/docs/line-login-sdks/unity-sdk/integrate-line-login/)
 - [LINE SDK for Flutter](https://developers.line.biz/ja/docs/line-login-sdks/flutter-sdk/)

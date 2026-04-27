@@ -1,4 +1,4 @@
-# LINE MINI App UI Components
+# LINE MINI App UI components
 
 LINE MINI App page consists of (A) Header and (B) Body
 
@@ -25,4 +25,4 @@ The header is composed of the following components:
 
 WebView is used for the body. Utilize HTML5 and LIFF for when developing each of your services.
 
-For more information on LINE MINI App development specifications, see [LINE MINI App Specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).
+For more information on LINE MINI App development specifications, see [LINE MINI App specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).

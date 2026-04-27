@@ -22,7 +22,7 @@ LINEログインAPIで管理するアクセストークンは、LINEプラット
 
 **LINEログイン：**
 
-- [ウェブアプリにLINEログイン v2.0を組み込む](https://developers.line.biz/ja/docs/line-login/integrate-line-login-v2/)
+- [ウェブアプリにLINEログインを組み込む（LINEログイン v2.0）](https://developers.line.biz/ja/docs/line-login/integrate-line-login-v2/)
 
 <!-- note start -->
 

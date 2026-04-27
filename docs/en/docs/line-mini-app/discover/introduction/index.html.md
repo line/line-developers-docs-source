@@ -4,7 +4,7 @@ LINE MINI App is a web application that runs on LINE. LINE MINI App enables user
 
 "LINE MINI App" is the official name.
 
-LINE MINI App is a web browser, so most HTML5 specs can be used. For more information, see the [Specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).
+LINE MINI App is a web browser, so most HTML5 specs can be used. For more information, see the [LINE MINI App specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).
 
 ## Introduction 
 
@@ -59,7 +59,7 @@ As described above, by making your LINE MINI App a verified MINI App, you can en
 
 ## LINE MINI App Components 
 
-LINE MINI App page consists of (A) Header (B) Body. For details, see [LINE MINI App Components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/).
+LINE MINI App page consists of (A) Header (B) Body. For details, see [LINE MINI App UI components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/).
 
 ![LINE MINI App structure](https://developers.line.biz/media/line-mini-app/mini_concept.png)
 

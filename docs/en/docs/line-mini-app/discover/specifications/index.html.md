@@ -1,4 +1,4 @@
-# Specifications
+# LINE MINI App specifications
 
 This page explains the specs for developing a LINE MINI App.
 

@@ -206,7 +206,7 @@ liff
 
 Also, with `liff.ready`, you can get the `Promise` object that resolves when you run `liff.init()` for the first time after starting the LIFF app.
 
-For more information, see the [liff.init()](https://developers.line.biz/en/reference/liff/#initialize-liff-app) and [liff.ready](https://developers.line.biz/en/reference/liff/#ready) sections in the LIFF v2 API reference.
+For more information, see the [liff.init()](https://developers.line.biz/en/reference/liff/#initialize-liff-app) and [liff.ready](https://developers.line.biz/en/reference/liff/#ready) sections in the LIFF API reference.
 
 ### Important points to consider when initializing the LIFF app 
 
@@ -384,7 +384,7 @@ if (liff.isLoggedIn()) {
 }
 ```
 
-For more information, see [liff.login()](https://developers.line.biz/en/reference/liff/#login) and [liff.logout()](https://developers.line.biz/en/reference/liff/#logout) in the LIFF v2 API reference.
+For more information, see [liff.login()](https://developers.line.biz/en/reference/liff/#login) and [liff.logout()](https://developers.line.biz/en/reference/liff/#logout) in the LIFF API reference.
 
 ### Opening a URL 
 
@@ -498,7 +498,7 @@ console.log(context);
 // {"type": "utou", "userId": "U70e153189a29f1188b045366285346bc", "viewType": "full", "accessTokenHash": "ArIXhlwQMAZyW7SDHm7L2g", "availability": {"shareTargetPicker": {"permission": true, "minVer": "10.3.0"}, "multipleLiffTransition": {"permission": true, "minVer": "10.18.0"}}}
 ```
 
-For more information, see [liff.getContext()](https://developers.line.biz/en/reference/liff/#get-context) in the LIFF v2 API reference.
+For more information, see [liff.getContext()](https://developers.line.biz/en/reference/liff/#get-context) in the LIFF API reference.
 
 ### Get user profile 
 
@@ -571,7 +571,7 @@ liff.init(() => {
 });
 ```
 
-For more information, see [liff.getDecodedIDToken()](https://developers.line.biz/en/reference/liff/#get-decoded-id-token) in the LIFF v2 API reference.
+For more information, see [liff.getDecodedIDToken()](https://developers.line.biz/en/reference/liff/#get-decoded-id-token) in the LIFF API reference.
 
 ### Getting the friendship status between the user and the LINE Official Account 
 
@@ -587,7 +587,7 @@ liff.getFriendship().then((data) => {
 });
 ```
 
-Learn more from [liff.getFriendship()](https://developers.line.biz/en/reference/liff/#get-friendship) in the LIFF v2 API reference.
+Learn more from [liff.getFriendship()](https://developers.line.biz/en/reference/liff/#get-friendship) in the LIFF API reference.
 
 <!-- note start -->
 
@@ -615,7 +615,7 @@ try {
 }
 ```
 
-For more information, see [liff.requestFriendship()](https://developers.line.biz/en/reference/liff/#request-friendship) in the LIFF v2 API reference.
+For more information, see [liff.requestFriendship()](https://developers.line.biz/en/reference/liff/#request-friendship) in the LIFF API reference.
 
 ### Getting the permanent link of any page in the LIFF app 
 
@@ -638,7 +638,7 @@ liff.permanentLink
   });
 ```
 
-For more information, see [liff.permanentLink.createUrlBy()](https://developers.line.biz/en/reference/liff/#permanent-link-create-url-by) in the LIFF v2 API reference.
+For more information, see [liff.permanentLink.createUrlBy()](https://developers.line.biz/en/reference/liff/#permanent-link-create-url-by) in the LIFF API reference.
 
 ### Sending messages to the current chat room 
 
@@ -695,7 +695,7 @@ if (liff.isApiAvailable("shareTargetPicker")) {
 }
 ```
 
-For more information, see [liff.isApiAvailable()](https://developers.line.biz/en/reference/liff/#is-api-available) and [liff.shareTargetPicker()](https://developers.line.biz/en/reference/liff/#share-target-picker) in the LIFF v2 API reference.
+For more information, see [liff.isApiAvailable()](https://developers.line.biz/en/reference/liff/#is-api-available) and [liff.shareTargetPicker()](https://developers.line.biz/en/reference/liff/#share-target-picker) in the LIFF API reference.
 
 ### Closing the LIFF app 
 
@@ -712,7 +712,7 @@ if (!liff.isInClient()) {
 }
 ```
 
-For more information, see [liff.closeWindow()](https://developers.line.biz/en/reference/liff/#close-window) in the LIFF v2 API reference.
+For more information, see [liff.closeWindow()](https://developers.line.biz/en/reference/liff/#close-window) in the LIFF API reference.
 
 <!-- note start -->
 

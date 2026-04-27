@@ -24,7 +24,7 @@ The following HTTP headers are included in Options for corporate customers API r
 | ----------------- | --------------------------------------------- |
 | x-line-request-id | Request ID. An ID is issued for each request. |
 
-## Mission stickers API 
+## Mission Sticker API 
 
 Mission stickers are provided to users upon completion of certain objectives. Using stickers as an incentive, users are encouraged to "link ID information," "register as a member," or "answer a questionnaire."
 

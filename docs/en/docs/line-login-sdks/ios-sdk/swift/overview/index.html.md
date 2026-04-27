@@ -30,17 +30,17 @@ To use the LINE SDK with your iOS app, follow the steps below.
 
 1. Create a channel.
 
-    For more information, see [Getting started with LINE Login](https://developers.line.biz/en/docs/line-login/getting-started/) in the LINE Login documentation.
+   For more information, see [Getting started with LINE Login](https://developers.line.biz/en/docs/line-login/getting-started/) in the LINE Login documentation.
 
 2. Use the LINE SDK to add LINE Login support to your iOS app.
 
-    For more information, see [Setting up your project](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/) and [Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/).
+   For more information, see [Setting up your project](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/) and [Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/).
 
 3. Use LINE Login.
 
-    To learn more about using LINE Login in your app, see [Managing users](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-users/) and the [LINE SDK for iOS Swift reference](https://developers.line.biz/en/reference/ios-sdk-swift/).
+   To learn more about using LINE Login in your app, see [Managing users](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-users/) and the [LINE SDK for iOS Swift reference](https://developers.line.biz/en/reference/ios-sdk-swift/).
 
-    To learn more about using LINE Login on your server, see [Managing access tokens](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-access-tokens/) and the [LINE Login v2.1 API reference](https://developers.line.biz/en/reference/line-login/).
+   To learn more about using LINE Login on your server, see [Managing access tokens](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-access-tokens/) and the [LINE Login v2.1 API reference](https://developers.line.biz/en/reference/line-login/).
 
 ### Trying the starter app 
 
@@ -50,25 +50,23 @@ You can see how LINE Login works using our starter app. See [Trying the starter 
 
 This guide explains how to integrate the LINE SDK with your app and use the available API functions in the SDK from your app. See the following table for an overview of the topics that are discussed in this guide.
 
-Title | Content
--|-
-[LINE SDK for iOS Swift overview](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/overview/) | The SDK features and the high-level steps for using the SDK.
-[Trying the starter app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/try-line-login/) | How to run our starter app.
-[Setting up your project](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/) | How to integrate the LINE SDK into your project.
-[Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/) | How to leverage LINE Login to improve your app's user experience.
-[Enabling the add friend option with the SDK](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/link-a-bot/) | How to display an option to add the LINE Official Account as a friend to users and get the friendship status between the LINE Official Account and the user.
-[Managing users](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-users/) | How to get user profiles, use ID tokens to get user data, and log out users.
-[Managing access tokens](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-access-tokens/) | How to refresh and verify access tokens and get the current access token.
-[Handling errors](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/error-handling/) | How to handle errors returned by the SDK.
-[Using the SDK with Objective-C code](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/using-objc/) | How to integrate the LINE SDK for iOS Swift into your Objective-C project.
-[Upgrading the SDK](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/migration-guide/) | How to upgrade from the LINE SDK v4.1 for iOS to the LINE SDK v5 for iOS Swift.
-[LINE SDK v5 for iOS Swift reference](https://developers.line.biz/en/reference/ios-sdk-swift/) | Detailed information on the protocols and classes available in the SDK.
+| Title | Content |
+| --- | --- |
+| [LINE SDK for iOS Swift overview](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/overview/) | The SDK features and the high-level steps for using the SDK. |
+| [Trying the starter app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/try-line-login/) | How to run our starter app. |
+| [Setting up your project](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/) | How to integrate the LINE SDK into your project. |
+| [Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/) | How to leverage LINE Login to improve your app's user experience. |
+| [Enabling the add friend option with the SDK](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/link-a-bot/) | How to display an option to add the LINE Official Account as a friend to users and get the friendship status between the LINE Official Account and the user. |
+| [Managing users](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-users/) | How to get user profiles, use ID tokens to get user data, and log out users. |
+| [Managing access tokens](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/managing-access-tokens/) | How to refresh and verify access tokens and get the current access token. |
+| [Handling errors](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/error-handling/) | How to handle errors returned by the SDK. |
+| [Using the SDK with Objective-C code](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/using-objc/) | How to integrate the LINE SDK for iOS Swift into your Objective-C project. |
+| [Upgrading the SDK](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/migration-guide/) | How to upgrade from the LINE SDK v4.1 for iOS to the LINE SDK v5 for iOS Swift. |
+| [LINE SDK v5 for iOS Swift reference](https://developers.line.biz/en/reference/ios-sdk-swift/) | Detailed information on the protocols and classes available in the SDK. |
 
 ## Other resources 
 
-You can find the following information on the [top page](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/) of the LINE SDK for iOS guide.
-
-Title | Content
--|-
-[Release notes](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/release-notes/) | SDK changelog.
-[Downloads](https://developers.line.biz/en/docs/downloads/) | Links to download the LINE SDKs.
+| Title | Content |
+| --- | --- |
+| [Release notes for LINE SDK for iOS](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/release-notes/) | SDK changelog. |
+| [LINE API SDKs](https://developers.line.biz/en/docs/downloads/) | Links to download the LINE SDKs. |

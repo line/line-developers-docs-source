@@ -199,7 +199,7 @@ LINEログインボタンの画像セットには、iOS、Android、デスクト
 
 #### 画像を設定する 
 
-画像を使用する前に、ログインボタンのテキストを追加する必要があります。各言語で推奨されるテキストについては、「[LINEログインボタンデザインガイドライン](https://developers.line.biz/ja/docs/line-login/login-button/)」を参照してください。また、LINEアイコンを歪みなく引き伸ばせるようにするために、画像内で引き伸ばせる部分を定義する必要があります。
+画像を使用する前に、ログインボタンのテキストを追加する必要があります。各言語で推奨されるテキストについては、「[LINEログインボタン デザインガイドライン](https://developers.line.biz/ja/docs/line-login/login-button/)」を参照してください。また、LINEアイコンを歪みなく引き伸ばせるようにするために、画像内で引き伸ばせる部分を定義する必要があります。
 
 1. 各画像に対して[9-patchファイル](https://developer.android.com/guide/topics/resources/drawable-resource#NinePatch#NinePatch)を作成し、ログインボタンテキストの伸縮する部分を定義します。
 2. アプリのログイン画面に、望ましいログインボタンテキストと共に、クリックできるテキストビューとしてボタンを追加します。

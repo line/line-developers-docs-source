@@ -19,10 +19,10 @@ The overall process for developing and publishing a LINE MINI App is as follows:
 Check the overall workflow for developing a LINE MINI App, regardless of your role.
 
 - [**Learn the basics of LINE MINI App**](https://developers.line.biz/en/docs/line-mini-app/discover/introduction/): Understand the standard built-in features that come with LINE MINI Apps and the custom features that you can implement yourself.
-  - [Specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/)
+  - [LINE MINI App specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/)
   - [Built-in Features](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/)
   - [Custom Features](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/)
-  - [LINE MINI App Components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/)
+  - [LINE MINI App UI components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/)
 
 ## Guideline per Role 
 
@@ -38,9 +38,9 @@ Here are the tasks you should be aware of if you are designing the service to pr
 
 Here are the tasks you should be aware of if you are developing and implementing a LINE MINI App.
 
-- [**Check the LINE MINI App Specifications**](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/): Check which features are supported on which versions of which platforms, as well as the LIFF support versions.
+- [**LINE MINI App specifications**](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/): Check which features are supported on which versions of which platforms, as well as the LIFF support versions.
 - **Guideline for Developers**
-  - [**Start developing**](https://developers.line.biz/en/docs/line-mini-app/develop/develop-overview/): Take time to read before developing a LINE MINI App.
+  - [**Getting started**](https://developers.line.biz/en/docs/line-mini-app/develop/develop-overview/): Take time to read before developing a LINE MINI App.
   - [**Implement a custom action button**](https://developers.line.biz/en/docs/line-mini-app/develop/share-messages/): You can customize the share messages that are used for sharing LINE MINI App with your friends.
   - [**Sending a service message**](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/): You can send a service message as a confirmation or response to a user action.
   - [**Using a payment system**](https://developers.line.biz/en/docs/line-mini-app/develop/payment/): LINE Pay and other payment systems can be integrated with LINE MINI App to provide payment systems to users.

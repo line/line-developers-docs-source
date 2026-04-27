@@ -12,7 +12,7 @@ By reading this page, you'll be able to deploy a LIFF app on a server and experi
 
 **Before trying the LIFF starter app**
 
-- For more information about LIFF, see [Overview](https://developers.line.biz/en/docs/liff/overview/).
+- For more information about LIFF, see [LIFF overview](https://developers.line.biz/en/docs/liff/overview/).
 - If you would like to try out the LIFF features online, use the [LIFF Playground](https://liff-playground.netlify.app/) to see what you can do with LIFF. [The source code for LIFF Playground](https://github.com/line/liff-playground) is available on GitHub, so developers can set their LIFF ID and run their own LIFF Playground. For example, each client API such as [`liff.login()`](https://developers.line.biz/en/reference/liff/#login) or [`liff.getProfile()`](https://developers.line.biz/en/reference/liff/#get-profile) can be run on the web based on the developer's LIFF ID.
 
 <!-- tip end -->

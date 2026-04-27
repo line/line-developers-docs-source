@@ -22,7 +22,7 @@ To learn more, see:
 
 **LINE Login:**
 
-- [Integrating LINE Login v2.0 with your web app](https://developers.line.biz/en/docs/line-login/integrate-line-login-v2/)
+- [Integrating LINE Login (v2.0) with your web app](https://developers.line.biz/en/docs/line-login/integrate-line-login-v2/)
 
 <!-- note start -->
 

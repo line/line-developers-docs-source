@@ -159,4 +159,4 @@ curl -v -X POST https://api.line.me/v2/oauth/accessToken \
 取得したアクセストークンを使って、以下の操作を行えます。
 
 - [アクセストークンを管理する（LINEログイン v2.0）](https://developers.line.biz/ja/docs/line-login/managing-access-tokens-v2/)
-- [ユーザーを管理する（LINEログイン v2.0](https://developers.line.biz/ja/docs/line-login/managing-users-v2/)
+- [ユーザーを管理する（LINEログイン v2.0）](https://developers.line.biz/ja/docs/line-login/managing-users-v2/)

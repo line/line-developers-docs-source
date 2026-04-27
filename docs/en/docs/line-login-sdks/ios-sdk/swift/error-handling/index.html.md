@@ -129,4 +129,4 @@ Error handling is not an easy task, but it is definitely worth spending some tim
 
 For information about possible error codes and what they indicate, see [LineSDKError](https://developers.line.biz/en/reference/ios-sdk-swift/Enums/LineSDKError.html) in the LINE SDK for iOS Swift reference.
 
-More errors may be added to the LINE SDK for iOS Swift as it evolves. Before you upgrade the SDK, make sure to check [Release notes](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/release-notes/) for any significant changes and determine whether you need to upgrade your error handling methods.
+More errors may be added to the LINE SDK for iOS Swift as it evolves. Before you upgrade the SDK, make sure to check [Release notes for LINE SDK for iOS](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/release-notes/) for any significant changes and determine whether you need to upgrade your error handling methods.

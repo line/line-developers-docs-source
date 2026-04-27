@@ -1,4 +1,4 @@
-# リリースノート
+# Android SDKリリースノート
 
 <!-- note start -->
 

@@ -11,7 +11,7 @@ To learn more, see:
 **LINE Login:**
 
 - [Integrating LINE Login with your web app](https://developers.line.biz/en/docs/line-login/integrate-line-login/)
-- [Integrating LINE Login with your iOS app - Swift](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
+- [Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
 - [Integrating LINE Login with your Android app](https://developers.line.biz/en/docs/line-login-sdks/android-sdk/integrate-line-login/)
 - [Integrating LINE Login with your Unity game](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/integrate-line-login/)
 - [LINE SDK for Flutter](https://developers.line.biz/en/docs/line-login-sdks/flutter-sdk/)

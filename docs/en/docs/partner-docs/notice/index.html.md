@@ -4,9 +4,9 @@ Notice for corporate customers. See also the [News](https://developers.line.biz/
 
 2026/02/19
 
-## Changes to some error responses in the Mission stickers API 
+## Changes to some error responses in the Mission Sticker API 
 
-We've modified the content of certain error responses in the [Provide mission stickers to the users](https://developers.line.biz/en/reference/partner-docs/#send-mission-stickers-v3) endpoint of the Mission stickers API to prevent the inference of user attribute information.
+We've modified the content of certain error responses in the [Provide mission stickers to the users](https://developers.line.biz/en/reference/partner-docs/#send-mission-stickers-v3) endpoint of the Mission Sticker API to prevent the inference of user attribute information.
 
 For more information, see the [Error messages](https://developers.line.biz/en/reference/partner-docs/#send-mission-stickers-v3-error-messages) section of the provide mission stickers to the users endpoint.
 
@@ -30,15 +30,15 @@ For more information, see [Difference in appearance from other messages](https:/
 
 2025/06/18
 
-## We've changed the endpoint name of the Mission stickers API 
+## We've changed the endpoint name of the Mission Sticker API 
 
-To improve clarity, we've renamed the "Send mission stickers (v3)" endpoint of the Mission stickers API. There are no changes to its functionality.
+To improve clarity, we've renamed the "Send mission stickers (v3)" endpoint of the Mission Sticker API. There are no changes to its functionality.
 
 | Name before change         | Name after change (current)           |
 | -------------------------- | ------------------------------------- |
 | Send mission stickers (v3) | Provide mission stickers to the users |
 
-For more information, see [Mission stickers API](https://developers.line.biz/en/reference/partner-docs/#mission-stickers) in the options for corporate customers API reference.
+For more information, see [Mission Sticker API](https://developers.line.biz/en/reference/partner-docs/#mission-stickers) in the options for corporate customers API reference.
 
 2025/06/02
 
@@ -256,7 +256,7 @@ For more information, see [LINE API Policy Handbook](https://developers.line.biz
 
 LINE notification messages is a service that enables you to send messages to users by specifying their phone numbers, even if you don't know their [User IDs](https://developers.line.biz/en/glossary/#user-id). Even if a user hasn't added your LINE Official Account as a friend, you can send the user messages from your LINE Official Account.
 
-In addition to the previously released overview of LINE notification messages, documentation such as [Technical Specifications of the LINE notification messages API](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/) (Only available in Japanese) and [LINE notification messages API Reference](https://developers.line.biz/en/reference/line-notification-messages/) (Only available in Japanese) has been released.
+In addition to the previously released overview of LINE notification messages, documentation such as [Technical specifications of the LINE notification messages API](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/) (Only available in Japanese) and [LINE notification messages API Reference](https://developers.line.biz/en/reference/line-notification-messages/) (Only available in Japanese) has been released.
 
 For more information about the LINE notification messages, see [LINE notification messages overview](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/overview/).
 
@@ -331,7 +331,7 @@ We've updated the [Changes](https://developers.line.biz/en/docs/partner-docs/not
 
 <!-- note end -->
 
-These changes are planned for [Error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) provided as a Messaging API function.
+These changes are planned for [error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) provided as a Messaging API function.
 
 ### Changes 
 

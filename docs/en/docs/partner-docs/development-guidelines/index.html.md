@@ -31,14 +31,12 @@ See the [Glossary](https://developers.line.biz/en/glossary/) to learn more about
 1. Create a LINE Official Account (bot) and Messaging API channel.
 
    You can create them from one of these sites:
-
    - LINE Official Account Manager
    - LINE AGP
 
    For more information on how to create a Messaging API channel, see [Get started with the Messaging API](https://developers.line.biz/en/docs/messaging-api/getting-started/) in the Messaging API documentation.
 
 1. Prepare these systems and mechanisms:
-
    - Environment such as a server that calls the Messaging API that supports [TLS 1.2 or later](https://developers.line.biz/en/docs/partner-docs/development-guidelines/#use-higher-TLS1-2)
    - Environment such as a bot server that gets webhook events that support [TLS 1.2 or later](https://developers.line.biz/en/docs/partner-docs/development-guidelines/#https-communication-compatible)
 
@@ -344,7 +342,6 @@ For more information on callback URLs, see [Setting a callback URL](https://deve
 - Up to 400 URLs can be registered as callback URLs.
 - You can register a URL that includes query parameters as the callback URL.
 - The `redirect_uri` specified at the time of authorization request is a URL-encoded string of the URL registered as the callback URL. Any query parameter can be added.
-
   - You can register `https://example.com` as the callback URL and specify` https://example.com?key=value` in `redirect_uri` specified at the time of authorization request.
 
 <!-- note end -->
@@ -421,7 +418,7 @@ LINE Front-end Framework (LIFF) is a web app platform provided by LY Corporation
 
 The LIFF app lets you get LINE user IDs and other information from the LINE Platform. The LIFF application can use these to provide functions that utilize user information or send messages on behalf of the user.
 
-For more information on the LIFF app, see [LINE Front-end Framework](https://developers.line.biz/en/docs/liff/overview/).
+For more information on the LIFF app, see [LIFF overview](https://developers.line.biz/en/docs/liff/overview/).
 
 ## Other features 
 

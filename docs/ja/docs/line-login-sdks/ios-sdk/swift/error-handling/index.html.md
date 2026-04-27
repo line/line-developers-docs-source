@@ -129,4 +129,4 @@ case .failure(let error):
 
 発生する可能性のあるエラーのコードとその内容については、『LINE SDK for iOS Swiftリファレンス（英語）』の「[LineSDKError](https://developers.line.biz/en/reference/ios-sdk-swift/Enums/LineSDKError.html)」を参照してください。
 
-LINE SDK for iOS Swiftのバージョンアップと共に、より多くのエラーが追加される可能性があります。SDKをアップグレードする前に「[リリースノート](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/release-notes/)」で大幅な変更がないか確認し、アプリ側のエラー制御方法を更新する必要があるかどうかを判定してください。
+LINE SDK for iOS Swiftのバージョンアップと共に、より多くのエラーが追加される可能性があります。SDKをアップグレードする前に「[iOS SDKリリースノート](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/release-notes/)」で大幅な変更がないか確認し、アプリ側のエラー制御方法を更新する必要があるかどうかを判定してください。

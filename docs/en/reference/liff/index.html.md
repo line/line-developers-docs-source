@@ -1,10 +1,10 @@
-# LIFF v2 API reference
+# LIFF API reference
 
 ## Common specifications 
 
 ### Operating environment 
 
-For more information about supported operating environments for LIFF v2, see [Overview](https://developers.line.biz/en/docs/liff/overview/) in the LIFF documentation.
+For more information about supported operating environments for LIFF, see [LIFF overview](https://developers.line.biz/en/docs/liff/overview/) in the LIFF documentation.
 
 Which functions you can use depends on whether the LIFF app is opened in a LIFF browser or an external browser. For example, you can't use `liff.scanCode()` in an external browser. For more information, see the descriptions for each client API.
 

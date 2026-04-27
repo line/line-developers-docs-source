@@ -3,7 +3,7 @@
 LINEミニアプリの開発を始める前に、特に以下の内容を確認してください。
 
 - LINEミニアプリを知る
-  - [仕様](https://developers.line.biz/ja/docs/line-mini-app/discover/specifications/)
+  - [LINEミニアプリの仕様](https://developers.line.biz/ja/docs/line-mini-app/discover/specifications/)
 - デザイン
   - [LINEミニアプリのアイコンの仕様とガイドライン](https://developers.line.biz/ja/docs/line-mini-app/design/line-mini-app-icon/)
   - [ランドスケープモードのセーフエリア](https://developers.line.biz/ja/docs/line-mini-app/design/landscape/)

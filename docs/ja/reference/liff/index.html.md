@@ -1,10 +1,10 @@
-# LIFF v2 APIリファレンス
+# LIFF APIリファレンス
 
 ## 共通仕様 
 
 ### 動作環境 
 
-LIFF v2の動作環境については、『LIFFドキュメント』の「[概要](https://developers.line.biz/ja/docs/liff/overview/)」を参照してください。
+LIFFの動作環境については、『LIFFドキュメント』の「[LIFFの概要](https://developers.line.biz/ja/docs/liff/overview/)」を参照してください。
 
 なお、LIFFアプリをLIFFブラウザで開いた場合と、外部ブラウザで開いた場合では、使用できる機能が異なります。たとえば、`liff.scanCode()`は、外部ブラウザでは利用できません。詳しくは、各クライアントAPIの説明をご覧ください。
 

@@ -12,7 +12,7 @@ LIFFスターターアプリは、LIFFアプリ開発に必要な最低限の機
 
 **LIFFスターターアプリを試す前に**
 
-- LIFFについては「[概要](https://developers.line.biz/ja/docs/liff/overview/)」を参照してください。
+- LIFFについては「[LIFFの概要](https://developers.line.biz/ja/docs/liff/overview/)」を参照してください。
 - LIFFの機能をオンライン上で試したい場合は[LIFFプレイグラウンド](https://liff-playground.netlify.app/)をご利用ください。LIFFを用いるとどのようなことができるのかを確認できます。なお、[LIFFプレイグラウンドのソースコード](https://github.com/line/liff-playground)はGitHubで公開していますので、開発者は自身のLIFF IDを設定して、独自のLIFFプレイグラウンドをデプロイできます。例えば開発者のLIFF IDをもとに[`liff.login()`](https://developers.line.biz/ja/reference/liff/#login)や[`liff.getProfile()`](https://developers.line.biz/ja/reference/liff/#get-profile)といった各クライアントAPIをウェブ上で実行できます。
 
 <!-- tip end -->

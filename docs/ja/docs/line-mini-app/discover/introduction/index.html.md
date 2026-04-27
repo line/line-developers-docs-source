@@ -4,7 +4,7 @@ LINEミニアプリは、[LIFF（LINE Front-end Framework）](https://developers
 
 「LINEミニアプリ」が公式名です。
 
-LINEミニアプリはウェブアプリですので、HTML5のほとんどの仕様が使用できます。詳しくは、「[仕様](https://developers.line.biz/ja/docs/line-mini-app/discover/specifications/)」を参照してください。
+LINEミニアプリはウェブアプリですので、HTML5のほとんどの仕様が使用できます。詳しくは、「[LINEミニアプリの仕様](https://developers.line.biz/ja/docs/line-mini-app/discover/specifications/)」を参照してください。
 
 ## はじめに 
 

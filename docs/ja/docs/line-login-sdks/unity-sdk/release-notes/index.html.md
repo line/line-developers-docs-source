@@ -1,4 +1,4 @@
-# リリースノート
+# Unity SDKリリースノート
 
 <!-- note start -->
 

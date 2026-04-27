@@ -164,5 +164,5 @@ To learn more, see [Issuing access tokens](https://developers.line.biz/en/refere
 
 Once you have an access token, you can use it to do the following:
 
-- [Manage access tokens (LINE Login v2.0)](https://developers.line.biz/en/docs/line-login/managing-access-tokens-v2/)
-- [Manage users (LINE Login v2.0)](https://developers.line.biz/en/docs/line-login/managing-users-v2/)
+- [Managing access tokens (LINE Login v2.0)](https://developers.line.biz/en/docs/line-login/managing-access-tokens-v2/)
+- [Managing users (LINE Login v2.0)](https://developers.line.biz/en/docs/line-login/managing-users-v2/)

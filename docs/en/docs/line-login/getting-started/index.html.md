@@ -237,6 +237,6 @@ For more information on linking a Business ID with a LINE account, see [Link you
 ## Next steps 
 
 - [Integrating LINE Login with your web app](https://developers.line.biz/en/docs/line-login/integrate-line-login/)
-- [Integrating LINE Login with your iOS app - Swift](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
+- [Integrating LINE Login with your iOS app](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/integrate-line-login/)
 - [Integrating LINE Login with your Android app](https://developers.line.biz/en/docs/line-login-sdks/android-sdk/integrate-line-login/)
 - [Integrating LINE Login with your Unity game](https://developers.line.biz/en/docs/line-login-sdks/unity-sdk/integrate-line-login/)

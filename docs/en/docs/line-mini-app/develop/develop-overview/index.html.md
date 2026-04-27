@@ -3,7 +3,7 @@
 Before you dive straight into developing a LINE MINI App, we recommend that you carefully read this content:
 
 - Discover LINE MINI App
-  - [Specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/)
+  - [LINE MINI App specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/)
 - Design
   - [LINE MINI App icon specifications and guidelines](https://developers.line.biz/en/docs/line-mini-app/design/line-mini-app-icon/)
   - [Safe area for landscape mode](https://developers.line.biz/en/docs/line-mini-app/design/landscape/)
@@ -105,7 +105,7 @@ For more information, see [Best practices for provider and channel management](h
 
 Once you create a LINE MINI App channel, you can start developing a LINE MINI App. Think of developing a LINE MINI App as using [LIFF](https://developers.line.biz/en/docs/liff/overview/) with additional requirements and restrictions as explained in this guide.
 
-For more information, see the [Specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).
+For more information, see the [LINE MINI App specifications](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/).
 
 ### Internal structure of a LINE MINI App channel 
 

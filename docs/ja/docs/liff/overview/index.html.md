@@ -1,4 +1,4 @@
-# LINE Front-end Framework (LIFF)
+# LIFFの概要
 
 LINE Front-end Framework（LIFF）は、LINEヤフー株式会社が提供するウェブアプリのプラットフォームです。このプラットフォームで動作するウェブアプリを、LIFFアプリと呼びます。
 
@@ -26,7 +26,7 @@ LINEヤフー株式会社では開発者向けに[LIFFプレイグラウンド](
 
 LIFFの推奨環境は以下のとおりです。
 
-なお、LIFFアプリを[LIFFブラウザ](https://developers.line.biz/ja/docs/liff/overview/#liff-browser)で開いた場合と、[外部ブラウザ](https://developers.line.biz/ja/glossary/#external-browser)で開いた場合では、使用できる機能が異なります。たとえば、`liff.scanCode()`は、外部ブラウザでは利用できません。詳しくは、「[LIFF v2 APIリファレンス](https://developers.line.biz/ja/reference/liff/)」を参照してください。
+なお、LIFFアプリを[LIFFブラウザ](https://developers.line.biz/ja/docs/liff/overview/#liff-browser)で開いた場合と、[外部ブラウザ](https://developers.line.biz/ja/glossary/#external-browser)で開いた場合では、使用できる機能が異なります。たとえば、`liff.scanCode()`は、外部ブラウザでは利用できません。詳しくは、「[LIFF APIリファレンス](https://developers.line.biz/ja/reference/liff/)」を参照してください。
 
 ### LIFFアプリをLIFFブラウザで開く場合 
 

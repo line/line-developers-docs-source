@@ -1,4 +1,4 @@
-# Release notes
+# Release notes for LINE SDK for Unity
 
 <!-- note start -->
 

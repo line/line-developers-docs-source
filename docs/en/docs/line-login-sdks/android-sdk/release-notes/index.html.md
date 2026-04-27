@@ -1,4 +1,4 @@
-# Release notes
+# Release notes for LINE SDK for Android
 
 <!-- note start -->
 

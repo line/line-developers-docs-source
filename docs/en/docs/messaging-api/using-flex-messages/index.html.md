@@ -41,7 +41,7 @@ With the [Flex Message Simulator](https://developers.line.biz/flex-simulator/), 
 
 ![Flex Message Simulator](https://developers.line.biz/media/messaging-api/using-flex-messages/flex-message-simulator-en.png)
 
-For more information on Flex Message Simulator, see the [tutorials](https://developers.line.biz/en/docs/messaging-api/using-flex-message-simulator/).
+For more information on Flex Message Simulator, see [Tutorial - Create a digital business card with Flex Message Simulator](https://developers.line.biz/en/docs/messaging-api/using-flex-message-simulator/).
 
 ## Send "Hello, World!" 
 
