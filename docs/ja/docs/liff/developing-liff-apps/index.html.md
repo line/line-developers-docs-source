@@ -138,14 +138,15 @@ LIFFアプリが正しく初期化されていない状態でLIFFの機能を使
 
 **LIFFアプリのクエリパラメータについて**
 
-LIFF URLへのアクセス時やLIFF間遷移時などに、URLに `liff.*` のようなクエリパラメータが付与されることがあります。
+LIFF URLへのアクセス時やLIFF間遷移時などに、URLに以下のようなクエリパラメータが付与されることがあります。
 
-例：
+- `liff.state`：LIFF URLに指定した追加情報を示します。
+- `liff.referrer`：LIFF間遷移前のURLを示します。詳しくは、「[LIFF間遷移前のURLを取得する](https://developers.line.biz/ja/docs/liff/opening-liff-app/#using-liff-referrer)」を参照してください。
+- `lineAppVersion`：Android版のLINEでLIFFアプリを開いた場合に付与されることがあります。
 
-- `liff.state`（LIFF URLに指定した追加情報を示す）
-- `liff.referrer`（LIFF間遷移前のURLを示す。詳しくは、「[LIFF間遷移前のURLを取得する](https://developers.line.biz/ja/docs/liff/opening-liff-app/#using-liff-referrer)」を参照してください）
+上記は、LIFFアプリを正常に動作させるために、LIFF SDK側から付与されるクエリパラメータです。LIFFアプリのURLに独自の処理を行う場合は、LIFFアプリの起動やLIFF間遷移などLIFFアプリの正常な動作を保証するため、`liff.init()`メソッドがresolveされるまでLIFF SDK側で付与されるクエリパラメータを変更しないでください。
 
-上記は、LIFFアプリを正常に動作させるために、SDK側から付与されるクエリパラメータです。LIFFアプリのURLに独自の処理を行う場合は、LIFFアプリの起動やLIFF間遷移などLIFFアプリの正常な動作を保証するため、`liff.init`がresolveされるまで`liff.*`のクエリパラメータを変更しないように設計してください。
+また、上記以外のクエリパラメータも付与される可能性があります。このため、LIFF URLへのアクセス時やLIFF間遷移時などに付与されるクエリパラメータを変更しないように設計してください。
 
 <!-- note end -->
 
