@@ -53,7 +53,7 @@ LINEプラットフォームからボットサーバーに対してWebhookを送
 | --- | --- |
 | `Connection failed` | ボットサーバーへの接続に失敗しました。 |
 | `Connection failed (received GOAWAY)` | ボットサーバーへの接続時に、接続が拒否されました。 |
-| `Connection failed (session closed)` | ボットサーバへの接続が予期せず終了されました。 |
+| `Connection failed (session closed)` | ボットサーバーへの接続が予期せず終了されました。 |
 | `Connection timeout` | ボットサーバーへの接続が一定時間内に完了しませんでした。 |
 | `DNS Query timeout` | Webhook URLの名前解決を行いましたが、一定時間内に名前解決を完了できませんでした。 |
 | `Invalid URL syntax` | 不正なWebhook URLが指定されています（RFC違反等）。 |
