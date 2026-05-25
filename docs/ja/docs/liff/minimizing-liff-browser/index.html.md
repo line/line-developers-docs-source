@@ -56,7 +56,7 @@ LIFFブラウザを最小化するには、以下の3つの方法があります
 
 [アクションボタン](https://developers.line.biz/ja/docs/liff/overview/#action-button)からドロップダウンメニューを開き、［**ページを最小化**］オプションをタップします。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-ja.png)
+![](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-ja.png)
 
 ### アプリ内通知をタップする 
 

@@ -92,7 +92,7 @@ Set the view size when you add the LIFF app to your LINE Login channel. For more
 
 LIFF apps with the size of the LIFF app view set to `Full` display an action button in the header by default.
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-en.png)
+![](https://developers.line.biz/media/liff/overview/liff-header.png)
 
 <!-- tip start -->
 

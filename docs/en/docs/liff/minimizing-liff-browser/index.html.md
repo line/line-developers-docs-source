@@ -56,7 +56,7 @@ There are three ways to minimize a LIFF browser:
 
 Tap the **Minimize browser** option after opening the dropdown menu from the [action button](https://developers.line.biz/en/docs/liff/overview/#action-button).
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-en.png)
+![](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-en.png)
 
 ### Tapping an in-app alert 
 

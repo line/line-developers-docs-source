@@ -92,7 +92,7 @@ LIFFブラウザは、以下の3つの画面サイズで表示できます。
 
 LIFFアプリの画面サイズを`Full`に指定している場合、ヘッダーには、デフォルトでアクションボタンが表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-ja.png)
+![](https://developers.line.biz/media/liff/overview/liff-header.png)
 
 <!-- tip start -->
 
