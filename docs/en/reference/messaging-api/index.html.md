@@ -39,6 +39,7 @@ If you send requests exceeding the rate limit, you will receive an error message
 | <ul><li>[Set webhook endpoint URL](https://developers.line.biz/en/reference/messaging-api/#set-webhook-endpoint-url)</li><li>[Get webhook endpoint information](https://developers.line.biz/en/reference/messaging-api/#get-webhook-endpoint-information)</li></ul> | 1,000 requests per minute |
 | <ul><li>[Create rich menu](https://developers.line.biz/en/reference/messaging-api/#create-rich-menu)</li><li>[Delete rich menu](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu)</li><li>[Delete rich menu alias](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu-alias)</li><li>[Get the status of rich menu batch control](https://developers.line.biz/en/reference/messaging-api/#get-batch-control-rich-menus-progress-status)</li></ul> | 100 requests per hour \* |
 | <ul><li>[Replace or unlink the linked rich menus in batches](https://developers.line.biz/en/reference/messaging-api/#batch-control-rich-menus-of-users)</li></ul> | 3 requests per hour |
+| <ul><li>[Get rich menu list](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-list)</li></ul> | 10 requests per second |
 | <ul><li>[Send multicast message](https://developers.line.biz/en/reference/messaging-api/#send-multicast-message)</li><li>[Get a user's membership subscription status](https://developers.line.biz/en/reference/messaging-api/#get-a-users-membership-subscription-status)</li><li>[Get membership plans being offered](https://developers.line.biz/en/reference/messaging-api/#get-membership-plans)</li><li>[Create a coupon](https://developers.line.biz/en/reference/messaging-api/#create-coupon)</li><li>[Discontinue a coupon](https://developers.line.biz/en/reference/messaging-api/#discontinue-coupon)</li><li>[Get a list of coupons](https://developers.line.biz/en/reference/messaging-api/#get-coupons-list)</li><li>[Get details of a coupon](https://developers.line.biz/en/reference/messaging-api/#get-coupon)</li></ul> | 200 requests per second |
 | <ul><li>[Display a loading animation](https://developers.line.biz/en/reference/messaging-api/#display-a-loading-indicator)</li></ul> | 100 requests per second |
 | <ul><li>[Issue short-lived channel access token](https://developers.line.biz/en/reference/messaging-api/#issue-shortlived-channel-access-token)</li></ul> | 370 requests per second |
@@ -17534,7 +17535,7 @@ curl -v -X GET https://api.line.me/v2/bot/richmenu/list \
 
 #### Rate limit 
 
-2,000 requests per second
+10 requests per second
 
 For more information on rate limits, see [Rate limits](https://developers.line.biz/en/reference/messaging-api/#rate-limits).
 
