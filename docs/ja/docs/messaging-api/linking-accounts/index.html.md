@@ -124,3 +124,4 @@ https://access.line.me/dialog/bot/accountLink?linkToken={link token}&nonce={nonc
 ## 関連ページ 
 
 - [Messaging APIリファレンス](https://developers.line.biz/ja/reference/messaging-api/)
+- [LINEのAPIを使ったID連携で実現できる新たな顧客体験（LINE DATA SOLUTION）](https://data.linebiz.com/contents/column/line_api)

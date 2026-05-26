@@ -124,3 +124,4 @@ For example, the Messaging API lets you customize [rich menus](https://developer
 ## Learn more 
 
 - [Messaging API reference](https://developers.line.biz/en/reference/messaging-api/)
+- [New customer experiences enabled by ID integration using the LINE API (LINE DATA SOLUTION)](https://data.linebiz.com/contents/column/line_api) (Only available in Japanese)
