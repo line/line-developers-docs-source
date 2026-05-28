@@ -161,6 +161,30 @@ The LIFF SDK obtains the access token and ID token of the user from the LINE Pla
 - To use the access token obtained by the LIFF SDK, call [liff.getAccessToken()](https://developers.line.biz/en/reference/liff/#get-access-token).
 - To use the ID token payload obtained by the LIFF SDK, call [liff.getDecodedIDToken()](https://developers.line.biz/en/reference/liff/#get-decoded-id-token).
 
+_Example_
+
+<!-- tab start `javascript` -->
+
+```javascript
+// Using a Promise object
+liff
+  .init({
+    liffId: "123456-abcedfg", // Use own liffId
+  })
+  .then(() => {
+    // Start to use liff's api
+  })
+  .catch((err) => {
+    // Error happens during initialization
+    console.log(err.code, err.message);
+  });
+
+// Using a callback
+liff.init({ liffId: "123456-abcedfg" }, successCallback, errorCallback);
+```
+
+<!-- tab end -->
+
 #### Important points to consider when initializing the LIFF app 
 
 The following are important points to consider when initializing your LIFF app. Read and understand these points before you start developing your LIFF app.
@@ -278,30 +302,6 @@ This property or methods are available even before the `liff.init()` method is e
 To use the `liff.closeWindow()` method before the initialization of the LIFF app by `liff.init()` has finished, your LIFF SDK version must be v2.4.0 or later.
 
 <!-- tip end -->
-
-_Example_
-
-<!-- tab start `javascript` -->
-
-```javascript
-// Using a Promise object
-liff
-  .init({
-    liffId: "123456-abcedfg", // Use own liffId
-  })
-  .then(() => {
-    // Start to use liff's api
-  })
-  .catch((err) => {
-    // Error happens during initialization
-    console.log(err.code, err.message);
-  });
-
-// Using a callback
-liff.init({ liffId: "123456-abcedfg" }, successCallback, errorCallback);
-```
-
-<!-- tab end -->
 
 #### Syntax 
 
