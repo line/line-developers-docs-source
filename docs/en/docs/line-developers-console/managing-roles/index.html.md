@@ -156,6 +156,8 @@ Only the LINE Login channel, the LINE MINI App channel, and the Blockchain servi
 | View or edit **Business information** tab     | ✅    | ❌     | ❌      |
 | View or edit **Contact information** tab      | ✅    | ❌     | ❌      |
 | View or edit **Service message template** tab | ✅    | ❌     | ❌      |
+| View or edit **Business Manager link** tab    | ✅    | ❌     | ❌      |
+| View or edit **In-app purchase** tab          | ✅    | ❌     | ❌      |
 | View **LIFF URL** \*                          | ✅    | ✅     | ❌      |
 
 \* For developers with the Admin role, it appears under the **Web app settings** tab. For developers with the Tester role, it appears under the **Basic settings** tab. Note that developers with the Tester role can view only the LIFF URL for Developing.

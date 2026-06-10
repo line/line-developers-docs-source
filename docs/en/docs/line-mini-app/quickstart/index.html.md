@@ -71,3 +71,4 @@ Here are the tasks you should be aware of if you are running and promoting the s
   - [Place ads in LINE MINI Apps](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-ads/)
   - [Re-review after updating your verified MINI App](https://developers.line.biz/en/docs/line-mini-app/service/update-service/)
   - [Use LINE Official Account](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-oa/)
+  - [Link a LINE MINI App channel to a Business Manager organization](https://developers.line.biz/en/docs/line-mini-app/service/business-manager-link/)
