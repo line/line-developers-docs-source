@@ -43,11 +43,15 @@ Unverified MINI Apps are LINE MINI Apps that haven't yet passed our verification
 
 Anyone can create an unverified MINI App, but as shown in the following section "[What are verified MINI Apps](https://developers.line.biz/en/docs/line-mini-app/discover/introduction/#verified-mini-app)", some features are restricted. To make your LINE MINI App a verified MINI App, [submit your LINE MINI App for review](https://developers.line.biz/en/docs/line-mini-app/submit/submission-guide/).
 
+The [header](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/#header) of an unverified MINI App displays the title and the domain name of the endpoint URL.
+
+![](https://developers.line.biz/media/line-mini-app/unverified-mini-app-header-en.png)
+
 ### What are verified MINI Apps 
 
-If your LINE MINI App passes our verification review, it'll become a verified MINI App. Once it becomes a verified MINI App, it'll have a verified badge in the header, etc., as shown in the image below:
+If your LINE MINI App passes our verification review, it'll become a verified MINI App. Once it becomes a verified MINI App, a verified badge appears on elements such as the [header](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/#header). Additionally, the header displays the title and the LINE MINI App name.
 
-![](https://developers.line.biz/media/news/2024/line-mini-app-header-after.png)
+![](https://developers.line.biz/media/line-mini-app/verified-mini-app-header-en.png)
 
 In addition, you'll be able to use such as the following features:
 

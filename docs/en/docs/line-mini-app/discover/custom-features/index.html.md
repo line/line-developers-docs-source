@@ -8,10 +8,13 @@ You can add the following features to your LINE MINI App to further enhance the 
 | [Custom Path](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#custom-path) | ❌ | ✅ |
 | [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#create-shortcut-on-home-screen) | ❌ | ✅ |
 | [Common Profile Quick-fill](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#quick-fill) | ❌ | ✅ |
+| [Display your LINE MINI App name in the header](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#display-mini-app-name-in-header) | ❌ | ✅ |
 | [Inducing users to add your Official Account as a friend](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#OA-friend) | ✅ | ✅ |
 | [Custom action button](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#custom-action-button) | ✅ | ✅ |
 | [Using payment systems](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#using-payment-systems) | ✅ | ✅ |
 | [Place ads](https://developers.line.biz/en/docs/line-mini-app/discover/custom-features/#place-ads) | ✅ | ✅ |
+
+For unverified MINI Apps, the domain name of the URL is displayed in the header, whereas for verified MINI Apps, the LINE MINI App name is displayed in the header instead of the domain name of the URL. For more information, see [LINE MINI App UI components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/#header).
 
 ## Service messages 
 
@@ -64,6 +67,14 @@ Quick-fill is a feature that automatically fills in the necessary profile inform
 ![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
 
 By implementing Quick-fill in LINE MINI Apps, users can automatically fill in required information such as addresses and phone numbers with a single tap of a button. This eliminates the need for manual input, making it more convenient for users when making reservations at stores or placing orders on online stores.
+
+## Display your LINE MINI App name in the header 
+
+The [header](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/#header) of a verified MINI App displays the title, LINE MINI App name, and verified badge. For unverified MINI Apps, the title and the domain name of the endpoint URL are displayed.
+
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-header-en.png)
+
+For more information, see [Header](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/#header) section in the [LINE MINI App UI components](https://developers.line.biz/en/docs/line-mini-app/discover/ui-components/).
 
 ## Inducing users to add your Official Account as a friend 
 
