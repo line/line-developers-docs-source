@@ -110,6 +110,8 @@ You can specify the following scopes with the `scope` parameter. To specify mult
 | `openid` | - | ✓ | - | - | - |
 | `openid%20email` | - | ✓ | - | - | ✓ (see note) |
 
+The user authorizes the specified scopes on the consent screen. When you specify the `profile` or `openid` scope, its corresponding permission is displayed as required. For more information, see [User authorization](https://developers.line.biz/en/docs/line-login/integrate-line-login/#authorization-process).
+
 **Note:** Before you can specify the `email` scope and ask the user for permission to obtain their email address, you must first [submit an application requesting access to users' email addresses](https://developers.line.biz/en/docs/line-login/integrate-line-login/#applying-for-email-permission).
 
 <!-- tip start -->
@@ -260,9 +262,9 @@ Developers specify the information they'd like to access in the `scope` paramete
 
 Note that users may access your web app without granting it some or all of the requested permissions. When building your web app, you should account for the possibility that the user may not grant the permissions you specified in the authorization URL.
 
-**Example Consent Screen:**
-
-![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.png)
+| Consent screen | `scope` parameter and displayed items |
+| --- | --- |
+| ![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.png) | <ul><li>`profile`: Main profile info (Required)</li><li>`openid`: Your internal identifier (Required)</li><li>`email`: Email address</li></ul> |
 
 <!-- note start -->
 

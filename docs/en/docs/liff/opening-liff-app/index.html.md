@@ -19,7 +19,7 @@ This section describes user actions when opening the LIFF app.
 
 1. If authorization is required from the user, a channel consent screen will appear. The user agrees to grant the required permissions to the LIFF app on the consent screen.
 
-   ![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.png)
+   ![Consent screen](https://developers.line.biz/media/liff/opening-liff-app/channel-consent-screen-en.png)
 
 1. The LIFF app opens.
 

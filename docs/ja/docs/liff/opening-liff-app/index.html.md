@@ -19,7 +19,7 @@ LIFFアプリは、[LIFFブラウザ](https://developers.line.biz/ja/glossary/#l
 
 1. ユーザーからの認可が必要な場合、チャネル同意画面が表示されます。同意画面では、ユーザーがLIFFアプリに必要な権限を与えることを許可します。
 
-   ![同意画面](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-ja.png)
+   ![同意画面](https://developers.line.biz/media/liff/opening-liff-app/channel-consent-screen-ja.png)
 
 1. LIFFアプリが開きます。
 
