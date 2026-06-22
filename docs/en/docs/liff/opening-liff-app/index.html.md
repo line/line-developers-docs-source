@@ -170,7 +170,7 @@ The following is an example of how `liff.referrer` is given during LIFF-to-LIFF 
 | **Given** | `https://first.example.com/` | `https://liff.line.me/{LIFF ID}`<br> (LIFF URL) | `✅ https://second.example.com/?liff.referrer=https%3A%2F%2Ffirst.example.com%2F` \*1 |
 | **Not given** | `https://first.example.com/` | `https://second.example.com/`<br> (Endpoint URL) | `❌ https://second.example.com/` \*2 |
 
-\*1 In addition to `liff.referrer`, the `liff.*`query parameter may be given to the LIFF app URL after the transition. <br>\*2 If the endpoint URL of the LIFF app is opened directly,`liff.referrer` will not be given.
+\*1 In addition to `liff.referrer`, other `liff.*` query parameters may be added to the LIFF app URL after the transition.<br>\*2 If the endpoint URL of the LIFF app is opened directly, `liff.referrer` won't be added.
 
 ### Message displayed when another LIFF app is opened 
 
