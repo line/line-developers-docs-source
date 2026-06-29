@@ -18,13 +18,29 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 
-[LIFF v2.29.0: May 13, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-29-0)
+[LIFF v2.29.1: June 29, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-29-1)
 
 ### Version list 
 
-When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.29.0/sdk.js`), you can use the features of the specified LIFF version.
+When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.29.1/sdk.js`), you can use the features of the specified LIFF version.
 
 :toc{maxDepth=2}
+
+2026/06/29
+
+## LIFF v2.29.1 released 
+
+We've released LIFF v2.29.1.
+
+In LIFF v2.29.1, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
+
+### How to update to LIFF v2.29.1 
+
+If you're using the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you'll automatically update LIFF to v2.29.1.
+
+If you're using an npm package, you can update to v2.29.1 by executing either `npm install @line/liff@2.29.1` or `yarn add @line/liff@2.29.1`.
+
+For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK with the LIFF app](https://developers.line.biz/en/docs/liff/developing-liff-apps/#integrating-sdk) in the LIFF documentation.
 
 2026/05/13
 
