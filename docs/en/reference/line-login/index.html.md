@@ -191,7 +191,7 @@ String
 
 Permissions granted to the access token. For more information on scopes, see [Scopes](https://developers.line.biz/en/docs/line-login/integrate-line-login/#scopes).
 
-Note that the `email` scope isn't returned as a value of the `scope` property even if access to it has been granted.
+Even if the `email` permission is granted, the `scope` property doesn't include `email`.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -271,6 +271,8 @@ scope
 String
 
 Permissions granted to the access token. To learn more about scopes, see [Scopes](https://developers.line.biz/en/docs/line-login/integrate-line-login/#scopes).
+
+Even if the `email` permission is granted, the `scope` property doesn't include `email`.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -454,6 +456,8 @@ scope
 String
 
 Permissions obtained through the access token. For more information on scopes, see [Scopes](https://developers.line.biz/en/docs/line-login/integrate-line-login/#scopes).
+
+Even if the `email` permission is granted, the `scope` property doesn't include `email`.
 
 <!-- parameter end -->
 

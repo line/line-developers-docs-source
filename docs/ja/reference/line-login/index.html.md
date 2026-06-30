@@ -191,7 +191,7 @@ String
 
 アクセストークンに付与されている権限。スコープについて詳しくは、「[スコープ](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#scopes)」を参照してください。
 
-注意：`email`スコープは権限が付与されていても`scope`プロパティの値としては返されません。
+なお、`email`の権限が付与されている場合でも、`scope`プロパティに`email`は含まれません。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -271,6 +271,8 @@ scope
 String
 
 アクセストークンに付与されている権限。スコープについて詳しくは、「[スコープ](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#scopes)」を参照してください。
+
+なお、`email`の権限が付与されている場合でも、`scope`プロパティに`email`は含まれません。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -454,6 +456,8 @@ scope
 String
 
 アクセストークンに付与されている権限。スコープについて詳しくは、「[スコープ](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#scopes)」を参照してください。
+
+なお、`email`の権限が付与されている場合でも、`scope`プロパティに`email`は含まれません。
 
 <!-- parameter end -->
 
