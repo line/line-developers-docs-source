@@ -39,9 +39,7 @@ You can't use both tools to retrieve or edit the same instance of rich menu. A r
 | Tool | Benefits |
 | --- | --- |
 | [LINE Official Account Manager](https://manager.line.biz/) | <ul><li>Fast development time</li><li>Easy-to-use graphical interface</li><li>Display period is available</li><li>Statistics such as display count and click-through rate are available</li></ul><p>For more information, see [How to use the rich menus](https://www.lycbiz.com/jp/column/line-official-account/technique/20180731-01/) (only available in Japanese) and [Insight - Rich menus](https://www.lycbiz.com/jp/manual/OfficialAccountManager/insight_rich-menus/) (only available in Japanese) in LINE for Business.</p> |
-| Messaging API | <ul><li>Advanced customization</li><li>You can set [postback action](https://developers.line.biz/en/reference/messaging-api/#postback-action) and [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action) on a rich menu.</li><li>You can [switch between tabs on rich menus](https://developers.line.biz/en/docs/messaging-api/switch-rich-menus/).</li></ul><p>If you want to try out rich menu features, see [Play with rich menus](https://developers.line.biz/en/docs/messaging-api/try-rich-menu/).</p> |
-
-You can't get statistics like display count and click-through rate with Messaging API rich menus.
+| Messaging API | <ul><li>Advanced customization</li><li>You can set [postback action](https://developers.line.biz/en/reference/messaging-api/#postback-action) and [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action) on a rich menu.</li><li>You can [switch between tabs on rich menus](https://developers.line.biz/en/docs/messaging-api/switch-rich-menus/).</li><li>Statistics such as display count and click count ([totals](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-summary), [by day](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-daily)) are available</li></ul><p>If you want to try out rich menu features, see [Play with rich menus](https://developers.line.biz/en/docs/messaging-api/try-rich-menu/).</p> |
 
 ### Set rich menus with LINE Official Account Manager 
 
@@ -97,6 +95,20 @@ When you change the settings of a rich menu, the change takes place at different
 When users who are not friends with your LINE Official Account open the chat screen, the default rich menu set in the LINE Official Account manager or with the Messaging API will be displayed.
 
 Note that you can't link a rich menu to a user who are not friends with your LINE Official Account. For more information, see [Conditions for linking rich menu](https://developers.line.biz/en/reference/messaging-api/#link-rich-menu-to-user-conditions) in the Messaging API reference.
+
+## Rich menu insights 
+
+You can retrieve statistics, such as the number of times a rich menu was displayed and clicked, for rich menus created using the Messaging API.
+
+- [Get rich menu insight totals](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-summary)
+- [Get rich menu insight by day](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-daily)
+
+Statistics for rich menus created using the Messaging API or LINE Official Account Manager can only be viewed with the tool used to create them.
+
+| Tool used to create rich menu | Retrieve statistics</br>using the Messaging API | View statistics in</br>LINE Official Account Manager |
+| --- | --- | --- |
+| Messaging API | ✅ | ❌ |
+| LINE Official Account Manager | ❌ | ✅ |
 
 ## Rich menu API reference 
 

@@ -34,7 +34,7 @@ If you send requests exceeding the rate limit, you will receive an error message
 
 | Endpoint | Rate limit |
 | --- | --- |
-| <ul><li>[Send a narrowcast message](https://developers.line.biz/en/reference/messaging-api/#send-narrowcast-message)</li><li>[Send a broadcast message](https://developers.line.biz/en/reference/messaging-api/#send-broadcast-message)</li><li>[Get number of message deliveries](https://developers.line.biz/en/reference/messaging-api/#get-number-of-delivery-messages)</li><li>[Get number of friends](https://developers.line.biz/en/reference/messaging-api/#get-number-of-followers)</li><li>[Get friend demographics](https://developers.line.biz/en/reference/messaging-api/#get-demographic)</li><li>[Get user interaction statistics](https://developers.line.biz/en/reference/messaging-api/#get-message-event)</li><li>[Get statistics per unit](https://developers.line.biz/en/reference/messaging-api/#get-statistics-per-unit)</li><li>[Test webhook endpoint](https://developers.line.biz/en/reference/messaging-api/#test-webhook-endpoint)</li></ul> | 60 requests per hour |
+| <ul><li>[Send a narrowcast message](https://developers.line.biz/en/reference/messaging-api/#send-narrowcast-message)</li><li>[Send a broadcast message](https://developers.line.biz/en/reference/messaging-api/#send-broadcast-message)</li><li>[Get number of message deliveries](https://developers.line.biz/en/reference/messaging-api/#get-number-of-delivery-messages)</li><li>[Get number of friends](https://developers.line.biz/en/reference/messaging-api/#get-number-of-followers)</li><li>[Get friend demographics](https://developers.line.biz/en/reference/messaging-api/#get-demographic)</li><li>[Get user interaction statistics](https://developers.line.biz/en/reference/messaging-api/#get-message-event)</li><li>[Get statistics per unit](https://developers.line.biz/en/reference/messaging-api/#get-statistics-per-unit)</li><li>[Get rich menu insight totals](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-summary)</li><li>[Get rich menu insight by day](https://developers.line.biz/en/reference/messaging-api/#get-rich-menu-insight-daily)</li><li>[Test webhook endpoint](https://developers.line.biz/en/reference/messaging-api/#test-webhook-endpoint)</li></ul> | 60 requests per hour |
 | <ul><li>[Create audience for uploading user IDs (by JSON)](https://developers.line.biz/en/reference/messaging-api/#create-upload-audience-group)</li><li>[Create audience for uploading user IDs (by file)](https://developers.line.biz/en/reference/messaging-api/#create-upload-audience-group-by-file)</li><li>[Add user IDs or Identifiers for Advertisers (IFAs) to an audience for uploading user IDs (by JSON)](https://developers.line.biz/en/reference/messaging-api/#update-upload-audience-group)</li><li>[Add user IDs or Identifiers for Advertisers (IFAs) to an audience for uploading user IDs (by file)](https://developers.line.biz/en/reference/messaging-api/#update-upload-audience-group-by-file)</li><li>[Create message click audience](https://developers.line.biz/en/reference/messaging-api/#create-click-audience-group)</li><li>[Create message impression audience](https://developers.line.biz/en/reference/messaging-api/#create-imp-audience-group)</li><li>[Rename an audience](https://developers.line.biz/en/reference/messaging-api/#set-description-audience-group)</li><li>[Delete audience](https://developers.line.biz/en/reference/messaging-api/#delete-audience-group)</li><li>[Get audience data](https://developers.line.biz/en/reference/messaging-api/#get-audience-group)</li><li>[Get data for multiple audiences](https://developers.line.biz/en/reference/messaging-api/#get-audience-groups)</li><li>[Get shared audience data in Business Manager](https://developers.line.biz/en/reference/messaging-api/#get-shared-audience)</li><li>[Get a list of shared audiences in Business Manager](https://developers.line.biz/en/reference/messaging-api/#get-shared-audience-list)</li></ul> | 60 requests per minute |
 | <ul><li>[Set webhook endpoint URL](https://developers.line.biz/en/reference/messaging-api/#set-webhook-endpoint-url)</li><li>[Get webhook endpoint information](https://developers.line.biz/en/reference/messaging-api/#get-webhook-endpoint-information)</li></ul> | 1,000 requests per minute |
 | <ul><li>[Create rich menu](https://developers.line.biz/en/reference/messaging-api/#create-rich-menu)</li><li>[Delete rich menu](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu)</li><li>[Delete rich menu alias](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu-alias)</li><li>[Get the status of rich menu batch control](https://developers.line.biz/en/reference/messaging-api/#get-batch-control-rich-menus-progress-status)</li></ul> | 100 requests per hour \* |
@@ -13524,6 +13524,768 @@ _Example error response_
 // If you specify an invalid continuation token, such as expired (400 Bad Request)
 {
   "message": "Invalid start param"
+}
+```
+
+<!-- tab end -->
+
+### Get rich menu insight totals 
+
+Endpoint: `GET` `https://api.line.me/v2/bot/insight/richmenu/{richMenuId}/summary?from={from}&to={to}`
+
+Retrieves aggregate statistics for the specified period, such as the number of users who viewed the rich menu and how many times it was viewed. The aggregation process of these statistics is usually completed within the next day.
+
+_Example request_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X GET https://api.line.me/v2/bot/insight/richmenu/richmenu-862e6ad6c267d2ddf3f42bc78554f6a4/summary \
+-H 'Authorization: Bearer {channel access token}' \
+--data-urlencode 'from=20260610' \
+--data-urlencode 'to=20260612' \
+-G
+```
+
+<!-- tab end -->
+
+#### Rate limit 
+
+60 requests per hour
+
+For more information on rate limits, see [Rate limits](https://developers.line.biz/en/reference/messaging-api/#rate-limits).
+
+#### Request headers 
+
+<!-- parameter start (props: required) -->
+
+Authorization
+
+Bearer `{channel access token}`
+
+<!-- parameter end -->
+
+#### Path parameters 
+
+<!-- parameter start (props: required) -->
+
+richMenuId
+
+ID of the rich menu for which to retrieve statistics.
+
+<!-- parameter end -->
+
+#### Query parameters 
+
+<!-- parameter start (props: required) -->
+
+from
+
+String
+
+Start date of aggregation period. The start date can be specified for up to 3 years earlier. For example, if today is `20260701`, the earliest start date is `20230701`.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+to
+
+String
+
+End date of aggregation period. The end date can be specified for up to 396 days later. For example, if the start date is `20230701`, the end date can be specified from `20230701` to `20240731`.
+
+- Format: `yyyyMMdd` (e.g. `20240731`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+
+#### Response 
+
+Returns a `200` HTTP status code and a JSON object with this information.
+
+<!-- note start -->
+
+**Note**
+
+The statistical data may contain some errors.
+
+To protect users' privacy, if the number of unique users who clicked the rich menu during the entire period specified by `from` and `to` is less than 20, only the rich menu ID is included in the response and no statistical data is returned.
+
+<!-- note end -->
+
+<!-- parameter start -->
+
+richMenuId
+
+String
+
+ID of a rich menu
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+metricsFrom
+
+String
+
+Start date of the statistical data actually retrieved within the specified period.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+metricsTo
+
+String
+
+End date of the statistical data actually retrieved within the specified period.
+
+- Format: `yyyyMMdd` (e.g. `20231008`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+impression
+
+Object
+
+Object containing statistics related to rich menu impressions.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics
+
+Object
+
+Object containing the number of rich menu impressions.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics.count
+
+Number
+
+The number of times the rich menu was viewed.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics.uniqueUsers
+
+Number
+
+The number of users who viewed the rich menu.
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+clicks
+
+Array of objects
+
+Array of objects containing the number of rich menu clicks.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].bounds
+
+Object
+
+[`bounds` object](https://developers.line.biz/en/reference/messaging-api/#bounds-object). Object representing the coordinates and size of the click area specified when the rich menu was created.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics
+
+Object
+
+Object containing the number of rich menu clicks.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics.count
+
+Number
+
+The number of times the rich menu click area represented by `clicks.bounds` was clicked.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics.uniqueUsers
+
+Number
+
+The number of users who clicked the rich menu click area represented by `clicks.bounds`.
+
+<!-- parameter end -->
+
+_Example response_
+
+<!-- tab start `json` -->
+
+```json
+// If no statistical data is available
+{
+  "richMenuId": "richmenu-862e6ad6c267d2ddf3f42bc78554f6a4"
+}
+
+// When retrieving statistics for a rich menu divided into 6 boundaries
+{
+  "richMenuId": "richmenu-862e6ad6c267d2ddf3f42bc78554f6a4",
+  "metricsFrom": "20260301",
+  "metricsTo": "20260331",
+  "impression": {
+    "metrics": {
+      "count": 10141,
+      "uniqueUsers": 2366
+    }
+  },
+  "clicks": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 74,
+        "uniqueUsers": 55
+      }
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 15,
+        "uniqueUsers": 15
+      }
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 53,
+        "uniqueUsers": 46
+      }
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 49,
+        "uniqueUsers": 42
+      }
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 17,
+        "uniqueUsers": 14
+      }
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": {
+        "count": 17,
+        "uniqueUsers": 14
+      }
+    }
+  ]
+}
+```
+
+<!-- tab end -->
+
+#### Error response 
+
+Returns the following HTTP status code and an error response:
+
+| Code | Description |
+| --- | --- |
+| `400` | Unable to get the statistic. Consider these reasons:<ul><li>No aggregation period date specified.</li><li>Invalid aggregation period date specified.</li></ul> |
+| `404` | A non-existent rich menu is specified. |
+
+For more information, see [Status codes](https://developers.line.biz/en/reference/messaging-api/#status-codes) and [Error responses](https://developers.line.biz/en/reference/messaging-api/#error-responses) in the [Common specifications](https://developers.line.biz/en/reference/messaging-api/#common-specifications) section.
+
+_Example error response_
+
+<!-- tab start `json` -->
+
+```json
+// If the start or end date of the aggregation period is not specified (400 Bad Request)
+{
+  "message": "Bad Request"
+}
+
+// If the specified end date is earlier than the start date (400 Bad Request)
+{
+  "message": "Parameter to must be the same date as, or after parameter from."
+}
+
+// If the specified end date is more than 396 days after the start date (400 Bad Request)
+{
+  "message": "Date range exceeds. Max range is 396 days."
+}
+
+// If the start date of the aggregation period is earlier than 3 years ago (400 Bad Request)
+{
+  "message": "Parameter from must be the same date as, or after 2023-06-29."
+}
+```
+
+<!-- tab end -->
+
+### Get rich menu insight by day 
+
+Endpoint: `GET` `https://api.line.me/v2/bot/insight/richmenu/{richMenuId}/daily?from={from}&to={to}`
+
+Retrieves daily statistics for the specified period, such as the number of users who viewed the rich menu and how many times it was viewed. The aggregation process of these statistics is usually completed within the next day.
+
+_Example request_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X GET https://api.line.me/v2/bot/insight/richmenu/richmenu-862e6ad6c267d2ddf3f42bc78554f6a4/daily \
+-H 'Authorization: Bearer {channel access token}' \
+--data-urlencode 'from=20260610' \
+--data-urlencode 'to=20260612' \
+-G
+```
+
+<!-- tab end -->
+
+#### Rate limit 
+
+60 requests per hour
+
+For more information on rate limits, see [Rate limits](https://developers.line.biz/en/reference/messaging-api/#rate-limits).
+
+#### Request headers 
+
+<!-- parameter start (props: required) -->
+
+Authorization
+
+Bearer `{channel access token}`
+
+<!-- parameter end -->
+
+#### Path parameters 
+
+<!-- parameter start (props: required) -->
+
+richMenuId
+
+ID of the rich menu for which to retrieve statistics.
+
+<!-- parameter end -->
+
+#### Query parameters 
+
+<!-- parameter start (props: required) -->
+
+from
+
+String
+
+Start date of aggregation period. The start date can be specified for up to 3 years earlier. For example, if today is `20260701`, the earliest start date is `20230701`.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+to
+
+String
+
+End date of aggregation period. The end date can be specified for up to 99 days later. For example, if the start date is `20230701`, the end date can be specified from `20230701` to `20231008`.
+
+- Format: `yyyyMMdd` (e.g. `20231008`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+
+#### Response 
+
+Returns a `200` HTTP status code and a JSON object with this information.
+
+<!-- note start -->
+
+**Note**
+
+The statistical data may contain some errors.
+
+To protect users' privacy, if the number of unique users who clicked the rich menu during the entire period specified by `from` and `to` is less than 20, only the rich menu ID is included in the response and no statistical data is returned.
+
+<!-- note end -->
+
+<!-- parameter start -->
+
+richMenuId
+
+String
+
+ID of a rich menu
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+metricsFrom
+
+String
+
+Start date of the statistical data actually retrieved within the specified period.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+metricsTo
+
+String
+
+End date of the statistical data actually retrieved within the specified period.
+
+- Format: `yyyyMMdd` (e.g. `20231008`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+impression
+
+Object
+
+Object containing statistics related to rich menu impressions.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics
+
+Array of objects
+
+Array of objects containing daily statistics related to rich menu impressions.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics\[].date
+
+String
+
+The date the rich menu was viewed.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics\[].count
+
+Number
+
+The number of times the rich menu was viewed.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+impression.metrics\[].uniqueUsers
+
+Number
+
+The number of users who viewed the rich menu.
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+clicks
+
+Array of objects
+
+Array of objects containing daily statistics related to rich menu clicks.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].bounds
+
+Object
+
+[`bounds` object](https://developers.line.biz/en/reference/messaging-api/#bounds-object). Object representing the coordinates and size of the click area specified when the rich menu was created.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics
+
+Array of objects
+
+Array of objects containing the number of rich menu clicks.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics\[].date
+
+String
+
+The date the rich menu click area represented by `clicks.bounds` was clicked.
+
+- Format: `yyyyMMdd` (e.g. `20230701`)
+- Time zone: UTC+9
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics\[].count
+
+Number
+
+The number of times the rich menu click area represented by `clicks.bounds` was clicked.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+clicks\[].metrics\[].uniqueUsers
+
+Number
+
+The number of users who clicked the rich menu click area represented by `clicks.bounds`.
+
+<!-- parameter end -->
+
+_Example response_
+
+<!-- tab start `json` -->
+
+```json
+// If no statistical data is available
+{
+  "richMenuId": "richmenu-862e6ad6c267d2ddf3f42bc78554f6a4"
+}
+
+// When retrieving statistics for a rich menu divided into 6 boundaries
+{
+  "richMenuId": "richmenu-862e6ad6c267d2ddf3f42bc78554f6a4",
+  "metricsFrom": "20260610",
+  "metricsTo": "20260611",
+  "impression": {
+    "metrics": [
+      {
+        "date": "20260610",
+        "count": 1364,
+        "uniqueUsers": 1254
+      },
+      {
+        "date": "20260611",
+        "count": 282,
+        "uniqueUsers": 260
+      }
+    ]
+  },
+  "clicks": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 9,
+          "uniqueUsers": 8
+        },
+        {
+          "date": "20260611",
+          "count": 2,
+          "uniqueUsers": 2
+        }
+      ]
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 3,
+          "uniqueUsers": 3
+        },
+        {
+          "date": "20260611",
+          "count": 0,
+          "uniqueUsers": 0
+        }
+      ]
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 0,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 7,
+          "uniqueUsers": 7
+        },
+        {
+          "date": "20260611",
+          "count": 1,
+          "uniqueUsers": 1
+        }
+      ]
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 4,
+          "uniqueUsers": 4
+        },
+        {
+          "date": "20260611",
+          "count": 4,
+          "uniqueUsers": 3
+        }
+      ]
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 0,
+          "uniqueUsers": 0
+        },
+        {
+          "date": "20260611",
+          "count": 1,
+          "uniqueUsers": 1
+        }
+      ]
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 843,
+        "width": 833,
+        "height": 843
+      },
+      "metrics": [
+        {
+          "date": "20260610",
+          "count": 3,
+          "uniqueUsers": 3
+        },
+        {
+          "date": "20260611",
+          "count": 2,
+          "uniqueUsers": 2
+        }
+      ]
+    }
+  ]
+}
+```
+
+<!-- tab end -->
+
+#### Error response 
+
+Returns the following HTTP status code and an error response:
+
+| Code | Description |
+| --- | --- |
+| `400` | Unable to get the statistic. Consider these reasons:<ul><li>No aggregation period date specified.</li><li>Invalid aggregation period date specified.</li></ul> |
+| `404` | A non-existent rich menu is specified. |
+
+For more information, see [Status codes](https://developers.line.biz/en/reference/messaging-api/#status-codes) and [Error responses](https://developers.line.biz/en/reference/messaging-api/#error-responses) in the [Common specifications](https://developers.line.biz/en/reference/messaging-api/#common-specifications) section.
+
+_Example error response_
+
+<!-- tab start `json` -->
+
+```json
+// If the start or end date of the aggregation period is not specified (400 Bad Request)
+{
+  "message": "Bad Request"
+}
+
+// If the specified end date is earlier than the start date (400 Bad Request)
+{
+  "message": "Parameter to must be the same date as, or after parameter from."
+}
+
+// If the specified end date is more than 99 days after the start date (400 Bad Request)
+{
+  "message": "Date range exceeds. Max range is 99 days."
+}
+
+// If the start date of the aggregation period is earlier than 3 years ago (400 Bad Request)
+{
+  "message": "Parameter from must be the same date as, or after 2023-06-29."
 }
 ```
 
