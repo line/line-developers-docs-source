@@ -21,6 +21,10 @@ In-app purchase has the following features:
 
 For more information on implementation, see [Integrate the in-app purchase feature](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/).
 
+### Service fees for the in-app purchase feature 
+
+Service fees apply when using the in-app purchase feature. The fee rate is displayed in the **In-app purchase** tab when you apply for the service via LINE Developers Console.
+
 ## Flow to start using in-app purchase 
 
 The flow to start using in-app purchase is as follows. For more information, see each document.
