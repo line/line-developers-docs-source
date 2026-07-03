@@ -120,6 +120,7 @@ LINEの検索機能からも、LINEミニアプリにアクセスできます。
 | --- | --- |
 | アクションボタンの非表示（モジュールモード） | LINEミニアプリでは、[アクションボタン](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#action-button)を非表示にすることはできません。LINEミニアプリチャネルに追加されているLIFFアプリでは、［**モジュールモード**］は設定できません。 |
 | 同一チャネルへの複数のLIFFアプリの追加 | LINEミニアプリチャネルでは、同一チャネルに複数のウェブアプリを追加することはできません。 |
+| LIFFブラウザの画面サイズの選択 | LINEミニアプリでは、[LIFFブラウザの画面サイズ](https://developers.line.biz/ja/docs/liff/overview/#screen-size)を選択することができません。LINEミニアプリの画面サイズは`Full`のみです。 |
 
 <!-- tip start -->
 

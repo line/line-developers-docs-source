@@ -120,6 +120,7 @@ Users can easily share LINE MINI Apps with their friends. The [built-in action b
 | --- | --- |
 | Hiding the action button (Module mode) | You can't hide the [action button](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#action-button) on the LINE MINI App. **Module Mode** can't be configured for LIFF apps that have been added to the LINE MINI App channel. |
 | Adding multiple LIFF apps to the same channel | It isn't possible to add multiple web apps to the same channel in the LINE MINI App channel. |
+| Selecting the screen size of the LIFF browser | You can't select the [size of the LIFF browser](https://developers.line.biz/en/docs/liff/overview/#screen-size) on the LINE MINI App. The only screen size available for the LINE MINI App is `Full`. |
 
 <!-- tip start -->
 
