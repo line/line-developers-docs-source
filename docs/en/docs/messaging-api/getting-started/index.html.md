@@ -69,7 +69,8 @@ Next, select a provider to manage your LINE Official Account. If you plan to int
 
 **Be careful when you select a provider**
 
-Once you assign a provider to manage your LINE Official Account, you can't change or de-assign the provider.
+- To select an existing provider, the account you're using must have the Admin role for that provider. If the account doesn't have the Admin role, the provider won't appear on the provider selection screen.
+- Once you assign a provider to manage your LINE Official Account, you can't change or de-assign the provider.
 
 <!-- note end -->
 
