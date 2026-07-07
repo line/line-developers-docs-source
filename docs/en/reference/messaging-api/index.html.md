@@ -12623,9 +12623,9 @@ You can get statistics per message or per bubble.
 
 **On the recorded statistics recorded**
 
-Interactions are updated for only 14 days (1,209,600 seconds) from the time a message was sent. After that time, interactions aren't updated.
+Statistics are updated for only 14 days (1,209,600 seconds) from the time a message was sent. After that time, statistics aren't updated.
 
-For example, if you send a message at 15:00 on February 1, 2021, interactions will be updated until 15:00 on February 15, 2021.
+For example, if you send a message at 15:00 on February 1, 2021, statistics will be updated until 15:00 on February 15, 2021.
 
 <!-- note end -->
 
@@ -13015,9 +13015,11 @@ If you send messages with the same unit name, the statistics are aggregated toge
 
 **On recorded statistics**
 
-Interactions are updated for only 14 days (1,209,600 seconds) from the time a message was sent. After that time, interactions aren't updated.
+Statistics are updated for only 14 days (1,209,600 seconds) from the time a message was sent. After that time, statistics aren't updated.
 
-For example, if you send a message at 15:00 on February 1, 2021, interactions will be updated until 15:00 on February 15, 2021.
+For example, if you send a message at 15:00 on February 1, 2021, statistics will be updated until 15:00 on February 15, 2021.
+
+Sending another message with the same unit name later doesn't extend the period during which statistics for previously sent messages are updated. Statistics for each message are updated independently for 14 days from its send time.
 
 <!-- note end -->
 
