@@ -99,7 +99,7 @@ LINE公式アカウントの特性上、突発的に大量のアクセス（Webh
 
 **アクセスが集中しやすいケースの例**
 
-- LINE公式アカウントの[検索結果での表示](https://www.lycbiz.com/jp/manual/OfficialAccountManager/tutorial-step5/)を「表示」設定にした直後
+- LINE公式アカウントの[検索結果とおすすめに表示](https://www.lycbiz.com/jp/manual/OfficialAccountManager/tutorial-step5/)を「表示」設定にした直後
 - [スポンサードスタンプ](https://www.lycbiz.com/jp/service/line-promotion-sticker/)などの施策の実施直後
 - [ブロードキャストメッセージ](https://developers.line.biz/ja/reference/messaging-api/#send-broadcast-message)などですべての友だちへの一斉送信でメッセージを送信した直後（特にキャンペーン等の施策を含む場合）
 - ニュースやテレビなどのメディアに取り上げられた直後

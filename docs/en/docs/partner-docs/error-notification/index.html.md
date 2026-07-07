@@ -80,8 +80,8 @@ These are the contents of the email.
 | Channel name | Target channel name. |
 | Reason for error  | Overview of reason for error. For more information, see [Check the reason for errors](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#check-error-reason) in the Messaging API documentation. |
 | Detail for error | Details on reason for error. For more information, see [Check the detail for errors](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#check-detail-for-error) in the Messaging API documentation. |
-| Error count | Number of times error occurred. |
-| Time detected | Time when error occurred. |
+| Error count | Number of errors with the same HTTP status code that occurred within 5 minutes (300 seconds). Errors without an HTTP status code are grouped and counted as the same error. Errors counted as the same error are included in a single notification email. |
+| Time detected | Date and time when the LINE Platform detected the error. |
 
 ## How to resolve a notification message 
 

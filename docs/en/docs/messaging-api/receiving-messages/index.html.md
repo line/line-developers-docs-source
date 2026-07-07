@@ -34,18 +34,19 @@ You can control how your bot reacts based on the data in the webhook event objec
 
 The webhook events that your bot server receives in one-on-one chats or [group chats and multi-person chats](https://developers.line.biz/en/docs/messaging-api/group-chats/) are as follows:
 
-| Webhook event | Receive when | one-on-one chats | Group chats and multi-person chats |
-| --- | --- | --- | --- |
-| [Message event](https://developers.line.biz/en/reference/messaging-api/#message-event) | When a user sends a message. You can reply to this event. | ✅ | ✅ |
-| [Unsend event](https://developers.line.biz/en/reference/messaging-api/#unsend-event) | When a user unsends a message. For more information on handling this event, see [Processing on receipt of unsend event](https://developers.line.biz/en/docs/messaging-api/receiving-messages/#webhook-unsend-message). | ✅ | ✅ |
-| [Follow event](https://developers.line.biz/en/reference/messaging-api/#follow-event) | When a user adds your LINE Official Account as a friend, or unblocks your LINE Official Account. You can reply to this event. | ✅ | ❌ |
-| [Unfollow event](https://developers.line.biz/en/reference/messaging-api/#unfollow-event) | When a user blocks your LINE Official Account | ✅ | ❌ |
-| [Join event](https://developers.line.biz/en/reference/messaging-api/#join-event) | When your LINE Official Account joins a group chat or multi-person chat. You can reply to this event. | ❌ | ✅ |
-| [Leave event](https://developers.line.biz/en/reference/messaging-api/#leave-event) | When a user deletes your LINE Official Account or your LINE Official Account leaves, from a group chat or multi-person chat | ❌ | ✅ |
-| [Member join event](https://developers.line.biz/en/reference/messaging-api/#member-joined-event) | When a user joins a group chat or multi-person chat that your LINE Official Account is a member of. You can reply to this event. | ❌ | ✅ |
-| [Member leave event](https://developers.line.biz/en/reference/messaging-api/#member-left-event) | When a user leaves a group chat or multi-person chat that your LINE Official Account is a member of | ❌ | ✅ |
-| [Postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) | When a user triggers a [postback action](https://developers.line.biz/en/reference/messaging-api/#postback-action). You can reply to this event. | ✅ | ✅ |
-| [Video viewing complete event](https://developers.line.biz/en/reference/messaging-api/#video-viewing-complete) | When a user finishes watching a video message that has a `trackingId` specified sent from the LINE Official Account. You can reply to this event. | ✅ | ❌ |
+| Webhook event | Receive when | one-on-one chats | Group chats | multi-person chats |
+| --- | --- | --- | --- | --- |
+| [Message event](https://developers.line.biz/en/reference/messaging-api/#message-event) | When a user sends a message. You can reply to this event. | ✅ | ✅ | ✅ |
+| [Edit event](https://developers.line.biz/en/reference/messaging-api/#edit-event) | When a user edits a message. You can reply to this event. | ❌ | ✅ | ❌ |
+| [Unsend event](https://developers.line.biz/en/reference/messaging-api/#unsend-event) | When a user unsends a message. For more information on handling this event, see [Processing on receipt of unsend event](https://developers.line.biz/en/docs/messaging-api/receiving-messages/#webhook-unsend-message). | ✅ | ✅ | ✅ |
+| [Follow event](https://developers.line.biz/en/reference/messaging-api/#follow-event) | When a user adds your LINE Official Account as a friend, or unblocks your LINE Official Account. You can reply to this event. | ✅ | ❌ | ❌ |
+| [Unfollow event](https://developers.line.biz/en/reference/messaging-api/#unfollow-event) | When a user blocks your LINE Official Account. | ✅ | ❌ | ❌ |
+| [Join event](https://developers.line.biz/en/reference/messaging-api/#join-event) | When your LINE Official Account joins a group chat or multi-person chat. You can reply to this event. | ❌ | ✅ | ✅ |
+| [Leave event](https://developers.line.biz/en/reference/messaging-api/#leave-event) | When a user deletes your LINE Official Account or your LINE Official Account leaves, from a group chat or multi-person chat. | ❌ | ✅ | ✅ |
+| [Member join event](https://developers.line.biz/en/reference/messaging-api/#member-joined-event) | When a user joins a group chat or multi-person chat that your LINE Official Account is a member of. You can reply to this event. | ❌ | ✅ | ✅ |
+| [Member leave event](https://developers.line.biz/en/reference/messaging-api/#member-left-event) | When a user leaves a group chat or multi-person chat that your LINE Official Account is a member of. | ❌ | ✅ | ✅ |
+| [Postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) | When a user triggers a [postback action](https://developers.line.biz/en/reference/messaging-api/#postback-action). You can reply to this event. | ✅ | ✅ | ✅ |
+| [Video viewing complete event](https://developers.line.biz/en/reference/messaging-api/#video-viewing-complete) | When a user finishes watching a video message that has a `trackingId` specified sent from the LINE Official Account. You can reply to this event. | ✅ | ❌ | ❌ |
 
 ✅ Your bot server receives this event&nbsp;&nbsp;&nbsp;&nbsp;❌ Your bot server doesn't receive this event
 

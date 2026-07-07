@@ -730,7 +730,9 @@ id
 
 String
 
-Message ID
+Message ID.
+
+If the event is an edit event, the message ID is the same as the message ID in the original message event.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -750,14 +752,18 @@ String
 
 Quote token of the message. For more information, see [Get quote tokens](https://developers.line.biz/en/docs/messaging-api/get-quote-tokens/) in the Messaging API documentation.
 
+The quote token in an edit event has a different value from the quote token in the original message event. You can use either quote token to quote the edited message.
+
 <!-- parameter end -->
-<!-- parameter start -->
+<!-- parameter start (props: annotation="Not always included") -->
 
 markAsReadToken
 
 String
 
 Read token. This token allows you to mark messages as read. It has no expiration date. For more information, see [Mark messages as read](https://developers.line.biz/en/docs/messaging-api/mark-as-read/) in the Messaging API documentation.
+
+The edit event doesn't include a read token.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -1802,6 +1808,84 @@ _Sticker message example_
             "mode": "active"
         }
     ]
+}
+```
+
+<!-- tab end -->
+
+### Edit event 
+
+Event object for when the user has edited a message. The `message` property contains the edited message. You can reply to edit events.
+
+<!-- parameter start -->
+
+timestamp, source, etc.
+
+See [Common properties](https://developers.line.biz/en/reference/messaging-api/#common-properties).
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+type
+
+String
+
+`messageEdited`
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+replyToken
+
+String
+
+Reply token used to [send reply message](https://developers.line.biz/en/reference/messaging-api/#send-reply-message) to this event.
+
+The reply token in an edit event has a different value from the reply token in the original message event.
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+message
+
+Object
+
+Object containing the contents of the message. Message types include:
+
+- [Text](https://developers.line.biz/en/reference/messaging-api/#wh-text)
+
+<!-- parameter end -->
+
+_Edit event example_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "destination": "xxxxxxxxxx",
+  "events": [
+    {
+      "type": "messageEdited",
+      "replyToken": "950e63e8f46542ab89f645b4c2a1180a",
+      "message": {
+        "type": "text",
+        "id": "610830548529053697",
+        "quoteToken": "XyiyoB3R1BA...",
+        "text": "Edited message"
+      },
+      "webhookEventId": "01KPW6071XGPXPAF4XCN96XEAN",
+      "deliveryContext": {
+        "isRedelivery": false
+      },
+      "timestamp": 1776914799524,
+      "source": {
+        "type": "group",
+        "groupId": "Ca56f94637c...",
+        "userId": "U4af4980629..."
+      },
+      "mode": "active"
+    }
+  ]
 }
 ```
 

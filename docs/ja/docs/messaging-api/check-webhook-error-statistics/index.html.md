@@ -17,6 +17,17 @@ Messaging APIでは、Webhookの送信におけるエラーの原因と統計情
 
 ![エラーの統計情報](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-ja.png)
 
+エラーの統計情報には、次の項目が表示されます。
+
+| 項目 | 説明 |
+| --- | --- |
+| 日付 | エラーが発生した日付。 |
+| 開始 | LINEプラットフォームがエラーを最初に検知した時刻。 |
+| 終了 | LINEプラットフォームがエラーを最後に検知した時刻。 |
+| 原因 | エラーが発生した原因。詳しくは、「[エラーが発生した原因を確認する](https://developers.line.biz/ja/docs/messaging-api/check-webhook-error-statistics/#check-error-reason)」を参照してください。 |
+| 詳細 | エラーが発生した原因ごとの詳細。詳しくは、「[エラーの詳細を確認する](https://developers.line.biz/ja/docs/messaging-api/check-webhook-error-statistics/#check-detail-for-error)」を参照してください。 |
+| エラー | 同じHTTPステータスコードのエラーが60秒間に発生した件数。HTTPステータスコードがないエラーは、同じエラーとしてまとめて集計されます。 |
+
 <!-- tip start -->
 
 **Webhook URLを検証した際のリクエストはエラーの統計情報に含まれません**

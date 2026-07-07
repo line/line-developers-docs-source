@@ -99,7 +99,7 @@ Due to the nature of the LINE Official Account, a large amount of access (sendin
 
 **Examples of cases where access is likely to be concentrated**
 
-- Immediately after setting [Show in search results](https://www.lycbiz.com/jp/manual/OfficialAccountManager/tutorial-step5/) (only available in Japanese) of the LINE Official Account to "Show"
+- Immediately after setting [Show in search results and recommendations](https://www.lycbiz.com/jp/manual/OfficialAccountManager/tutorial-step5/) (only available in Japanese) of the LINE Official Account to "Show"
 - Immediately after the implementation of measures such as [Sponsored sticker](https://www.lycbiz.com/jp/service/line-promotion-sticker/) (only available in Japanese)
 - Immediately after sending a message to all friends at once using [broadcast message](https://developers.line.biz/en/reference/messaging-api/#send-broadcast-message), etc. (especially when including a campaign or other measure)
 - Immediately after being featured in the media, such as news or television

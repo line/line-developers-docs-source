@@ -730,7 +730,9 @@ id
 
 String
 
-メッセージID
+メッセージID。
+
+編集イベントの場合、メッセージIDは元となるメッセージイベントと同じ値になります。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -750,14 +752,18 @@ String
 
 メッセージの引用トークン。詳しくは、『Messaging APIドキュメント』の「[引用トークンを取得する](https://developers.line.biz/ja/docs/messaging-api/get-quote-tokens/)」を参照してください。
 
+編集イベントの引用トークンは、元となるメッセージイベントの引用トークンとは異なる値になります。どちらの引用トークンを使用しても編集後のメッセージを引用できます。
+
 <!-- parameter end -->
-<!-- parameter start -->
+<!-- parameter start (props: annotation="含まれないことがあります") -->
 
 markAsReadToken
 
 String
 
 既読トークン。このトークンを使用することで、メッセージに既読をつけることができます。有効期限はありません。詳しくは、『Messaging APIドキュメント』の「[メッセージに既読をつける](https://developers.line.biz/ja/docs/messaging-api/mark-as-read/)」を参照してください。
+
+編集イベントの場合は、既読トークンは含まれません。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -1802,6 +1808,84 @@ _スタンプメッセージの例_
             "mode": "active"
         }
     ]
+}
+```
+
+<!-- tab end -->
+
+### 編集イベント 
+
+ユーザーがテキストメッセージを編集したことを示すイベントです。編集後のメッセージの内容は、`message`プロパティに含まれます。編集イベントには応答できます。
+
+<!-- parameter start -->
+
+timestamp、sourceなど
+
+「[共通プロパティ](https://developers.line.biz/ja/reference/messaging-api/#common-properties)」を参照してください。
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+type
+
+String
+
+`messageEdited`
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+replyToken
+
+String
+
+このイベントに対して[応答メッセージを送る](https://developers.line.biz/ja/reference/messaging-api/#send-reply-message)際に使用する応答トークン。
+
+編集イベントの応答トークンは、メッセージイベントの応答トークンとは異なる値になります。
+
+<!-- parameter end -->
+<!-- parameter start -->
+
+message
+
+Object
+
+メッセージの内容を含むオブジェクト。メッセージには以下のタイプがあります。
+
+- [テキスト](https://developers.line.biz/ja/reference/messaging-api/#wh-text)
+
+<!-- parameter end -->
+
+_編集イベントの例_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "destination": "xxxxxxxxxx",
+  "events": [
+    {
+      "type": "messageEdited",
+      "replyToken": "950e63e8f46542ab89f645b4c2a1180a",
+      "message": {
+        "type": "text",
+        "id": "610830548529053697",
+        "quoteToken": "XyiyoB3R1BA...",
+        "text": "編集後のメッセージ"
+      },
+      "webhookEventId": "01KPW6071XGPXPAF4XCN96XEAN",
+      "deliveryContext": {
+        "isRedelivery": false
+      },
+      "timestamp": 1776914799524,
+      "source": {
+        "type": "group",
+        "groupId": "Ca56f94637c...",
+        "userId": "U4af4980629..."
+      },
+      "mode": "active"
+    }
+  ]
 }
 ```
 

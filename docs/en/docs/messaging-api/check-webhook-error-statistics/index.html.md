@@ -17,6 +17,17 @@ After turning on **Error statistics aggregation**, click the **Webhook errors** 
 
 ![Error statistics aggregation](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-en.png)
 
+Error statistics include the following items:
+
+| Item | Description |
+| --- | --- |
+| Date | Date when the error occurred. |
+| Start | Time when the LINE Platform detected the error for the first time. |
+| End | Time when the LINE Platform last detected the error. |
+| Reason | Reason for the error. For more information, see [Check the reason for errors](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#check-error-reason). |
+| Detail | Details for each error reason. For more information, see [Check the detail for errors](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#check-detail-for-error). |
+| Errors | Number of errors with the same HTTP status code that occurred within 60 seconds. Errors without an HTTP status code are grouped and counted as the same error. |
+
 <!-- tip start -->
 
 **Error Statistics don't include requests made to verify a webhook URL**
