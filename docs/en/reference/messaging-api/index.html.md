@@ -9832,11 +9832,13 @@ String
 The audience's status. One of:
 
 - `IN_PROGRESS`: Pending. It may take several hours for the status to change to `READY`. If the number of users included in the audience is insufficient (at least 50 are required) for an audience with a user count restriction, the status will remain `IN_PROGRESS` and won't be updated.
-- `READY`: Ready to accept messages.
+- `READY`: Ready to accept messages (\*).
 - `FAILED`: An error occurred while creating the audience.
 - `EXPIRED`: Expired. Audiences are automatically deleted a month after they expire.
 - `INACTIVE`: The audience is inactive.
 - `ACTIVATING`: The audience is activating.
+
+\* For an audience for uploading user IDs, after you add user IDs or IFAs to an audience whose `audienceGroup.status` is `READY`, the status remains `READY`. If you want to send messages to the users including the added target recipients, confirm that `jobs[].jobStatus` for the relevant job is `FINISHED`.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10043,6 +10045,8 @@ The job's status. One of:
 - `WORKING`: Running
 - `FINISHED`: Completed
 - `FAILED`: Failed
+
+Jobs whose status is `QUEUED` or `WORKING` haven't completed the process of adding user IDs or IFAs. If you want to send messages to the users including the added target recipients, confirm that `jobs[].jobStatus` for the relevant job is `FINISHED`.
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="Not always included") -->
@@ -10724,11 +10728,13 @@ String
 The audience's status. One of:
 
 - `IN_PROGRESS`: Pending. It may take several hours for the status to change to `READY`. If the number of users included in the audience is insufficient (at least 50 are required) for an audience with a user count restriction, the status will remain `IN_PROGRESS` and won't be updated.
-- `READY`: Ready to accept messages.
+- `READY`: Ready to accept messages (\*).
 - `FAILED`: An error occurred while creating the audience.
 - `EXPIRED`: Expired. Audiences are automatically deleted a month after they expire.
 - `INACTIVE`: The audience is inactive.
 - `ACTIVATING`: The audience is activating.
+
+\* For an audience for uploading user IDs, after you add user IDs or IFAs to an audience whose `audienceGroup.status` is `READY`, the status remains `READY`. If you want to send messages to the users including the added target recipients, confirm that `jobs[].jobStatus` for the relevant job is `FINISHED`.
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10944,6 +10950,8 @@ The job's status. One of:
 - `WORKING`: Running
 - `FINISHED`: Completed
 - `FAILED`: Failed
+
+Jobs whose status is `QUEUED` or `WORKING` haven't completed the process of adding user IDs or IFAs. If you want to send messages to the users including the added target recipients, confirm that `jobs[].jobStatus` for the relevant job is `FINISHED`.
 
 <!-- parameter end -->
 <!-- parameter start -->

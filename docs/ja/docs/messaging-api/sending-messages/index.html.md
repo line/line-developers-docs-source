@@ -159,7 +159,9 @@ curl -v -X GET https://api.line.me/v2/bot/audienceGroup/{audienceGroupId} \
 -H 'Authorization: Bearer {channel access token}'
 ```
 
-レスポンスの`status`プロパティが、`READY`（配信に利用可能）であれば、オーディエンスにナローキャストメッセージを送信できます。
+レスポンスの`audienceGroup.status`プロパティが、`READY`（配信に利用可能）であれば、オーディエンスにナローキャストメッセージを送信できます。
+
+ただし、ユーザーIDアップロード用のオーディエンスでは、`audienceGroup.status`プロパティが`READY`のオーディエンスにユーザーIDまたはIFAを追加した後も、ステータスは`READY`のままです。追加した送信対象アカウントを含むユーザーにメッセージを送信したい場合は、該当するジョブの`jobs[].jobStatus`プロパティが`FINISHED`であることも確認してください。
 
 オーディエンスのステータスを確認する方法について詳しくは、『Messaging APIリファレンス』の「[オーディエンスの情報を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-audience-group)」を参照してください。
 

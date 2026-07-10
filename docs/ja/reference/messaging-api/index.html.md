@@ -9833,11 +9833,13 @@ String
 オーディエンスのステータス。以下のいずれかの値です。
 
 - `IN_PROGRESS`：準備中。`READY`になるまで数時間かかる場合があります。ユーザー数の規定があるオーディエンスにおいて、オーディエンスに含まれるユーザーの数（最低50件）が不足している場合、ステータスは`IN_PROGRESS`のまま更新されません。
-- `READY`：配信に利用可能。
+- `READY`：配信に利用可能（※）。
 - `FAILED`：作成時にエラーが発生。
 - `EXPIRED`：有効期限切れ。有効期限切れ後、1か月後に自動で削除されます。
 - `INACTIVE`：オーディエンスが無効です。
 - `ACTIVATING`：オーディエンスを有効化しています。
+
+※ユーザーIDアップロード用のオーディエンスでは、`audienceGroup.status`が`READY`のオーディエンスにユーザーIDまたはIFAを追加した後も、ステータスは`READY`のままです。追加した送信対象アカウントを含むユーザーにメッセージを送信したい場合は、該当するジョブの`jobs[].jobStatus`が`FINISHED`であることを確認してください。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10044,6 +10046,8 @@ String
 - `WORKING`：実行中
 - `FINISHED`：成功
 - `FAILED`：失敗
+
+`QUEUED`または`WORKING`のジョブは、ユーザーIDまたはIFAの追加処理が完了していません。追加した送信対象アカウントを含むユーザーにメッセージを送信したい場合は、該当するジョブの`jobs[].jobStatus`が`FINISHED`であることを確認してください。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="含まれないことがあります") -->
@@ -10725,11 +10729,13 @@ String
 オーディエンスのステータス。以下のいずれかの値です。
 
 - `IN_PROGRESS`：準備中。`READY`になるまで数時間かかる場合があります。ユーザー数の規定があるオーディエンスにおいて、オーディエンスに含まれるユーザーの数（最低50件）が不足している場合、ステータスは`IN_PROGRESS`のまま更新されません。
-- `READY`：配信に利用可能。
+- `READY`：配信に利用可能（※）。
 - `FAILED`：作成時にエラーが発生。
 - `EXPIRED`：有効期限切れ。有効期限切れ後、1か月後に自動で削除されます。
 - `INACTIVE`：オーディエンスが無効です。
 - `ACTIVATING`：オーディエンスを有効化しています。
+
+※ユーザーIDアップロード用のオーディエンスでは、`audienceGroup.status`が`READY`のオーディエンスにユーザーIDまたはIFAを追加した後も、ステータスは`READY`のままです。追加した送信対象アカウントを含むユーザーにメッセージを送信したい場合は、該当するジョブの`jobs[].jobStatus`が`FINISHED`であることを確認してください。
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -10945,6 +10951,8 @@ String
 - `WORKING`：実行中
 - `FINISHED`：成功
 - `FAILED`：失敗
+
+`QUEUED`または`WORKING`のジョブは、ユーザーIDまたはIFAの追加処理が完了していません。追加した送信対象アカウントを含むユーザーにメッセージを送信したい場合は、該当するジョブの`jobs[].jobStatus`が`FINISHED`であることを確認してください。
 
 <!-- parameter end -->
 <!-- parameter start -->
