@@ -19489,7 +19489,7 @@ If you retry without using the `resumeRequestKey` property in the following case
 - If you're not sure whether your request was accepted due to a timeout or an internal server error of the LINE Platform
 - If you [get rich menu batch operation progress status](https://developers.line.biz/en/reference/messaging-api/#get-batch-control-rich-menus-progress-status) and the `phase` property of response is `failed`
 
-Even under these conditions, if you specify an arbitrary key in the `resumeRequestKey` property on your first request, sending the request again with the same key will only resume processing for users who haven't completed processing.
+Even under these conditions, if you specify an arbitrary key in the `resumeRequestKey` property on your initial request, sending the request again with the same key will only resume processing for users who haven't completed processing.
 
 The `resumeRequestKey` property expires in 14 days (336 hours). If it has expired, the request will be treated as a new request.
 
@@ -19760,7 +19760,7 @@ The current status. One of:
 
 - `ongoing`: Rich menu batch control is in progress.
 - `succeeded`: Rich menu batch control is complete.
-- `failed`: Rich menu batch control failed. This means that the rich menu for one or more users couldn't be controlled. There may also be users whose operations have been successfully completed.
+- `failed`: Rich menu batch control failed. This means that the rich menu for one or more users couldn't be controlled. There may also be users whose operations have been successfully completed.<br><br>By specifying a retry key in your initial request, you can safely retry failed operations. For more information, see [How to avoid unintended operations when retrying](https://developers.line.biz/en/reference/messaging-api/#batch-control-rich-menus-of-users-retry-key).
 
 <!-- parameter end -->
 <!-- parameter start -->
