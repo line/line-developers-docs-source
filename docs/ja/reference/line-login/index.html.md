@@ -310,16 +310,33 @@ _レスポンスの例_
 
 #### エラーレスポンス 
 
-アクセストークンの有効期限が切れている場合は、HTTPステータスコード `400 Bad Request` と、JSONオブジェクトが返されます。
+[共通仕様](https://developers.line.biz/ja/reference/line-login/#common-specifications)の「[ステータスコード](https://developers.line.biz/ja/reference/line-login/#status-codes)」に示す一般的なエラー以外に、発生する可能性があるエラーは以下のとおりです。
+
+| ステータスコード | 説明 |
+| --- | --- |
+| 400 Bad Request | リクエストに問題があります。次のような理由が考えられます。<ul><li>無効なフォーマットのアクセストークンが指定されています。</li><li>アクセストークンの有効期限が切れています。</li><li>アクセストークンが無効化されています（例：「[アクセストークンを取り消す](https://developers.line.biz/ja/reference/line-login/#revoke-access-token)」エンドポイントで取り消された場合）。</li></ul> |
 
 _エラーレスポンスの例_
 
 <!-- tab start `json` -->
 
 ```json
+// 無効なフォーマットのアクセストークンが指定されている場合
 {
   "error": "invalid_request",
-  "error_description": "access token expired"
+  "error_description": "The access token not JWS"
+}
+
+// アクセストークンの有効期限が切れている場合
+{
+  "error": "invalid_request",
+  "error_description": "The access token expired"
+}
+
+// 「アクセストークンを取り消す」エンドポイントの利用などにより無効化されている場合
+{
+  "error": "invalid_request",
+  "error_description": "The access token revoked"
 }
 ```
 

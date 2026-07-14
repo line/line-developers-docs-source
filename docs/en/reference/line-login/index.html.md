@@ -310,16 +310,33 @@ _Example response_
 
 #### Error response 
 
-If the access token has expired, a `400 Bad Request` HTTP status code and a JSON response are returned.
+In addition to the common errors described in [Status codes](https://developers.line.biz/en/reference/line-login/#status-codes) under [Common specifications](https://developers.line.biz/en/reference/line-login/#common-specifications), the following errors may occur:
+
+| Status code | Description |
+| --- | --- |
+| 400 Bad Request | Problem with the request. Consider these reasons:<ul><li>An access token with an invalid format is specified.</li><li>The access token has expired.</li><li>The access token has been invalidated (e.g., via the [Revoke access token](https://developers.line.biz/en/reference/line-login/#revoke-access-token) endpoint).</li></ul> |
 
 _Example error response_
 
 <!-- tab start `json` -->
 
 ```json
+// If an access token with an invalid format is specified
 {
   "error": "invalid_request",
-  "error_description": "access token expired"
+  "error_description": "The access token not JWS"
+}
+
+// If the access token has expired
+{
+  "error": "invalid_request",
+  "error_description": "The access token expired"
+}
+
+// If the access token has been invalidated (e.g., by using the "revoke access token" endpoint)
+{
+  "error": "invalid_request",
+  "error_description": "The access token revoked"
 }
 ```
 

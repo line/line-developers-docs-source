@@ -170,13 +170,37 @@ _レスポンスの例_
 | 403 Forbidden | このチャネルには、サービス通知トークンを発行する許可が与えられていません。 |
 | 500 Internal Server Error | 内部サーバーのエラーです。 |
 
-_エラーレスポンスの例_
+_LIFFのアクセストークンが空になっている例_
 
 <!-- tab start `json` -->
 
 ```json
 {
   "message": "[liffAccessToken] must not be blank"
+}
+```
+
+<!-- tab end -->
+
+_アクセストークンの有効期限が切れている例_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "message": "The access token expired"
+}
+```
+
+<!-- tab end -->
+
+_ユーザーがLIFFアプリを閉じたことなどによりアクセストークンが無効化されている例_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "message": "The access token revoked"
 }
 ```
 

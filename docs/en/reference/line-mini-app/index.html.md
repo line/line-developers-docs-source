@@ -170,13 +170,37 @@ Returns one of the following status codes and error messages.
 | 403 Forbidden | This channel isn't authorized to issue service messages. |
 | 500 Internal Server Error | Error on the internal server |
 
-_Example error response_
+_Example of an empty LIFF access token_
 
 <!-- tab start `json` -->
 
 ```json
 {
   "message": "[liffAccessToken] must not be blank"
+}
+```
+
+<!-- tab end -->
+
+_Example of an expired access token_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "message": "The access token expired"
+}
+```
+
+<!-- tab end -->
+
+_Example of an invalidated access token (e.g., due to the user closing the LIFF app)_
+
+<!-- tab start `json` -->
+
+```json
+{
+  "message": "The access token revoked"
 }
 ```
 
