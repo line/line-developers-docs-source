@@ -19633,7 +19633,7 @@ Specify the ID of the rich menu to be replaced.
 
 #### Response 
 
-Returns the `200` HTTP status code and an empty JSON object.
+Returns the `202` HTTP status code and an empty JSON object.
 
 Batch operation of the rich menu is processed asynchronously in the background. You can check the status of the process by using the [Get the status of rich menu batch control](https://developers.line.biz/en/reference/messaging-api/#get-batch-control-rich-menus-progress-status) endpoint.
 
