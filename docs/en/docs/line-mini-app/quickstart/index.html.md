@@ -45,7 +45,7 @@ Here are the tasks you should be aware of if you are developing and implementing
   - [**Sending a service message**](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/): You can send a service message as a confirmation or response to a user action.
   - [**Using a payment system**](https://developers.line.biz/en/docs/line-mini-app/develop/payment/): LINE Pay and other payment systems can be integrated with LINE MINI App to provide payment systems to users.
   - [**Creating a permanent link**](https://developers.line.biz/en/docs/line-mini-app/develop/permanent-links/): You can use the permanent link of the LINE MINI App so that users can immediately access your LINE MINI App.
-  - [**Managing LINE MINI App settings on LINE Developers Console**](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/): LINE MINI App uses the data that has been configured on the LINE Developers Console, so be sure to configure accurate data on the LINE Developers Console.
+  - [**Settings displayed to LINE MINI App users**](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/): LINE MINI App uses the data that has been configured on the LINE Developers Console, so be sure to configure accurate data on the LINE Developers Console.
   - [**Open a LINE MINI App in an external browser**](https://developers.line.biz/en/docs/line-mini-app/develop/external-browser/): Check the notes for opening the LINE MINI App in an external browser.
   - [**Check the performance guide**](https://developers.line.biz/en/docs/line-mini-app/develop/performance-guidelines/): We recommend that you look over the LINE MINI App Performance Guide.
 - **API References**
@@ -58,7 +58,7 @@ Here are the tasks you should be aware of if you are developing and implementing
 
 Here are the tasks you should be aware of if you are designing the LINE MINI App page.
 
-- [**LINE MINI App icon specifications and guidelines**](https://developers.line.biz/en/docs/line-mini-app/design/line-mini-app-icon/): Create an icon based on guidelines and configure the channel icon on the LINE Developers Console. For more information, see [Managing LINE MINI App settings on LINE Developers Console](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/).
+- [**LINE MINI App icon specifications and guidelines**](https://developers.line.biz/en/docs/line-mini-app/design/line-mini-app-icon/): Create an icon based on guidelines and configure the channel icon on the LINE Developers Console. For more information, see [Settings displayed to LINE MINI App users](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/).
 - [**Check the safe area for landscape mode**](https://developers.line.biz/en/docs/line-mini-app/design/landscape/): To make every part of your LINE MINI App visible, even on devices with a notch, use CSS to contain LINE MINI App in safe area.
 - [**Check your loading icon**](https://developers.line.biz/en/docs/line-mini-app/design/loading-icon/): The loading icon is a recommended UI element of the LINE MINI App. Use specified files.
 

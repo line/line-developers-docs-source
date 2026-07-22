@@ -1,4 +1,4 @@
-# Managing LINE MINI App settings on LINE Developers Console
+# Settings displayed to LINE MINI App users
 
 Some information registered on the [LINE Developers Console](https://developers.line.biz/console/) will be displayed to LINE MINI App users.
 
@@ -25,18 +25,7 @@ The following information on the LINE MINI App channel settings is displayed to 
 | **Channel description** | <ul><li>[Verification screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#verification-screen)</li><li>[Channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#consent-screen-settings)</li></ul>Enter in English. To enter the channel description in any other languages such as Japanese, see [Multi-language support of the Channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#localization). |
 | **Privacy policy URL** | [Channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#consent-screen-settings) |
 | **Localization (multi-language support)** | [Channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#consent-screen-settings) |
-
-<!-- note start -->
-
-**Information that must be included in the channel description**
-
-If you have outsourced the development of your service's LINE MINI App, and the company that provides service through the LINE MINI App differs from the company that developed the said LINE MINI App, the **Channel description** must contain a statement indicating the following information:
-
-- The service company name
-- The development company name
-- The actual company name(s) to whom you provide user data obtained through the LINE MINI App
-
-<!-- note end -->
+| **Linked LINE Official Account** | <ul><li>[Verification screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#verification-screen)</li><li>[Channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/configure-console/#consent-screen-settings)</li></ul> |
 
 ### **Web app settings** tab 
 
@@ -78,6 +67,7 @@ The following information registered on the [LINE Developers Console](https://de
 | LINE MINI App name | **Basic settings** tab > **Channel name** |
 | Provider name | **Settings** tab > **Provider name** of the provider to which the LINE MINI App channel belongs |
 | Description | **Basic settings** tab > **Channel description** |
+| LINE Official Account | **Basic settings** tab > **Linked LINE Official Account** |
 
 ## Channel consent screen 
 
@@ -92,6 +82,7 @@ The following information registered on the [LINE Developers Console](https://de
 | Provider name | **Settings** tab > **Provider name** of the provider to which the LINE MINI App channel belongs |
 | Description | **Basic settings** tab > **Channel description** |
 | Privacy policy URL | **Basic settings** tab > **Privacy policy URL** |
+| LINE Official Account | **Basic settings** tab > **Linked LINE Official Account** |
 
 If the LINE MINI App is a verified MINI App, a verified badge will be displayed next to the LINE MINI App name. If the LINE MINI App provider isn't a certified provider, a note saying "LY Corporation hasn't verified this service provider." will be displayed.
 

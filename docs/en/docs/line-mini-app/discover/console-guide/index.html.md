@@ -169,6 +169,18 @@ Refer to the following table for input examples of **Channel description**.
 | Bad example | LINE FRIENDS STORE | LINE FRIENDS STORE is a store for LINE character goods. |
 | Good example | LINE FRIENDS STORE | This is a mobile ordering service at the LINE FRIENDS STORE. You can order and pay in advance and receive your merchandise at the store. |
 
+<!-- note start -->
+
+**Information that must be included in the channel description**
+
+If you have outsourced the development of your service's LINE MINI App, and the company that provides service through the LINE MINI App differs from the company that developed the said LINE MINI App, the **Channel description** must contain a statement indicating the following information:
+
+- The service company name
+- The development company name
+- The actual company name(s) to whom you provide user data obtained through the LINE MINI App
+
+<!-- note end -->
+
 ## Differences in the behavior of the 3 LINE MINI Apps 
 
 Some screens are displayed differently in the "Developing" LINE MINI App, the "Review" LINE MINI App, and the "Published" LINE MINI App.
