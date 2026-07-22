@@ -253,7 +253,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 | --- | --- |
 | `https://line.me/R/nv/chat` | トークタブを開きます。 |
 | `https://line.me/R/nv/commerce` | ショッピングタブを開きます。 |
-| `https://line.me/R/nv/wallet` | ウォレットタブを開きます。 |
+| `https://line.me/R/nv/wallet` | ウォレットタブまたはミニアプリタブを開きます。なお、ミニアプリタブは日本のユーザーのみ利用できます。 |
 | `https://line.me/R/nv/addFriends` | 「友だち追加」画面を開きます。 |
 | `https://line.me/R/nv/officialAccounts` | 「LINE公式アカウント」画面を開きます。 |
 | `https://line.me/R/nv/timeline` | LINE VOOMの「フォロー中」画面を開きます。 |
