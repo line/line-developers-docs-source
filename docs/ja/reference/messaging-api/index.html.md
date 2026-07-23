@@ -15912,7 +15912,7 @@ language
 
 String
 
-ユーザーの言語。[BCP 47](https://www.rfc-editor.org/info/bcp47)言語タグに従った文字列が返されます。ユーザーがLINEのプライバシーポリシーに未同意の場合はレスポンスに含まれません。\
+ユーザーの言語。[BCP 47](https://www.rfc-editor.org/info/bcp47/)言語タグに従った文字列が返されます。ユーザーがLINEのプライバシーポリシーに未同意の場合はレスポンスに含まれません。\
 例：`en`（英語）。
 
 <!-- parameter end -->

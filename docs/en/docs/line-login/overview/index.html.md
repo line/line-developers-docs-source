@@ -23,7 +23,7 @@ LINE Login not only works with native iOS and Android apps but also with web app
 
 **Example of a website with LINE Login**
 
-For example, the e-book store [BOOK WALKER](https://global.bookwalker.jp/) integrates various social logins, including LINE Login, so that users can easily register the membership and continue using the site.
+For example, the e-book store [BOOK WALKER](https://bookwalker.jp/top/) (Japanese site) integrates various social logins, including LINE Login, so that users can easily register the membership and continue using the site.
 
 ![E-bookstore login screen](https://developers.line.biz/media/line-login/overview/line-login-bookwalker-01-ja.png)
 

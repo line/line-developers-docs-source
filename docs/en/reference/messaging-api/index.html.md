@@ -15911,7 +15911,7 @@ language
 
 String
 
-User's language, as a [BCP 47](https://www.rfc-editor.org/info/bcp47) language tag. Not included in the response if the user hasn't yet consented to the LY Corporation Privacy Policy.\
+User's language, as a [BCP 47](https://www.rfc-editor.org/info/bcp47/) language tag. Not included in the response if the user hasn't yet consented to the LY Corporation Privacy Policy.\
 e.g. `en` for English.
 
 <!-- parameter end -->

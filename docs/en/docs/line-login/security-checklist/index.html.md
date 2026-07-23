@@ -4,7 +4,7 @@ When developing an application using LINE Login, you must prepare for potential 
 
 We provide a checklist to ensure that there are no security flaws when integrating LINE Login into your application. Use the checklist to validate your application before publishing.
 
-We also recommend confirming the session "[Implementing safe and secure LINE Login](https://linedevday.linecorp.com/2020/en/sessions/7159/)" at LINE DEVELOPER DAY 2020.
+We also recommend confirming the session "Implementing safe and secure LINE Login" ([slides](https://speakerdeck.com/line_devday2020/implementing-safe-and-secure-line-login)/[video](https://youtu.be/mWtuq6eQtWY)) at LINE DEVELOPER DAY 2020.
 
 <!-- tip start -->
 

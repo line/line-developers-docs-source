@@ -16,7 +16,7 @@ With its mission to "empower creativity for everyone", Classmethod provides tech
 
 ## The service provider’s thoughts on developing the system 
 
-Although we are an IT company, we also operate a fully cashless café in Akihabara called "[DevelopersIO CAFE](https://cafe.classmethod.jp/)."\*
+Although we are an IT company, we also operate a fully cashless café in Akihabara called "DevelopersIO CAFE".\*
 
 Drawing on our experience developing and operating various online sales channels—such as LINE, websites, and native apps—we released [CX ORDER](https://cxorder.jp/lp/), a cloud service that provides mobile ordering functionality through LINE MINI Apps.
 

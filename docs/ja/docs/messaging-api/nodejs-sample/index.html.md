@@ -41,7 +41,7 @@ Messaging APIは、サービスとLINEユーザーとの間で双方向のコミ
 
 - [Node.js](https://nodejs.org/en)
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/install/)
 
 ## 1. Herokuの設定 
 

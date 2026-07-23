@@ -2,7 +2,7 @@
 
 ## What is Create LIFF App 
 
-Create LIFF App is a CLI tool that allows you to build a development environment for LIFF apps with a single command, like [Create React App](https://github.com/facebook/create-react-app) by React or [Create Next App](https://nextjs.org/docs/pages/api-reference/cli/create-next-app) by Next.js. Answering questions from Create LIFF App generates the environment, including the LIFF app template, so you can start development immediately.
+Create LIFF App is a CLI tool that allows you to build a development environment for LIFF apps with a single command, like [Create React App](https://github.com/react/create-react-app) by React or [Create Next App](https://nextjs.org/docs/pages/api-reference/cli/create-next-app) by Next.js. Answering questions from Create LIFF App generates the environment, including the LIFF app template, so you can start development immediately.
 
 - [GitHub](https://github.com/line/create-liff-app)
 - [npm](https://www.npmjs.com/package/@line/create-liff-app)

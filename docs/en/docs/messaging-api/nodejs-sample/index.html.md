@@ -41,7 +41,7 @@ Install these tools:
 
 - [Node.js](https://nodejs.org/en)
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/install/)
 
 ## 1. Set up Heroku 
 

@@ -132,7 +132,11 @@ If the URL of the current page doesn't start with the URL specified in **Endpoin
 
 ### Multi-tab view 
 
-The Multi-tab view displays your recently used services. The recently used services section includes LIFF apps opened by the user, displayed in order of most recent use, up to a maximum of 50 items.
+The Multi-tab view displays your recently used services.
+
+#### Recently used services 
+
+The recently used services section includes LIFF apps opened by the user, displayed in order of most recent use, up to a maximum of 50 items.
 
 When a user closes a LIFF app or open a new LIFF app, a screenshot taken at that point will be displayed as usage history. The user can use the usage history to reopen the LIFF app.
 
@@ -174,7 +178,7 @@ LY Corporation provides the following tools to help developers develop LIFF apps
 | Tool name | What this tool can do |
 | --- | --- |
 | [LIFF starter app](https://developers.line.biz/en/docs/liff/trying-liff-app/) | This is a starter app for those new to learning about LIFF. The LIFF starter app is only a demo of the LIFF app initialization to help you understand how to start developing LIFF apps. It's recommended for those who want to build something that works first and get a rough idea of what LIFF is all about. |
-| [Create LIFF App](https://developers.line.biz/en/docs/liff/cli-tool-create-liff-app/) | This CLI tool allows you to build a development environment for LIFF apps with a single command. Like [Create React App](https://github.com/facebook/create-react-app) by React or [Create Next App](https://nextjs.org/docs/pages/api-reference/cli/create-next-app) by Next.js, by answering questions from Create LIFF App, a development environment including the LIFF app template for you is generated and development can begin immediately. |
+| [Create LIFF App](https://developers.line.biz/en/docs/liff/cli-tool-create-liff-app/) | This CLI tool allows you to build a development environment for LIFF apps with a single command. Like [Create React App](https://github.com/react/create-react-app) by React or [Create Next App](https://nextjs.org/docs/pages/api-reference/cli/create-next-app) by Next.js, by answering questions from Create LIFF App, a development environment including the LIFF app template for you is generated and development can begin immediately. |
 | [LIFF CLI](https://developers.line.biz/en/docs/liff/liff-cli/) | <p>A CLI tool to help you develop LIFF apps more smoothly. The LIFF CLI allows you to do the following:</p><ul><li>Create, update, list, and delete LIFF apps</li><li>Create a LIFF app development environment</li><li>Debug your LIFF app with the [LIFF Inspector](https://developers.line.biz/en/docs/liff/liff-plugin/#liff-inspector)</li><li>Launch a local develpment server with HTTPS</li></ul>The [LIFF Mock](https://developers.line.biz/en/docs/liff/liff-plugin/#liff-mock) feature will be added in a future update. |
 | [LIFF Playground](https://liff-playground.netlify.app/) | You can try out LIFF's features online. [The source code for LIFF Playground](https://github.com/line/liff-playground) is available on GitHub, so developers can set their LIFF ID and deploy their own LIFF Playground on the server. |
 

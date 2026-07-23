@@ -18,7 +18,7 @@ We are a system development company with high technical capabilities and proposa
 
 Developing applications with the LINE API requires not only creating solutions for specific business issues but also building generic functions. Examples include the management of friends’ follow and block statuses, payment, rich menus, and 1-on-1 chats. Consequently, allocating development budgets to both generic functions and business solutions can often make it difficult to build essential features. To address this, our GDL Platform offers a hybrid solution: we provide generic functions as SaaS or packages, while delivering systems tailored to solve your specific business issues. This approach allows developers to focus on building critical features. In May 2023, we released the beta version of the "MONSTER" app, a monthly subscription-based service designed to protect children from bullying. This service represents a successful case study in which development costs were reduced by utilizing the GDL Platform for user information management and payment functions.
 
-MONSTER website: [https://www.monster-line.com](https://www.monster-line.com)
+MONSTER website: [https://www.monster-line.com](https://www.monster-line.com/)
 
 ### Image 
 
@@ -63,4 +63,3 @@ As we provide the GDL Platform to a diverse range of companies, we are continuou
 ## Related links 
 
 - [Grandream Inc.](https://www.grandream.jp/)
-- [GDL Platform](https://www.grandream.jp/services/gd-l-pf)

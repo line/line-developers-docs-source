@@ -62,6 +62,6 @@ As mentioned earlier, LINE has an exceptionally large active user base. As a res
 
 ## Related links 
 
-- [Cloud-Native Application Platform（CNAP）](https://www.softbank.jp/biz/services/platform/msp-service/cnap/)
-- [MSP Service](https://www.softbank.jp/biz/services/platform/msp-service/)
+- [Cloud-Native Application Platform（CNAP）](https://www.softbank.jp/business/service/platform/msp-service/cnap)
+- [MSP Service](https://www.softbank.jp/business/service/platform/msp-service/)
 - [SoftBank Corp.](https://global.tm.softbank.jp/en/)
