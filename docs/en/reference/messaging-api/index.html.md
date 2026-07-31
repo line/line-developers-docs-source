@@ -47,6 +47,14 @@ If you send requests exceeding the rate limit, you will receive an error message
 
 \* Creating and deleting rich menus using the [LINE Official Account Manager](https://developers.line.biz/en/glossary/#line-oa-manager) is not subject to this restriction.
 
+#### How rate limits work 
+
+The Messaging API applies rate limits based on the [token bucket algorithm](https://en.wikipedia.org/wiki/Token_bucket), rather than resetting the number of requests all at once at fixed intervals.
+
+With the token bucket algorithm, tokens required to send requests are stored in a bucket with a fixed capacity. Each request consumes tokens, which are gradually added back to the bucket over time.
+
+If requests continue to consume tokens faster than tokens are refilled, the bucket will eventually run out of available tokens. Requests sent in this state will be subject to a rate limit and return a `429 Too Many Requests` response. As tokens are refilled over time, the number of requests that can be sent gradually increases again.
+
 #### Scope of rate limits 
 
 The Messaging API applies rate limits for each API function (endpoint) on a per-channel. Note also the following points about the scope of rate limits:
