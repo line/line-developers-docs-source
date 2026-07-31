@@ -667,9 +667,9 @@ For more information, see [liff.sendMessages()](https://developers.line.biz/en/r
 
 ### Sending messages to a user's friend (share target picker) 
 
-Execute the `liff.shareTargetPicker()` method to display the target picker (screen for selecting a group or friend) and send the message created by the developer to the selected target. This message appears to your group or friends as if you had sent it.
+Execute the `liff.shareTargetPicker()` method to display the target picker (a screen for selecting a recipient) and send the message created by the developer to the selected target. The message appears to each selected recipient as if it were sent by the user.
 
-In the target picker, only friends (including LINE Official Accounts) and groups that the user participates in can be selected. OpenChats are not included.
+In the target picker, users can select recipients from groups, friends, and chats. OpenChat isn't included. For more information, see [Recipients that can be selected in the share target picker](https://developers.line.biz/en/docs/liff/developing-liff-apps/#share-target-picker-displayed-targets).
 
 ![target picker](https://developers.line.biz/media/liff/share-target-picker_tobe_en.png)
 
@@ -681,9 +681,33 @@ To use the share target picker, developers need to consent to "Agreement Regardi
 1. Click **shareTargetPicker** on the **LIFF** tab and "Agreement Regarding Use of Information" will be displayed.
 1. Carefully read the content displayed and check **I have read and agree to the Agreement Regarding Use of Information**, then click **Enable**.
 
+#### Recipients that can be selected in the share target picker 
+
+Users can select the following types of recipients in the target picker:
+
+| Recipient type | Selectable recipients |
+| --- | --- |
+| Groups | Groups that the user participates in. OpenChat isn't included. |
+| Friends | The user's friends. However, LINE Official Accounts aren't displayed in the Friends section. |
+| Chats | Chats in which messages have been sent or received within a certain period. Includes groups, users, chat rooms, and LINE Official Accounts. |
+
+If `false` is specified for the `options.isMultiple` property when calling the method, only the Friends section is displayed, and users can select only one friend as the recipient.
+
+##### Display behavior for recipients in the Friends section 
+
+When a user adds a new friend, it may take up to several minutes for that friend to be reflected in the target picker.
+
+Friends that meet any of the following conditions aren't displayed in the Friends section. They may be displayed in the Chats section if the user has exchanged messages with them within a certain period.
+
+- The friend selects **Never allowed** in **Settings** > **Privacy** > **External app access** in the LINE app.
+- The friend selects **Only for mutual LINE friends** in **Settings** > **Privacy** > **External app access** in the LINE app, and the friend hasn't added the sender as a friend.
+- The user has hidden or blocked the friend in the LINE app friend list.
+
+Even if the recipient has blocked the sender, the recipient is still displayed in the Friends section as long as the sender has added the recipient as a friend and none of the conditions above apply.
+
 #### Sample code of the share target picker 
 
-The following code displays the target picker and sends "Hello, World!" as the user's message to the selected group or friends. If you want to confirm that the target picker can be used in the environment where the LIFF app is started, execute `liff.isApiAvailable()` first.
+The following code displays the target picker and sends "Hello, World!" as the user's message to the selected recipients. If you want to confirm that the target picker can be used in the environment where the LIFF app is started, execute `liff.isApiAvailable()` first.
 
 ```javascript
 if (liff.isApiAvailable("shareTargetPicker")) {

@@ -2418,9 +2418,11 @@ Returns a `Promise` object.
 
 ### liff.shareTargetPicker() 
 
-Displays the target picker (a screen for selecting a group or friend) and sends a message created by the developer to the selected target. The message appears to the group or friend as if it were sent by the user.
+Displays the target picker (a screen for selecting a recipient) and sends a message created by the developer to the selected target. The message appears to each selected recipient as if it were sent by the user.
 
-In the target picker, only friends (including LINE Official Accounts) and groups that the user participates in can be selected. OpenChats are not included.
+In the target picker, users can select recipients from groups, friends, and chats. OpenChat isn't included.
+
+For more information about selectable recipients, see [Recipients that can be selected in the share target picker](https://developers.line.biz/en/docs/liff/developing-liff-apps/#share-target-picker-displayed-targets) in the LIFF documentation.
 
 #### Conditions for using the liff.shareTargetPicker() method 
 

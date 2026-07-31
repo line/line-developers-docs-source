@@ -30,7 +30,7 @@ LINEミニアプリでは、現在開いているページを友だちと共有�
 
 ### シェアターゲットピッカーの利用 
 
-ボディにカスタムアクションボタンを配置し、ボタンがタップされたときに、ターゲットピッカー（グループまたは友だちを選択する画面）を表示するように実装してください。ターゲットピッカーでユーザーが送信相手を選択すると、[Flex Message](https://developers.line.biz/ja/docs/messaging-api/using-flex-messages/)など、開発者が作成したメッセージを送信できます。
+ボディにカスタムアクションボタンを配置し、ボタンがタップされたときに、ターゲットピッカー（送信先を選択する画面）を表示するように実装してください。ターゲットピッカーでユーザーが送信相手を選択すると、[Flex Message](https://developers.line.biz/ja/docs/messaging-api/using-flex-messages/)など、開発者が作成したメッセージを送信できます。
 
 ![target picker](https://developers.line.biz/media/liff/share-target-picker_tobe_ja.png)
 

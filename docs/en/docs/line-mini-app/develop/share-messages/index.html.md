@@ -30,11 +30,11 @@ If a user accesses existing `https://liff.line.me/{liffId}`, the LINE MINI App w
 
 ### Using share target picker 
 
-Implement a custom action button in the body and display the target picker (screen for selecting a group or friend) when the button is tapped. When the user selects the recipient in the target picker, the user can send the share message created by the developer, such as [Flex Message](https://developers.line.biz/en/docs/messaging-api/using-flex-messages/).
+Implement a custom action button in the body and display the target picker (a screen for selecting a recipient) when the button is tapped. When the user selects the recipient in the target picker, the user can send the share message created by the developer, such as [Flex Message](https://developers.line.biz/en/docs/messaging-api/using-flex-messages/).
 
 ![target picker](https://developers.line.biz/media/liff/share-target-picker_tobe_en.png)
 
-See [Sending messages to a user's friend](https://developers.line.biz/en/docs/liff/developing-liff-apps/#share-target-picker) for detailed guide on using the share target picker.
+For more information about how to use the share target picker, see [Sending messages to a user's friend](https://developers.line.biz/en/docs/liff/developing-liff-apps/#share-target-picker).
 
 ### Custom share message format 
 
