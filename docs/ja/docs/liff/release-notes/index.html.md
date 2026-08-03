@@ -24,7 +24,7 @@ CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使�
 
 CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.29.2/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
 
-:toc{maxDepth=2}
+<!-- table of contents -->
 
 2026/07/31
 
@@ -2298,7 +2298,7 @@ LIFF v2.3.0における変更点は以下のとおりです。
 - [liff.shareTargetPicker()の送信結果を取得できるようになりました](https://developers.line.biz/ja/docs/liff/release-notes/#shareTargetPicker)
 - [liff.sendMessages()で返されるエラーコードを追加しました](https://developers.line.biz/ja/docs/liff/release-notes/#sendMessage)
 
-## LIFFのエンドポイントURLでパスおよびクエリパラメータを利用できるようになりました 
+### LIFFのエンドポイントURLでパスおよびクエリパラメータを利用できるようになりました 
 
 以前[お知らせ](https://developers.line.biz/ja/news/2020/05/20/liff-endpoint-url-improvement/)したとおり、[LINE Developersコンソール](https://developers.line.biz/console/)の［**エンドポイントURL**］に入力したパス（`/path`）およびクエリパラメータ（`?key=value`）を、LIFFアプリで利用できるようになりました。
 
@@ -2317,7 +2317,7 @@ LIFFアプリが新仕様に対応していない場合は、設定を変更し�
 
 詳しくは、『LIFFドキュメント』の「[LIFFアプリを開く](https://developers.line.biz/ja/docs/liff/opening-liff-app/)」を参照してください。
 
-## liff.permanentLink.createUrl()メソッドで例外が発生する条件を追加しました 
+### liff.permanentLink.createUrl()メソッドで例外が発生する条件を追加しました 
 
 `liff.permanentLink.createUrl()`メソッドを実行したとき、現在のページのURLが［**エンドポイントURL**］に指定したURLで始まらない場合に、例外が発生します。
 
@@ -2335,7 +2335,7 @@ catch (err) {
 
 詳しくは、『LIFF v2 APIリファレンス』の「[`liff.permanentLink.createUrl()`](https://developers.line.biz/ja/reference/liff/#permanent-link-create-url)」を参照してください。
 
-## liff.shareTargetPicker()の送信結果を取得できるようになりました 
+### liff.shareTargetPicker()の送信結果を取得できるようになりました 
 
 [2020年4月21日にお知らせ](https://developers.line.biz/ja/news/2020/04/21/notice-return-value-of-sharetargetpicker/)したとおり、`liff.shareTargetPicker()`の送信結果を取得できるようになりました。
 
@@ -2352,7 +2352,7 @@ catch (err) {
 
 <!-- note end -->
 
-### 仕様変更に対応するサンプルコード
+#### 仕様変更に対応するサンプルコード
 
 以下のように、ユーザーが使用しているLINEバージョンによって戻り値を処理することをお勧めします。
 
@@ -2389,7 +2389,7 @@ if (liff.isApiAvailable('shareTargetPicker')) {
 
 詳しくは、『LIFF v2 APIリファレンス』の「[`liff.shareTargetPicker()`](https://developers.line.biz/ja/reference/liff/#share-target-picker)」を参照してください。
 
-## liff.sendMessages()で返されるエラーコードを追加しました 
+### liff.sendMessages()で返されるエラーコードを追加しました 
 
 `liff.sendMessages()`に不正なパラメータを渡した場合、`LiffError`のエラーコードで`400`が返されていました。仕様変更後は、`400`の代わりに`INVALID_ARGUMENT`が返されます。
 
@@ -2481,7 +2481,7 @@ LIFF v2に、`liff.isApiAvailable()`が追加されました。
 
 <!-- note end -->
 
-## ターゲットピッカーの使用可否の確認
+### ターゲットピッカーの使用可否の確認
 
 `liff.isApiAvailable()`を事前に実行することで、ターゲットピッカーが使用不可能な環境で`liff.shareTargetPicker()`を実行した際、ユーザーの画面にエラーメッセージが表示されることを避けられます。
 
@@ -2509,7 +2509,7 @@ if (liff.isApiAvailable('shareTargetPicker')) {
 
 LIFF v2に、`liff.shareTargetPicker()`および`liff.ready`が追加されました。
 
-## liff.shareTargetPicker()
+### liff.shareTargetPicker()
 
 ターゲットピッカー（グループまたは友だちを選択する画面）を表示し、ターゲットピッカーで選択した相手に、開発者が作成したメッセージを送信するメソッドが追加されました。このメッセージは、ユーザーが送信したかのように、グループまたは友だちに表示されます。
 
@@ -2525,7 +2525,7 @@ LIFF v2に、`liff.shareTargetPicker()`および`liff.ready`が追加されま�
 
 <!-- note end -->
 
-## liff.ready
+### liff.ready
 
 LIFFアプリ起動後、[`liff.init()`](https://developers.line.biz/ja/reference/liff/#initialize-liff-app)の実行が初めて終了したときにresolveする`Promise`オブジェクトを利用できるようになりました。`liff.ready`を利用すると、`liff.init()`の終了を待って、任意の処理を実行できます。
 
@@ -2580,7 +2580,7 @@ LIFF v1全体の廃止時期については、決まり次第改めてお知ら�
 
 <!-- note end -->
 
-## LIFF v2を利用してください
+### LIFF v2を利用してください
 
 提供を終了するサーバーAPIの機能は、すべて[LINE Developersコンソール](https://developers.line.biz/console/)で利用できます。LIFFアプリをチャネルに追加する操作について詳しくは、以下の項目を参照してください。
 
@@ -2639,7 +2639,7 @@ LINEは今後もお客様への一層のサービス向上に取組んでまい�
 - `liff.scanCode()`
 - `liff.bluetooth.*`
 
-## 一時停止バージョン
+### 一時停止バージョン
 
 LINE | 一時停止バージョン
 -|-
@@ -2654,11 +2654,11 @@ Android版LINE | 対応方法を検討しています
 
 LIFF v2では、LINEログインを中核とした機能拡張を予定しています。そのため、LINEログインチャネルにLIFFアプリを追加することを推奨します。それに伴い、現在サポートしているMessaging APIチャネルにLIFFアプリを追加できなくなる仕様変更が予定されています。
 
-## 仕様変更時期
+### 仕様変更時期
 
 2020年2月上旬
 
-## 影響
+### 影響
 
 チャネル種別 | 影響
 -|-
@@ -2679,7 +2679,7 @@ Messaging APIチャネル | 仕様変更以降は、Messaging APIチャネルに
 
 <!-- note end -->
 
-## LINEログインチャネルへの移行
+### LINEログインチャネルへの移行
 
 Messaging APIチャネルに追加したLIFFアプリを継続して使用するには、LINEログインチャネルにLIFFアプリを追加し直してください。
 

@@ -24,7 +24,7 @@ When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js
 
 When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.29.2/sdk.js`), you can use the features of the specified LIFF version.
 
-:toc{maxDepth=2}
+<!-- table of contents -->
 
 2026/07/31
 
@@ -2306,7 +2306,7 @@ The changes in LIFF v2.3.0 are as follows:
 - [You can now get the send results of liff.shareTargetPicker()](https://developers.line.biz/en/docs/liff/release-notes/#shareTargetPicker)
 - [An error code returned by liff.sendMessages() added](https://developers.line.biz/en/docs/liff/release-notes/#sendMessage)
 
-## You can now use paths and query parameters in the LIFF endpoint URL 
+### You can now use paths and query parameters in the LIFF endpoint URL 
 
 [As announced before](https://developers.line.biz/en/news/2020/05/20/liff-endpoint-url-improvement/), you can now use paths (`/path`) and query parameters (`?key=value`) added to the LIFF endpoint URL in the LIFF tab of the [LINE Developers Console](https://developers.line.biz/console/).
 
@@ -2325,7 +2325,7 @@ Don't change the setting if your existing LIFF app doesn't support the new specs
 
 For more information, see [Opening a LIFF app](https://developers.line.biz/en/docs/liff/opening-liff-app/) in the LIFF documentation.
 
-## A condition for the liff.permanentLink.createUrl() method to throw an exception added 
+### A condition for the liff.permanentLink.createUrl() method to throw an exception added 
 
 When executing the `liff.permanentLink.createUrl()` method, an exception is thrown if the current page URL doesn't start with the URL specified in **Endpoint URL**.
 
@@ -2343,7 +2343,7 @@ In this case, you can't get a permanent link because the `liff.permanentLink.cre
 
 For more information, see [`liff.permanentLink.createUrl()`](https://developers.line.biz/en/reference/liff/#permanent-link-create-url) in the LIFF v2 API reference.
 
-## You can now get the send results of liff.shareTargetPicker() 
+### You can now get the send results of liff.shareTargetPicker() 
 
 As announced on [April 21, 2020](https://developers.line.biz/en/news/2020/04/21/notice-return-value-of-sharetargetpicker/), you can now get the send results of `liff.shareTargetPicker()`.
 
@@ -2360,7 +2360,7 @@ After the change, the LIFF app is able to check whether the message has been sen
 
 <!-- note end -->
 
-### Sample code for this spec change
+#### Sample code for this spec change
 
 We recommend you to handle the return value according to the LINE versions that users are using as shown below:
 
@@ -2397,7 +2397,7 @@ if (liff.isApiAvailable('shareTargetPicker')) {
 
 For more information, see [`liff.shareTargetPicker()`](https://developers.line.biz/en/reference/liff/#share-target-picker) in the LIFF v2 API reference.
 
-## An error code returned by liff.sendMessages() added 
+### An error code returned by liff.sendMessages() added 
 
 Previously, if passing the wrong parameters to `liff.sendMessages()`, `400` was returned as the error code of `LiffError`. After the spec change, `INVALID_ARGUMENT` is returned instead.
 
@@ -2485,7 +2485,7 @@ The number of APIs you can specify is limited. Currently, you can only specify `
 
 <!-- note end -->
 
-## Check if share target picker is available
+### Check if share target picker is available
 
 By executing `liff.isApiAvailable()` before you execute `liff.shareTargetPicker()`, you can avoid the user getting an error message on their screen if the share target picker isn't available in their device environment.
 
@@ -2513,7 +2513,7 @@ Learn more from [liff.isApiAvailable()](https://developers.line.biz/en/reference
 
 We added `liff.shareTargetPicker()` and `liff.ready` to LIFF v2.
 
-## liff.shareTargetPicker()
+### liff.shareTargetPicker()
 
 Execute the `liff.shareTargetPicker()` method to display the target picker (screen for selecting a group or friend) and send the message created by the developer to the selected target. This message appears to your group or friends as if you had sent it.
 
@@ -2529,7 +2529,7 @@ Target picker is supported by LINE 10.3.0 for iOS and Android.
 
 <!-- note end -->
 
-## liff.ready
+### liff.ready
 
 With `liff.ready`, you can get the `Promise` object that resolves when you run [`liff.init()`](https://developers.line.biz/en/reference/liff/#initialize-liff-app) for the first time after starting the LIFF app. If you use `liff.ready`, you can execute any process after the completion of `liff.init()`.
 
@@ -2584,7 +2584,7 @@ As announced on [October 16, 2019](https://developers.line.biz/en/news/2019/10/1
 
 <!-- note end -->
 
-## Use LIFF v2
+### Use LIFF v2
 
 All discontinued Server API functions can be used in the [LINE Developers Console](https://developers.line.biz/console/). For more information on how to add a LIFF app to a channel, read this:
 
@@ -2643,7 +2643,7 @@ Due to a technical issue, we've temporarily suspended the following LIFF functio
 - `liff.scanCode()`
 - `liff.bluetooth.*`
 
-## Impacted environments
+### Impacted environments
 
 Environment | Version
 -- | --
@@ -2654,15 +2654,15 @@ We apologize for the inconvenience and are working hard to solve the problem.
 
 2019/11/11
 
-## Users can no longer add LIFF apps to Messaging API channels
+## Users will no longer be able to add LIFF apps to Messaging API channels
 
 LIFF v2 is scheduled to be updated with LINE Login as the core channel. Additionally, an upcoming change will prevent users from adding LIFF apps to Messaging API channels entirely. We strongly recommend users to add LIFF apps to the LINE Login channel.
 
-## Scheduled change date
+### Scheduled change date
 
 Early February 2020
 
-## Impact
+### Impact
 
 Channel type | Impact
 -|-
@@ -2683,7 +2683,7 @@ LIFF apps added to the LINE Login channel have no restrictions and can use all L
 
 <!-- note end -->
 
-## Transition to the LINE Login channel
+### Transition to the LINE Login channel
 
 To continue using the LIFF app added to the Messaging API channel, re-add the LIFF app to the LINE Login channel. Once re-added, LINE Developers Console will issue a new LIFF app ID. As a result, please take note of the following:
 
