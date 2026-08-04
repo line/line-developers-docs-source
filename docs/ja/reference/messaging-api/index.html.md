@@ -10606,7 +10606,7 @@ _エラーレスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/{audienceGroupId}`
 
-[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で共有されたオーディエンスの情報を取得します。
+[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で共有されたオーディエンスの情報を取得します。
 
 <!-- tip start -->
 
@@ -10614,7 +10614,7 @@ Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/{audienceGroupI
 
 ビジネスマネージャーを使うことで、特定のオーディエンスを複数のサービス間で共有できます。ビジネスマネージャーでオーディエンスを横断利用することで、エンドユーザーとのより良いコミュニケーションが実現できます。
 
-詳しくは、『LINE DATA SOLUTION』の「[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)」を参照してください。
+詳しくは、『LINEヤフー for Business』の「[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)」を参照してください。
 
 <!-- tip end -->
 
@@ -10689,7 +10689,7 @@ String
 - `MESSAGING_API`：Messaging APIで作成したオーディエンス
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
-- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
+- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で作成したオーディエンス
 - `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンス
 
 <!-- parameter end -->
@@ -11093,7 +11093,7 @@ String
 
 - `OA_MANAGER`：[LINE Official Account Manager](https://manager.line.biz/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
-- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
+- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で作成したオーディエンス
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -11250,7 +11250,7 @@ _エラーレスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/list`
 
-[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で共有されたオーディエンスのリストを取得します。
+[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で共有されたオーディエンスのリストを取得します。
 
 「[ビジネスマネージャーで共有されたオーディエンスの情報を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-shared-audience)」エンドポイントを使うことで、それぞれのオーディエンスについて、より詳細な情報を取得できます。
 
@@ -11260,7 +11260,7 @@ Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/list`
 
 ビジネスマネージャーを使うことで、特定のオーディエンスを複数のサービス間で共有できます。ビジネスマネージャーでオーディエンスを横断利用することで、エンドユーザーとのより良いコミュニケーションが実現できます。
 
-詳しくは、『LINE DATA SOLUTION』の「[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)」を参照してください。
+詳しくは、『LINEヤフー for Business』の「[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)」を参照してください。
 
 <!-- tip end -->
 
@@ -11344,7 +11344,7 @@ createRoute
 - `MESSAGING_API`：Messaging APIで作成したオーディエンスのみを取得
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンスのみを取得
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンスのみを取得
-- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンスのみを取得
+- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で作成したオーディエンスのみを取得
 - `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンスのみを取得
 
 複数のパラメータを指定した場合、OR条件となります。
@@ -11395,7 +11395,7 @@ String
 - `MESSAGING_API`：Messaging APIで作成したオーディエンス
 - `POINT_AD`：[LINEポイントAD](https://www.lycbiz.com/jp/service/line-point-ad/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
-- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
+- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で作成したオーディエンス
 - `YAHOO_DISPLAY_ADS`：[LINEヤフー広告 ディスプレイ広告](https://www.lycbiz.com/jp/service/ly-ads/displayads-auc/)で作成したオーディエンス
 
 <!-- parameter end -->
@@ -11723,7 +11723,7 @@ String
 
 - `OA_MANAGER`：[LINE Official Account Manager](https://manager.line.biz/)で作成したオーディエンス
 - `AD_MANAGER`：[LINE広告](https://admanager.line.biz/)で作成したオーディエンス
-- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://data.linebiz.com/solutions/business-manager)で作成したオーディエンス
+- `BUSINESS_MANAGER`：[ビジネスマネージャー](https://www.lycbiz.com/jp/service/business-manager/)で作成したオーディエンス
 
 <!-- parameter end -->
 

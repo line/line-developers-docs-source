@@ -57,4 +57,4 @@ Finally, for developers and planners, the greatest advantage of leveraging the L
 
 ## Related links 
 
-- [KIRIFUDA Inc.](https://kirifuda.io/)
+- [KIRIFUDA Inc.](https://www.kirifuda.io/)

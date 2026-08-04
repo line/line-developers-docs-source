@@ -63,7 +63,7 @@ If you want to use audiences between the Messaging API and tools other than the 
 
 ### Share your audience in Business Manager 
 
-The [Business Manager](https://data.linebiz.com/solutions/business-manager) allows you to share specific audiences across multiple services (such as the LINE Ads Manager) and use the audiences with each other.
+The [Business Manager](https://www.lycbiz.com/jp/service/business-manager/) allows you to share specific audiences across multiple services (such as the LINE Ads Manager) and use the audiences with each other.
 
 You can share audiences between Messaging API channels under the same provider by using the audience sharing function in the Business Manager. However, only verified accounts and [premium accounts](https://developers.line.biz/en/glossary/#premium-account) can set audience sharing in the Business Manager.
 
@@ -72,7 +72,7 @@ You can get data of the shared audience in Business Manager by using the followi
 - [Get a list of shared audiences in Business Manager](https://developers.line.biz/en/reference/messaging-api/#get-shared-audience-list)
 - [Get shared audience data in Business Manager ](https://developers.line.biz/en/reference/messaging-api/#get-shared-audience)
 
-For more information on how to share audiences, see [Sharing Resources](https://data.linebiz.com/business-manager/manual/bmmaniyuarushare003) (only available in Japanese) in the Business Manager manual.
+For more information on how to share audiences, see [Sharing Resources](https://www.lycbiz.com/jp/manual/BusinessManager/BMmaniyuarushare003/) (only available in Japanese) in the Business Manager manual.
 
 ## Audience specification 
 

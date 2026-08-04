@@ -56,4 +56,4 @@ LINEミニアプリとNFTが融合した本サービスは、環境貢献に限�
 
 ## Related links 
 
-- [キリフダ株式会社](https://kirifuda.io/)
+- [キリフダ株式会社](https://www.kirifuda.io/)

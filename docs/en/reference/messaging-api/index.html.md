@@ -10605,7 +10605,7 @@ _Example error response_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/{audienceGroupId}`
 
-Gets a shared audience in [Business Manager](https://data.linebiz.com/solutions/business-manager) (only available in Japanese).
+Gets a shared audience in [Business Manager](https://www.lycbiz.com/jp/service/business-manager/) (only available in Japanese).
 
 <!-- tip start -->
 
@@ -10613,7 +10613,7 @@ Gets a shared audience in [Business Manager](https://data.linebiz.com/solutions/
 
 Business Manager allows you to share specific audiences across multiple services. By sharing audiences in Business Manager, you can better communicate with your end users.
 
-For more information, see [Business Manager](https://data.linebiz.com/solutions/business-manager) (only available in Japanese) in LINE DATA SOLUTION.
+For more information, see [Business Manager](https://www.lycbiz.com/jp/service/business-manager/) (only available in Japanese) in LY for Business.
 
 <!-- tip end -->
 
@@ -10688,7 +10688,7 @@ How the audience was created. One of:
 - `MESSAGING_API`: Audience created with Messaging API
 - `POINT_AD`: Audience created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
-- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
+- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://www.lycbiz.com/jp/service/business-manager/)
 - `YAHOO_DISPLAY_ADS`: Audience created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising)
 
 <!-- parameter end -->
@@ -11092,7 +11092,7 @@ Routes that created the webtraffic audience. One of the following values:
 
 - `OA_MANAGER`: Audience created with [LINE Official Account Manager](https://manager.line.biz/)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
-- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
+- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://www.lycbiz.com/jp/service/business-manager/)
 
 <!-- parameter end -->
 <!-- parameter start -->
@@ -11249,7 +11249,7 @@ _Example error response_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/audienceGroup/shared/list`
 
-Gets a list of shared audiences in [Business Manager](https://data.linebiz.com/solutions/business-manager) (only available in Japanese).
+Gets a list of shared audiences in [Business Manager](https://www.lycbiz.com/jp/service/business-manager/) (only available in Japanese).
 
 You can get more detailed information about each audience by using the [Get shared audience data in Business Manager](https://developers.line.biz/en/reference/messaging-api/#get-shared-audience) endpoint.
 
@@ -11259,7 +11259,7 @@ You can get more detailed information about each audience by using the [Get shar
 
 Business Manager allows you to share specific audiences across multiple services. By sharing audiences in Business Manager, you can better communicate with your end users.
 
-For more information, see [Business Manager](https://data.linebiz.com/solutions/business-manager) (only available in Japanese) in LINE DATA SOLUTION.
+For more information, see [Business Manager](https://www.lycbiz.com/jp/service/business-manager/) (only available in Japanese) in LY for Business.
 
 <!-- tip end -->
 
@@ -11343,7 +11343,7 @@ How the audience was created. If omitted, all audiences are included.
 - `MESSAGING_API`: Return only audiences created with Messaging API.
 - `POINT_AD`: Return only audiences created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese).
 - `AD_MANAGER`: Return only audiences created with [LINE Ads](https://admanager.line.biz/).
-- `BUSINESS_MANAGER`: Return only audiences created with [Business Manager](https://data.linebiz.com/solutions/business-manager).
+- `BUSINESS_MANAGER`: Return only audiences created with [Business Manager](https://www.lycbiz.com/jp/service/business-manager/).
 - `YAHOO_DISPLAY_ADS`: Return only audiences created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising).
 
 If you specify multiple parameters, the OR condition is used.
@@ -11394,7 +11394,7 @@ How the audience was created. One of:
 - `MESSAGING_API`: Audience created with Messaging API
 - `POINT_AD`: Audience created with [LINE Points Ads](https://www.lycbiz.com/jp/service/line-point-ad/) (only available in Japanese)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
-- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
+- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://www.lycbiz.com/jp/service/business-manager/)
 - `YAHOO_DISPLAY_ADS`: Audience created with [LY Ads Display Ads](https://www.lycbiz.jp/en/#advertising)
 
 <!-- parameter end -->
@@ -11722,7 +11722,7 @@ Routes that created the webtraffic audience. One of the following values:
 
 - `OA_MANAGER`: Audience created with [LINE Official Account Manager](https://manager.line.biz/)
 - `AD_MANAGER`: Audience created with [LINE Ads](https://admanager.line.biz/)
-- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://data.linebiz.com/solutions/business-manager)
+- `BUSINESS_MANAGER`: Audience created with [Business Manager](https://www.lycbiz.com/jp/service/business-manager/)
 
 <!-- parameter end -->
 
