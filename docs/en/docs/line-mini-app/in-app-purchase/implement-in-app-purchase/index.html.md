@@ -222,10 +222,14 @@ In the "In-App Purchases" screen shown below, the values in the red-bordered sec
 
 ![](https://developers.line.biz/media/line-mini-app/in-app-purchase/purchase-history-en.png)
 
-| Number | Details |
-| --- | --- |
-| 1 | Displays the item name specified at the time of purchase reservation ([`shopProductName`](https://developers.line.biz/en/reference/line-mini-app/#reserve-purchase-request-body)) as is. Set an appropriate value so that users can recognize the item they purchased. |
-| 2 | Displays the name of LY Corporation's service using in-app purchase and the service name of the service provider using in-app purchase. Note that the service provider's service name is not yet available in multiple languages.<br><ul><li>When the language setting is Japanese: `LINEミニアプリ <Service provider's service name>`</li><li>Other cases: `LINE MINI App <Service provider's service name>`</li></ul> |
-| 3 | Displays information related to the app store, including which app store (App Store or Google Play) was used for the payment and the item name registered in the app store. |
-| 4 | Displays the payment time, which is the time when the LINE Platform confirms the payment after it is processed in the store. |
-| 5 | Displays the currency and price at the time of payment. In the app store payment process, the currency is converted based on the region of the app store the user is using, and the actual currency and price paid are displayed. |
+#### Display details and how to configure them 
+
+See the following table for information displayed in the purchase history and where to configure them.
+
+| No. | Content | Description |
+| --- | --- | --- |
+| 1 | The item name (product name) is displayed. | When you [reserve purchase](https://developers.line.biz/en/reference/line-mini-app/#reserve-purchase), specify it in `shopProductName` of the [request body](https://developers.line.biz/en/reference/line-mini-app/#reserve-purchase-request-body).<br />\* Set an appropriate value so that the item purchased by the user can be identified. |
+| 2 | The name of our service providing the in-app purchase feature (LINE MINI App) and the service provider's service name are displayed.<br /><br />**Display patterns:**<ul><li>Device language set to Japanese: `LINEミニアプリ・{Service provider's service name}`</li><li>Other languages: `LINE MINI App・{Service provider's service name}`</li></ul>\* Multi-language support for the provider's service name isn't currently available. | The service provider's service name is set in the LINE MINI App channel's **Basic settings** tab > **Channel name**.<br />\* If you change the channel name of a verified LINE MINI App, you need to request a [re-review](https://developers.line.biz/en/docs/line-mini-app/service/update-service/). |
+| 3 | The app store used for payment (App Store or Google Play), and the product ID corresponding to the price are displayed. | The product IDs are pre-registered by us in the app store, and developers can't edit them. You can check the combinations of product IDs and prices in the [List of product IDs for items available for purchase via in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/iap-product-id/). |
+| 4 | The time when the LINE Platform confirmed the payment processing in the app store (payment completion time) is displayed. | - |
+| 5 | The currency and price used for the actual payment transaction are displayed. | Currency is converted based on the user's app store region, and the payment is processed. |
