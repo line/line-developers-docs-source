@@ -208,7 +208,7 @@ LINE Profile+を利用しているときは、IDトークンに以下のプロ�
 | `family_name` | String | 氏名の「姓」 | `real_name` |
 | `family_name_pronunciation` | String | 氏名の「姓」のカナ。カタカナです。 | `real_name` |
 | `gender` | String | "male"、"female"、もしくはユーザーが独自に入力した値 | `gender` |
-| `birthdate` | String | 誕生日。形式は、[RFC3339プロトコル](https://www.ietf.org/rfc/rfc3339.txt)で定義されています。 | `birthdate` |
+| `birthdate` | String | 誕生日。形式は、[RFC3339プロトコル](https://www.rfc-editor.org/rfc/rfc3339.txt)で定義されています。 | `birthdate` |
 | `phone_number` | String | 電話番号。形式は、[E.164](https://developers.line.biz/ja/glossary/#e164)で定義されています。 | `phone` |
 | `address` | Object | [住所オブジェクト](https://developers.line.biz/ja/docs/partner-docs/line-profile-plus/#address-object) | `address` |
 

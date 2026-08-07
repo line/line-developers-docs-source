@@ -2493,7 +2493,7 @@ _ポストバックイベントの例_
 
 #### 日時選択アクションの`postback.params`オブジェクト 
 
-[日時選択アクション](https://developers.line.biz/ja/reference/messaging-api/#datetime-picker-action)を介してユーザーが選択した日時を含むオブジェクトです。`full-date`、`time-hour`、および`time-minute`の形式は、[RFC3339プロトコル](https://www.ietf.org/rfc/rfc3339.txt)で定義されています。
+[日時選択アクション](https://developers.line.biz/ja/reference/messaging-api/#datetime-picker-action)を介してユーザーが選択した日時を含むオブジェクトです。`full-date`、`time-hour`、および`time-minute`の形式は、[RFC3339プロトコル](https://www.rfc-editor.org/rfc/rfc3339.txt)で定義されています。
 
 | プロパティ | 形式 | 説明 |
 | --- | --- | --- |
@@ -24993,7 +24993,7 @@ _日時選択アクションオブジェクトの例_
 
 #### 日付と日時の形式 
 
-`initial`、`max`、および`min`の値の日付と日時の形式は以下のとおりです。`full-date`、`time-hour`、および`time-minute`の形式は、[RFC3339](https://www.ietf.org/rfc/rfc3339.txt)プロトコルで定義されています。
+`initial`、`max`、および`min`の値の日付と日時の形式は以下のとおりです。`full-date`、`time-hour`、および`time-minute`の形式は、[RFC3339](https://www.rfc-editor.org/rfc/rfc3339.txt)プロトコルで定義されています。
 
 | モード | 形式 | 例 |
 | --- | --- | --- |

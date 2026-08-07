@@ -208,7 +208,7 @@ When using LINE Profile+, the following properties are added to the ID token.
 | `family_name` | String | Last name | `real_name` |
 | `family_name_pronunciation` | String | Kana of last name. It is katakana. | `real_name` |
 | `gender` | String | "male", "female", or a value entered by users | `gender` |
-| `birthdate` | String | Birthdate. The format follows the [RFC3339 protocol](https://www.ietf.org/rfc/rfc3339.txt). | `birthdate` |
+| `birthdate` | String | Birthdate. The format follows the [RFC3339 protocol](https://www.rfc-editor.org/rfc/rfc3339.txt). | `birthdate` |
 | `phone_number` | String | Phone number. The format follows the [E.164](https://developers.line.biz/en/glossary/#e164). | `phone` |
 | `address` | Object | [Address object](https://developers.line.biz/en/docs/partner-docs/line-profile-plus/#address-object) | `address` |
 

@@ -2493,7 +2493,7 @@ _Postback event example_
 
 #### `postback.params` object for date-time selection action 
 
-Object with the date and time selected by a user through a [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action). The `full-date`, `time-hour`, and `time-minute` formats follow the [RFC3339 protocol](https://www.ietf.org/rfc/rfc3339.txt).
+Object with the date and time selected by a user through a [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action). The `full-date`, `time-hour`, and `time-minute` formats follow the [RFC3339 protocol](https://www.rfc-editor.org/rfc/rfc3339.txt).
 
 | Property | Format | Description |
 | --- | --- | --- |
@@ -24993,7 +24993,7 @@ _Example datetime picker action object_
 
 #### Date and time format 
 
-The date and time formats for the `initial`, `max`, and `min` values are shown below. The `full-date`, `time-hour`, and `time-minute` formats follow the [RFC3339](https://www.ietf.org/rfc/rfc3339.txt) protocol.
+The date and time formats for the `initial`, `max`, and `min` values are shown below. The `full-date`, `time-hour`, and `time-minute` formats follow the [RFC3339](https://www.rfc-editor.org/rfc/rfc3339.txt) protocol.
 
 | Mode | Format | Example |
 | --- | --- | --- |

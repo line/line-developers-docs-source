@@ -4,7 +4,7 @@ LINEログインを組み込んだアプリの実装にあたっては、第三�
 
 このページでは、LINEログインをアプリに組み込む時に、セキュリティの不備が無いようにするためのチェックリストを公開しています。開発したアプリをリリースする前に、チェックリストの内容を確認してください。
 
-また、LINE DEVELOPER DAY 2020のセッション「具体例で学ぶ、LINE Loginを利用した安心・安全な認証・認可機能の実装方法」（[スライド](https://speakerdeck.com/line_devday2020/implementing-safe-and-secure-line-login)／[動画](https://youtu.be/iM6lzh9nDoA)）も併せて確認することをおすすめします。
+また、LINE DEVELOPER DAY 2020のセッション「具体例で学ぶ、LINE Loginを利用した安心・安全な認証・認可機能の実装方法」（[スライド](https://speakerdeck.com/line_devday2020/implementing-safe-and-secure-line-login)／[動画](https://www.youtube.com/watch?v=iM6lzh9nDoA)）も併せて確認することをおすすめします。
 
 <!-- tip start -->
 
