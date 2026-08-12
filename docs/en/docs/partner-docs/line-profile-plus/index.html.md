@@ -176,7 +176,7 @@ For more information on LINE Profile+ information included in ID token, see [LIN
 
 ## LINE Profile+ scopes 
 
-These are the scopes of information you can obtain via LINE Profile+:
+These are the scopes of information you can obtain via LINE Profile+. You need to apply in advance for the scopes you will use.
 
 - `real_name`: Authority to obtain the "name" registered by the user
 - `gender`: Authority to obtain the "gender" registered by the user
@@ -186,9 +186,11 @@ These are the scopes of information you can obtain via LINE Profile+:
 
 <!-- note start -->
 
-**Note**
+**Redisplaying the consent screen when requesting the phone scope**
 
-It is necessary to apply for the scope to be used in advance.
+Even after a user consents once, if you request the `phone` scope, the consent screen is redisplayed if a certain period has passed since the user last consented or their phone number has changed.
+
+For more information about other conditions for redisplaying the consent screen, see [Conditions for redisplaying the consent screen](https://developers.line.biz/en/docs/line-login/integrate-line-login/#conditions-for-consent-screen-to-be-redisplayed) in the LINE Login documentation.
 
 <!-- note end -->
 

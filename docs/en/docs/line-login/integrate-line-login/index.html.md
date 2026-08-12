@@ -266,14 +266,16 @@ Note that users may access your web app without granting it some or all of the r
 | --- | --- |
 | ![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.png) | <ul><li>`profile`: Main profile info (Required)</li><li>`openid`: Your internal identifier (Required)</li><li>`email`: Email address</li></ul> |
 
-<!-- note start -->
+#### Conditions for redisplaying the consent screen 
 
-**The consent screen may not always be shown**
+Even after a user consents once, the consent screen is redisplayed when logging in with LINE Login if any of the following conditions apply:
 
-- If the permissions specified in the `scope` parameter are `profile` and/or `openid` and the user has already granted all the permissions, the consent screen is not displayed.
-- If the permissions include `email`, a consent screen is not displayed for a certain period unless the user's email address changes.
+- The `scope` parameter requests a permission that wasn't granted when the user last consented.
+- The user logs in with LINE Login after [revoking consent for the authorized app](https://developers.line.biz/en/docs/line-login/managing-authorized-apps/).
+- The `prompt` parameter is set to `consent`.
+- The `scope` parameter includes `email`, and either a certain period of time has passed since the user last consented or the user's email address has changed.
 
-<!-- note end -->
+If none of the conditions above apply, the user is redirected directly to your web app without the consent screen being displayed after user authentication is complete.
 
 ## Receiving the authorization response or error response with a web app 
 
