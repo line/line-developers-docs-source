@@ -1952,20 +1952,72 @@ liff.permission.query("profile").then((permissionStatus) => {
 #### Syntax 
 
 ```javascript
-liff.permission.requestAll();
+liff.permission.requestAll(params);
 ```
 
 #### Arguments 
 
-None
+<!-- note start -->
+
+**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
+
+The arguments are available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
+
+<!-- note end -->
+
+<!-- parameter start (props: optional) -->
+
+params
+
+Object
+
+Parameter object
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+params.officialAccount
+
+Object
+
+Object used to specify the LINE Official Account that users are prompted to add as a friend or unblock through the add friend option. If omitted, the default LINE Official Account is displayed.
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+officialAccount.id
+
+String
+
+The ID of the LINE Official Account that users are prompted to add as a friend or unblock through the add friend option. Specify the basic ID or [premium ID](https://developers.line.biz/en/glossary/#premium-id).
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+officialAccount.fallback
+
+Boolean
+
+Whether to display the default LINE Official Account if the LINE Official Account specified in the `officialAccount.id` property doesn't exist, isn't registered in the allowlist, or can't be used for another reason. The default value is `true`.
+
+- `true`: Display the default LINE Official Account.
+- `false`: Don't display any LINE Official Account.
+
+<!-- parameter end -->
 
 #### Return value 
 
 Returns a `Promise` object.
 
-##### Error response 
+#### Error response 
 
-If **Channel consent simplification** isn't turned on, and the user has already consented to all the permissions, `Promise` will be rejected and [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) will be returned.
+When the `Promise` is rejected, a [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) is passed. The following errors are specific to the `liff.permission.requestAll()` method:
+
+| Error code | Error message | Description |
+| --- | --- | --- |
+| `FORBIDDEN` | `All permissions have already been approved.` | The user has already consented to all the permissions. |
+| `FORBIDDEN` | `SkipChannelVerificationScreen is unavailable.` | **Channel consent simplification** is disabled. |
+| `INVALID_ARGUMENT` | `officialAccount.id must start with "@".` | The value of the `officialAccount.id` property doesn't start with `@`. |
 
 ## Profile 
 
@@ -2111,12 +2163,37 @@ liff.getFriendship().then((data) => {
 #### Syntax 
 
 ```javascript
-liff.getFriendship();
+liff.getFriendship(params);
 ```
 
 #### Arguments 
 
-None
+<!-- note start -->
+
+**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
+
+The arguments are available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
+
+<!-- note end -->
+
+<!-- parameter start (props: optional) -->
+
+params
+
+Object
+
+Parameter object. If omitted, the friendship status with the default LINE Official Account is retrieved.
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+params.officialAccountId
+
+String
+
+The ID of the LINE Official Account whose friendship status you want to retrieve. Specify the basic ID or [premium ID](https://developers.line.biz/en/glossary/#premium-id).
+
+<!-- parameter end -->
 
 #### Return value 
 
@@ -2135,10 +2212,6 @@ Boolean
 
 <!-- parameter end -->
 
-##### Error response 
-
-When the `Promise` is rejected, [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) is passed.
-
 _Example_
 
 <!-- tab start `json` -->
@@ -2150,6 +2223,17 @@ _Example_
 ```
 
 <!-- tab end -->
+
+#### Error response 
+
+When the `Promise` is rejected, a [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) is passed. The following errors are specific to the `liff.getFriendship()` method:
+
+| Error code | Error message | Description |
+| --- | --- | --- |
+| `400` | `Bot not found` | <p>The LINE Official Account whose friendship status is being retrieved can't be found. Possible causes include:</p><ul><li>The LINE Official Account specified in the `officialAccountId` property doesn't exist.</li><li>The LINE Official Account specified in the `officialAccountId` property isn't registered in the allowlist.</li><li>The LINE Official Account specified in the `officialAccountId` property is suspended or deleted.</li></ul> |
+| `400` | `There is no login bot linked to this channel.` | <p>The LINE Official Account whose friendship status is being retrieved doesn't exist. Possible causes include:</p><ul><li><b>Linked LINE Official Account</b> isn't configured for the LINE Login channel.</li><li><b>Default LINE Official Account</b> isn't configured for the LINE MINI App channel, and the `officialAccountId` property isn't specified.</li></ul> |
+| `403` | `LOGIN_MULTI_LINKED_BOT_PROMPT feature license is required.` | The `officialAccountId` property is specified, but **Use multiple accounts** is disabled for the LINE MINI App channel. |
+| `INVALID_ARGUMENT` | `officialAccountId must start with "@".` | The value of the `officialAccountId` property doesn't start with `@`. |
 
 ### liff.requestFriendship() 
 
@@ -2171,7 +2255,9 @@ _Example_
 
 ```javascript
 try {
-  await liff.requestFriendship();
+  await liff.requestFriendship({
+    template: { id: "coupon" },
+  });
 } catch (error) {
   console.log(error);
 }
@@ -2182,12 +2268,97 @@ try {
 #### Syntax 
 
 ```javascript
-liff.requestFriendship();
+liff.requestFriendship(params);
 ```
 
 #### Arguments 
 
-None
+<!-- parameter start (props: optional) -->
+
+params
+
+Object
+
+Parameter object
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+params.officialAccount
+
+Object
+
+Object used to specify the LINE Official Account that users are prompted to add as a friend or unblock. If omitted, the default LINE Official Account is displayed.
+
+<!-- note start -->
+
+**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
+
+Available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
+
+<!-- note end -->
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+officialAccount.id
+
+String
+
+The ID of the LINE Official Account that users are prompted to add as a friend or unblock. Specify the basic ID or [premium ID](https://developers.line.biz/en/glossary/#premium-id).
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+officialAccount.fallback
+
+Boolean
+
+Whether to display the default LINE Official Account if the LINE Official Account specified in the `officialAccount.id` property doesn't exist, isn't registered in the allowlist, or can't be used for another reason. The default value is `true`.
+
+- `true`: Display the default LINE Official Account.
+- `false`: Don't display any LINE Official Account.
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+params.template
+
+Object
+
+Object used to specify the [template](https://developers.line.biz/en/reference/liff/#request-friendship-template) for the message displayed in the subwindow that prompts users to add the LINE Official Account as a friend or unblock it.
+
+<!-- parameter end -->
+<!-- parameter start (props: required) -->
+
+template.id
+
+String
+
+The ID of the [template](https://developers.line.biz/en/reference/liff/#request-friendship-template) for the message displayed in the subwindow that prompts users to add the LINE Official Account as a friend or unblock it.
+
+<!-- parameter end -->
+
+##### Template 
+
+| ID | Category | Japanese | English |
+| --- | --- | --- | --- |
+|  | Default | この公式アカウントを友だち追加しますか？ | Add this official account as a friend? |
+| `bonusContent` | Bonus content | 公式アカウントから特典コンテンツやお得な情報をお届けします。 | Get bonus content and special offers from this official account. |
+| `bonusItem` | Bonuses | 公式アカウントからボーナスやアイテムをお届けします。 | Get bonuses and items from this official account. |
+| `campaign` | Campaigns | 公式アカウントからキャンペーンなどのお得な情報をお届けします。 | Get campaign news and special offers from this official account. |
+| `coupon` | Coupons | 公式アカウントからクーポンや特典情報をお届けします。 | Get coupons and special offers from this official account. |
+| `couponUsefulInfo` | Coupons and useful information | 公式アカウントから定期的にクーポンや有益な情報をお届けします。 | Get regular coupons and useful information from this official account. |
+| `eventReward` | Events and rewards | 公式アカウントからイベント情報や限定特典をお届けします。 | Get event info and exclusive rewards from this official account. |
+| `exclusiveContent` | Exclusive content | 公式アカウントからここでしか見られない限定コンテンツをお届けします。 | Get exclusive content you won’t find anywhere else from this official account. |
+| `exclusiveUpdate` | Exclusive updates | 公式アカウントから特別なお知らせをお届けします。 | Get special updates from this official account. |
+| `featureAccess` | Feature access | 公式アカウントの便利な機能をご利用いただけます。 | Get access to useful features from this official account. |
+| `gameInfoTips` | Game information | 公式アカウントからゲーム情報やプレイに役立つヒントをお届けします。 | Get game news and helpful gameplay tips from this official account. |
+| `gameNotification` | Game information | 公式アカウントでこのゲームからの通知を受け取れます。 | Get notifications from this game through its official account. |
+| `importantAnnouncement` | Important announcements | 公式アカウントから重要なお知らせをお届けします。 | Get important updates from this official account. |
+| `newReleaseUpdate` | New releases and updates | 公式アカウントから新着・更新情報をお届けします。 | Get the latest news and updates from this official account. |
+| `promotionalFlyer` | Flyers | 公式アカウントからお得なチラシ情報をお届けします。 | Get flyers with the latest deals from this official account. |
+| `usefulInfo` | Useful information | 公式アカウントから有益な情報をお届けします。 | Get useful information from this official account. |
 
 #### Return value 
 
@@ -2201,11 +2372,15 @@ It isn't possible to confirm from the return value whether the user has added th
 
 <!-- note end -->
 
-##### Error response 
+#### Error response 
 
-When the `Promise` is rejected, [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) is passed.
+When the `Promise` is rejected, a [`LiffError`](https://developers.line.biz/en/reference/liff/#liff-errors) is passed. The following errors are specific to the `liff.requestFriendship()` method:
 
-If the **Linked LINE Official Account** in the add friend option isn't set, or if the screen size of the LIFF app isn't `Full`, the error code `FORBIDDEN` is returned.
+| Error code | Error message | Description |
+| --- | --- | --- |
+| `FORBIDDEN` | `No bot could be resolved for the request.` | <p>The LINE Official Account to be displayed doesn't exist. Possible causes include:</p><ul><li>**Linked LINE Official Account** isn't configured for the LINE Login channel.</li><li>**Default LINE Official Account** isn't configured for the LINE MINI App channel, and **Use multiple accounts** is disabled.</li><li>**Default LINE Official Account** isn't configured for the LINE MINI App channel, and the `officialAccount.id` property isn't specified.</li><li>The LINE Official Account specified in the `officialAccount.id` property doesn't exist, and the value of the `officialAccount.fallback` property is `false`.</li><li>The LINE Official Account specified in the `officialAccount.id` property isn't registered in the allowlist, and the value of the `officialAccount.fallback` property is `false`.</li><li>The LINE Official Account specified in the `officialAccount.id` property is suspended or deleted, and the value of the `officialAccount.fallback` property is `false`.</li></ul> |
+| `FORBIDDEN` | `subwindowOpen is not allowed in this LIFF app` | The screen size of the LIFF app isn't set to `Full`. |
+| `INVALID_ARGUMENT` | `officialAccount.id must start with "@".` | The value of the `officialAccount.id` property doesn't start with `@`. |
 
 ## Window 
 

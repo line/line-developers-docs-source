@@ -18,13 +18,39 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 
-[LIFF v2.29.2: July 31, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-29-2)
+[LIFF v2.30.0: August 17, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-30-0)
 
 ### Version list 
 
-When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.29.2/sdk.js`), you can use the features of the specified LIFF version.
+When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.30.0/sdk.js`), you can use the features of the specified LIFF version.
 
 <!-- table of contents -->
+
+2026/08/17
+
+## LIFF v2.30.0 released 
+
+We've released LIFF v2.30.0.
+
+In LIFF v2.30.0, we've added the following feature.
+
+### Ahead of the release of a new feature for the LINE MINI App's add friend option, you can now pass arguments to some methods 
+
+We plan to introduce a feature that allows multiple LINE Official Accounts to be linked in the [add friend option](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel) for LINE MINI Apps. Ahead of this release, you can now pass arguments to the following three methods:
+
+- [`liff.permission.requestAll()`](https://developers.line.biz/en/reference/liff/#permission-request-all)
+- [`liff.getFriendship()`](https://developers.line.biz/en/reference/liff/#get-friendship)
+- [`liff.requestFriendship()`](https://developers.line.biz/en/reference/liff/#request-friendship)
+
+The arguments for these methods are available only when **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
+
+### How to update to LIFF v2.30.0 
+
+If you're using the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you'll automatically update LIFF to v2.30.0.
+
+If you're using an npm package, you can update to v2.30.0 by executing either `npm install @line/liff@2.30.0` or `yarn add @line/liff@2.30.0`.
+
+For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK with the LIFF app](https://developers.line.biz/en/docs/liff/developing-liff-apps/#integrating-sdk) in the LIFF documentation.
 
 2026/07/31
 

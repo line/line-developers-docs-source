@@ -18,13 +18,39 @@ LIFFでは、CDN固定パスとCDNエッジパスの2種類のCDNパスを用意
 
 CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使用する場合は、常にLIFF v2の最新機能を利用できます。
 
-[LIFF v2.29.2：2026年7月31日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-29-2)
+[LIFF v2.30.0：2026年8月17日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-30-0)
 
 ### バージョンリスト 
 
-CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.29.2/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
+CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.30.0/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
 
 <!-- table of contents -->
+
+2026/08/17
+
+## LIFF v2.30.0をリリースしました 
+
+LIFF v2.30.0をリリースしました。
+
+LIFF v2.30.0では、以下の機能を追加しました。
+
+### LINEミニアプリの友だち追加オプションにおける新機能の提供に先立ち、一部メソッドに引数を指定できるようになりました 
+
+LINEミニアプリの[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel)において、複数のLINE公式アカウントをリンクする機能の提供を予定しています。これに先立ち、次の3つのメソッドに引数を指定できるようになりました。
+
+- [`liff.permission.requestAll()`](https://developers.line.biz/ja/reference/liff/#permission-request-all)
+- [`liff.getFriendship()`](https://developers.line.biz/ja/reference/liff/#get-friendship)
+- [`liff.requestFriendship()`](https://developers.line.biz/ja/reference/liff/#request-friendship)
+
+各メソッドの引数は、LINEミニアプリチャネルの［**複数アカウントを使用**］がオンの場合のみ利用できます。［**複数アカウントを使用**］は、日本のLINEミニアプリ向けに、2026年9月の提供を予定しています。
+
+### LIFF v2.30.0へのアップデート方法 
+
+CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を利用している場合は、自動でv2.30.0にアップデートされています。
+
+npmパッケージを利用している場合は、`npm install @line/liff@2.30.0`もしくは`yarn add @line/liff@2.30.0`を実行するとv2.30.0にアップデートされます。
+
+LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメント』の「[LIFFアプリにLIFF SDKを組み込む](https://developers.line.biz/ja/docs/liff/developing-liff-apps/#integrating-sdk)」を参照してください。
 
 2026/07/31
 
