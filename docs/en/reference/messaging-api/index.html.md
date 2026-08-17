@@ -202,6 +202,22 @@ For example, if you specify a URI with the following components, it should be `h
 | ------ | ----------- | ----- | --------------- | -------------- |
 | https  | example.com | /path | q=Good morning  | Good afternoon |
 
+#### Specify the endpoint path accurately 
+
+When you send a request to a Messaging API endpoint, specify the correct endpoint shown in the Messaging API reference. If you don't specify the correct endpoint, for example by adding an unnecessary trailing slash (`/`) to the end of the endpoint path, the behavior isn't guaranteed.
+
+| ✅️ Example of a correct endpoint | ❌️ Example of an incorrect endpoint |
+| --- | --- |
+| `https://api.line.me/v2/bot/message/push` | `https://api.line.me/v2/bot/message/push/` |
+
+<!-- tip start -->
+
+**Use the Messaging API official SDKs**
+
+If you implement your integration using the Messaging API [official SDKs](https://developers.line.biz/en/docs/messaging-api/line-bot-sdk/#official-sdks), you don't need to worry about endpoint URLs or paths — they're always correct.
+
+<!-- tip end -->
+
 ## Webhooks 
 
 When an event occurs, such as when a user adds your LINE Official Account as a friend or sends a message, the LINE Platform sends an HTTPS POST request to the webhook URL (bot server).

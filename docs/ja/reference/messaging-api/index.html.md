@@ -202,6 +202,22 @@ _エラーレスポンスの例_
 | -------- | ----------- | ----- | ---------------- | ------------ |
 | https    | example.com | /path | q=おはよう       | こんにちは   |
 
+#### エンドポイントのパスは正確に指定してください 
+
+Messaging APIのエンドポイントにリクエストを送信する際は、Messaging APIリファレンスに記載された正しいエンドポイントを指定してください。エンドポイントのパスの末尾に不要なスラッシュ（`/`）を付与するなど、正しいエンドポイントを指定していない場合の動作は保証されません。
+
+| ✅️ 正しいエンドポイントの例 | ❌️ 誤ったエンドポイントの例 |
+| --- | --- |
+| `https://api.line.me/v2/bot/message/push` | `https://api.line.me/v2/bot/message/push/` |
+
+<!-- tip start -->
+
+**Messaging APIの公式SDKを使いましょう**
+
+Messaging APIの[公式SDK](https://developers.line.biz/ja/docs/messaging-api/line-bot-sdk/#official-sdks)を使って実装すると、エンドポイントのURLやパスを意識することなく、常に正しいエンドポイントを利用できます。
+
+<!-- tip end -->
+
 ## Webhook 
 
 友だち追加やユーザーからのメッセージ送信のようなイベントが発生すると、LINEプラットフォームからWebhook URL（ボットサーバー）にHTTPS POSTリクエストが送信されます。
