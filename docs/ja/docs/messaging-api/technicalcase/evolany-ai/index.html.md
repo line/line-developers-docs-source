@@ -53,5 +53,5 @@ AI関連サービスは習得難易度が⾼いサービスが多いですが、
 ## 関連リンク 
 
 - [エボラニ株式会社](https://evolany.com/)
-- [anybot](https://anybot.me/campaign)
+- [anybot](https://www.anybot.me/special/campaign/)
 - [anybot for ChatGPT](https://chatgpt.anybot.me/)

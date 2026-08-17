@@ -53,5 +53,5 @@ We believe that generative AI services are on the brink of a new era. While the 
 ## Related links 
 
 - [Evolany Co., Ltd.](https://evolany.com/en/)
-- [anybot](https://anybot.me/campaign)
+- [anybot](https://www.anybot.me/special/campaign/)
 - [anybot for ChatGPT](https://chatgpt.anybot.me/)
