@@ -6,7 +6,7 @@
 
 <!-- tip start -->
 
-**LINE SDK fo iOS/Android/Unityのスターターアプリ**
+**LINE SDK for iOS/Android/Unityのスターターアプリ**
 
 プラットフォームごとにLINEログインのスターターアプリを試すことができます：
 
