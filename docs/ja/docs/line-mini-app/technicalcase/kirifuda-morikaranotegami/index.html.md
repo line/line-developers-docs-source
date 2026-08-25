@@ -22,7 +22,7 @@
 
 ### スクリーンショット 
 
-![service-image](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/ja/kirifuda-morikaranotegami-ui-img.gif)
+![service-image](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/ja/kirifuda-morikaranotegami-ui-img.webp)
 
 ## システムの解説 
 

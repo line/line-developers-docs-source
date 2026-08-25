@@ -28,7 +28,7 @@ SkillBoxは、エンゲージメント向上を手間なく実現する「褒め
 
 ### スクリーンショット 
 
-![サービスイメージ](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/ja/skillbox-ui-img.png)
+![サービスイメージ](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/ja/skillbox-ui-img.webp)
 
 ## システムの解説 
 

@@ -22,7 +22,7 @@ Tokyu Land Corporation has made company-wide efforts to invest in decarbonizatio
 
 ### Image 
 
-![service-image](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/en/kirifuda-morikaranotegami-ui-img.gif)
+![service-image](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/en/kirifuda-morikaranotegami-ui-img.webp)
 
 ## System overview 
 

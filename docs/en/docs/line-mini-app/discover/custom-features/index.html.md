@@ -54,7 +54,7 @@ For example, by setting a unique name as a Custom Path, users will be able to id
 The user can add a shortcut to your LINE MINI App to the home screen of the user's device. This allows the user to access your LINE MINI App directly from the home screen of the user's device.
 
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.png)
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-en.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-en.webp)
 
 Using this feature for services that users frequently use, such as membership cards and mobile ordering, can improve the user experience.
 

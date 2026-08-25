@@ -28,7 +28,7 @@ Through SkillBox, we aim to address the challenge of early turnover among young 
 
 ### Image 
 
-![service-image](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/en/skillbox-ui-img.png)
+![service-image](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/en/skillbox-ui-img.webp)
 
 ## System overview 
 

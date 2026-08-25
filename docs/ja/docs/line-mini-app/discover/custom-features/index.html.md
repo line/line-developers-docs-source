@@ -54,7 +54,7 @@ Custom Pathとは、本番用のLIFF URLに設定する独自の文字列のこ�
 ユーザー端末のホーム画面にLINEミニアプリへのショートカットを追加できます。この機能を使うと、ユーザーは端末のホーム画面からLINEミニアプリに直接アクセスできるようになります。
 
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.png)
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-ja.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-ja.webp)
 
 会員証やモバイルオーダーなど、ユーザーの利用頻度の高いサービスでこの機能を活用することで、ユーザー体験を向上させることができます。
 

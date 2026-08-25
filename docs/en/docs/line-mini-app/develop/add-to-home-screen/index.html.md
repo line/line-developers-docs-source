@@ -23,12 +23,12 @@ On some Android devices, if a user changes the icon from **Settings** > **App ic
 <!-- note end -->
 
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-android-en.png)
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-android.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-android.webp)
 
 **Display on iOS device**
 
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.png)
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-en.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-en.webp)
 
 Using this feature for services that users frequently use, such as membership cards and mobile ordering, can improve the user experience.
 

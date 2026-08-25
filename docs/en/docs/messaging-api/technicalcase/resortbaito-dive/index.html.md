@@ -20,7 +20,7 @@ At Dive Inc., our resort part-time resort staffing service, “Resort Baito Dive
 
 ### Image 
 
-![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img.png)
+![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img.webp)
 
 ![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img-2.png)
 

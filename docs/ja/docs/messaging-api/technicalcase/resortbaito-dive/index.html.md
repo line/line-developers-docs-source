@@ -20,7 +20,7 @@
 
 ### スクリーンショット 
 
-![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img.png)
+![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img.webp)
 
 ![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img-2.png)
 

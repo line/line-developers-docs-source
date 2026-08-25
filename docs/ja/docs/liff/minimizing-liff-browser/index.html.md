@@ -105,7 +105,7 @@ LINEバージョン15.20.0未満の場合、最小化したLIFFブラウザを�
 
 最小化したLIFFブラウザをドラッグすると、画面下に閉じるアイコンが表示されます。閉じるアイコンに最小化したLIFFブラウザをドラッグし、指を離します。
 
-![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ios-12-12-0-or-later-ja.png)
+![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ios-12-12-0-or-later-ja.webp)
 
 ## 最小化したLIFFブラウザを閉じる（LINEバージョン15.20.0以降の場合） 
 

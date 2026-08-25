@@ -105,7 +105,7 @@ Swipe the minimized LIFF browser off the screen.
 
 Dragging a minimized LIFF browser shows the close icon at the bottom of the screen. Drag the minimized LIFF browser to the close icon and release your finger.
 
-![Closing a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ios-12-12-0-or-later-en.png)
+![Closing a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ios-12-12-0-or-later-en.webp)
 
 ## Closing a minimized LIFF browser (LINE version 15.20.0 or later) 
 
