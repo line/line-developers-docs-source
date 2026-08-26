@@ -2,7 +2,7 @@
 
 LIFFアプリがユーザーの情報を取得したり、ユーザーにメッセージを送信したりするには、ユーザーがLIFFアプリに初めてアクセスする際に、「チャネル同意画面」において、対応する権限に同意する必要があります。
 
-LINEミニアプリでは、「チャネル同意の簡略化」機能によって、ユーザーが簡略化に対する同意を初回のみ行うだけで、別のLINEミニアプリに初めてアクセスする際に「チャネル同意画面」をスキップし、すぐにLINEミニアプリの利用を開始できるようになります。
+LINEミニアプリでは、「チャネル同意の簡略化」機能を有効にすると、ユーザーがより簡単にLINEミニアプリにアクセスできるようになります。
 
 このページでは「チャネル同意の簡略化」機能と、それに基づく認可フローについて説明します。
 
@@ -10,15 +10,13 @@ LINEミニアプリでは、「チャネル同意の簡略化」機能によっ�
 
 ## 「チャネル同意の簡略化」機能とは 
 
-「チャネル同意の簡略化」機能とは、ユーザーがLINEミニアプリに初めてアクセスする際に必要となる、権限への同意を簡略化する仕組みです。ユーザーが簡略化に一度同意すれば、別のLINEミニアプリでも権限に同意したとみなされます。以降初めてアクセスするLINEミニアプリ（※）では「チャネル同意画面」がスキップされ、すぐにLINEミニアプリの利用を開始できます。
+「チャネル同意の簡略化」機能とは、ユーザーがLINEミニアプリに初めてアクセスする際に必要となる、権限への同意を簡略化する仕組みです。
 
-ただし、LINEヤフー株式会社による個人情報保護方針に基づき、「チャネル同意の簡略化」機能で同意がスキップされる権限は[ユーザーID](https://developers.line.biz/ja/glossary/#user-id)の取得（`openid`スコープ）のみです。ユーザーのプロフィール情報の取得やメッセージ送信に必要な権限（[`profile`スコープや`chat_message.write`スコープ](https://developers.line.biz/ja/docs/liff/registering-liff-apps/#registering-liff-app)など）は、「チャネル同意の簡略化」機能の対象に含まれません。これらの追加の権限については、各LINEミニアプリ内で必要となったタイミングで「アクセス許可要求画面」が表示されます。詳しくは、「[「アクセス許可要求画面」でopenidスコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」を参照してください。
+「チャネル同意の簡略化」機能を有効にすると、ユーザーがLINEミニアプリに初めてアクセスする際に、「チャネル同意画面」をスキップし、すぐにLINEミニアプリの利用を開始できるようになります。ユーザー体験向上のため、「チャネル同意の簡略化」機能を有効にすることを推奨します。
 
-「チャネル同意の簡略化」機能を有効にすると、ユーザーがより簡単にLINEミニアプリにアクセスできるようになります。ユーザー体験向上のため、「チャネル同意の簡略化」機能を有効にすることを推奨します。
+「チャネル同意の簡略化」機能の対象となる権限は、[ユーザーID](https://developers.line.biz/ja/glossary/#user-id)の取得（`openid`スコープ）のみです。ユーザーのプロフィール情報の取得やメッセージ送信に必要な権限（[`profile`スコープや`chat_message.write`スコープ](https://developers.line.biz/ja/docs/liff/registering-liff-apps/#registering-liff-app)など）は対象に含まれません。これらの追加の権限については、各LINEミニアプリ内で必要となったタイミングで「アクセス許可要求画面」が表示されます。詳しくは、「[「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」を参照してください。
 
 なお、日本の新規LINEミニアプリチャネルでは「チャネル同意の簡略化」機能が常に有効になります。詳しくは、[2026年1月8日のニュース](https://developers.line.biz/ja/news/2026/01/08/channel-consent-simplification/)を参照してください。
-
-※ [「チャネル同意の簡略化」機能が無効なLINEミニアプリ](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#authorization-flow-disabled)では「チャネル同意画面」が表示されます。
 
 <!-- note start -->
 
@@ -28,7 +26,7 @@ LIFF SDKで取得した[アクセストークン](https://developers.line.biz/ja
 
 たとえば、[IDトークンを検証する](https://developers.line.biz/ja/reference/line-login/#verify-id-token)エンドポイントを実行し、取得したユーザーの[プロフィール情報](https://developers.line.biz/ja/glossary/#profile-information)をLINEミニアプリのサービスアカウントの作成に利用する設計の場合、「チャネル同意の簡略化」機能によって、ユーザーのプロフィール情報（`profile`スコープ）の取得権限への同意がスキップされるため、IDトークンのペイロードにユーザーのプロフィール情報が含まれません。その結果、ユーザーのプロフィール情報をサービスアカウントの作成に利用できなくなります。
 
-この問題を回避するには、アクセストークンやIDトークンを取得する前に、[`liff.permission.query()`](https://developers.line.biz/ja/reference/liff/#permission-query)メソッドと[`liff.permission.requestAll()`](https://developers.line.biz/ja/reference/liff/#permission-request-all)メソッドを使って「アクセス許可要求画面」を表示し、ユーザーに必要な権限を要求してください。詳しくは、「[「アクセス許可要求画面」でopenidスコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」を参照してください。
+この問題を回避するには、アクセストークンやIDトークンを取得する前に、[`liff.permission.query()`](https://developers.line.biz/ja/reference/liff/#permission-query)メソッドと[`liff.permission.requestAll()`](https://developers.line.biz/ja/reference/liff/#permission-request-all)メソッドを使って「アクセス許可要求画面」を表示し、ユーザーに必要な権限を要求してください。詳しくは、「[「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」を参照してください。
 
 <!-- note end -->
 
@@ -61,34 +59,13 @@ LIFF SDKで取得した[アクセストークン](https://developers.line.biz/ja
 
 ## 「チャネル同意の簡略化」機能が有効なLINEミニアプリでの認可フロー 
 
-「チャネル同意の簡略化」機能が有効なLINEミニアプリでは、次の2段階でユーザーに権限を要求します。
+「チャネル同意の簡略化」機能が有効なLINEミニアプリでは、ユーザーID（`openid`スコープ）の取得権限が付与された状態でLINEミニアプリが開かれます。
 
-1. [「簡略化同意画面」でユーザーID（`openid`スコープ）の取得権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-openid)
-1. [「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)
+`openid`スコープ以外の権限が必要な場合は、「[「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」を参照してください。
 
-### 1. 「簡略化同意画面」でユーザーID（`openid`スコープ）の取得権限を要求する 
+![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/authorization-flow-enabled-ja.webp)
 
-ユーザーが「チャネル同意の簡略化」機能が有効なLINEミニアプリに初めてアクセスすると、「簡略化同意画面」が表示されます。「簡略化同意画面」では、ユーザーにユーザーID（`openid`スコープ）の取得権限を許可するかどうかを確認します。
-
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/simplification-consent-screen-ja.png)
-
-ユーザーが［**同意する**］をタップすると、読み込み画面が表示された後、LINEミニアプリを利用できるようになります。
-
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/loading-screen-ja.png)
-
-また、［**同意する**］をタップしたことで、別のLINEミニアプリによるユーザーIDの取得にも同意したとみなされます。以降、「チャネル同意の簡略化」機能が有効なLINEミニアプリに初めてアクセスする際には、「チャネル同意画面」がスキップされ、すぐにLINEミニアプリを利用できるようになります。
-
-<!-- tip start -->
-
-**ユーザーが［今はしない］をタップした場合の動作**
-
-ユーザーが［**今はしない**］をタップした場合、簡略化に対する同意がスキップされ、以降は 「チャネル同意の簡略化」が有効なLINEミニアプリを開いても「簡略化同意画面」が表示されなくなります。スキップ後、24時間が経過すると「簡略化同意画面」が再び表示されるようになります。
-
-また、簡略化に対する同意をスキップしている間は、「[「チャネル同意の簡略化」が無効なLINEミニアプリでの認可フロー](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#authorization-flow-disabled)」と同様に、LINEミニアプリごとの個別の「チャネル同意画面」が表示されます。
-
-<!-- tip end -->
-
-### 2. 「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する 
+### 「アクセス許可要求画面」で`openid`スコープ以外の権限を要求する 
 
 [`liff.getProfile()`](https://developers.line.biz/ja/reference/liff/#get-profile)メソッドや[`liff.sendMessages()`](https://developers.line.biz/ja/reference/liff/#send-messages)メソッドなど、`openid`スコープ以外の権限を必要とするメソッドを実行すると、「アクセス許可要求画面」が表示されます。「アクセス許可要求画面」では、LINEミニアプリが要求する追加の権限を表示し、権限を許可するかどうかをユーザーに確認します。
 
@@ -120,7 +97,7 @@ liff.permission.query("profile").then((permissionStatus) => {
 
 「アクセス許可要求画面」は、LINEミニアプリを開いたタイミングではなく、`openid`スコープ以外の権限（[`profile`スコープや`chat_message.write`スコープ](https://developers.line.biz/ja/docs/liff/registering-liff-apps/#registering-liff-app)など）を必要とするタイミングで初めて表示されます。
 
-そのため、LINEミニアプリ起動直後に、[`liff.getProfile()`](https://developers.line.biz/ja/reference/liff/#get-profile)メソッドなど`openid`スコープ以外の権限を必要とするリクエストを実行する設計にしている場合は、LINEミニアプリにアクセスしたユーザーからは、アプリ起動時に「チャネル同意画面」がスキップせずに表示されたように見えてしまいます。`openid`スコープ以外の権限を必要とするリクエストは、可能な限り必要となるタイミングで初めて実行するように実装することをお勧めします。
+そのため、LINEミニアプリ起動直後に、[`liff.getProfile()`](https://developers.line.biz/ja/reference/liff/#get-profile)メソッドなど`openid`スコープ以外の権限を必要とするリクエストを実行する設計にしている場合は、LINEミニアプリにアクセスしたユーザーからは、アプリ起動時に「チャネル同意画面」がスキップされずに表示されたように見えてしまいます。`openid`スコープ以外の権限を必要とするリクエストは、可能な限り必要となるタイミングで初めて実行するように実装することをお勧めします。
 
 <!-- tip end -->
 
@@ -143,16 +120,3 @@ LINEミニアプリでは、[友だち追加オプション](https://developers.
 ［**許可する**］をタップすると、そのLINEミニアプリを利用できるようになります。
 
 ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/line-mini-app-playground-channel-consent-screen-ja.png)
-
-## ユーザーの簡略化同意の有無による動作の違い 
-
-ユーザーが「簡略化同意画面」で簡略化に同意している場合、「チャネル同意の簡略化」機能が有効なLINEミニアプリに初めてアクセスする際は「チャネル同意画面」が表示されず、「読み込み画面」が表示された後すぐにLINEミニアプリを利用できます。
-
-一方、ユーザーが「簡略化同意画面」で簡略化に同意していない場合、ユーザーがLINEミニアプリに初めてアクセスする際は、そのLINEミニアプリで「チャネル同意の簡略化」機能が有効かどうかに関係なく、「チャネル同意画面」が表示されます。
-
-次の表では、ユーザーの簡略化同意の有無によって、あるLINEミニアプリに初めてアクセスした際の動作の違いを示しています。
-
-| LINEミニアプリ | ユーザーが簡略化に同意している | ユーザーが簡略化に同意していない |
-| --- | --- | --- |
-| 「チャネル同意の簡略化」が有効なLINEミニアプリ | ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/difference-between-consent-and-no-consent-consent-ja.png)<br>「チャネル同意画面」がスキップされます。 | ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/difference-between-consent-and-no-consent-no-consent-ja.png)<br>「チャネル同意画面」が表示されます。 |
-| 「チャネル同意の簡略化」が無効なLINEミニアプリ | ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/difference-between-consent-and-no-consent-no-consent-ja.png)<br>「チャネル同意画面」が表示されます。 | ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/difference-between-consent-and-no-consent-no-consent-ja.png)<br>「チャネル同意画面」が表示されます。 |

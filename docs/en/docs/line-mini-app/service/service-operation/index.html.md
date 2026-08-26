@@ -51,11 +51,11 @@ If a service message is sent with unacceptable content, the use of the service m
 
 For a LIFF app to get user information or send messages to users, users need to consent to the corresponding permissions on the channel consent screen when they access the LIFF app for the first time.
 
-In LINE MINI Apps, with the "Channel consent simplification" feature, users only need to consent to the simplification once. After that, when users access another LINE MINI App for the first time, the channel consent screen is skipped, allowing them to start using the LINE MINI App immediately.
+In LINE MINI Apps, the "Channel consent simplification" feature allows users to skip the channel consent screen when they access a LINE MINI App for the first time and start using the LINE MINI App immediately.
 
-However, based on LY Corporation’s privacy policy, the only permission whose consent is skipped by the "Channel consent simplification" feature is getting the [user ID](https://developers.line.biz/en/glossary/#user-id). For permissions required to get user profile information or send messages, the verification screen is displayed within each LINE MINI App at the time those permissions are needed.
+However, the "Channel consent simplification" feature applies only to the permission to get the [user ID](https://developers.line.biz/en/glossary/#user-id). For permissions required to get user profile information or send messages, the verification screen is displayed within each LINE MINI App at the time those permissions are needed.
 
-Enabling the "Channel consent simplification" feature makes it easier for users to access LINE MINI Apps. To improve the user experience, we recommend enabling the "Channel consent simplification" feature.
+Enabling the "Channel consent simplification" feature makes it easier for users to access the LINE MINI App. To improve the user experience, we recommend enabling the "Channel consent simplification" feature.
 
 For new LINE MINI App channels in Japan, the "Channel consent simplification" feature is always enabled.
 

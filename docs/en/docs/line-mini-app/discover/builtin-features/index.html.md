@@ -66,6 +66,6 @@ For more information, see [Multi-tab view](https://developers.line.biz/en/docs/l
 
 For a LIFF app to get user information or send messages to users, users need to consent to the corresponding permissions on the channel consent screen when they access the LIFF app for the first time.
 
-In LINE MINI Apps, with the "Channel consent simplification" feature, users only need to consent to the simplification once. After that, when users access another LINE MINI App for the first time, the channel consent screen is skipped, allowing them to start using the LINE MINI App immediately.
+In LINE MINI Apps, the "Channel consent simplification" feature allows users to skip the channel consent screen when they access a LINE MINI App for the first time and start using the LINE MINI App immediately.
 
 For more information, see [LINE MINI App authorization flow](https://developers.line.biz/en/docs/line-mini-app/develop/channel-consent-simplification/).
