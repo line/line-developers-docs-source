@@ -72,7 +72,7 @@ IPアドレスを登録するには、[LINE Developersコンソール](https://d
 
 ## LINE Official Account Managerでの設定 
 
-[LINE Official Account Manager](https://manager.line.biz/)は、LINE公式アカウントを管理するためのツールです。Messaging APIが提供する機能を利用できるほか、[ビジネスプロフィールをカスタマイズ](https://developers.line.biz/ja/docs/messaging-api/building-bot/#customize-profile)してユーザー体験を向上させたり、LINE VOOMの投稿を作成したりなど、さまざまな機能を利用できます。
+[LINE Official Account Manager](https://manager.line.biz/)は、LINE公式アカウントを管理するためのツールです。Messaging APIが提供する機能を利用できるほか、[ビジネスプロフィールをカスタマイズ](https://developers.line.biz/ja/docs/messaging-api/building-bot/#customize-profile)してユーザー体験を向上させるなど、さまざまな機能を利用できます。
 
 LINE公式アカウントのすべての機能については、『[LINEヤフー for Business](https://www.lycbiz.com/jp/)』を参照してください。
 

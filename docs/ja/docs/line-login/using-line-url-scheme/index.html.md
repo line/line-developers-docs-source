@@ -58,7 +58,7 @@ LINEで利用できるURLスキームは以下のとおりです。なお、指�
 - [カメラとカメラロールを開く](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#opening-the-camera-and-camera-roll)
 - [位置情報を送る](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#sending-the-location-screen)
 - [LINE公式アカウントをシェアする](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#sharing-line-official-account)
-- [LINE公式アカウントのLINE VOOMやビジネスプロフィールを開く](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#opening-line-voom-and-profile)
+- [LINE公式アカウントのビジネスプロフィールを開く](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#opening-profile)
 - [LINE公式アカウントとのトーク画面を開く](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#opening-chat-screen)
 - [テキストメッセージを送る](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#sending-text-messages)
 - [プロフィール情報を開く](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/#opening-profile-information)
@@ -153,23 +153,19 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 <!-- tip end -->
 
-### LINE公式アカウントのLINE VOOMやビジネスプロフィールを開く 
+### LINE公式アカウントのビジネスプロフィールを開く 
 
-このLINE URLスキームを使うと、LINE公式アカウントのLINE VOOMやビジネスプロフィールを開くことができます。
-
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/bot-line-voom.png)
+このLINE URLスキームを使うと、LINE公式アカウントのビジネスプロフィールを開くことができます。
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
-| https://line.me/R/home/public/main?id=`{LINE ID without @}` | 指定したLINE公式アカウントのLINE VOOMを開きます。 |
 | https://line.me/R/home/public/profile?id=`{LINE ID without @}` | 指定したLINE公式アカウントのビジネスプロフィールを開きます。 |
-| https://line.me/R/home/public/post?id=`{LINE ID without @}`&postId=`{postId}` | 指定したLINE公式アカウントの特定のLINE VOOMの投稿を開きます。各投稿のIDは、[LINE VOOM Studio](https://voom-studio.line.biz/)で確認できます。 |
 
 <!-- note start -->
 
 **このURLスキームではLINE IDの先頭の@を含めないでください**
 
-`{LINE ID without @}`は、LINE公式アカウントのLINE IDに置き換えてください。ベーシックIDと[プレミアムID](https://developers.line.biz/ja/glossary/#premium-id)のどちらも指定できます。なお、LINE IDの先頭の`@`を含めないでください。たとえば、LINE IDが`@linedevelopers`の場合は、`https://line.me/R/home/public/main?id=linedevelopers`のようにします。
+`{LINE ID without @}`は、LINE公式アカウントのLINE IDに置き換えてください。ベーシックIDと[プレミアムID](https://developers.line.biz/ja/glossary/#premium-id)のどちらも指定できます。なお、LINE IDの先頭の`@`を含めないでください。たとえば、LINE IDが`@linedevelopers`の場合は、`https://line.me/R/home/public/profile?id=linedevelopers`のようにします。
 
 <!-- note end -->
 
@@ -183,9 +179,9 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 <!-- tip start -->
 
-**LINE VOOMへの投稿とビジネスプロフィールのカスタマイズ**
+**ビジネスプロフィールのカスタマイズ**
 
-あなたが管理しているLINE公式アカウントのLINE VOOMに投稿したり、ビジネスプロフィールをカスタマイズしたりするには、[LINE VOOM Studio](https://voom-studio.line.biz/)や[LINE Official Account Manager](https://manager.line.biz/)を使います。
+あなたが管理しているLINE公式アカウントのビジネスプロフィールをカスタマイズするには、[LINE Official Account Manager](https://manager.line.biz/)を使います。
 
 <!-- tip end -->
 
@@ -222,7 +218,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
-| https://line.me/R/share?text=`{text_message}` | 「送信先を選択」画面を開きます。ユーザーは、友だち、グループトーク、または複数人トークを選択して、`{text_message}`に設定されたテキストメッセージを送信できます。テキストはKeepメモやLINE VOOM、他のアプリにも送信できます。 |
+| https://line.me/R/share?text=`{text_message}` | 「送信先を選択」画面を開きます。ユーザーは、友だち、グループトーク、または複数人トークを選択して、`{text_message}`に設定されたテキストメッセージを送信できます。テキストはKeepメモや他のアプリにも送信できます。 |
 
 <!-- note start -->
 
@@ -256,7 +252,6 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 | `https://line.me/R/nv/wallet` | ウォレットタブまたはミニアプリタブを開きます。なお、ミニアプリタブは日本のユーザーのみ利用できます。 |
 | `https://line.me/R/nv/addFriends` | 「友だち追加」画面を開きます。 |
 | `https://line.me/R/nv/officialAccounts` | 「LINE公式アカウント」画面を開きます。 |
-| `https://line.me/R/nv/timeline` | LINE VOOMの「フォロー中」画面を開きます。 |
 
 ### 「設定」画面を開く 
 
@@ -280,7 +275,6 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 | `https://line.me/R/nv/suggestSettings` | 「トーク」 > 「サジェスト表示」設定画面を開きます。 |
 | `https://line.me/R/nv/settings/callSettings` | 「通話」設定画面を開きます。 |
 | `https://line.me/R/nv/settings/addressBookSync` | 「友だち」設定画面を開きます。 |
-| `https://line.me/R/nv/settings/timelineSettings` | 「LINE VOOM」設定画面を開きます。 |
 
 ### スタンプショップを開く 
 

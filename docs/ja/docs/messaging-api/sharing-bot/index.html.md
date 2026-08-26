@@ -38,11 +38,11 @@ LINE公式アカウントのLINE IDをシェアすると、ユーザーはLINE�
 
 ### LINE Social Pluginsの［友だち追加］ボタン 
 
-LINE Social Pluginsで、[［友だち追加］ボタン](https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-add-friend-buttons/)用のコードを生成します。コードをアプリやウェブサイトにコピー＆ペーストするだけで［**友だち追加**］ボタンを追加できます。このボタンは複数の言語で利用できます。また、LINE公式アカウントの友だち数を表示するようにボタンを設定したり、LINE公式アカウントのホームへのリンクを追加したりできます。LINE公式アカウントを友だち追加すると、ボタンテキストが「友だち追加」から「友だち済み」に変化します。
+LINE Social Pluginsで、[［友だち追加］ボタン](https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-add-friend-buttons/)用のコードを生成します。コードをアプリやウェブサイトにコピー＆ペーストするだけで［**友だち追加**］ボタンを追加できます。このボタンは複数の言語で利用できます。また、LINE公式アカウントの友だち数をボタンの横に表示できます。LINE公式アカウントを友だち追加すると、ボタンテキストが「友だち追加」から「友だち済み」に変化します。
 
 LINE Social Pluginsが生成する［**友だち追加**］ボタンを利用するには、「[ボタンを作成](https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-add-friend-buttons/#create-button)」の手順を参照してください。
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/add-friend-button-types.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/add-friend-button-types-ja.png)
 
 ### LINE Official Account Managerの［友だち追加］ボタン 
 

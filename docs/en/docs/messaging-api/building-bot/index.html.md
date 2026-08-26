@@ -72,7 +72,7 @@ If you got a similar log, your bot server did receive a webhook event from the L
 
 ## Settings on LINE Official Account Manager 
 
-The [LINE Official Account Manager](https://manager.line.biz/) is a tool to manage your LINE Official Account. In addition to using the features provided by the Messaging API, you can improve the user experience by [customizing your business profile](https://developers.line.biz/en/docs/messaging-api/building-bot/#customize-profile), create LINE VOOM posts, and much more.
+The [LINE Official Account Manager](https://manager.line.biz/) is a tool to manage your LINE Official Account. In addition to using the features provided by the Messaging API, you can improve the user experience by [customizing your business profile](https://developers.line.biz/en/docs/messaging-api/building-bot/#customize-profile) and much more.
 
 For a complete list of features available to LINE Official Accounts, see [LY for Business](https://www.lycbiz.jp/en/).
 
