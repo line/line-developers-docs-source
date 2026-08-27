@@ -18,7 +18,7 @@ LINE Developersコンソールでは、チャネル設定の［**Messaging API�
 
 LINE Official Account Managerでは、［**ホーム**］>［**友だちを増やす**］>［**友だち追加ガイド**］>［**友だち追加QRコードを作成**］をクリックします。HTMLスニペットをコピーして、ご自身のサイトに貼り付けるとQRコードが表示されます。
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/qr-code-oa-manager-ja.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/qr-code-oa-manager-ja.webp)
 
 ## LINE公式アカウントのLINE IDをシェアする 
 
@@ -48,7 +48,7 @@ LINE Social Pluginsが生成する［**友だち追加**］ボタンを利用す
 
 [LINE Official Account Manager](https://manager.line.biz/)で［**友だち追加**］用のコードを生成します。［**ホーム**］ > ［**友だちを増やす**］ > ［**友だち追加ガイド**］>［**ボタンを作成**］をクリックします。HTMLコードをウェブサイトにコピー＆ペーストすると、ボタンが表示されます。
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/add-friend-button-oa-manager-ja.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/add-friend-button-oa-manager-ja.webp)
 
 ### プロフィールページを開くLINE URLスキーム 
 
@@ -76,7 +76,7 @@ LINE Social Pluginsが生成する［**友だち追加**］ボタンを利用す
 
 LINE公式アカウントをLINEログインチャネルにリンクする方法について詳しくは、『LINEログインドキュメント』の「[LINEログインしたときにLINE公式アカウントを友だち追加する（友だち追加オプション）](https://developers.line.biz/ja/docs/line-login/link-a-bot/)」を参照してください。
 
-![bot_prompt=normalの場合は、同意画面に友だち追加するためのオプションが表示されます。bot_prompt=aggressiveの場合は、ユーザーが同意した後で友だち追加するためのオプションが表示されます。](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-ja.png)
+![bot_prompt=normalの場合は、同意画面に友だち追加するためのオプションが表示されます。bot_prompt=aggressiveの場合は、ユーザーが同意した後で友だち追加するためのオプションが表示されます。](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-ja.webp)
 
 ## 関連ページ 
 

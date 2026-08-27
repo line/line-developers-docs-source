@@ -68,7 +68,7 @@ Webhookの再送について詳しくは、[受け取りに失敗したWebhook�
 
 ### 通知メールの例 
 
-![通知メールの例](https://developers.line.biz/media/partner-docs/error-notification-email-sample.png)
+![通知メールの例](https://developers.line.biz/media/partner-docs/error-notification-email-sample.webp)
 
 ### メール本文 
 

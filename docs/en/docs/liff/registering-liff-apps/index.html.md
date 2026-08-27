@@ -62,7 +62,7 @@ On the **LIFF** tab of LINE Login channels, the LIFF apps will be displayed in t
 1. The LIFF apps added to the LINE Login channel on or after May 23, 2023 will be displayed in descending order of the date added
 1. The LIFF apps added to the LINE Login channel before May 23, 2023 will be displayed in no particular order
 
-![Examples of LIFF apps displayed on the LIFF tab](https://developers.line.biz/media/liff/order-of-liff-apps-en.png)
+![Examples of LIFF apps displayed on the LIFF tab](https://developers.line.biz/media/liff/order-of-liff-apps-en.webp)
 
 ## Other operations 
 

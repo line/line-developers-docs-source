@@ -21,7 +21,7 @@ Messaging APIチャネルと紐づいているLINE公式アカウントの利用
 
 4. LINE Official Account Managerが別タブで開かれ、「LINE公式アカウントを削除」画面が表示されます。以降の手順は、LINE Official Account Manager上で操作します。［**上記の注意事項を理解して、このLINE公式アカウントの削除に同意します。**］にチェックし、［**アカウントを削除**］をクリックします。
 
-![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-account-ja.png)
+![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-account-ja.webp)
 
 <!-- note start -->
 

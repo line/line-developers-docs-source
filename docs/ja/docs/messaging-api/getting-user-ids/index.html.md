@@ -8,7 +8,7 @@ Messaging APIで特定のユーザーに対してメッセージを送信する�
 
 ユーザーIDとは、ユーザーの一意な識別子です。ユーザーIDは、LINEで登録されているユーザーの表示名や、LINEでの友だち検索に利用するLINE IDとは異なります。ユーザーIDはLINEプラットフォームが発行する値で、`U8189cf6745fc0d808977bdb0b9f22995`のように、`U[0-9a-f]{32}`の正規表現にマッチする文字列です。
 
-![](https://developers.line.biz/media/messaging-api/getting-user-ids/display-name-and-id-and-user-id-ja.png)
+![](https://developers.line.biz/media/messaging-api/getting-user-ids/display-name-and-id-and-user-id-ja.webp)
 
 ### ユーザーIDが発行される単位 
 

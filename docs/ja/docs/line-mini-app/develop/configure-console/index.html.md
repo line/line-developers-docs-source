@@ -48,7 +48,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 ユーザーが[アクションボタン](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#action-button)を押したときに、[LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、[マルチタブビュー](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#multi-tab-view)に表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-ja.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-ja.webp)
 
 | 情報 | 設定 |
 | --- | --- |

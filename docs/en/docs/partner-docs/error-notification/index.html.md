@@ -68,7 +68,7 @@ For more information about the webhook redelivery, see [Redeliver a webhook that
 
 ### Notification email sample 
 
-![sample mail](https://developers.line.biz/media/partner-docs/error-notification-email-sample.png)
+![sample mail](https://developers.line.biz/media/partner-docs/error-notification-email-sample.webp)
 
 ### Email content 
 

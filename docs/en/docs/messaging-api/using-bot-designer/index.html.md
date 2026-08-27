@@ -10,7 +10,7 @@ As announced on [January 18, 2022](https://developers.line.biz/en/news/2022/01/1
 
 LINE Bot Designer is a tool for creating LINE Bot prototypes to design your own chatbots easily and quickly. You're not required to have any programming background use this tool.
 
-![LINE Bot Designer](https://developers.line.biz/media/messaging-api/using-bot-designer/bot-designer.png)
+![LINE Bot Designer](https://developers.line.biz/media/messaging-api/using-bot-designer/bot-designer.webp)
 
 ## Download LINE Bot Designer 
 

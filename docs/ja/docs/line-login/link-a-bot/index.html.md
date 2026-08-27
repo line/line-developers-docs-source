@@ -57,7 +57,7 @@ https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id={CHANN
 | `normal` | LINEログインの同意画面に、LINE公式アカウントを友だち追加するオプションを表示します。 |
 | `aggressive` | LINEログインの同意画面の後に、LINE公式アカウントを友だち追加するかどうか確認する画面を表示します。 |
 
-![表示される画面](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-ja.png)
+![表示される画面](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-ja.webp)
 
 <!-- tip start -->
 

@@ -100,7 +100,7 @@ LINEの［**ホーム**］タブの［**サービス**］から、最近利用�
 
 ホームタブの表示ポリシーは、サービスを提供する地域によって異なります。
 
-![](https://developers.line.biz/media/line-mini-app/mini-access-home-tab-ja.png)
+![](https://developers.line.biz/media/line-mini-app/mini-access-home-tab-ja.webp)
 
 ### LINEで探す 
 

@@ -57,7 +57,7 @@ These options are displayed depending on the `bot_prompt` query parameter.
 | `normal` | Display the option to add a LINE Official Account as a friend in the consent screen. |
 | `aggressive` | Opens a new screen with an option to add the LINE Official Account as a friend after the consent screen. |
 
-![Screen to be displayed](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-en.png)
+![Screen to be displayed](https://developers.line.biz/media/line-login/link-a-bot/bot-prompt-en.webp)
 
 <!-- tip start -->
 

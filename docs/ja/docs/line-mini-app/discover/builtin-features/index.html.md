@@ -60,7 +60,7 @@ LINEバージョン26.7.0以降では、アクションボタンをタップす�
 
 詳しくは、『LIFFドキュメント』の「[マルチタブビュー](https://developers.line.biz/ja/docs/liff/overview/#multi-tab-view)」を参照してください。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-ja.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-ja.webp)
 
 ## チャネル同意の簡略化 
 

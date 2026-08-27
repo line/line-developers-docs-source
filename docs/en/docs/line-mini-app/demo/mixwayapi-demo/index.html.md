@@ -36,7 +36,7 @@ Before using the demo app, please note that the app will access your LINE accoun
 
 | | | | |
 | --- | --- | --- | --- |
-|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image1-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image2-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image3-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image4-en.png)|
+|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image1-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image2-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image3-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image4-en.png)|
 | 1.Initialize App | 2.Event Ticket Purchase Process | 3.Search & Select Route | 4.Send Notifications |
 
 <!-- tip start -->

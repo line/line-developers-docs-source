@@ -16,8 +16,8 @@ The main locations for the LINE MINI App icon are as follows:
 - [Service messages](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/)
 
 ![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/channel-consent-screen-en.png)
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/home-tab-en.png)
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/line-message-en.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/home-tab-en.webp)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/line-message-en.webp)
 ![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/service-messages-en.png)
 
 ## Guidelines 

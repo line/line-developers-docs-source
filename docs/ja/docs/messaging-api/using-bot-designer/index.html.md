@@ -10,7 +10,7 @@
 
 LINE Bot Designerは、LINE Botのプロトタイプを簡単に素早く作成できるツールです。このツールを使うのにプログラミングの知識は必要ありません。
 
-![LINE Bot Designer](https://developers.line.biz/media/messaging-api/using-bot-designer/bot-designer.png)
+![LINE Bot Designer](https://developers.line.biz/media/messaging-api/using-bot-designer/bot-designer.webp)
 
 ## LINE Bot Designerをダウンロードする 
 

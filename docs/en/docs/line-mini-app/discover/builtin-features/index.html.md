@@ -60,7 +60,7 @@ The multi-tab view displays your recently used services. The recently used servi
 
 For more information, see [Multi-tab view](https://developers.line.biz/en/docs/liff/overview/#multi-tab-view) in the LIFF documentation.
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-en.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-en.webp)
 
 ## Channel consent simplification 
 

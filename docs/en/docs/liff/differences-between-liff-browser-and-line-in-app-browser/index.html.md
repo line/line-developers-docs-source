@@ -34,7 +34,7 @@ The interface of headers and footers differs between the LIFF browser and LINE's
 
 | LIFF browser | LINE's in-app browser |
 | --- | --- |
-| ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/liff-browser.png)<ul><li>Header<ul><li>Minimizing button is <b>not present</b></li><li>Action button is <b>present</b> (\*)</li></ul></li><li>Footer is <b>not present</b></li></ul> | ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/line-in-app-browser.png)<ul><li>Header<ul><li>Minimizing button is <b>present</b></li><li>Action button is <b>not present</b></li></ul></li><li>Footer is <b>present</b></li></ul> |
+| ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/liff-browser.png)<ul><li>Header<ul><li>Minimizing button is <b>not present</b></li><li>Action button is <b>present</b> (\*)</li></ul></li><li>Footer is <b>not present</b></li></ul> | ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/line-in-app-browser.webp)<ul><li>Header<ul><li>Minimizing button is <b>present</b></li><li>Action button is <b>not present</b></li></ul></li><li>Footer is <b>present</b></li></ul> |
 
 \* The action button isn't displayed in module mode. For more information, see [Adding the LIFF app to your channel](https://developers.line.biz/en/docs/liff/registering-liff-apps/#registering-liff-app).
 

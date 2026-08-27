@@ -112,7 +112,7 @@ Additionally, LINE notification messages sent while the user had blocked the LIN
 
 When a LINE notification message is sent to users, they can consent (or refuse) to get LINE notification messages. Users can also consent (or refuse) at any time from the LINE app by going to **Settings** > **Privacy** > **Provide usage data** > **LINE notification messages**, even when no LINE notification message has been sent.
 
-![Agree to receive LINE notification messages](https://developers.line.biz/media/line-notification-message/consent-line-notification-message-en.png)
+![Agree to receive LINE notification messages](https://developers.line.biz/media/line-notification-message/consent-line-notification-message-en.webp)
 
 #### States of reception settings 
 

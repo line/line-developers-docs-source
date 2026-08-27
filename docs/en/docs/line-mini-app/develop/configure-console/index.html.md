@@ -48,7 +48,7 @@ When a user shares a LINE MINI App page from the [action button](https://develop
 
 When a user taps the [action button](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#action-button), the following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is displayed in the [multi-tab view](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#multi-tab-view).
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-en.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-multi-tab-view-en.webp)
 
 | Information        | Settings                                  |
 | ------------------ | ----------------------------------------- |

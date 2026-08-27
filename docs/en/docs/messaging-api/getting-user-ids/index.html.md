@@ -8,7 +8,7 @@ To send a message to a user with the Messaging API, you need to specify the user
 
 User IDs are unique identifiers for users and are different from display names or the LINE ID users register to become searchable by friends. The LINE Platform issues a user ID as a string, formatted as `U[0-9a-f]{32}` (regular expression). An example of a user ID is `U8189cf6745fc0d808977bdb0b9f22995`.
 
-![](https://developers.line.biz/media/messaging-api/getting-user-ids/display-name-and-id-and-user-id-en.png)
+![](https://developers.line.biz/media/messaging-api/getting-user-ids/display-name-and-id-and-user-id-en.webp)
 
 ### Unit for issuing user IDs 
 

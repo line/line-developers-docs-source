@@ -65,7 +65,7 @@ LINEログインチャネルの［**LIFF**］タブにおいて、LIFFアプリ�
 1. 2023年5月23日以降にLINEログインチャネルへ追加されたLIFFアプリが、追加日の降順で表示される
 1. 2023年5月23日より前にLINEログインチャネルへ追加されたLIFFアプリが、順不同で表示される
 
-![LIFFタブで表示されるLIFFアプリの例](https://developers.line.biz/media/liff/order-of-liff-apps-ja.png)
+![LIFFタブで表示されるLIFFアプリの例](https://developers.line.biz/media/liff/order-of-liff-apps-ja.webp)
 
 ## その他の操作 
 

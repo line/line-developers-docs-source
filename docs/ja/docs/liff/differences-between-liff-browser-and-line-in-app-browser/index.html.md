@@ -34,7 +34,7 @@ LIFFブラウザとLINE内ブラウザでは、ヘッダーやフッターのユ
 
 | LIFFブラウザ | LINE内ブラウザ |
 | --- | --- |
-| ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/liff-browser.png)<ul><li>ヘッダー<ul><li>最小化ボタンが<b>ない</b></li><li>アクションボタンが<b>ある</b>（※）</li></ul></li><li>フッターが<b>ない</b></li></ul> | ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/line-in-app-browser.png)<ul><li>ヘッダー<ul><li>最小化ボタンが<b>ある</b></li><li>アクションボタンが<b>ない</b></li></ul></li><li>フッターが<b>ある</b></li></ul> |
+| ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/liff-browser.png)<ul><li>ヘッダー<ul><li>最小化ボタンが<b>ない</b></li><li>アクションボタンが<b>ある</b>（※）</li></ul></li><li>フッターが<b>ない</b></li></ul> | ![](https://developers.line.biz/media/liff/differences-between-liff-browser-and-line-in-app-browser/line-in-app-browser.webp)<ul><li>ヘッダー<ul><li>最小化ボタンが<b>ある</b></li><li>アクションボタンが<b>ない</b></li></ul></li><li>フッターが<b>ある</b></li></ul> |
 
 ※ モジュールモードでは非表示になります。詳しくは、「[LIFFアプリをチャネルに追加する](https://developers.line.biz/ja/docs/liff/registering-liff-apps/#registering-liff-app)」を参照してください。
 

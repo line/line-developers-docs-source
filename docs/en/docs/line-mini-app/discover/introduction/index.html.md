@@ -100,7 +100,7 @@ Users can access recently used LINE MINI Apps from **Services** on the **Home** 
 
 The Home tab display policy varies by region to provide the service.
 
-![](https://developers.line.biz/media/line-mini-app/mini-access-home-tab-en.png)
+![](https://developers.line.biz/media/line-mini-app/mini-access-home-tab-en.webp)
 
 ### Searching on LINE 
 

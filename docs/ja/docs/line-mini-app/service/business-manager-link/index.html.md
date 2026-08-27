@@ -45,7 +45,7 @@ LINEミニアプリチャネルをビジネスマネージャーの組織と接�
 
 LINEミニアプリチャネルの［**ビジネスマネージャー接続**］タブを開きます。
 
-![](https://developers.line.biz/media/line-mini-app/service/business-manager-tab-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/business-manager-tab-ja.webp)
 
 ［**組織ID**］に接続先の組織の組織ID（BM + 11桁の半角数字）を入力し、［**接続をリクエストする**］をクリックします。
 
@@ -63,7 +63,7 @@ LINEミニアプリチャネルの［**ビジネスマネージャー接続**］
 
 [開発者が接続をリクエストする](https://developers.line.biz/ja/docs/line-mini-app/service/business-manager-link/#send-link-request)と、［**ビジネスマネージャー接続**］タブに接続リクエスト用URLが表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/service/send-link-request-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/send-link-request-ja.webp)
 
 接続リクエスト用URLは、ビジネスマネージャー側のURLです。ビジネスマネージャーの組織の管理者がこのURLを開き、リクエストを承認することで、LINEミニアプリチャネルとビジネスマネージャーの組織が接続されます。
 
@@ -126,11 +126,11 @@ LINEミニアプリチャネルを接続したビジネスマネージャーの�
 
 LINE Developersコンソールでは、LINEミニアプリチャネルの［**ビジネスマネージャー接続**］タブの「ビジネスマネージャー接続」で確認できます。
 
-![](https://developers.line.biz/media/line-mini-app/service/account-linking-review-status-in-console-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/account-linking-review-status-in-console-ja.webp)
 
 ビジネスマネージャーでは、「アカウント・チャネル」画面の「接続審査ステータス」で確認できます。
 
-![](https://developers.line.biz/media/line-mini-app/service/account-linking-review-status-in-bm-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/account-linking-review-status-in-bm-ja.webp)
 
 ### 接続審査が否認された場合 
 
@@ -185,15 +185,15 @@ LINEミニアプリチャネルを正しいビジネスマネージャーの組�
 
 1. ビジネスマネージャーのメニューの［**アカウント・チャネル**］をクリックし、「アカウント・チャネル」画面を開きます。
 
-   ![](https://developers.line.biz/media/line-mini-app/service/account-channel-ja.png)
+   ![](https://developers.line.biz/media/line-mini-app/service/account-channel-ja.webp)
 
 1. 接続審査の再審査をリクエストするLINEミニアプリチャネルの［**詳細**］をクリックします。
 
-   ![](https://developers.line.biz/media/line-mini-app/service/rejected-details-ja.png)
+   ![](https://developers.line.biz/media/line-mini-app/service/rejected-details-ja.webp)
 
 1. ［**認証を再度リクエスト**］をクリックします。
 
-   ![](https://developers.line.biz/media/line-mini-app/service/link-review-results-ja.png)
+   ![](https://developers.line.biz/media/line-mini-app/service/link-review-results-ja.webp)
 
 再審査をリクエストすると、接続審査の再審査が開始されます。
 
@@ -234,7 +234,7 @@ LINEミニアプリチャネルをLINE公式アカウントと接続する流れ
 
 まず、接続するLINE公式アカウントを選択します。ビジネスマネージャーのメニューの［**LINE公式アカウント接続**］をクリックし、「LINE公式アカウントと接続」画面を開きます。
 
-![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-menu-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-menu-ja.webp)
 
 <!-- tip start -->
 
@@ -248,21 +248,21 @@ LINEミニアプリチャネルをLINE公式アカウントと接続する流れ
 
 接続するLINE公式アカウントの名前をクリックします。
 
-![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-oa-name-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-oa-name-ja.webp)
 
 #### 2. 接続するLINEミニアプリチャネルを選択する 
 
 次に、選択したLINE公式アカウントに接続するLINEミニアプリチャネルを選択します。［**接続先を選択**］をクリックします。
 
-![](https://developers.line.biz/media/line-mini-app/service/select-target-for-linking-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/select-target-for-linking-ja.webp)
 
 選択したLINE公式アカウントと同じ組織に接続しているアカウント・チャネルの一覧が表示されます。接続するLINEミニアプリチャネルの［**選択**］をクリックします。
 
-![](https://developers.line.biz/media/line-mini-app/service/select-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/select-ja.webp)
 
 確認画面が表示されるため、LINE公式アカウントとLINEミニアプリチャネルに誤りがないこと、および注意事項を確認し、［**接続**］をクリックします。
 
-![](https://developers.line.biz/media/line-mini-app/service/link-channel-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/link-channel-ja.webp)
 
 ## 関連ページ 
 
