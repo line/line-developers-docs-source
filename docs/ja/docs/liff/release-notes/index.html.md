@@ -18,13 +18,29 @@ LIFFでは、CDN固定パスとCDNエッジパスの2種類のCDNパスを用意
 
 CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使用する場合は、常にLIFF v2の最新機能を利用できます。
 
-[LIFF v2.30.0：2026年8月17日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-30-0)
+[LIFF v2.31.0：2026年8月31日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-31-0)
 
 ### バージョンリスト 
 
-CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.30.0/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
+CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.31.0/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
 
 <!-- table of contents -->
+
+2026/08/31
+
+## LIFF v2.31.0をリリースしました 
+
+LIFF v2.31.0をリリースしました。
+
+LIFF v2.31.0では、LIFF SDK内部の挙動を変更しました。機能の変更はありません。
+
+### LIFF v2.31.0へのアップデート方法 
+
+CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を利用している場合は、自動でv2.31.0にアップデートされています。
+
+npmパッケージを利用している場合は、`npm install @line/liff@2.31.0`もしくは`yarn add @line/liff@2.31.0`を実行するとv2.31.0にアップデートされます。
+
+LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメント』の「[LIFFアプリにLIFF SDKを組み込む](https://developers.line.biz/ja/docs/liff/developing-liff-apps/#integrating-sdk)」を参照してください。
 
 2026/08/17
 
