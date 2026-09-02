@@ -103,7 +103,7 @@ liff.permission.query("profile").then((permissionStatus) => {
 
 ### 「チャネル同意の簡略化」機能と友だち追加オプションを併用する際の注意点 
 
-LINEミニアプリでは、[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel)を使って、アクセス許可要求画面、もしくはチャネル同意画面からLINE公式アカウントの友だち追加への誘導ができます。
+LINEミニアプリでは、[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)を使って、アクセス許可要求画面、もしくはチャネル同意画面からLINE公式アカウントの友だち追加への誘導ができます。
 
 ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-verification-screen-ja.png) ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-channel-consent-screen-ja.png)
 

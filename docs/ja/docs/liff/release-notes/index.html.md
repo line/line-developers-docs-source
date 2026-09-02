@@ -52,7 +52,7 @@ LIFF v2.30.0では、以下の機能を追加しました。
 
 ### LINEミニアプリの友だち追加オプションにおける新機能の提供に先立ち、一部メソッドに引数を指定できるようになりました 
 
-LINEミニアプリの[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel)において、複数のLINE公式アカウントをリンクする機能の提供を予定しています。これに先立ち、次の3つのメソッドに引数を指定できるようになりました。
+LINEミニアプリの[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)において、複数のLINE公式アカウントをリンクする機能の提供を予定しています。これに先立ち、次の3つのメソッドに引数を指定できるようになりました。
 
 - [`liff.permission.requestAll()`](https://developers.line.biz/ja/reference/liff/#permission-request-all)
 - [`liff.getFriendship()`](https://developers.line.biz/ja/reference/liff/#get-friendship)

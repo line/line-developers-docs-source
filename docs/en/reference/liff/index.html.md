@@ -1945,6 +1945,18 @@ liff.permission.query("profile").then((permissionStatus) => {
     liff.permission.requestAll();
   }
 });
+
+// When Use multiple accounts is enabled for the LINE MINI App channel
+liff.permission.query("profile").then((permissionStatus) => {
+  if (permissionStatus.state === "prompt") {
+    liff.permission.requestAll({
+      officialAccount: {
+        id: "@819...",
+        fallback: true,
+      },
+    });
+  }
+});
 ```
 
 <!-- tab end -->
@@ -1957,13 +1969,7 @@ liff.permission.requestAll(params);
 
 #### Arguments 
 
-<!-- note start -->
-
-**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
-
-The arguments are available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
-
-<!-- note end -->
+The arguments are available only in LINE MINI Apps. LIFF SDK v2.30.0 or later is required, and **Use multiple accounts** must be enabled for the LINE MINI App channel. For more information, see [Add a LINE Official Account as a friend in a LINE MINI App (add friend option)](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) in the LINE MINI App documentation.
 
 <!-- parameter start (props: optional) -->
 
@@ -2156,6 +2162,17 @@ liff.getFriendship().then((data) => {
     // something you want to do
   }
 });
+
+// When Use multiple accounts is enabled for the LINE MINI App channel
+liff
+  .getFriendship({
+    officialAccountId: "@819...",
+  })
+  .then((data) => {
+    if (data.friendFlag) {
+      // something you want to do
+    }
+  });
 ```
 
 <!-- tab end -->
@@ -2168,13 +2185,7 @@ liff.getFriendship(params);
 
 #### Arguments 
 
-<!-- note start -->
-
-**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
-
-The arguments are available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
-
-<!-- note end -->
+The arguments are available only in LINE MINI Apps. LIFF SDK v2.30.0 or later is required, and **Use multiple accounts** must be enabled for the LINE MINI App channel. For more information, see [Add a LINE Official Account as a friend in a LINE MINI App (add friend option)](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) in the LINE MINI App documentation.
 
 <!-- parameter start (props: optional) -->
 
@@ -2261,6 +2272,19 @@ try {
 } catch (error) {
   console.log(error);
 }
+
+// When Use multiple accounts is enabled for the LINE MINI App channel
+try {
+  await liff.requestFriendship({
+    officialAccount: {
+      id: "@819...",
+      fallback: true,
+    },
+    template: { id: "coupon" },
+  });
+} catch (error) {
+  console.log(error);
+}
 ```
 
 <!-- tab end -->
@@ -2290,13 +2314,7 @@ Object
 
 Object used to specify the LINE Official Account that users are prompted to add as a friend or unblock. If omitted, the default LINE Official Account is displayed.
 
-<!-- note start -->
-
-**The feature to use multiple accounts using the add friend option is scheduled to be available in September 2026**
-
-Available only when you're using LIFF SDK v2.30.0 or later and **Use multiple accounts** is enabled for the LINE MINI App channel. **Use multiple accounts** is scheduled to be available for LINE MINI Apps in Japan in September 2026.
-
-<!-- note end -->
+The `officialAccount` property is available only in LINE MINI Apps. LIFF SDK v2.30.0 or later is required, and **Use multiple accounts** must be enabled for the LINE MINI App channel. For more information, see [Add a LINE Official Account as a friend in a LINE MINI App (add friend option)](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) in the LINE MINI App documentation.
 
 <!-- parameter end -->
 <!-- parameter start (props: required) -->

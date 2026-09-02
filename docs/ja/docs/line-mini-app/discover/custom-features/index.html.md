@@ -80,7 +80,7 @@ LINEミニアプリにクイック入力を導入すると、住所や電話番�
 
 LINEミニアプリでは、友だち追加オプションを使って、[アクセス許可要求画面](https://developers.line.biz/ja/docs/line-mini-app/develop/configure-console/#verification-screen)、もしくは[チャネル同意画面](https://developers.line.biz/ja/docs/line-mini-app/develop/configure-console/#consent-screen-settings)からLINE公式アカウントの友だち追加への誘導ができます。
 
-詳しくは、 「[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel)」を参照してください。
+詳しくは、「[LINEミニアプリ上でLINE公式アカウントを友だち追加する（友だち追加オプション）](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)」を参照してください。
 
 ![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-ja.png)
 ![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-ja.webp)

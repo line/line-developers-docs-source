@@ -52,7 +52,7 @@ In LIFF v2.30.0, we've added the following feature.
 
 ### Ahead of the release of a new feature for the LINE MINI App's add friend option, you can now pass arguments to some methods 
 
-We plan to introduce a feature that allows multiple LINE Official Accounts to be linked in the [add friend option](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel) for LINE MINI Apps. Ahead of this release, you can now pass arguments to the following three methods:
+We plan to introduce a feature that allows multiple LINE Official Accounts to be linked in the [add friend option](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) for LINE MINI Apps. Ahead of this release, you can now pass arguments to the following three methods:
 
 - [`liff.permission.requestAll()`](https://developers.line.biz/en/reference/liff/#permission-request-all)
 - [`liff.getFriendship()`](https://developers.line.biz/en/reference/liff/#get-friendship)
