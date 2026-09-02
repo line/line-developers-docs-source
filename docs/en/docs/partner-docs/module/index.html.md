@@ -46,7 +46,7 @@ Depending on the content of the webhook event you get, the module channel can be
 
 <!-- tip end -->
 
-![Sample](https://developers.line.biz/media/partner-docs/module/module-sample.png)
+![Sample](https://developers.line.biz/media/partner-docs/module/module-sample.webp)
 
 | Number | Description |
 | --- | --- |

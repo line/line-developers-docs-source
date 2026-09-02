@@ -66,7 +66,7 @@ Use our SDKs to add LINE Login to your app and let LINE handle user authenticati
 
 The LINE Rangers game, for example, uses LINE Login to let users easily create an account for the game with their LINE accounts.
 
-![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.png)
+![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.webp)
 ![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.png)
 
 ## LINE Login authentication methods 
@@ -118,7 +118,7 @@ LINE Login performs two-factor authentication by password authentication for the
 
 If the user logs in to the service for the first time, or if the device or browser changes, the user is prompted to enter the verification code after entering the password.
 
-![](https://developers.line.biz/media/news/2023/login-flow-with-2fa-en.png)
+![](https://developers.line.biz/media/news/2023/login-flow-with-2fa-en.webp)
 
 Unless the user switch accounts or delete browser's cookies, they'll remain trusted for 365 days and they won't be asked to enter a verification code.
 

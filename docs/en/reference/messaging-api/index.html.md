@@ -16031,7 +16031,7 @@ Therefore, the actual number of user IDs obtained with this endpoint may not be 
 Even if you send messages to the user IDs obtained with this endpoint, delivery may fail depending on user action. These are the main reasons for failure:
 
 - User blocked the target LINE Official Account between the time the user ID was obtained and the time you attempted to send a message.
-- User [deleted LINE account](https://guide.line.me/ja/account-and-settings/account-and-profile/line-account-delete.html) after adding the target LINE Official Account as a friend.
+- User [deleted LINE account](https://guide.line.me/ja/account-and-settings/line-account-delete.html) after adding the target LINE Official Account as a friend.
 
 <!-- note end -->
 

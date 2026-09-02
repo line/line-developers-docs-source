@@ -30,9 +30,9 @@ Flex Messageの動画コンポーネントを使うと、ヒーローの[ブロ�
 - [動画プレーヤー（動画再生時）](https://developers.line.biz/ja/docs/messaging-api/create-flex-message-including-video/#video-player-screen1)
 - [動画プレーヤー（動画再生終了時）](https://developers.line.biz/ja/docs/messaging-api/create-flex-message-including-video/#video-player-screen2)
 
-![動画再生終了時のトークルーム](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-chat-room-ja.png)
-![動画再生時の動画プレーヤー](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player1-ja.png)
-![動画終了時の動画プレーヤー](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player2-ja.png)
+![動画再生終了時のトークルーム](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-chat-room-ja.webp)
+![動画再生時の動画プレーヤー](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player1-ja.webp)
+![動画終了時の動画プレーヤー](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player2-ja.webp)
 
 ## 動画を含むFlex Messageの定義 
 

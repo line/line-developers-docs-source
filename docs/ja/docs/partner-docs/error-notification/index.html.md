@@ -14,7 +14,7 @@
 
 このWebhookイベント送信に対して、ボットサーバーが応答を返さない、あるいはステータスコード`200`番台以外の応答を返したとき、チャネルの管理者はエラーの発生を知らせる通知メールを受け取れます。このオプション機能を「エラー通知」と呼びます。
 
-![ボットサーバーからエラーが返ってくると通知メールが送られます](https://developers.line.biz/media/partner-docs/normal-error-notification-ja.jpg)
+![ボットサーバーからエラーが返ってくると通知メールが送られます](https://developers.line.biz/media/partner-docs/normal-error-notification-ja.webp)
 
 ## 送信されるメール 
 
@@ -103,4 +103,4 @@ LINEヤフー株式会社では、エラーに関する個別の調査や確認�
 
 ［**Webhookエラー**］タブは、［**Messaging API設定**］タブで［**エラーの統計情報**］を有効にしたチャネルでのみ表示されます。エラーの統計情報を有効にする方法について詳しくは、『Messaging APIドキュメント』の「[エラーの統計情報を有効にする](https://developers.line.biz/ja/docs/messaging-api/check-webhook-error-statistics/#enable-error-statistics)」を参照してください。
 
-![エラーの統計情報](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-ja.png)
+![エラーの統計情報](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-ja.webp)

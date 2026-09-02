@@ -22,11 +22,11 @@
 
 ### スクリーンショット 
 
-![サービスイメージ](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/ja/playnext-lab-ui-img.png)
+![サービスイメージ](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/ja/playnext-lab-ui-img.webp)
 
 ## システムの解説 
 
-![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/ja/playnext-lab-system-diagram.png)
+![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/ja/playnext-lab-system-diagram.webp)
 
 ### 取得したデータで行政サービスを改善 
 

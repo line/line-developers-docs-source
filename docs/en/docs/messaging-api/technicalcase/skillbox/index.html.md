@@ -32,7 +32,7 @@ Through SkillBox, we aim to address the challenge of early turnover among young 
 
 ## System overview 
 
-![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/en/skillbox-system.png)
+![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/en/skillbox-system.webp)
 
 ### Technical architecture of AWS-based projects 
 

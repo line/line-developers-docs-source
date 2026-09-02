@@ -27,7 +27,7 @@ Service messages sent from LINE MINI Apps are displayed in chat rooms determined
 | Japan | Thailand | Taiwan |
 | :-: | :-: | :-: |
 | LINEミニアプリ お知らせ | LINE MINI App Notice | LINE MINI App 通知 |
-| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.png) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.png) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.png) |
+| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.webp) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.webp) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.webp) |
 
 ## Types of service messages that can be sent 
 

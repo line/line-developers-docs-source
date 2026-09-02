@@ -25,7 +25,7 @@
 
 ![ユーザーはアカウントセンターで共通プロフィールを設定できます](https://developers.line.biz/media/basics/quick-fill-ja.png)
 
-共通プロフィールについて詳しくは、『LINEみんなの使い方ガイド』の「[共通プロフィールを設定してクイック入力を利用する](https://guide.line.me/ja/services/quick-fill.html)」を参照してください。
+共通プロフィールについて詳しくは、『LINEみんなの使い方ガイド』の「[共通プロフィールを設定してクイック入力を利用する](https://guide.line.me/ja/account-and-settings/quick-fill.html)」を参照してください。
 
 ### LINE Profile+ 
 

@@ -27,7 +27,7 @@ LINEミニアプリから送られたサービスメッセージは、LINEミニ
 | 日本 | タイ | 台湾 |
 | :-: | :-: | :-: |
 | LINEミニアプリ お知らせ | LINE MINI App Notice | LINE MINI App 通知 |
-| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.png) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.png) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.png) |
+| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.webp) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.webp) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.webp) |
 
 サービスメッセージを送信するには、サービスメッセージAPIを使用します。詳しくは、「[サービスメッセージを送信する](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/)」を参照してください。
 
@@ -64,7 +64,7 @@ Custom Pathとは、本番用のLIFF URLに設定する独自の文字列のこ�
 
 クイック入力とは、LINEミニアプリ上で［**自動入力**］をタップすることで、必要なプロフィール情報が自動で入力される機能です。ユーザーがアカウントセンターで設定した共通プロフィールの情報が、LINEミニアプリで簡単に利用できます。詳しくは、[共通プロフィールのクイック入力の概要](https://developers.line.biz/ja/docs/line-mini-app/quick-fill/overview/)を参照してください。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.webp)
 
 LINEミニアプリにクイック入力を導入すると、住所や電話番号の登録が必要な場面で、ボタンをタップするだけで必要な情報が自動で入力されます。これにより、たとえば店舗の予約やオンラインストアでの注文時に、ユーザーは面倒な手入力の手間を省くことができます。
 
@@ -83,7 +83,7 @@ LINEミニアプリでは、友だち追加オプションを使って、[アク
 詳しくは、 「[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel)」を参照してください。
 
 ![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-ja.png)
-![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-ja.png)
+![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-ja.webp)
 
 また、[`liff.requestFriendship()`](https://developers.line.biz/ja/reference/liff/#request-friendship)メソッドを用いて、任意のタイミングでLINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウを表示することも可能です。
 

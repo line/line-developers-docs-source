@@ -49,7 +49,7 @@ LINEログインを組み込んだ連動アプリ（ウェブサイトやスマ�
 
 次のようなユースケースにおいて、権限の取消が必要となります。
 
-![アカウントを連携してから解除するまでの流れ](https://developers.line.biz/media/line-login/development-guidelines/deauthorize-your-app-ja.png)
+![アカウントを連携してから解除するまでの流れ](https://developers.line.biz/media/line-login/development-guidelines/deauthorize-your-app-ja.webp)
 
 ユーザーがLINEログインを組み込んだアプリにLINEアカウントでログインし、チャネル同意画面で[認可を行う](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#authorization-process)と、LINEアプリの［**設定**］ > ［**アカウント**］ > ［**連動アプリ**］に対象アプリが表示されるようになります。ユーザーが連動アプリを退会した後も、認可した権限がそのままにならないよう、権限の取消を行ってください。
 

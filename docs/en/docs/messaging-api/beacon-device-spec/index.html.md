@@ -56,7 +56,7 @@ LINE requests you to send a secure message to prevent tampering of LINE Beacon p
 
 To generate a secure message, perform XOR (exclusive OR) operation three times on a hash value computed with SHA-256, by the flow illustrated below. For more information about the required parameters, see [Required parameters for secure messages](https://developers.line.biz/en/docs/messaging-api/beacon-device-spec/#parameters).
 
-![Generation algorithm of the secure message](https://developers.line.biz/media/messaging-api/beacon-device-spec/secureMessageAlgorithm.png)
+![Generation algorithm of the secure message](https://developers.line.biz/media/messaging-api/beacon-device-spec/secureMessageAlgorithm.webp)
 
 Generate a secure message by the instructions below.
 

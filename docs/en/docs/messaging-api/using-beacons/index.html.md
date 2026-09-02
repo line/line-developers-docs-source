@@ -97,4 +97,4 @@ The beacon banner is available only to corporate users. To use the beacon banner
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-beacons/beacon-banner_en.png)
+![](https://developers.line.biz/media/messaging-api/using-beacons/beacon-banner_en.webp)

@@ -2,7 +2,7 @@
 
 You can create coupons using the Messaging API and send them to users as messages from your LINE Official Account.
 
-![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.webp)
 
 <!-- table of contents -->
 

@@ -2,7 +2,7 @@
 
 Messaging APIでクーポンを作成して、LINE公式アカウントからユーザーにメッセージとして送信できます。
 
-![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.webp)
 
 <!-- table of contents -->
 

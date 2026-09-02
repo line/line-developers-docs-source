@@ -42,7 +42,7 @@ LINEミニアプリでは、現在開いているページを友だちと共有�
 
 また、カスタムシェアメッセージには、[標準タイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#standard)と[画像リストタイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#image-list)があり、それぞれ以下のA～Fのセクションに分かれています。
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_common.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_common.webp)
 
 | ラベル | セクション | 必須  | 説明 |
 | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_standard.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_standard.webp)
 
 ##### 標準タイプ - 画像（A） 
 
@@ -425,7 +425,7 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_list.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_list.webp)
 
 ##### 画像リストタイプ - 画像（A） 
 

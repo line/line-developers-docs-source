@@ -141,7 +141,7 @@ Basic authentication is available for LINE MINI Apps with the status "Not yet re
 
 In the **Web app settings** tab on the [LINE Developers Console](https://developers.line.biz/console/), specify the URL with basic authentication in the **Endpoint URL** for **Developing** or **Review**. Then open the LINE MINI App in the [LIFF browser](https://developers.line.biz/en/glossary/#liff-browser) and a dialog box will appear prompting you to enter your username and password.
 
-![Basic authentication screen](https://developers.line.biz/media/line-mini-app/basic-auth.png)
+![Basic authentication screen](https://developers.line.biz/media/line-mini-app/basic-auth.webp)
 
 ### Conditions for basic authentication 
 

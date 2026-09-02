@@ -127,7 +127,7 @@ LINEミニアプリの開発では、[ステートレスチャネルアクセス
 
 LINEミニアプリチャネル作成時に、［**LINEミニアプリを提供する地域と、サービス事業主の所在国・地域が同一であることを表明し、保証します。**］チェックボックスの内容への同意が必要です。所在国・地域の名前はチャネル同意画面でエンドユーザーに表示されます。
 
-![LINEミニアプリを提供する地域と、サービス事業主の所在国・地域が同一であることを表明し、保証します。](https://developers.line.biz/media/line-mini-app/configuring-country-or-region-ja.png)
+![LINEミニアプリを提供する地域と、サービス事業主の所在国・地域が同一であることを表明し、保証します。](https://developers.line.biz/media/line-mini-app/configuring-country-or-region-ja.webp)
 
 <!-- note start -->
 

@@ -81,7 +81,7 @@ LINEで利用できるURLスキームは以下のとおりです。なお、指�
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.webp)
 
 ![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.png)
 
@@ -243,7 +243,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 このLINE URLスキームを使うと、トークタブを含むLINEのさまざまな画面を開きます。
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/shopping-tab-ja.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/shopping-tab-ja.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |

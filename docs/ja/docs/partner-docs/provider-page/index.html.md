@@ -12,7 +12,7 @@
 
 プロバイダーページとは、[プロバイダー](https://developers.line.biz/ja/glossary/#provider)がLINEプラットフォーム上で提供している各種サービスの一覧ページです。プロバイダーが提供しているLINE公式アカウント（Messaging API）、LINEミニアプリ、LINEログインのサービスをプロバイダーページに表示できます。
 
-![プロバイダーページの例](https://developers.line.biz/media/partner-docs/provider-page-ja.png)
+![プロバイダーページの例](https://developers.line.biz/media/partner-docs/provider-page-ja.webp)
 
 ## プロバイダーページを設定する 
 

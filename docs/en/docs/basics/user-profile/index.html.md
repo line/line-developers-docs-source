@@ -25,7 +25,7 @@ Common Profile is a profile that users create by combining the profile informati
 
 ![Users can set their Common Profile in the Account Center](https://developers.line.biz/media/basics/quick-fill-ja.png)
 
-For information about the Common Profile, see [Set Common Profile to use Quick-fill](https://guide.line.me/ja/services/quick-fill.html) (only available in Japanese) in the LINE user's guide.
+For information about the Common Profile, see [Set Common Profile to use Quick-fill](https://guide.line.me/ja/account-and-settings/quick-fill.html) (only available in Japanese) in the LINE user's guide.
 
 ### LINE Profile+ 
 

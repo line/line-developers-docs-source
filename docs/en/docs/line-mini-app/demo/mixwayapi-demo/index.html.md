@@ -36,7 +36,7 @@ Before using the demo app, please note that the app will access your LINE accoun
 
 | | | | |
 | --- | --- | --- | --- |
-|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image1-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image2-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image3-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image4-en.png)|
+|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image1-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image2-en.webp)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image3-en.png)|![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-image4-en.webp)|
 | 1.Initialize App | 2.Event Ticket Purchase Process | 3.Search & Select Route | 4.Send Notifications |
 
 <!-- tip start -->
@@ -90,19 +90,19 @@ This figure shows how the demo app uses the LINE API.
 
 **System diagram**
 
-![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-en.png)
+![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-en.webp)
 
 - System diagram for using the other services
-  - [System diagram using AWS](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-aws-en.png)
-  - [System diagram using Azure](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-azure-en.png)
+  - [System diagram using AWS](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-aws-en.webp)
+  - [System diagram using Azure](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-system-diagram-azure-en.webp)
 
 **Sequence diagram**
 
-![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-en.png)
+![](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-en.webp)
 
 - Sequence diagram for using the other services
-  - [Sequence diagram using AWS](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-aws-en.png)
-  - [Sequence diagram using Azure](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-azure-en.png)
+  - [Sequence diagram using AWS](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-aws-en.webp)
+  - [Sequence diagram using Azure](https://developers.line.biz/media/line-mini-app/demo/mixwayapi-demo/maas-mixwayapi-sequence-diagram-azure-en.webp)
 
 ## Related links 
 

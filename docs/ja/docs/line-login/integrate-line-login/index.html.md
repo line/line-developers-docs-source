@@ -264,7 +264,7 @@ LINEログインを組み込むウェブアプリ側で、認可の機能を実�
 
 | 同意画面 | `scope`パラメータと表示項目 |
 | --- | --- |
-| ![同意画面](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-ja.png) | <ul><li>`profile`：メインプロフィール情報 (必須)</li><li>`openid`：あなたの内部識別子 (必須)</li><li>`email`：メールアドレス</li></ul> |
+| ![同意画面](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-ja.webp) | <ul><li>`profile`：メインプロフィール情報 (必須)</li><li>`openid`：あなたの内部識別子 (必須)</li><li>`email`：メールアドレス</li></ul> |
 
 #### 同意画面が再表示される条件 
 

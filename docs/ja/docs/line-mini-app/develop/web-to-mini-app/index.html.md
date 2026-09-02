@@ -10,7 +10,7 @@
 
 また、[サービスメッセージ](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/)という機能により、LINEミニアプリ上でのユーザーの操作に対する応答として、LINEミニアプリからユーザーに通知を送ることができます。HTML5のほぼすべての仕様もサポートしており、たとえば[位置情報API](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API)を用いることで、ユーザーの位置情報を取得できます。
 
-![](https://developers.line.biz/media/line-mini-app/develop/product-image.png)
+![](https://developers.line.biz/media/line-mini-app/develop/product-image.webp)
 
 このように、ウェブアプリをLINEミニアプリにすることで、面倒なログインやプロフィールの入力などによるユーザーの離脱を防げます。LINEミニアプリの利用もLINEアプリからすぐに開始でき、またLINEアプリ上ですべての操作が完結するため、ユーザー体験を向上させることができます。
 

@@ -44,7 +44,7 @@ Messaging APIを使うことで、ボットから以下のようなメッセー�
 
 スタンプを利用することで、ボットをより魅力的で楽しいものにできます。Messaging APIでスタンプを送信するには、[メッセージオブジェクト](https://developers.line.biz/ja/reference/messaging-api/#message-objects)にスタンプのパッケージIDとスタンプIDを指定します。送信できるスタンプについては、「[スタンプ](https://developers.line.biz/ja/docs/messaging-api/sticker-list/)」を参照してください。詳しくは、『Messaging APIリファレンス』の「[スタンプメッセージ](https://developers.line.biz/ja/reference/messaging-api/#sticker-message)」を参照してください。
 
-![スタンプメッセージ](https://developers.line.biz/media/messaging-api/messages/sticker.png)
+![スタンプメッセージ](https://developers.line.biz/media/messaging-api/messages/sticker.webp)
 
 ## 画像メッセージ 
 
@@ -80,7 +80,7 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 クーポンメッセージは、クーポンIDを指定してユーザーにクーポンを送信するメッセージです。
 
-![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/several-coupons.webp)
 
 詳しくは、『Messaging APIリファレンス』の「[クーポンメッセージ](https://developers.line.biz/ja/reference/messaging-api/#coupon-message)」を参照してください。
 
@@ -107,7 +107,7 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 ボタンテンプレートには、画像やタイトル、テキスト、[アクション](https://developers.line.biz/ja/docs/messaging-api/actions/)ボタンが含まれます。ボタンに加えて、画像、タイトル、テキストにもアクションを設定できます。アクションを設定した領域をユーザーがタップすると、アクションがトリガーされます。詳しくは、『Messaging APIリファレンス』の「[ボタンテンプレート](https://developers.line.biz/ja/reference/messaging-api/#buttons)」を参照してください。
 
-![ボタンテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/buttons.png)
+![ボタンテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/buttons.webp)
 
 ### 確認テンプレート 
 
@@ -121,13 +121,13 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 アクションは、ユーザーがカラムオブジェクトの画像やタイトル、テキストエリアのどこかをタップしたときにトリガーされます。詳しくは、『Messaging APIリファレンス』の「[カルーセルテンプレート](https://developers.line.biz/ja/reference/messaging-api/#carousel)」を参照してください。
 
-![カルーセルテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/carousel.png)
+![カルーセルテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/carousel.webp)
 
 ### 画像カルーセルテンプレート 
 
 画像カルーセルテンプレートは、ユーザーがスクロールできる複数の画像を含んでいます。詳しくは、『Messaging APIリファレンス』の「[画像カルーセルテンプレート](https://developers.line.biz/ja/reference/messaging-api/#image-carousel)」を参照してください。
 
-![画像カルーセルテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/image-carousel.png)
+![画像カルーセルテンプレートメッセージ](https://developers.line.biz/media/messaging-api/messages/image-carousel.webp)
 
 ## Flex Message 
 

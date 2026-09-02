@@ -2,7 +2,7 @@
 
 The Messaging API provides a feature to check error causes and statistics when sending webhooks. This is useful for understanding the status of sending webhooks when a webhook wasn't received due to a problem on the bot server, etc.
 
-![Display of error statistics when an error is returned from the bot server](https://developers.line.biz/media/messaging-api/receiving-messages/webhook-error-en.jpg)
+![Display of error statistics when an error is returned from the bot server](https://developers.line.biz/media/messaging-api/receiving-messages/webhook-error-en.webp)
 
 ## Enable error statistics 
 

@@ -22,11 +22,11 @@
 
 ![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img.webp)
 
-![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img-2.png)
+![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-ui-img-2.webp)
 
 ## システムの概要 
 
-![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-system.png)
+![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/ja/resortbaito-dive-system.webp)
 
 ### 「リゾートバイトダイブ」を支える技術と効果 
 

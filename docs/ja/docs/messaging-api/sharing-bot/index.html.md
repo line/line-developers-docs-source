@@ -68,7 +68,7 @@ LINE Social Pluginsが生成する［**友だち追加**］ボタンを利用す
 
 たとえば、[リッチメニュー](https://developers.line.biz/ja/docs/messaging-api/using-rich-menus/)または[テンプレートメッセージ](https://developers.line.biz/ja/docs/messaging-api/message-types/#template-messages)の[URIアクションオブジェクト](https://developers.line.biz/ja/reference/messaging-api/#uri-action)にこのURLスキームを指定します。このLINE URLスキームついて詳しくは、「[LINE公式アカウントをシェアする](https://developers.line.biz/ja/docs/messaging-api/using-line-url-scheme/#sharing-line-official-account)」を参照してください。
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/recommend-line-developers-rich-menu.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/recommend-line-developers-rich-menu.webp)
 
 ## LINEログイン時にLINE公式アカウントの友だち追加を促す 
 

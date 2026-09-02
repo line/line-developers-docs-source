@@ -32,25 +32,25 @@ LINEミニアプリにクイック入力を組み込む際は、以下の画面�
 
 会員登録画面に遷移したら、すぐに[`liff.$commonProfile.get()`](https://developers.line.biz/ja/reference/line-mini-app/#get-common-profile)メソッドを呼び出してモーダルを表示します。このとき、ユーザーがモーダルを一度閉じても再び表示できるよう、会員登録画面に自動入力ボタンを設置します。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-02.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-02.webp)
 
 #### 入力フォームを選択したらモーダルを表示する 
 
 会員登録画面でユーザーが入力フォームを選択したら、[`liff.$commonProfile.get()`](https://developers.line.biz/ja/reference/line-mini-app/#get-common-profile)メソッドを呼び出してモーダルを表示します。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-04.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-04.webp)
 
 #### 自動入力ボタンをタップしたらモーダルを表示する 
 
 会員登録画面でユーザーが自動入力ボタンをタップしたら、[`liff.$commonProfile.get()`](https://developers.line.biz/ja/reference/line-mini-app/#get-common-profile)メソッドを呼び出してモーダルを表示します。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-01.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-01.webp)
 
 #### チャネル同意画面で同意したら遷移先でモーダルを表示する 
 
 LINEミニアプリの[チャネル同意画面](https://developers.line.biz/ja/docs/line-mini-app/develop/configure-console/#consent-screen-settings)でユーザーが［**許可する**］をタップしたら、そのまま会員登録画面へ遷移させます。会員登録画面へ遷移したら[`liff.$commonProfile.get()`](https://developers.line.biz/ja/reference/line-mini-app/#get-common-profile)メソッドを呼び出してモーダルを表示します。このとき、ユーザーがモーダルを一度閉じても再び表示できるよう、会員登録画面に自動入力ボタンを設置します。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-03.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/recommended-screen-transition-03.webp)
 
 ### 禁止する画面遷移 
 
@@ -76,7 +76,7 @@ LINEミニアプリにクイック入力を組み込む際は、以下のよう�
 
 ユーザーがモーダルで［**自動で入力する**］ボタンをタップした後、フォームへの自動入力を飛ばして登録確認画面へ遷移したり、取得したプロフィール情報をそのまま登録して登録完了画面へ遷移したりすることは禁止です。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-03.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-03.webp)
 
 ## 自動入力ボタンガイドライン 
 

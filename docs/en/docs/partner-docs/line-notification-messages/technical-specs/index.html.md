@@ -96,7 +96,7 @@ For more information on setting up LINE notification messages in the LINE app, s
 
 When sending a LINE notification message, the following message will be sent from the LINE Official Account (system account) named "LINE". This message is always sent each time a LINE notification message is sent. The sender of a LINE notification message can't prevent this message from being sent or reduce the number of times it's sent.
 
-![Message received notification](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.png)
+![Message received notification](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)
 
 <!-- note start -->
 

@@ -12,13 +12,13 @@ To use Common Profile Quick-fill, your LINE MINI App must be verified and you mu
 
 Quick-fill is a feature that automatically fills in the necessary profile information by tapping the **Auto-fill** button on the LINE MINI App. You can easily use the Common Profile information that a user has set in the Account Center in the LINE MINI App.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.webp)
 
 By integrating Quick-fill into your LINE MINI App, users can automatically enter an address or phone number with a single tap. For example, when making a reservation at a restaurant or ordering from an online store, users can save themselves the hassle of entering the information manually.
 
 This page explains how to integrate Quick-fill into your LINE MINI App.
 
-For information on how to use Quick-fill on the LINE MINI App, see [Set Common Profile to use Quick-fill](https://guide.line.me/ja/services/quick-fill.html) (only available in Japanese) in the LINE user's guide.
+For information on how to use Quick-fill on the LINE MINI App, see [Set Common Profile to use Quick-fill](https://guide.line.me/ja/account-and-settings/quick-fill.html) (only available in Japanese) in the LINE user's guide.
 
 ### Languages that support Quick-fill 
 

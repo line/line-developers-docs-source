@@ -96,7 +96,7 @@ Here is an example of a webhook that arrives at your bot server when a user send
 
 For more information about the `quotedMessageId` property, see [text](https://developers.line.biz/en/reference/messaging-api/#wh-text) and [sticker](https://developers.line.biz/en/reference/messaging-api/#wh-sticker) of the [Message event](https://developers.line.biz/en/reference/messaging-api/#message-event) in the Messaging API reference.
 
-For more information about how users can send quote messages, see [Using the chat reply feature](https://guide.line.me/ja/friends-and-groups/create-groups.html) (only available in Japanese) in the LINE user's guide.
+For more information about how users can send quote messages, see [Using the chat reply feature](https://guide.line.me/ja/communication/chat-reply.html) (only available in Japanese) in the LINE user's guide.
 
 #### Webhook when a message including a mention to a bot is sent 
 
@@ -150,7 +150,7 @@ For example, you should handle a message that a user has unsent as follows:
 - Cancel the target message displayed on your own management screen, etc.
 - Delete the target message stored in a database or other storage device.
 
-For more information about how to unsend a sent message in the LINE app, see [Using the unsend message function](https://guide.line.me/ja/chats-calls-notifications/chats/chat-delete.html) (only available in Japanese) in the LINE user's guide.
+For more information about how to unsend a sent message in the LINE app, see [Using the unsend message function](https://guide.line.me/ja/communication/chat-delete.html) (only available in Japanese) in the LINE user's guide.
 
 ## Redeliver a webhook that failed to be received 
 

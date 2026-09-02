@@ -60,11 +60,11 @@ This figure shows how the demo app uses the LINE API.
 
 **System diagram**
 
-![](https://developers.line.biz/media/line-mini-app/demo/traisare-demo/traisare-system-diagram-en.png)
+![](https://developers.line.biz/media/line-mini-app/demo/traisare-demo/traisare-system-diagram-en.webp)
 
 **Sequence diagram**
 
-![](https://developers.line.biz/media/line-mini-app/demo/traisare-demo/traisare-sequence-diagram-en.png)
+![](https://developers.line.biz/media/line-mini-app/demo/traisare-demo/traisare-sequence-diagram-en.webp)
 
 ## Related links 
 

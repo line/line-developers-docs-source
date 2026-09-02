@@ -32,7 +32,7 @@ When you tap the action button, the features shown below will appear, depending 
 
 In LINE version 26.7.0 or later, tapping the action button displays the following dropdown menu.
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-en.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-en.webp)
 
 | Item | Description |
 | --- | --- |

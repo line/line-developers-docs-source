@@ -32,7 +32,7 @@ LINEミニアプリのすべてのページに表示される[ヘッダー](http
 
 LINEバージョン26.7.0以降では、アクションボタンをタップすると、以下のドロップダウンメニューが表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-ja.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini-header-action-button-tap-ja.webp)
 
 | 項目 | 説明 |
 | --- | --- |

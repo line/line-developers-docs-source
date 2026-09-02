@@ -97,4 +97,4 @@ Webhookのビーコンイベントを発生させるには、以下の手順に�
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-beacons/beacon-banner_ja.png)
+![](https://developers.line.biz/media/messaging-api/using-beacons/beacon-banner_ja.webp)

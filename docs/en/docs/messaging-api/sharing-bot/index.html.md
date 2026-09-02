@@ -68,7 +68,7 @@ If users have already added your LINE Official Account as a friend, you can enco
 
 For example, specify this LINE URL scheme in the [URI action object](https://developers.line.biz/en/reference/messaging-api/#uri-action) in a [rich menu](https://developers.line.biz/en/docs/messaging-api/using-rich-menus/) or in [template messages](https://developers.line.biz/en/docs/messaging-api/message-types/#template-messages). For more information on this LINE URL scheme, see [Sharing a LINE Official Account](https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/#sharing-line-official-account).
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/recommend-line-developers-rich-menu.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/recommend-line-developers-rich-menu.webp)
 
 ## Prompt users to add your LINE Official Account as a friend at LINE Login 
 

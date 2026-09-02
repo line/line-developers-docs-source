@@ -81,7 +81,7 @@ You can open the camera or camera roll with the URL scheme only from LINE chats,
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.webp)
 
 ![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.png)
 
@@ -243,7 +243,7 @@ With the LINE URL scheme, you can let users open their "My profile" screen. On t
 
 With the LINE URL scheme, you can let users open different LINE screens, including the Chats tab.
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/shopping-tab-en.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/shopping-tab-en.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |

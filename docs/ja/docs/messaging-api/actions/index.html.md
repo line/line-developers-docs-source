@@ -35,7 +35,7 @@
 
 LINE内ブラウザで指定のURLを開くアクションです。URIアクションで[LINE URLスキーム](https://developers.line.biz/ja/docs/messaging-api/using-line-url-scheme/)を使うと、通話アプリで指定の電話番号を開いたり、任意のLINE公式アカウントをシェアする画面を開いたりすることもできます。
 
-![URIアクション](https://developers.line.biz/media/messaging-api/actions/quick-reply-uri-action-ja.png)
+![URIアクション](https://developers.line.biz/media/messaging-api/actions/quick-reply-uri-action-ja.webp)
 
 上記の例で示した、クイックリプライボタンにURIアクションを設定したリクエストボディは以下のようになります。詳しくは、『Messaging APIリファレンス』の「[URIアクション](https://developers.line.biz/ja/reference/messaging-api/#uri-action)」を参照してください。
 

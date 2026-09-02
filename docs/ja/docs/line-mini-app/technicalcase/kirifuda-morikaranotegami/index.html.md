@@ -26,7 +26,7 @@
 
 ## システムの解説 
 
-![システム構成図](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/ja/kirifuda-morikaranotegami-system.png)
+![システム構成図](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/ja/kirifuda-morikaranotegami-system.webp)
 
 ### 「もりからの手紙」の技術構成：LIFFとブロックチェーン技術のシームレス連携 
 

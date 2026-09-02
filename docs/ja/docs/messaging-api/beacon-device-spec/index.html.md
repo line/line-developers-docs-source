@@ -56,7 +56,7 @@ Secure messageは、LINE Beaconパケットの改ざんやリプレイ攻撃を�
 
 Secure messageを生成するには、SHA-256で生成したハッシュ値に対してXOR（排他的論理和）演算を3回実行します。以下の図は、Secure messageの生成の流れを示します。生成に必要なパラメータについては、「[Secure messageに必要なパラメータ](https://developers.line.biz/ja/docs/messaging-api/beacon-device-spec/#parameters)」を参照してください。
 
-![Secure messageの生成アルゴリズム](https://developers.line.biz/media/messaging-api/beacon-device-spec/secureMessageAlgorithm.png)
+![Secure messageの生成アルゴリズム](https://developers.line.biz/media/messaging-api/beacon-device-spec/secureMessageAlgorithm.webp)
 
 Secure messageは、以下の手順に従って生成します。
 

@@ -14,7 +14,7 @@ If the user adds your LINE Official Account as a friend or sends a message to yo
 
 If the bot server doesn't respond or returns a response other than status code `2xx` to this webhook event request, the channel administrator will receive a notification email informing them of the occurrence of the error. This option is called the "error notification" function.
 
-![You will receive a notification email when an error is returned from the bot server](https://developers.line.biz/media/partner-docs/normal-error-notification-en.jpg)
+![You will receive a notification email when an error is returned from the bot server](https://developers.line.biz/media/partner-docs/normal-error-notification-en.webp)
 
 ## Notification email 
 

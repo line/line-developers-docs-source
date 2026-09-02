@@ -33,4 +33,4 @@ To delete your LINE Official Account, you must have the Admin role. The Admin ro
 
 5. The "Permanently delete this LINE official account?" modal will appear. When you click **Delete**, your LINE Official Account will be deleted and the Messaging API channel linked to your LINE Official Account will also be deleted.
 
-![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-en.png)
+![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-en.webp)

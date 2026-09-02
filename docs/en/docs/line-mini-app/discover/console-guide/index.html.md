@@ -127,7 +127,7 @@ When developing LINE MINI Apps, either [stateless channel access tokens](https:/
 
 When creating a LINE MINI App channel, you must agree to the content of the **I represent and warrant that the region to provide the LINE MINI App and service company's country or region are the same.** checkbox. The country or region will be displayed to the end user in the channel consent screen.
 
-![I represent and warrant that the region to provide the LINE MINI App and service company's country or region are the same.](https://developers.line.biz/media/line-mini-app/configuring-country-or-region-en.png)
+![I represent and warrant that the region to provide the LINE MINI App and service company's country or region are the same.](https://developers.line.biz/media/line-mini-app/configuring-country-or-region-en.webp)
 
 <!-- note start -->
 

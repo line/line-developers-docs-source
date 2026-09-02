@@ -12,7 +12,7 @@
 
 モジュールは、LINE公式アカウントに連携（アタッチ）することで、LINE公式アカウントにMessaging APIを利用した機能を追加できる仕組みです。モジュールは、[チャネルの1種（モジュールチャネル）](https://developers.line.biz/ja/docs/line-developers-console/overview/#channel)として提供されます。LINE公式アカウントがMessaging APIチャネルを作成していなくても、モジュールチャネルからMessaging APIを呼び出し、ユーザーにメッセージを送信したり、リッチメニューを設定することができます。
 
-![module channel](https://developers.line.biz/media/partner-docs/module/module-channel.png)
+![module channel](https://developers.line.biz/media/partner-docs/module/module-channel.webp)
 
 ### モジュールチャネルとLINE公式アカウントの関係性 
 
@@ -46,7 +46,7 @@ LINE公式アカウントの応答設定で[Webhookの利用を無効](https://d
 
 <!-- tip end -->
 
-![サンプル](https://developers.line.biz/media/partner-docs/module/module-sample.png)
+![サンプル](https://developers.line.biz/media/partner-docs/module/module-sample.webp)
 
 | 番号 | 説明 |
 | --- | --- |

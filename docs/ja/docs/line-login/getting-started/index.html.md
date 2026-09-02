@@ -22,7 +22,7 @@ LINEログインのスターターアプリを利用するには、以下の要�
 
 | 項目 | 説明 |
 | --- | --- |
-| LINEアカウント  | LINEを利用するためのアカウントです。LINEアカウントは、スターターアプリを試すために必要です。LINEアカウントを作成するには、iOS版LINEまたはAndroid版LINEを[ダウンロード](https://line.me/)して、新規登録をしてください。登録方法について詳しくは、『LINEみんなの使い方ガイド』の「[新規登録をする](https://guide.line.me/ja/signup-and-migration/line-signup.html)」を参照してください。 |
+| LINEアカウント  | LINEを利用するためのアカウントです。LINEアカウントは、スターターアプリを試すために必要です。LINEアカウントを作成するには、iOS版LINEまたはAndroid版LINEを[ダウンロード](https://line.me/)して、新規登録をしてください。登録方法について詳しくは、『LINEみんなの使い方ガイド』の「[新規登録をする](https://guide.line.me/ja/signup/line-signup.html)」を参照してください。 |
 | プロバイダー | プロバイダーは、アプリを提供する個人または組織を表す概念です。プロバイダーは、[LINE Developersコンソール](https://developers.line.biz/console/)で作成します。1人のLINEユーザーは、プロバイダーごとに異なるユーザーIDを持ちます。 |
 | LINEログインのチャネル | チャネルは、アプリとLINEプラットフォームを接続するための通信路です。プロバイダーの中に作成します。アプリごとに、チャネルを作成する必要があります。LINEログインのチャネルは、[LINE Developersコンソール](https://developers.line.biz/console/register/line-login/channel/)で作成します。<br/>注：<ul><li>LINE Developersコンソールを利用したことがない場合は、開発者として登録してからチャネルを作成します。<ul><li>チャネルの作成手順は[Step 1: LINEログインのチャネルを作成する](https://developers.line.biz/ja/docs/line-login/getting-started/#step-1-create-channel)で説明しています。</li></ul></li><li>スターターアプリを利用するためにLINEログインのチャネルを作成する際は、［**アプリタイプ**］で、［**ウェブアプリ**］を選択してください。</li></ul> |
 | Herokuアカウント | [Heroku](https://www.heroku.com/)は、ウェブアプリをホストできるサービスです。スターターアプリをHerokuにデプロイするため、Heroku以外のサーバーを用意する必要がありません。 |

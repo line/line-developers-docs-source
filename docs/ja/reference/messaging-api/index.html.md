@@ -16032,7 +16032,7 @@ LINE公式アカウントを友だち追加したユーザーの、[ユーザー
 このエンドポイントで取得したユーザーIDに対してメッセージを送信しても、ユーザーの操作が原因でメッセージが送信できない場合があります。主な原因は以下のとおりです。
 
 - ユーザーIDを取得してからメッセージを送信するまでの間に、ユーザーが対象のLINE公式アカウントをブロックした。
-- ユーザーが対象のLINE公式アカウントを友だち追加した後に、[LINEアカウントを削除](https://guide.line.me/ja/account-and-settings/account-and-profile/line-account-delete.html)した。
+- ユーザーが対象のLINE公式アカウントを友だち追加した後に、[LINEアカウントを削除](https://guide.line.me/ja/account-and-settings/line-account-delete.html)した。
 
 <!-- note end -->
 

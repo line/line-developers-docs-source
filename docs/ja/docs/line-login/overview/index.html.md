@@ -66,7 +66,7 @@ LINE SDKを使用してLINEログインをアプリに組み込めば、LINEで�
 
 たとえば、LINEレンジャーゲームにはLINEログインが組み込まれており、ユーザーは自分のLINEアカウントで簡単にゲームのアカウントを作成することができます。
 
-![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.png)
+![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.webp)
 ![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.png)
 
 ## LINEログインの認証方法 
@@ -118,7 +118,7 @@ LINEログインでは、LINEアカウントによるパスワード認証と、
 
 ユーザーがサービスに最初にログインする際や、端末やブラウザが変わった場合は、パスワードを入力後に認証番号の入力を求められます。
 
-![](https://developers.line.biz/media/news/2023/login-flow-with-2fa-ja.png)
+![](https://developers.line.biz/media/news/2023/login-flow-with-2fa-ja.webp)
 
 アカウントの切り替えを行ったり、ブラウザのcookieを削除したりしない限り、365日間は信頼済み状態が継続し、認証番号の入力を求められることはありません。
 

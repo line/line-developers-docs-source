@@ -22,11 +22,11 @@ At Dive Inc., our resort part-time resort staffing service, “Resort Baito Dive
 
 ![service-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img.webp)
 
-![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img-2.png)
+![service-cms-image](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-ui-img-2.webp)
 
 ## System Overview 
 
-![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-system.png)
+![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/resortbaito-dive/en/resortbaito-dive-system.webp)
 
 ### Technologies that support Resort Baito Dive and their impacts 
 

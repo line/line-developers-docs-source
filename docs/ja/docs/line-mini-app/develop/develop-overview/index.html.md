@@ -141,7 +141,7 @@ LINEミニアプリ用として提供されるAPIは、LIFF APIと[サービス�
 
 [LINE Developersコンソール](https://developers.line.biz/console/)の［**ウェブアプリ設定**］タブで［**開発用**］または［**審査用**］の［**エンドポイントURL**］にベーシック認証のかかったURLを指定します。そして、LINEミニアプリを[LIFFブラウザ](https://developers.line.biz/ja/glossary/#liff-browser)で開くと、ユーザー名とパスワードの入力を促すダイアログが表示されます。
 
-![ベーシック認証画面](https://developers.line.biz/media/line-mini-app/basic-auth.png)
+![ベーシック認証画面](https://developers.line.biz/media/line-mini-app/basic-auth.webp)
 
 ### ベーシック認証が利用できる条件 
 

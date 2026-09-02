@@ -30,9 +30,9 @@ Using the `action` property, you can specify a [URI action](https://developers.l
 - [Video player (during video playback)](https://developers.line.biz/en/docs/messaging-api/create-flex-message-including-video/#video-player-screen1)
 - [Video player (after video playback)](https://developers.line.biz/en/docs/messaging-api/create-flex-message-including-video/#video-player-screen2)
 
-![A chat room when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-chat-room-en.png)
-![A video player while a video is playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player1-en.png)
-![A video player when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player2-en.png)
+![A chat room when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-chat-room-en.webp)
+![A video player while a video is playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player1-en.webp)
+![A video player when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/label-in-video-player2-en.webp)
 
 ## Define a Flex Message with a video 
 

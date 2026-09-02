@@ -12,13 +12,13 @@
 
 LIFFブラウザは、最小化するとアイコンで表示されます。
 
-![LIFFブラウザの最小化](https://developers.line.biz/media/liff/minimizing-liff-app/liff-minimize-ja.png)
+![LIFFブラウザの最小化](https://developers.line.biz/media/liff/minimizing-liff-app/liff-minimize-ja.webp)
 
 <!-- tip start -->
 
 **LINE内ブラウザを最小化する**
 
-LIFFブラウザと同様に、[LINE内ブラウザ](https://developers.line.biz/ja/glossary/#line-iab)も最小化に対応しています。詳しくは、『LINEみんなの使い方ガイド』の「[閲覧中のWEBページを最小化する](https://guide.line.me/ja/chats-calls-notifications/chats/minimizebrowser.html)」を参照してください。
+LIFFブラウザと同様に、[LINE内ブラウザ](https://developers.line.biz/ja/glossary/#line-iab)も最小化に対応しています。詳しくは、『LINEみんなの使い方ガイド』の「[閲覧中のWEBページを最小化する](https://guide.line.me/ja/services/minimizebrowser.html)」を参照してください。
 
 <!-- tip end -->
 
@@ -62,13 +62,13 @@ LIFFブラウザを最小化するには、以下の3つの方法があります
 
 アプリ内通知をタップします。
 
-![LIFFブラウザの最小化（アプリ内通知をタップする）](https://developers.line.biz/media/liff/minimizing-liff-app/tap-in-app-alert.png)
+![LIFFブラウザの最小化（アプリ内通知をタップする）](https://developers.line.biz/media/liff/minimizing-liff-app/tap-in-app-alert.webp)
 
 ### LIFFブラウザをスワイプする 
 
 LIFFブラウザを下方向へスワイプします。
 
-![LIFFブラウザの最小化（LIFFブラウザをスワイプする）](https://developers.line.biz/media/liff/minimizing-liff-app/swipe-liff-browser-ja.png)
+![LIFFブラウザの最小化（LIFFブラウザをスワイプする）](https://developers.line.biz/media/liff/minimizing-liff-app/swipe-liff-browser-ja.webp)
 
 ### アクションボタンからオプションをタップする（LINEバージョン26.7.0未満の場合） 
 
@@ -80,13 +80,13 @@ LIFFブラウザを下方向へスワイプします。
 
 LIFFブラウザを最大化するには、最小化したLIFFブラウザをタップします。
 
-![LIFFブラウザの最大化](https://developers.line.biz/media/liff/minimizing-liff-app/maximize-liff-browser-ja.png)
+![LIFFブラウザの最大化](https://developers.line.biz/media/liff/minimizing-liff-app/maximize-liff-browser-ja.webp)
 
 ## 最小化したLIFFブラウザを移動する 
 
 最小化したLIFFブラウザを移動するには、ドラッグします。
 
-![最小化したLIFFブラウザの移動](https://developers.line.biz/media/liff/minimizing-liff-app/move-minimized-liff-browser-ja.png)
+![最小化したLIFFブラウザの移動](https://developers.line.biz/media/liff/minimizing-liff-app/move-minimized-liff-browser-ja.webp)
 
 ## 最小化したLIFFブラウザを閉じる（LINEバージョン15.20.0未満の場合） 
 
@@ -99,7 +99,7 @@ LINEバージョン15.20.0未満の場合、最小化したLIFFブラウザを�
 
 最小化したLIFFブラウザを、画面外にスワイプします。
 
-![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ja.png)
+![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-ja.webp)
 
 ### LIFFブラウザを閉じるアイコンにドラッグする 
 

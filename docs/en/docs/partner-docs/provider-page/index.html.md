@@ -12,7 +12,7 @@ Only corporate users who have submitted the required applications can use the fu
 
 A provider page is a list of the various services offered by the [Provider](https://developers.line.biz/en/glossary/#provider) on the LINE Platform. Providers can display the services they offer, such as LINE Official Account (Messaging API), LINE MINI App and LINE Login , on the provider page.
 
-![provider page sample](https://developers.line.biz/media/partner-docs/provider-page-en.png)
+![provider page sample](https://developers.line.biz/media/partner-docs/provider-page-en.webp)
 
 ## Provider page settings 
 

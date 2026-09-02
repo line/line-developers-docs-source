@@ -42,7 +42,7 @@ Use a [Bubble](https://developers.line.biz/en/docs/messaging-api/flex-message-el
 
 The custom share message includes [standard type](https://developers.line.biz/en/docs/line-mini-app/develop/share-messages/#standard) and [image list type](https://developers.line.biz/en/docs/line-mini-app/develop/share-messages/#image-list), both of which are then respectively divided into sections A to F below:
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_common.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_common.webp)
 
 | Label | Section | Required | Description |
 | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ For an example JSON file, see [Example JSON file following guidelines](https://d
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_standard.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_standard.webp)
 
 ##### Standard type - Image (A) 
 
@@ -425,7 +425,7 @@ For an example JSON file, see [Example JSON file following guidelines](https://d
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_list.png)
+![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_list.webp)
 
 ##### Image list type - Image (A) 
 

@@ -44,7 +44,7 @@ The rich menus of Rich Menu Playground have four main components:
 
 When you trigger an action, Rich Menu Playground does the action and then shows you the detail of the action you triggered. This helps you to know that the action was triggered, especially when the action doesn't render any visual result. The action detail includes the description of the action, action settings (parameters) and the webhook events the LINE Platform sent to the bot server.
 
-![Message after the action is executed](https://developers.line.biz/media/messaging-api/rich-menu-playground/message.png)
+![Message after the action is executed](https://developers.line.biz/media/messaging-api/rich-menu-playground/message.webp)
 
 ## Actions available on Rich Menu Playground 
 
@@ -153,7 +153,7 @@ The `openInAppBrowser` parameter opens LINE's in-app browser only in LINE for An
 
 In this tab, you can trigger a [datetime picker action](https://developers.line.biz/en/reference/messaging-api/#datetime-picker-action) from the rich menu. When you trigger this action, the date and time selection dialog is displayed. Once you select a date, the LINE Platform sends your bot server a [postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) with selected date and time.
 
-![Try Datetime Picker Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/04-datetime-picker-action-ja.png)
+![Try Datetime Picker Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/04-datetime-picker-action-ja.webp)
 
 | Button label | Action | Action object |
 | --- | --- | --- |
@@ -167,7 +167,7 @@ In this tab, you can trigger a [datetime picker action](https://developers.line.
 
 In this tab, you can trigger a [rich menu switch action](https://developers.line.biz/en/reference/messaging-api/#richmenu-switch-action) from the rich menu. When you trigger this action, the rich menu is switched to the menu defined in [rich menu aliases](https://developers.line.biz/en/docs/messaging-api/switch-rich-menus/). When the rich menu is switched, the LINE Platform sends your bot server a [postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event). This event has values you specify for the `data` property and `postback.params` object in the postback action object.
 
-![Try Rich Menu Switching Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/05-rich-menu-switch-action-ja.png)
+![Try Rich Menu Switching Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/05-rich-menu-switch-action-ja.webp)
 
 | Button label | Action | Action object |
 | --- | --- | --- |

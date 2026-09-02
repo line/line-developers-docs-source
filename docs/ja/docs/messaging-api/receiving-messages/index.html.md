@@ -96,7 +96,7 @@ Webhookイベントオブジェクトに含まれるデータに基づいて、�
 
 `quotedMessageId`プロパティについて詳しくは、『Messaging APIリファレンス』の「[メッセージイベント](https://developers.line.biz/ja/reference/messaging-api/#message-event)」の「[テキスト](https://developers.line.biz/ja/reference/messaging-api/#wh-text)」および「[スタンプ](https://developers.line.biz/ja/reference/messaging-api/#wh-sticker)」を参照してください。
 
-ユーザーが引用メッセージを送る方法について詳しくは、『LINEみんなの使い方ガイド』の「[トークのリプライ機能を利用する](https://guide.line.me/ja/chats-calls-notifications/chats/chat-reply.html)」を参照してください。
+ユーザーが引用メッセージを送る方法について詳しくは、『LINEみんなの使い方ガイド』の「[トークのリプライ機能を利用する](https://guide.line.me/ja/communication/chat-reply.html)」を参照してください。
 
 #### ボットへのメンションを含むメッセージが送信されたときのWebhook 
 
@@ -150,7 +150,7 @@ Webhookイベントは、以下のようにビーコンやアカウント連携�
 - 独自の管理画面などで表示している対象のメッセージの表示を取り消す
 - データベースなどに保存している対象のメッセージを削除する
 
-LINEアプリでのメッセージの送信取消について詳しくは、『LINEみんなの使い方ガイド』の「[トークの送信取消機能を利用する](https://guide.line.me/ja/chats-calls-notifications/chats/chat-delete.html)」を参照してください。
+LINEアプリでのメッセージの送信取消について詳しくは、『LINEみんなの使い方ガイド』の「[トークの送信取消機能を利用する](https://guide.line.me/ja/communication/chat-delete.html)」を参照してください。
 
 ## 受け取りに失敗したWebhookを再送する 
 

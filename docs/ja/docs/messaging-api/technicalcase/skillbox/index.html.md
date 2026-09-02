@@ -32,7 +32,7 @@ SkillBoxは、エンゲージメント向上を手間なく実現する「褒め
 
 ## システムの解説 
 
-![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/ja/skillbox-system.png)
+![システム構成図](https://developers.line.biz/media/messaging-api/technicalcase/skillbox/ja/skillbox-system.webp)
 
 ### AWSを基盤としたプロジェクトの技術構成 
 

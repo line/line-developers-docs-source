@@ -264,7 +264,7 @@ Note that users may access your web app without granting it some or all of the r
 
 | Consent screen | `scope` parameter and displayed items |
 | --- | --- |
-| ![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.png) | <ul><li>`profile`: Main profile info (Required)</li><li>`openid`: Your internal identifier (Required)</li><li>`email`: Email address</li></ul> |
+| ![Consent screen](https://developers.line.biz/media/line-login/integrate-login-web/consent-screen-en.webp) | <ul><li>`profile`: Main profile info (Required)</li><li>`openid`: Your internal identifier (Required)</li><li>`email`: Email address</li></ul> |
 
 #### Conditions for redisplaying the consent screen 
 

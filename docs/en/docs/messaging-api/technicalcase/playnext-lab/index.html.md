@@ -24,11 +24,11 @@ Based on the users’ current location or selected area, the service can display
 
 ### Image 
 
-![service-image](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/en/playnext-lab-ui-img.png)
+![service-image](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/en/playnext-lab-ui-img.webp)
 
 ## System Overview 
 
-![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/en/playnext-lab-system-diagram.png)
+![System architecture diagram](https://developers.line.biz/media/messaging-api/technicalcase/playnext-lab/en/playnext-lab-system-diagram.webp)
 
 ### Improving administrative services using acquired data 
 

@@ -10,7 +10,7 @@
 
 サービスメッセージは、LINEミニアプリ上でのユーザーの操作（アクション）に対する確認や応答として、ユーザーが知っておくべき情報をLINEミニアプリから通知する機能です。たとえば、ユーザーがLINEミニアプリ上でレストランや宿泊施設を予約した場合、「予約」という1つの操作に対して、予約完了や前日のリマインドといったサービスメッセージを最大5回まで送信できます。
 
-![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini-service-messages-ja.png)
+![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini-service-messages-ja.webp)
 
 <!-- note start -->
 
@@ -27,7 +27,7 @@ LINEミニアプリから送られたサービスメッセージは、LINEミニ
 | 日本 | タイ | 台湾 |
 | :-: | :-: | :-: |
 | LINEミニアプリ お知らせ | LINE MINI App Notice | LINE MINI App 通知 |
-| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.png) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.png) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.png) |
+| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.webp) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.webp) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.webp) |
 
 ## 送信できるサービスメッセージの種類 
 

@@ -27,7 +27,7 @@ Service messages sent from LINE MINI Apps are displayed in chat rooms determined
 | Japan | Thailand | Taiwan |
 | :-: | :-: | :-: |
 | LINEミニアプリ お知らせ | LINE MINI App Notice | LINE MINI App 通知 |
-| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.png) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.png) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.png) |
+| ![LINEミニアプリ お知らせ](https://developers.line.biz/media/line-mini-app/mini_service_notifier_jp.webp) | ![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini_service_notifier_th.webp) | ![LINE MINI App 通知](https://developers.line.biz/media/line-mini-app/mini_service_notifier_tw.webp) |
 
 To send a service message, use the service message API. For details, see [Sending service messages](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/).
 
@@ -64,7 +64,7 @@ For more information, see [Add a shortcut to your LINE MINI App to the home scre
 
 Quick-fill is a feature that automatically fills in the necessary profile information when you tap **Auto-fill** in LINE MINI Apps. The information from the Common Profile set up in the Account Center can be easily used in LINE MINI Apps. For more information, see [Overview of Common Profile Quick-fill](https://developers.line.biz/en/docs/line-mini-app/quick-fill/overview/).
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.webp)
 
 By implementing Quick-fill in LINE MINI Apps, users can automatically fill in required information such as addresses and phone numbers with a single tap of a button. This eliminates the need for manual input, making it more convenient for users when making reservations at stores or placing orders on online stores.
 
@@ -83,7 +83,7 @@ With LINE MINI App, you can induce users to add your Official Account as a frien
 For more information, see [Add friend option](https://developers.line.biz/en/docs/line-mini-app/service/line-mini-app-oa/#link-a-line-official-account-with-your-channel).
 
 ![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-en.png)
-![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-en.png)
+![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-en.webp)
 
 You can also use the [`liff.requestFriendship()`](https://developers.line.biz/en/reference/liff/#request-friendship) method to display a subwindow at any time, prompting users to add your LINE Official Account as a friend or unblock it.
 

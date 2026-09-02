@@ -2,7 +2,7 @@
 
 Messaging APIでは、Webhookの送信におけるエラーの原因と統計情報を確認できる機能を提供しています。ボットサーバー側の不具合などによりWebhookを受け取ることができなかった場合において、Webhookの送信状況を把握するときなどに役立ちます。
 
-![ボットサーバーからエラーが返ってくるとエラーの統計情報で表示されます](https://developers.line.biz/media/messaging-api/receiving-messages/webhook-error-ja.jpg)
+![ボットサーバーからエラーが返ってくるとエラーの統計情報で表示されます](https://developers.line.biz/media/messaging-api/receiving-messages/webhook-error-ja.webp)
 
 ## エラーの統計情報を有効にする 
 
@@ -15,7 +15,7 @@ Messaging APIでは、Webhookの送信におけるエラーの原因と統計情
 
 ［**エラーの統計情報**］をオンにした後、統計情報を確認するには、［**Webhookエラー**］タブをクリックしてください。なおエラーは、［**エラーの統計情報**］をオンにしている期間だけ集計されるため、オフだった期間の分はさかのぼって表示されません。表示されるエラーの、日付や時刻の基準となるタイムゾーンはUTC+9です。また［**TSVファイルをダウンロード**］をクリックして、過去に発生したエラーの情報をTSV形式でダウンロードできます。
 
-![エラーの統計情報](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-ja.png)
+![エラーの統計情報](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-ja.webp)
 
 エラーの統計情報には、次の項目が表示されます。
 

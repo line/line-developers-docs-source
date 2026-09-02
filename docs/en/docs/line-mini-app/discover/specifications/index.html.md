@@ -8,7 +8,7 @@ This page explains the specs for developing a LINE MINI App.
 
 When developing a LINE MINI App, you can use almost any [HTML5](https://html.spec.whatwg.org/) specification. For example, you can use [Geolocation API](https://www.w3.org/TR/geolocation/) to acquire information regarding the user's location, and provide users with information on nearby shops. Most Map APIs that are compatible with HTML5 can be used, including the Google Maps API.
 
-![](https://developers.line.biz/media/line-mini-app/mini_map_api.png)
+![](https://developers.line.biz/media/line-mini-app/mini_map_api.webp)
 
 ### Support Media Formats 
 

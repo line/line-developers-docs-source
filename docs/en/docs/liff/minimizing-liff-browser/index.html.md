@@ -12,13 +12,13 @@ When viewing a LIFF browser in a chat room, the user may want to perform another
 
 The LIFF browser will be displayed as an icon when minimized.
 
-![LIFF browser minimization](https://developers.line.biz/media/liff/minimizing-liff-app/liff-minimize-en.png)
+![LIFF browser minimization](https://developers.line.biz/media/liff/minimizing-liff-app/liff-minimize-en.webp)
 
 <!-- tip start -->
 
 **Minimizing LINE's in-app browser**
 
-Like LIFF browser, [LINE's in-app browser](https://developers.line.biz/en/glossary/#line-iab) also supports minimization. For more information, see [Minimizing the browsing web page](https://guide.line.me/ja/chats-calls-notifications/chats/minimizebrowser.html) (only available in Japanese) in the LINE user's guide.
+Like LIFF browser, [LINE's in-app browser](https://developers.line.biz/en/glossary/#line-iab) also supports minimization. For more information, see [Minimizing the browsing web page](https://guide.line.me/ja/services/minimizebrowser.html) (only available in Japanese) in the LINE user's guide.
 
 <!-- tip end -->
 
@@ -62,13 +62,13 @@ Tap the **Minimize browser** option after opening the dropdown menu from the [ac
 
 Tap an in-app alert.
 
-![LIFF browser minimization (tapping an in-app alert)](https://developers.line.biz/media/liff/minimizing-liff-app/tap-in-app-alert.png)
+![LIFF browser minimization (tapping an in-app alert)](https://developers.line.biz/media/liff/minimizing-liff-app/tap-in-app-alert.webp)
 
 ### Swiping a LIFF browser 
 
 Swipe a LIFF browser down.
 
-![LIFF browser minimization (swiping a LIFF browser)](https://developers.line.biz/media/liff/minimizing-liff-app/swipe-liff-browser-en.png)
+![LIFF browser minimization (swiping a LIFF browser)](https://developers.line.biz/media/liff/minimizing-liff-app/swipe-liff-browser-en.webp)
 
 ### Tapping the option from the action button (LINE version earlier than 26.7.0) 
 
@@ -80,13 +80,13 @@ Tap the **Minimize browser** option after opening the [multi-tab view](https://d
 
 To maximize a LIFF browser, tap the minimized LIFF browser.
 
-![LIFF browser maximization](https://developers.line.biz/media/liff/minimizing-liff-app/maximize-liff-browser-en.png)
+![LIFF browser maximization](https://developers.line.biz/media/liff/minimizing-liff-app/maximize-liff-browser-en.webp)
 
 ## Moving a minimized LIFF browser 
 
 To move a minimized LIFF browser, drag the LIFF browser.
 
-![Moving a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/move-minimized-liff-browser-en.png)
+![Moving a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/move-minimized-liff-browser-en.webp)
 
 ## Closing a minimized LIFF browser (LINE version earlier than 15.20.0) 
 
@@ -99,7 +99,7 @@ In LINE version earlier than 15.20.0, there are two ways to close a minimized LI
 
 Swipe the minimized LIFF browser off the screen.
 
-![Closing a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-en.png)
+![Closing a minimized LIFF browser](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-en.webp)
 
 ### Drag a minimized LIFF browser to the close icon 
 

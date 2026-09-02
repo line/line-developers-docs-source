@@ -12,13 +12,13 @@
 
 クイック入力とは、LINEミニアプリ上で［**自動入力**］をタップすることで、必要なプロフィール情報が自動で入力される機能です。ユーザーがアカウントセンターで設定した共通プロフィールの情報が、LINEミニアプリで簡単に利用できます。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-3-steps.webp)
 
 LINEミニアプリにクイック入力を導入すると、住所や電話番号の登録が必要な場面で、ボタンをタップするだけで必要な情報が自動で入力されます。これにより、たとえばお店の予約やオンラインストアでの注文時に、ユーザーは面倒な手入力の手間を省くことができます。
 
 このページでは、LINEミニアプリでクイック入力を組み込む方法を紹介します。
 
-ユーザーがLINEミニアプリ上でクイック入力を利用する方法については、『LINEみんなの使い方ガイド』の「[共通プロフィールを設定してクイック入力を利用する](https://guide.line.me/ja/services/quick-fill.html)」を参照してください。
+ユーザーがLINEミニアプリ上でクイック入力を利用する方法については、『LINEみんなの使い方ガイド』の「[共通プロフィールを設定してクイック入力を利用する](https://guide.line.me/ja/account-and-settings/quick-fill.html)」を参照してください。
 
 ### クイック入力を利用できる言語 
 

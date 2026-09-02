@@ -18,7 +18,7 @@ Messaging APIチャネルに紐づいているLINE公式アカウントの利用
 1. ［**Messaging API設定**］タブをクリックします。
 1. ［**Webhook設定**］セクションの［**Webhookの利用**］を無効にします。
 
-![［Webhook設定］セクションの［Webhookの利用］](https://developers.line.biz/media/messaging-api/stop-using-messaging-api/disable-use-webhook-ja.png)
+![［Webhook設定］セクションの［Webhookの利用］](https://developers.line.biz/media/messaging-api/stop-using-messaging-api/disable-use-webhook-ja.webp)
 
 ## チャネルアクセストークンを取り消す 
 
