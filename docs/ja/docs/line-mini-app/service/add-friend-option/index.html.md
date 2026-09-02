@@ -59,12 +59,7 @@ LINEミニアプリチャネルが[認証プロバイダー](https://developers.
 
 ### 複数のLINE公式アカウントを使用する機能の利用条件 
 
-友だち追加オプションで複数のLINE公式アカウントを使用するには、「[友だち追加オプションの利用条件](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/#requirements)」に加えて、次の条件をすべて満たす必要があります。
-
-- LINEミニアプリが[認証済ミニアプリ](https://developers.line.biz/ja/docs/line-mini-app/discover/introduction/#verified-mini-app)である（※）。
-- LINEミニアプリチャネルの［**サービスを提供する地域**］が「日本」である。
-
-※ [未認証ミニアプリ](https://developers.line.biz/ja/glossary/#unverified-mini-app)では、開発用と審査用のLINEミニアプリでのみ動作します。
+友だち追加オプションで複数のLINE公式アカウントを使用するには、「[友だち追加オプションの利用条件](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/#requirements)」に加えて、LINEミニアプリチャネルの［**サービスを提供する地域**］が「日本」である必要があります。
 
 ### 複数のLINE公式アカウントを使用する方法 
 

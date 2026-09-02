@@ -59,12 +59,7 @@ For more information about the requirements and usage, see the following section
 
 ### Requirements for using multiple LINE Official Accounts 
 
-To use multiple LINE Official Accounts with the add friend option, all of the following conditions must be met in addition to the [requirements for the add friend option](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/#requirements):
-
-- The LINE MINI App is a [verified MINI App](https://developers.line.biz/en/docs/line-mini-app/discover/introduction/#verified-mini-app) (\*).
-- **Region to provide the service** for the LINE MINI App channel is set to "Japan".
-
-\* For [unverified MINI Apps](https://developers.line.biz/en/glossary/#unverified-mini-app), this feature works only in the LINE MINI App for Developing and for Review.
+To use multiple LINE Official Accounts with the add friend option, in addition to the [requirements for the add friend option](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/#requirements), **Region to provide the service** for the LINE MINI App channel must be set to "Japan".
 
 ### How to use multiple LINE Official Accounts 
 
