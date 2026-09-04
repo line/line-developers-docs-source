@@ -89,9 +89,9 @@ LINEヤフー株式会社では、アプリ内課金を使用して完了した�
 
 ![](https://developers.line.biz/media/line-mini-app/in-app-purchase/flow.png)
 
-- 1～5：[アプリ内課金が利用可能な環境かを確認](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#check-the-environment)する
-- 6～9：[購入可能なアイテムの一覧を取得](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-item-information)し、ユーザーに表示する
-- 10～13：ユーザーから[アプリ内課金利用に関する同意を取得](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-user-consent)する
-- 14～21：LINEミニアプリのサーバーから[購入処理の予約](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#reserve-payment)を行う
-- 22～30：アプリストア（App Store、Google Play）での[購入処理を開始](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#start-transaction)する
-- 31～36：[Webhookを受信し、購入完了を確認してアイテムを付与](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#receive-webhook)する
+- 1〜5：[アプリ内課金が利用可能な環境かを確認](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#check-the-environment)する
+- 6〜9：[購入可能なアイテムの一覧を取得](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-item-information)し、ユーザーに表示する
+- 10〜13：ユーザーから[アプリ内課金利用に関する同意を取得](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-user-consent)する
+- 14〜21：LINEミニアプリのサーバーから[購入処理の予約](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#reserve-payment)を行う
+- 22〜30：アプリストア（App Store、Google Play）での[購入処理を開始](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#start-transaction)する
+- 31〜36：[Webhookを受信し、購入完了を確認してアイテムを付与](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#receive-webhook)する

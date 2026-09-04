@@ -68,7 +68,7 @@ PKCE対応のために、LINEログインの「認可URL」および「アクセ
 
 | パラメータ | 仕様 | 例 |
 | --- | --- | --- |
-| <code style="word-break: normal">code_verifier</code> | **使用可能文字種**：半角英数字（`a`〜`z`、`A`～`Z`、`0`～`9`）および記号（`-._~`）からなるランダムな文字列<br>**文字数**：43文字〜128文字 | wJKN8qz5t8SSI9lMFhBB6qwNkQBkuPZoCxzRhwLRUo1 |
+| <code style="word-break: normal">code_verifier</code> | **使用可能文字種**：半角英数字（`a`〜`z`、`A`〜`Z`、`0`〜`9`）および記号（`-._~`）からなるランダムな文字列<br>**文字数**：43文字〜128文字 | wJKN8qz5t8SSI9lMFhBB6qwNkQBkuPZoCxzRhwLRUo1 |
 
 **サンプルコード**
 

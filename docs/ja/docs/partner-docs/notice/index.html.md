@@ -150,7 +150,7 @@ LINEヤフー株式会社は、今後もお客様への一層のサービス向�
 
 ## モジュール メンテナンスのお知らせ 
 
-2024年6月5日 2:00頃 ～ 3:00頃（UTC+9）に、モジュールにおいてメンテナンスを予定しています。詳しくは、2024年5月7日のニュース、「[Messaging API、モジュール、およびLINE Developersコンソール メンテナンスのお知らせ](https://developers.line.biz/ja/news/2024/05/07/maintenance-notice/)」を参照してください。
+2024年6月5日 2:00頃 〜 3:00頃（UTC+9）に、モジュールにおいてメンテナンスを予定しています。詳しくは、2024年5月7日のニュース、「[Messaging API、モジュール、およびLINE Developersコンソール メンテナンスのお知らせ](https://developers.line.biz/ja/news/2024/05/07/maintenance-notice/)」を参照してください。
 
 2024/04/26
 
@@ -213,7 +213,7 @@ LINEは今後もお客様への一層のサービス向上に取り組んでま�
 
 ## モジュール メンテナンスのお知らせ 
 
-2023年5月11日 2:00頃 ～ 3:00頃（UTC+9）に、モジュールにおいてメンテナンスを行います。詳しくは、2023年4月11日のニュース、「[Messaging API、モジュール、およびLINE Developersコンソール メンテナンスのお知らせ](https://developers.line.biz/ja/news/2023/04/11/messaging-api-module-and-console-maintenance/)」を参照してください。
+2023年5月11日 2:00頃 〜 3:00頃（UTC+9）に、モジュールにおいてメンテナンスを行います。詳しくは、2023年4月11日のニュース、「[Messaging API、モジュール、およびLINE Developersコンソール メンテナンスのお知らせ](https://developers.line.biz/ja/news/2023/04/11/messaging-api-module-and-console-maintenance/)」を参照してください。
 
 2023/02/20
 

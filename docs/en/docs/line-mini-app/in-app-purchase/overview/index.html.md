@@ -89,9 +89,9 @@ An example of a basic in-app purchase process flow.
 
 ![](https://developers.line.biz/media/line-mini-app/in-app-purchase/flow.png)
 
-- 1～5: [Check if the environment is compatible with in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#check-the-environment)
-- 6～9: [Get a list of purchasable items](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-item-information) and display to users
-- 10～13: [Obtain user consent for using in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-user-consent)
-- 14～21: [Reserve the purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#reserve-payment) from your LINE MINI App server
-- 22～30: [Start the purchase transaction](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#start-transaction) at the app store (App Store, Google Play)
-- 31～36: [Receive the webhook, confirm purchase completion, and grant the item](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#receive-webhook)
+- 1〜5: [Check if the environment is compatible with in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#check-the-environment)
+- 6〜9: [Get a list of purchasable items](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-item-information) and display to users
+- 10〜13: [Obtain user consent for using in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#get-user-consent)
+- 14〜21: [Reserve the purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#reserve-payment) from your LINE MINI App server
+- 22〜30: [Start the purchase transaction](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#start-transaction) at the app store (App Store, Google Play)
+- 31〜36: [Receive the webhook, confirm purchase completion, and grant the item](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#receive-webhook)

@@ -40,7 +40,7 @@ LINEミニアプリでは、現在開いているページを友だちと共有�
 
 カスタムシェアメッセージは、Flex Messageの[バブル](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#bubble)コンテナを使用して作成します。 Flex Messageの[カルーセル](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#carousel)コンテナは使用しないでください。
 
-また、カスタムシェアメッセージには、[標準タイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#standard)と[画像リストタイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#image-list)があり、それぞれ以下のA～Fのセクションに分かれています。
+また、カスタムシェアメッセージには、[標準タイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#standard)と[画像リストタイプ](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/#image-list)があり、それぞれ以下のA〜Fのセクションに分かれています。
 
 ![](https://developers.line.biz/media/line-mini-app/mini_design_flex_msg_common.webp)
 
@@ -196,7 +196,7 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
 | D | 詳細 | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | <ul><li>`"layout": "vertical"`</li><li>`"spacing": "sm"`</li><li>`"margin": "lg"`</li><li>`"flex": 1`</li></ul> |
-| D | 詳細 - アイテム | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-1～D-2を1組だけ入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"spacing": "sm"`</li><li>`"flex": 1`</li></ul> |
+| D | 詳細 - アイテム | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-1〜D-2を1組だけ入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"spacing": "sm"`</li><li>`"flex": 1`</li></ul> |
 | D-1 | 詳細 - ラベル | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{ラベル}"`<br>最大行数：1行</li><li>`"size": "sm"`</li><li>`"color": "#555555"`</li><li>`"wrap": false`</li><li>`"flex": 20`</li></ul> |
 | D-2 | 詳細 - 説明 | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{説明}"`<br>最大行数：1行</li><li>`"size": "sm"`</li><li>`"color": "#111111"`</li><li>`"wrap": false`</li><li>`"flex": 55`</li></ul> |
 
@@ -281,7 +281,7 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
-| E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1～E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li><li>`"margin": "lg"`</li></ul> |
+| E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1〜E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li><li>`"margin": "lg"`</li></ul> |
 | E-1 | ボタン<br>（linkスタイルのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
 | E-2 | ボタン<br>（primaryスタイルを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul></li></ul> |
 
@@ -349,7 +349,7 @@ primaryスタイルを使用する場合：
 | --- | --- | --- | --- |
 | - | - | [フッターブロック](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#block) > [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | <ul><li>`"layout": "vertical"`</li></ul> |
 | - | - | [セパレータ](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#separator) | <ul><li>`"color": "#f0f0f0"`</li></ul> |
-| F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1～F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
+| F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1〜F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
 | F-1 | LINEミニアプリのアイコン | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "{画像のURL}"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li></ul> |
 | F-2 | LINEミニアプリの名前 | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{LINEミニアプリの名前}"`<br>最大行数：1行</li><li>`"flex": 19`</li><li>`"size": "xs"`</li><li>`"color": "#999999"`</li><li>`"weight": "bold"`</li><li>`"gravity": "center"`</li><li>`"wrap": false`</li></ul> |
 | F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのトップページ（`https://miniapp.line.me/{your-liffId}`）を表示するようにURIアクションを指定してください。</li></ul> |
@@ -551,9 +551,9 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
 | D | 詳細 | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | <ul><li>`"layout": "vertical"`</li><li>`"spacing": "xl"`</li><li>`"margin": "lg"`</li></ul> |
-| - | 詳細 - アイテム | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-1～D-4を1組だけ入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li></ul> |
+| - | 詳細 - アイテム | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-1〜D-4を1組だけ入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li></ul> |
 | D-1 | 詳細 - 画像 | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "{画像のURL}"`</li><li>`"flex": 3`</li><li>`"size": "sm"`</li><li>`"aspectRatio": "1:1"`</li><li>`"aspectMode": "cover"`</li></ul> |
-| - | 詳細 - テキストエリア | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-2～D-4を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"flex": 8`</li><li>`"spacing": "xs"`</li><li>`"margin": "md"`</li></ul> |
+| - | 詳細 - テキストエリア | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-2〜D-4を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"flex": 8`</li><li>`"spacing": "xs"`</li><li>`"margin": "md"`</li></ul> |
 | D-2 | 詳細 - 標準テキスト | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{標準テキスト}"`</li><li>`"size": "md"`</li><li>`"color": "#111111"`</li></ul> |
 | D-3 | 詳細 - 強調テキスト | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{強調テキスト}"`</li><li>`"size": "md"`</li><li>`"color": "#111111"`</li></ul> |
 | D-4 | 詳細 - 画像＋テキスト | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | D-4の画像とテキストを入れるボックス：<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li></ul>D-4の[画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image)：<ul><li>`"flex": 8`</li><li>`"url": "{画像のURL}"`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"aspectRatio": "1:1"`</li></ul>D-4の[テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text)：<ul><li>`"flex": 85`</li><li>`"margin": "xs"`</li><li>`"text": "{テキスト}"`</li><li>`"size": "sm"`</li><li>`"color": "{色}"`</li><li>`"gravity": "center"`</li></ul> |
@@ -650,7 +650,7 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
-| E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1～E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li></ul> |
+| E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1〜E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li></ul> |
 | E-1 | ボタン<br>（linkのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
 | E-2 | ボタン<br>（primaryを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul></li></ul> |
 
@@ -715,7 +715,7 @@ primaryを使用する場合：
 | --- | --- | --- | --- |
 | - | - | [フッターブロック](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#block) > [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | <ul><li>`"layout": "vertical"`</li></ul> |
 | - | - | [セパレータ](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#separator) | <ul><li>`"color": "#f0f0f0"`</li></ul> |
-| F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1～F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
+| F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1〜F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
 | F-1 | LINEミニアプリのアイコン | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "{画像のURL}"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li></ul> |
 | F-2 | LINEミニアプリの名前 | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{LINEミニアプリの名前}"`<br>最大行数：1行</li><li>`"flex": 19`</li><li>`"size": "xs"`</li><li>`"color": "#999999"`</li><li>`"weight": "bold"`</li><li>`"gravity": "center"`</li><li>`"wrap": false`</li></ul> |
 | F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのトップページ（`https://miniapp.line.me/{your-liffId}`）を表示するようにURIアクションを指定してください。</li></ul> |
