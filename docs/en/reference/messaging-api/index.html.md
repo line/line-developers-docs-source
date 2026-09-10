@@ -53,7 +53,7 @@ The Messaging API applies rate limits based on the [token bucket algorithm](http
 
 With the token bucket algorithm, tokens required to send requests are stored in a bucket with a fixed capacity. Each request consumes tokens, which are gradually added back to the bucket over time.
 
-If requests continue to consume tokens faster than tokens are refilled, the bucket will eventually run out of available tokens. Requests sent in this state will be subject to a rate limit and return a `429 Too Many Requests` response. As tokens are refilled over time, the number of requests that can be sent gradually increases again.
+If requests continue to consume tokens faster than the bucket is refilled with tokens, the bucket will eventually run out of available tokens. Requests sent in this state will be subject to a rate limit, and the API will return a `429 Too Many Requests` response. As the bucket is refilled with tokens over time, the number of requests that can be sent gradually increases again.
 
 #### Scope of rate limits 
 
