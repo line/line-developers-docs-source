@@ -144,6 +144,14 @@ The verification screen may also be displayed when you execute a [method that re
 
 ##### Switch the LINE Official Account displayed on the channel consent screen 
 
+<!-- note start -->
+
+**The feature to switch the LINE Official Account displayed on the channel consent screen is temporarily suspended**
+
+Due to a technical issue, the feature to switch the LINE Official Account displayed on the channel consent screen is temporarily suspended. For more information, see the news from [September 15, 2026](https://developers.line.biz/en/news/2026/09/15/use-multiple-accounts/).
+
+<!-- note end -->
+
 To switch the LINE Official Account displayed on the channel consent screen, add the `prompt_bot_id` query parameter to the [LIFF URL](https://developers.line.biz/en/glossary/#liff-url) or [permanent link](https://developers.line.biz/en/glossary/#permanent-link-liff). For the `prompt_bot_id` query parameter, specify the ID of the LINE Official Account that users are prompted to add as a friend, using its basic ID or [premium ID](https://developers.line.biz/en/glossary/#premium-id).
 
 ```

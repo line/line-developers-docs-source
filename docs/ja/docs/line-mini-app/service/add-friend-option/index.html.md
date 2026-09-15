@@ -144,6 +144,14 @@ try {
 
 ##### チャネル同意画面に表示するLINE公式アカウントを切り替える 
 
+<!-- note start -->
+
+**「チャネル同意画面に表示するLINE公式アカウントを切り替える」機能は提供を一時停止しています**
+
+「チャネル同意画面に表示するLINE公式アカウントを切り替える」機能は、技術的な問題があり、提供を一時停止しています。詳しくは、[2026年9月15日](https://developers.line.biz/ja/news/2026/09/15/use-multiple-accounts/)のニュースを参照してください。
+
+<!-- note end -->
+
 チャネル同意画面に表示するLINE公式アカウントを切り替えるには、[LIFF URL](https://developers.line.biz/ja/glossary/#liff-url)または[パーマネントリンク](https://developers.line.biz/ja/glossary/#permanent-link-liff)に`prompt_bot_id`クエリパラメータを付与します。`prompt_bot_id`クエリパラメータには、友だち追加を促すLINE公式アカウントのIDを、ベーシックIDまたは[プレミアムID](https://developers.line.biz/ja/glossary/#premium-id)で指定します。
 
 ```
