@@ -39,7 +39,7 @@ LIFF SDKで取得した[アクセストークン](https://developers.line.biz/ja
 
 2026年1月8日より前に作成されたLINEミニアプリチャネルの場合、「チャネル同意の簡略化」機能を有効化するには、[LINE Developersコンソール](https://developers.line.biz/console/)のLINEミニアプリチャネルで、［**ウェブアプリ設定**］タブの「チャネル同意の簡略化」セクションのトグルをオン（右）にします。
 
-![](https://developers.line.biz/media/line-mini-app/simplification-feature-setup-ja.png)
+![](https://developers.line.biz/media/line-mini-app/simplification-feature-setup-ja.webp)
 
 なお、「チャネル同意の簡略化」機能はユーザーID（`openid`スコープ）の取得権限への同意を簡略化するため、有効化すると「Scope」セクションの`openid`も自動的に有効になります。
 
@@ -69,7 +69,7 @@ LIFF SDKで取得した[アクセストークン](https://developers.line.biz/ja
 
 [`liff.getProfile()`](https://developers.line.biz/ja/reference/liff/#get-profile)メソッドや[`liff.sendMessages()`](https://developers.line.biz/ja/reference/liff/#send-messages)メソッドなど、`openid`スコープ以外の権限を必要とするメソッドを実行すると、「アクセス許可要求画面」が表示されます。「アクセス許可要求画面」では、LINEミニアプリが要求する追加の権限を表示し、権限を許可するかどうかをユーザーに確認します。
 
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-ja.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-ja.webp)
 
 `openid`スコープ以外の権限を必要とするメソッドは次のとおりです。
 
@@ -105,7 +105,7 @@ liff.permission.query("profile").then((permissionStatus) => {
 
 LINEミニアプリでは、[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)を使って、アクセス許可要求画面、もしくはチャネル同意画面からLINE公式アカウントの友だち追加への誘導ができます。
 
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-verification-screen-ja.png) ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-channel-consent-screen-ja.png)
+![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-verification-screen-ja.webp) ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-channel-consent-screen-ja.webp)
 
 しかし、LINEミニアプリチャネルの［**ウェブアプリ設定**］タブの「Scope」セクションで`openid`のみを指定している場合、「チャネル同意の簡略化」機能が有効になると、「アクセス許可要求画面」および「チャネル同意画面」が表示されなくなります。このため、友だち追加オプションによる友だち追加を誘導できなくなります。
 
@@ -119,4 +119,4 @@ LINEミニアプリでは、[友だち追加オプション](https://developers.
 
 ［**許可する**］をタップすると、そのLINEミニアプリを利用できるようになります。
 
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/line-mini-app-playground-channel-consent-screen-ja.png)
+![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/line-mini-app-playground-channel-consent-screen-ja.webp)

@@ -1915,7 +1915,7 @@ Contains one of the following values:
 
 Displays the "Verification screen" for the permissions requested by LINE MINI Apps.
 
-![verification screen](https://developers.line.biz/media/line-mini-app/verification-screen-en.png)
+![verification screen](https://developers.line.biz/media/line-mini-app/verification-screen-en.webp)
 
 <!-- note start -->
 
@@ -2250,7 +2250,7 @@ When the `Promise` is rejected, a [`LiffError`](https://developers.line.biz/en/r
 
 Displays a subwindow that prompts the user to add the LINE Official Account as a friend, or to unblock it.
 
-![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-en.png)
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-en.webp)
 
 - If the user has not added the LINE Official Account as a friend, a subwindow that prompts the user to add it as a friend is displayed.
 - If the user has blocked the LINE Official Account, a subwindow that prompts the user to unblock it is displayed.
@@ -3317,7 +3317,7 @@ This feature is only available for verified MINI Apps. For unverified MINI Apps,
 
 Displays a screen for adding a shortcut to your [LINE MINI App](https://developers.line.biz/en/docs/line-mini-app/) to the home screen of the user's device.
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.webp)
 
 For more information, see [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/develop/add-to-home-screen/) in the LINE MINI App documentation.
 

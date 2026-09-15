@@ -24,7 +24,7 @@ LINEミニアプリチャネルは、[LINEミニアプリポリシー](https://t
 
 2. ［**チャネル設定**］>［**新規チャネル作成**］>［**LINEミニアプリ**］の順にクリックします。
 
-   ![LINEミニアプリチャネル](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-ja.png)
+   ![LINEミニアプリチャネル](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-ja.webp)
 
 3. 以下の項目に情報を入力して、LINEミニアプリのチャネルを作成します。
 

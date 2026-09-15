@@ -38,7 +38,7 @@ When using LINE Pay, the payment will be processed as follows:
 
 2. The user confirms the payment details with LINE Pay and enters the LINE Pay authentication information.
 
-   The screen displayed by LINE Pay:<br>![](https://developers.line.biz/media/line-mini-app/mini_linepay_flow02.png)
+   The screen displayed by LINE Pay:<br>![](https://developers.line.biz/media/line-mini-app/mini_linepay_flow02.webp)
 
 3. The order confirmation page is displayed.
 

@@ -30,7 +30,7 @@ The only LINE Official Account that can be added to your provider page are verif
 
 <!-- tip end -->
 
-![provider page settings screen](https://developers.line.biz/media/partner-docs/provider-page-settings-en.png)
+![provider page settings screen](https://developers.line.biz/media/partner-docs/provider-page-settings-en.webp)
 
 ### Set the order in which services are displayed on the provider page 
 

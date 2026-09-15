@@ -271,7 +271,7 @@ Flex Messageで送信された動画は、[トークルーム](https://developer
 
 2つ目のボタンは［**詳細はこちら**］で、動画コンポーネントに指定したURIアクションのラベルです。任意のテキストに変更できます。動画コンポーネントにURIアクションを指定しない場合は、［**完了**］だけが表示されます。詳しくは、「[動画のURIアクション](https://developers.line.biz/ja/docs/messaging-api/create-flex-message-including-video/#uri-action)」を参照してください。
 
-![動画再生時の画面](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-ja.png)
+![動画再生時の画面](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-ja.webp)
 
 #### 動画再生終了時の画面 
 
@@ -279,7 +279,7 @@ Flex Messageで送信された動画は、[トークルーム](https://developer
 
 2つ目のボタンは［**詳細はこちら**］で、動画コンポーネントに指定したURIアクションのラベルです。任意のテキストに変更できます。動画コンポーネントにURIアクションを指定しない場合は、［**リプレイ**］だけが表示されます。詳しくは、「[動画のURIアクション](https://developers.line.biz/ja/docs/messaging-api/create-flex-message-including-video/#uri-action)」を参照してください。
 
-![動画再生終了時の画面](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-finished-ja.png)
+![動画再生終了時の画面](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-finished-ja.webp)
 
 ## 動画コンポーネントをサポートするバージョン未満のLINEでの表示 
 

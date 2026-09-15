@@ -49,7 +49,7 @@ Messaging APIにおける吹き出しとは、1つのメッセージオブジェ
 
 下の図は3つの吹き出しで構成されるメッセージの例です。吹き出し2と3は、吹き出し1のテキストメッセージオブジェクトのような吹き出しの形状をしていませんが、それぞれ吹き出しとしてインプレッションの計測に利用されます。
 
-![](https://developers.line.biz/media/messaging-api/measure-impressions/message-and-bubbles-ja.png)
+![](https://developers.line.biz/media/messaging-api/measure-impressions/message-and-bubbles-ja.webp)
 
 このメッセージを送信した場合、ユーザーがトークルームに入室してメッセージを確認すると、1つの吹き出しが表示された段階で`overview.uniqueImpression`が計測されます。`messages[].uniqueImpression`と`messages[].impression`は、吹き出しごとに個別で計測されます。
 
@@ -87,10 +87,10 @@ Messaging APIにおける吹き出しとは、1つのメッセージオブジェ
 
 | 表示 | 説明 | 画像 |
 | --- | --- | --- |
-| ✅️ 100％表示されている | 緑色の部分に表示されている吹き出しは、100％表示されているため、インプレッションとして計測されます。 | ![吹き出し全体が表示されている](https://developers.line.biz/media/messaging-api/measure-impressions/impression-100per.png) |
-| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、リッチメニューと重なり、100％表示されていないため、インプレッションとして計測されません。 | ![リッチメニューと重なったため吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-richmenu.png) |
-| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、[サービスメニューバー](https://www.lycbiz.com/jp/manual/OfficialAccountManager/servicemenubar/)と重なり、100％表示されていないため、インプレッションとして計測されません。 | ![サービスメニューバーと重なったため吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-service-menu-ber.png) |
-| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、縦長であるためトーク画面に収まらず、100％表示されていないため、インプレッションとして計測されません。 | ![メッセージが縦長過ぎて吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-too-long.png) |
+| ✅️ 100％表示されている | 緑色の部分に表示されている吹き出しは、100％表示されているため、インプレッションとして計測されます。 | ![吹き出し全体が表示されている](https://developers.line.biz/media/messaging-api/measure-impressions/impression-100per.webp) |
+| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、リッチメニューと重なり、100％表示されていないため、インプレッションとして計測されません。 | ![リッチメニューと重なったため吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-richmenu.webp) |
+| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、[サービスメニューバー](https://www.lycbiz.com/jp/manual/OfficialAccountManager/servicemenubar/)と重なり、100％表示されていないため、インプレッションとして計測されません。 | ![サービスメニューバーと重なったため吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-service-menu-ber.webp) |
+| ❌️ 100％表示されていない | 赤色の部分に表示されている吹き出しは、縦長であるためトーク画面に収まらず、100％表示されていないため、インプレッションとして計測されません。 | ![メッセージが縦長過ぎて吹き出し全体が表示されていない](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-too-long.webp) |
 
 <!-- tip start -->
 
@@ -116,7 +116,7 @@ Flex Messageなどを利用し、[カルーセル](https://developers.line.biz/j
 
 カルーセルを使用したメッセージでは、吹き出しの上端、下端、左端、右端のすべてが表示されると100％表示されたとみなされ、1回のインプレッションとして計測されます。
 
-![](https://developers.line.biz/media/messaging-api/measure-impressions/carousel-100per-scroll.png)
+![](https://developers.line.biz/media/messaging-api/measure-impressions/carousel-100per-scroll.webp)
 
 ## 利用上の注意点 
 

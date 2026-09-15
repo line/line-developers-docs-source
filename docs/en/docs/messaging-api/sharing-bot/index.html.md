@@ -58,7 +58,7 @@ From your web app or native app, prompt users to add your LINE Official Account 
 
 For example, [`https://line.me/R/ti/p/%40linedevelopers`](https://line.me/R/ti/p/%40linedevelopers) displays the business profile page of LINE Developers' LINE Official Account. For more information on the LINE URL scheme, see [Sharing a LINE Official Account](https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/#sharing-line-official-account).
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/add-line-developers-oa-en.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/add-line-developers-oa-en.webp)
 
 ## Encourage users to recommend your LINE Official Account to friends on LINE 
 

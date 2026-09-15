@@ -81,7 +81,7 @@ The link request URL is valid for 7 days (168 hours) after it is issued. If the 
 
 When the Business Manager organization administrator opens the link request URL, the request approval screen is displayed.
 
-![](https://developers.line.biz/media/line-mini-app/service/approve-send-link-request-en.png)
+![](https://developers.line.biz/media/line-mini-app/service/approve-send-link-request-en.webp)
 
 Confirm that the LINE MINI App channel and organization are correct, review the precautions, and then click **Approve**.
 
@@ -242,7 +242,7 @@ First, select the LINE Official Account to link. In the Business Manager menu, c
 
 If the developer is also the Business Manager organization administrator, they can open the "LINE Official account linking" screen in the Business Manager from the "LINE Official Account link" section on the **Business Manager link** tab of the LINE MINI App channel.
 
-![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-from-line-mini-app-channel-en.png)
+![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-from-line-mini-app-channel-en.webp)
 
 <!-- tip end -->
 

@@ -18,7 +18,7 @@
 
 リッチメニューは、リッチメニュー画像、タップ領域、およびトークルームメニューで構成されます。
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/bot-demo-rich-menu-image.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/bot-demo-rich-menu-image.webp)
 
 1. リッチメニュー画像：メニューの項目を含む1枚の画像（JPEGまたはPNG）ファイルです。画像の要件について詳しくは、『Messaging APIリファレンス』の「[リッチメニューの画像の要件](https://developers.line.biz/ja/reference/messaging-api/#upload-rich-menu-image-requirements)」を参照してください。
 1. タップ領域：メニューの項目として分割した領域。ポストバックイベントを返したり、URLを開いたりするさまざまなアクションを各項目に設定します。

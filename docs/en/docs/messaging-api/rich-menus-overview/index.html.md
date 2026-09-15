@@ -18,7 +18,7 @@ Rich menus aren't displayed on LINE for PC (macOS, Windows).
 
 Rich menus are composed of a menu image, tappable areas, and a chat bar.
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/bot-demo-rich-menu-image.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/bot-demo-rich-menu-image.webp)
 
 1. Rich menu image: A single JPEG or PNG image file that has menu items. For more information about image requirements, see [Requirements for rich menu image](https://developers.line.biz/en/reference/messaging-api/#upload-rich-menu-image-requirements) in the Messaging API reference.
 1. Tappable areas: Areas you divide as menu items. Assign an [action](https://developers.line.biz/en/reference/messaging-api/#action-objects) on each menu item, such as getting a postback event and opening a URL.

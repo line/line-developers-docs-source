@@ -27,7 +27,7 @@ LINE通知メッセージには、LINE通知メッセージ（テンプレート
 
 LINE通知メッセージ（テンプレート）では、用意されたテンプレートやアイテム、ボタンを組み合わせて簡単にメッセージを作成できます。メッセージを作成する際は、「[LINE通知メッセージ（テンプレート）UXガイドライン](https://www.lycbiz.com/sites/default/files/media/jp/download/LINE_Official_Notification_Template_UXGuideline.pdf)」に準拠してください。
 
-![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/notification-messages-template.png)
+![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/notification-messages-template.webp)
 
 LINE通知メッセージ（フレキシブル）では、[Flex Message](https://developers.line.biz/ja/docs/messaging-api/message-types/#flex-messages)などを用いて、より柔軟にメッセージが作成できます。ただしメッセージ内に画像、動画、音声を含めることは許可されていません。またLINE通知メッセージ（フレキシブル）では事前のUX審査があり、審査に通過したメッセージのみ送信できます。メッセージを作成する際は、「[LINE通知メッセージ（フレキシブル）UXガイドライン](https://www.lycbiz.com/sites/default/files/media/jp/download/LINE%E9%80%9A%E7%9F%A5%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8UX%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3.pdf)」に準拠してください。
 
@@ -151,7 +151,7 @@ LINE通知メッセージ送信元のLINE公式アカウントと友だちでは
 
 LINE通知メッセージを受信したユーザーは、LINE公式アカウントと友だちにならなくても1対1のトーク画面を開いて、リッチメニューを利用できます。このとき、[LINE Official Account Manager](https://developers.line.biz/ja/docs/messaging-api/rich-menus-overview/#creating-a-rich-menu-with-the-line-manager)または[Messaging API](https://developers.line.biz/ja/docs/messaging-api/using-rich-menus/#set-the-default-rich-menu)で設定したデフォルトのリッチメニューは表示されますが、[Messaging APIで設定するユーザー単位のリッチメニュー](https://developers.line.biz/ja/reference/messaging-api/#link-rich-menu-to-user)は表示されません。
 
-![友だちにならなくてもリッチメニューは利用できる](https://developers.line.biz/media/line-notification-message/about-richmenu-displayed.png)
+![友だちにならなくてもリッチメニューは利用できる](https://developers.line.biz/media/line-notification-message/about-richmenu-displayed.webp)
 
 また、LINE通知メッセージを受信したユーザーはLINE公式アカウントと友だちにならなくても、LINE公式アカウントにメッセージを送ることができます。そのため、Webhookで友だちでないユーザーの[ポストバックイベント](https://developers.line.biz/ja/reference/messaging-api/#postback-event)や[メッセージイベント](https://developers.line.biz/ja/reference/messaging-api/#message-event)が届くことがあります。
 

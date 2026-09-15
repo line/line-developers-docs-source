@@ -2,7 +2,7 @@
 
 LINE MINI App page consists of (A) Header and (B) Body
 
-![](https://developers.line.biz/media/line-mini-app/mini_concept.png)
+![](https://developers.line.biz/media/line-mini-app/mini_concept.webp)
 
 ## Header 
 
@@ -12,7 +12,7 @@ The header of a verified MINI App displays the title, LINE MINI App name, and ve
 
 The header is composed of the following components. You can't set the header or specific components of the header to be hidden.
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini_uicomp_header.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini_uicomp_header.webp)
 
 | Number | Component | Description |
 | --- | --- | --- |

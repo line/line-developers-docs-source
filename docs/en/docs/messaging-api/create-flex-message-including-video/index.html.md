@@ -271,7 +271,7 @@ While a video is playing, you can have up to two buttons displayed at the top of
 
 The second button is **More information** that shows the label for a URI action you specify in the video component. You can change the text. If you don't specify a URI action for the video component, only **Done** is displayed. For more information, see [URI actions for videos](https://developers.line.biz/en/docs/messaging-api/create-flex-message-including-video/#uri-action).
 
-![Screen while a video is playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-en.png)
+![Screen while a video is playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-en.webp)
 
 #### Screen when playback is complete 
 
@@ -279,7 +279,7 @@ When video playback finishes, you can have up to two buttons displayed over the 
 
 The second button is **More information** that shows the label for a URI action you specify in the video component. You can change the text. If you don't specify a URI action for the video component, only **Replay** is displayed. For more information, see [URI actions for videos](https://developers.line.biz/en/docs/messaging-api/create-flex-message-including-video/#uri-action).
 
-![Screen when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-finished-en.png)
+![Screen when a video finishes playing](https://developers.line.biz/media/messaging-api/create-flex-message-including-video/video-player-finished-en.webp)
 
 ## Display on version of LINE that doesn't support the video component 
 

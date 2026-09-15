@@ -26,7 +26,7 @@ The UI of Flex Message Simulator has three areas:
 - **Tree view area**: Displays and lets you edit the data structure of the Flex Message.
 - **Property area**: Lets you set the properties of the item selected in the tree view area. The simulator uses the data entered here to generate a Flex Message.
 
-![Flex Message Areas](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-areas.png)
+![Flex Message Areas](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-areas.webp)
 
 If you hover your mouse over an item in the tree view area, the corresponding area is highlighted in the preview area. See this in action from the video.
 
@@ -49,7 +49,7 @@ In this tutorial, we don't use a predefined layout. We'll create a Flex Message 
 
 <!-- note end -->
 
-![Flex Message Simulator Showcase](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/showcase.png)
+![Flex Message Simulator Showcase](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/showcase.webp)
 
 #### You can copy the Flex Message in JSON 
 
@@ -66,7 +66,7 @@ To skip reading through the instructions and jump right to preview the outcome, 
 1. Copy and paste the content of the downloaded JSON file into the modal.
 1. Click **Apply** to save the change. The preview area shows the Flex Message we pasted in.
 
-![Preview Flex Message created from sample JSON data](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-confirm-example-code-output.png)
+![Preview Flex Message created from sample JSON data](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-confirm-example-code-output.webp)
 
 ## 1. Select container type 
 
@@ -74,7 +74,7 @@ Now that we learnt about Flex Message Simulator, let's get started to create a d
 
 To create a bubble container, click **New** and select **bubble** from the drop-down menu.
 
-![Select Bubble Type Container](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/select-bubble-type.png)
+![Select Bubble Type Container](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/select-bubble-type.webp)
 
 <!-- tip start -->
 
@@ -317,7 +317,7 @@ The buttons are stacked very tight to each other. It doesn't look like so, but i
 
 Now we have the buttons with more space in between:
 
-![Style Buttons](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-style-buttons.png)
+![Style Buttons](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/en-style-buttons.webp)
 
 This is it. You completed this tutorial to create a digital business card!
 

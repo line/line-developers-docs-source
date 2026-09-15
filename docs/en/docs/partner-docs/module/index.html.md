@@ -12,7 +12,7 @@ The functions described in this document are available only to corporate custome
 
 The module is a mechanism that allows you to add functions using the Messaging API to your LINE Official Account by linking (attaching) it to your LINE Official Account. Modules are provided as a type of channel [module channel](https://developers.line.biz/en/docs/line-developers-console/overview/#channel). Even if your LINE Official Account hasn't created a Messaging API channel, you can still call the Messaging API from a module channel to send messages to users and set rich menus.
 
-![module channel](https://developers.line.biz/media/partner-docs/module/module-channel-en.png)
+![module channel](https://developers.line.biz/media/partner-docs/module/module-channel-en.webp)
 
 ### Relationship between module channel and LINE Official Account 
 

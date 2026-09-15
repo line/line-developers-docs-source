@@ -114,6 +114,6 @@ curl -v -X DELETE https://api.line.me/v2/bot/user/{userId}/richmenu \
 
 ユーザー単位のリッチメニューを活用して、タブ切り替えが可能なリッチメニューをユーザーに提供できます。[リッチメニューエイリアス](https://developers.line.biz/ja/glossary/#rich-menu-alias)と[リッチメニュー切替アクション](https://developers.line.biz/ja/reference/messaging-api/#richmenu-switch-action)を使うことで、簡単にリッチメニューの切り替えを実装できます。
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.webp)
 
 詳しくは、「[リッチメニューでタブ切り替えを行う](https://developers.line.biz/ja/docs/messaging-api/switch-rich-menus/)」を参照してください。

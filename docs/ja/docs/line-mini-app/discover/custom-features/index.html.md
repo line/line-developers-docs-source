@@ -53,7 +53,7 @@ Custom Pathとは、本番用のLIFF URLに設定する独自の文字列のこ�
 
 ユーザー端末のホーム画面にLINEミニアプリへのショートカットを追加できます。この機能を使うと、ユーザーは端末のホーム画面からLINEミニアプリに直接アクセスできるようになります。
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.webp)
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-ja.webp)
 
 会員証やモバイルオーダーなど、ユーザーの利用頻度の高いサービスでこの機能を活用することで、ユーザー体験を向上させることができます。
@@ -82,7 +82,7 @@ LINEミニアプリでは、友だち追加オプションを使って、[アク
 
 詳しくは、「[LINEミニアプリ上でLINE公式アカウントを友だち追加する（友だち追加オプション）](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)」を参照してください。
 
-![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-ja.png)
+![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-ja.webp)
 ![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-ja.webp)
 
 また、[`liff.requestFriendship()`](https://developers.line.biz/ja/reference/liff/#request-friendship)メソッドを用いて、任意のタイミングでLINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウを表示することも可能です。
@@ -91,7 +91,7 @@ LINEミニアプリでは、友だち追加オプションを使って、[アク
 
 友だち同士で、LINEミニアプリを簡単にシェアするために[ビルトインのアクションボタン](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#action-button)が用意されていますが、[カスタムアクションボタンを実装](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/)することもできます。
 
-![](https://developers.line.biz/media/line-mini-app/mini_share_custom.png)
+![](https://developers.line.biz/media/line-mini-app/mini_share_custom.webp)
 
 ## 決済システムの利用 
 

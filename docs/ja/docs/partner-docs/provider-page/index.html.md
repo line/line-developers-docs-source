@@ -30,7 +30,7 @@
 
 <!-- tip end -->
 
-![プロバイダーページの設定画面](https://developers.line.biz/media/partner-docs/provider-page-settings-ja.png)
+![プロバイダーページの設定画面](https://developers.line.biz/media/partner-docs/provider-page-settings-ja.webp)
 
 ### プロバイダーページでのサービスの表示順を設定する 
 

@@ -443,7 +443,7 @@ When you execute the `liff.$commonProfile.get()` method, a modal will appear to 
 
 Example of a modal display:
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-modal-screen.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-modal-screen.webp)
 
 _Example_
 
@@ -649,7 +649,7 @@ When you execute the `liff.$commonProfile.getDummy()` method, a modal will appea
 
 Example of a modal display:
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-dummy-modal-screen.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-dummy-modal-screen.webp)
 
 _Example_
 

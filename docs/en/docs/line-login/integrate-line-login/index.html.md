@@ -181,7 +181,7 @@ Users are automatically logged in when they visit an authorization URL from one 
 
 As shown below, the LINE app is automatically launched upon login, and the user is logged in without any operation:
 
-![](https://developers.line.biz/media/line-login/integrate-login-web/auto-ligin-animation.gif)
+![](https://developers.line.biz/media/line-login/integrate-login-web/auto-login-animation.webp)
 
 <!-- note start -->
 

@@ -127,7 +127,7 @@ LINE SDK for iOS SwiftをObjective-Cラッパーと共にObjective-Cのプロジ
 
 ［Build Phases］設定タブは以下のようになるはずです。
 
-![iOS SDK Swift ObjCのリンクの[Build Phase] タブに[Link Binary with Library]、[Copy Bundle Resources]、および [Run Script] サブタブが表示されます。](https://developers.line.biz/media/ios-sdk-swift/install-carthage-objc.png)
+![iOS SDK Swift ObjCのリンクの[Build Phase] タブに[Link Binary with Library]、[Copy Bundle Resources]、および [Run Script] サブタブが表示されます。](https://developers.line.biz/media/ios-sdk-swift/install-carthage-objc.webp)
 
 ##### ［Always Embed Swift Standard Libraries］オプションを有効にする 
 

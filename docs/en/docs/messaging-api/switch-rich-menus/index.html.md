@@ -2,7 +2,7 @@
 
 You can provide users with a rich menu with tab switching using per-user rich menus. To switch between rich menus with ease, like switching between tabs, use [rich menu aliases](https://developers.line.biz/en/glossary/#rich-menu-alias) and [rich menu switch action](https://developers.line.biz/en/reference/messaging-api/#richmenu-switch-action).
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.webp)
 
 Here are the steps to set up two rich menus, rich menu A and rich menu B and enable switching between the two:
 
@@ -22,7 +22,7 @@ Prepare an image for rich menu A (`richmenu-a.png`) and an image for rich menu B
 
 | Image for rich menu A | Image for rich menu B |
 | :-: | :-: |
-| ![Rich menu A image](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-a.png) | ![Rich menu B image](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-b.png) |
+| ![Rich menu A image](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-a.webp) | ![Rich menu B image](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-b.webp) |
 
 ## 2. Create rich menu A 
 

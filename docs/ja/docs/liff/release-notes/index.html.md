@@ -1402,7 +1402,7 @@ liff.scanCodeV2().then(result => {
 
 `liff.scanCode()`メソッドの場合、AndroidとiOSでは表示される二次元コードリーダーが異なりましたが、`liff.scanCodeV2()`メソッドの場合、OSの違いによらず以下の画面に統一されます。
 
-![二次元コードリーダー](https://developers.line.biz/media/liff/two_dimensional_code_reader_ja.png)
+![二次元コードリーダー](https://developers.line.biz/media/liff/two_dimensional_code_reader_ja.webp)
 
 二次元コードリーダーを起動すると、`Full`サイズのLIFFアプリの画面下部から`Tall`サイズのサブウィンドウが表示されます。また、画面右下の ![二次元コード選択](https://developers.line.biz/media/liff/two-dimensional-code-file-selection.png) アイコンをクリックすると、読み取り対象の二次元コードを写真から選ぶことができます。
 
@@ -2784,7 +2784,7 @@ LINE Front-end Framework（LIFF）で、ユーザーがLIFFアプリを起動し
 
 新画面（イメージ）
 
-![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.png)
+![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.webp)
 
 なお、ユーザーに「トークへのメッセージ送信」の認可を求めるLIFFアプリでは、同意画面でユーザーが許可しない場合があります。この場合は、次にユーザーがLIFFアプリを起動したときに同意画面が再表示されます。
 

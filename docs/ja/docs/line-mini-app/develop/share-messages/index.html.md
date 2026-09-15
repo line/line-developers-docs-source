@@ -4,7 +4,7 @@ LINEミニアプリでは、現在開いているページを友だちと共有�
 
 一方、（B）ボディにカスタムアクションボタンを実装すると、メッセージの内容をカスタマイズしてLINEミニアプリをシェアできます。
 
-![](https://developers.line.biz/media/line-mini-app/mini_concept.png)
+![](https://developers.line.biz/media/line-mini-app/mini_concept.webp)
 
 ## ガイドライン 
 

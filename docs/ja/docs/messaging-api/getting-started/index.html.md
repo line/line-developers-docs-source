@@ -37,13 +37,13 @@ LINE公式アカウントを作成するには、[ビジネスID](https://accoun
 
 ビジネスIDへの登録が完了すると、LINE公式アカウントの[作成フォーム](https://entry.line.biz/form/entry/unverified)が表示されます。このフォームに必要事項を記入します。記入が完了すると、LINE公式アカウントが作成されます。
 
-![](https://developers.line.biz/media/messaging-api/getting-started/oa-entry-form-ja.png)
+![](https://developers.line.biz/media/messaging-api/getting-started/oa-entry-form-ja.webp)
 
 ### 1-3. LINE公式アカウントを確認する 
 
 以上の手順により、LINE公式アカウントが作成されます。作成されたLINE公式アカウントは、[LINE Official Account Manager](https://manager.line.biz/)で確認できます。
 
-![](https://developers.line.biz/media/messaging-api/getting-started/oa-manager-list-ja.png)
+![](https://developers.line.biz/media/messaging-api/getting-started/oa-manager-list-ja.webp)
 
 LINE公式アカウントが作成されたことを確認したら、手順2に進んでください。
 
@@ -98,7 +98,7 @@ LINE公式アカウントが作成されたことを確認したら、手順2に
 
 [手順2-1](https://developers.line.biz/ja/docs/messaging-api/getting-started/#step-one-enable-use-of-messaging-api)で選択したプロバイダーを選択し、チャネルが作成されたことを確認します。
 
-![](https://developers.line.biz/media/messaging-api/getting-started/console-home-ja.png)
+![](https://developers.line.biz/media/messaging-api/getting-started/console-home-ja.webp)
 
 ## 【廃止】LINE Developersコンソールでチャネルを作成する 
 

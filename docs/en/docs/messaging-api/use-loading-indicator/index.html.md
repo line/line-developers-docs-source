@@ -8,7 +8,7 @@ After your LINE Official Account receives a message from a user, the response ma
 
 By using the [Display a loading animation](https://developers.line.biz/en/reference/messaging-api/#display-a-loading-indicator) endpoint, you can display a loading animation in one-on-one chats between users and LINE Official Accounts. The loading animation will automatically disappear after the specified number of seconds (5 to 60 seconds) has elapsed or when a new message arrives from your LINE Official Account.
 
-![](https://developers.line.biz/media/messaging-api/loading-indicator/loading-animation.gif)
+![](https://developers.line.biz/media/messaging-api/loading-indicator/loading-animation.webp)
 
 You can display the loading animation in a one-on-one chat between a user and your LINE Official Account by specifying the user ID as the display destination. You can't specify group chats or multi-person chats.
 

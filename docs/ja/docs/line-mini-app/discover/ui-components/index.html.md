@@ -2,7 +2,7 @@
 
 LINEミニアプリのページは、（A）ヘッダーおよび（B）ボディで構成されています。
 
-![](https://developers.line.biz/media/line-mini-app/mini_concept.png)
+![](https://developers.line.biz/media/line-mini-app/mini_concept.webp)
 
 ## ヘッダー 
 
@@ -12,7 +12,7 @@ LINEミニアプリのページは、（A）ヘッダーおよび（B）ボデ�
 
 ヘッダーは、以下のコンポーネントで構成されています。ヘッダー全体や、ヘッダーの特定のコンポーネントを非表示にすることはできません。
 
-![](https://developers.line.biz/media/line-mini-app/discover/mini_uicomp_header.png)
+![](https://developers.line.biz/media/line-mini-app/discover/mini_uicomp_header.webp)
 
 | 番号 | コンポーネント | 説明 |
 | --- | --- | --- |

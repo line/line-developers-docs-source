@@ -18,7 +18,7 @@ If you want to continue using your LINE Official Account linked to a Messaging A
 1. Click the **Messaging API** tab.
 1. Disable the **Use webhook** in the **Webhook settings** section.
 
-![Use webhook in the Webhook settings section](https://developers.line.biz/media/messaging-api/stop-using-messaging-api/disable-use-webhook-en.png)
+![Use webhook in the Webhook settings section](https://developers.line.biz/media/messaging-api/stop-using-messaging-api/disable-use-webhook-en.webp)
 
 ## Revoke channel access tokens 
 

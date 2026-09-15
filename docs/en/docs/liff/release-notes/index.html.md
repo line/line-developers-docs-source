@@ -1403,7 +1403,7 @@ Due to technical problems, the traditional [`liff.scanCode()`](https://developer
 
 For the `liff.scanCode()` method, Android and iOS each had different 2D code reader screens, but for the `liff.scanCodeV2()` method, the following same screen is displayed, regardless of OS.
 
-![2D code reader screen](https://developers.line.biz/media/liff/two_dimensional_code_reader_en.png)
+![2D code reader screen](https://developers.line.biz/media/liff/two_dimensional_code_reader_en.webp)
 
 If you launch the 2D code reader, a `Tall` size sub-window will be displayed on the bottom of the `Full` size LIFF app screen. Also, if you click on the ![2D code selection](https://developers.line.biz/media/liff/two-dimensional-code-file-selection.png) icon located at the bottom-right of the screen, you can select a 2D code to be read from a photo.
 
@@ -2784,7 +2784,7 @@ For more information, see [LINE Front-end Framework](https://developers.line.biz
 
 We have improved the consent screen bundled with the LINE Front-end Framework (LIFF). The improvement is automatically applied to all LIFF apps. There's no need for additional development work.
 
-![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.png)
+![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.webp)
 
 As before this update, the user can choose to not allow the LIFF app to send messages to chats. But if they do so, unlike before, the consent screen will reappear the next time the user launches the LIFF app.
 

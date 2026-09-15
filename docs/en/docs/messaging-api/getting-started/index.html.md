@@ -37,13 +37,13 @@ To create a LINE Official Account, you need to register for [Business ID](https:
 
 Once you've registered for Business ID, the [entry form](https://entry.line.biz/form/entry/unverified) for a LINE Official Account will appear. Fill in the required information on this form. Once you've completed the form, your LINE Official Account will be created.
 
-![](https://developers.line.biz/media/messaging-api/getting-started/oa-entry-form-en.png)
+![](https://developers.line.biz/media/messaging-api/getting-started/oa-entry-form-en.webp)
 
 ### Step 1-3. Check your LINE Official Account 
 
 The above steps will create your LINE Official Account. You can check the created LINE Official Account on the [LINE Official Account Manager](https://manager.line.biz/).
 
-![](https://developers.line.biz/media/messaging-api/getting-started/oa-manager-list-en.png)
+![](https://developers.line.biz/media/messaging-api/getting-started/oa-manager-list-en.webp)
 
 Once you have confirmed that your LINE Official Account has been created, proceed to step 2.
 

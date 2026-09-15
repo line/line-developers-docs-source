@@ -103,4 +103,4 @@ You can also check the error information received in the notification email on t
 
 The **Webhook errors** tab is displayed only for channels where **Error statistics aggregation** is enabled on the **Messaging API** tab. For more information, see [Enable error statistics](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#enable-error-statistics).
 
-![Error statistics aggregation](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-en.png)
+![Error statistics aggregation](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-en.webp)

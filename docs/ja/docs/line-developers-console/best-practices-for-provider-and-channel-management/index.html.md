@@ -50,7 +50,7 @@
 
 ただし、選択した開発者がプロバイダーの配下のチャネルから削除された結果、そのチャネルのAdmin権限を持つ開発者が0人になる可能性があります。そのため、［**選択した開発者をこのプロバイダーに紐づいているチャネルからも削除する。**］をチェックする際は、チャネルのAdmin権限を持つ開発者が他にいることを確認してください。
 
-![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/delete-developer-from-provider-ja.png)
+![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/delete-developer-from-provider-ja.webp)
 
 <!-- note end -->
 

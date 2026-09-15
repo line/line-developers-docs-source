@@ -15,7 +15,7 @@ The display of error statistics is disabled by default. To display error statist
 
 After turning on **Error statistics aggregation**, click the **Webhook errors** tab to view the statistics. The errors are aggregated only while **Error statistics aggregation** is turned on. Data from periods when it was turned off won't be displayed retroactively. The time zone used for the date and time of the displayed errors is UTC+9. You can also download past error information in TSV format by clicking **Download TSV file**.
 
-![Error statistics aggregation](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-en.png)
+![Error statistics aggregation](https://developers.line.biz/media/messaging-api/receiving-messages/error-statistics-en.webp)
 
 Error statistics include the following items:
 

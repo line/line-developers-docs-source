@@ -32,7 +32,7 @@
 
 LINE通知メッセージは、通常のメッセージと区別できるようLINE公式アカウントのアイコンの右側に「重要なお知らせ」と表示されるようになりました。
 
-![LINE通知メッセージはアイコンの右側に「重要なお知らせ」と表示される](https://developers.line.biz/media/line-notification-message/notification-messages-important-ja.jpg)
+![LINE通知メッセージはアイコンの右側に「重要なお知らせ」と表示される](https://developers.line.biz/media/line-notification-message/notification-messages-important-ja.webp)
 
 詳しくは、『LINE通知メッセージドキュメント』の「[LINE通知メッセージ以外のメッセージとの見た目の差異](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/overview/#difference-from-other-messages)」を参照してください。
 

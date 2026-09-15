@@ -6,7 +6,7 @@ The Messaging API enables two-way communication between your service and LINE us
 
 The outcome of this tutorial is an app which automatically responds to a user's message.
 
-![Conversation with a sample bot](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.png)
+![Conversation with a sample bot](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.webp)
 
 ## Before you start 
 
@@ -363,7 +363,7 @@ Before we test our bot, we want to check that webhook is working. Go to **Messag
 
 Try to send a message to the bot on your LINE. If all is well, you'll receive a message from your bot like this:
 
-![Conversation with a sample bot in the LINE chat room](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.png)
+![Conversation with a sample bot in the LINE chat room](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.webp)
 
 ### Troubleshoot the sample bot 
 

@@ -52,7 +52,7 @@
 
 ［**プロバイダーの権限を持つメンバーから登録**］は、対象のチャネルとプロバイダー、両方のAdmin権限を持つ開発者アカウントでのみ利用できます。
 
-![プロバイダーの権限を持つメンバーから登録](https://developers.line.biz/media/line-developers-console/managing-roles-ja.png)
+![プロバイダーの権限を持つメンバーから登録](https://developers.line.biz/media/line-developers-console/managing-roles-ja.webp)
 
 <!-- tip end -->
 

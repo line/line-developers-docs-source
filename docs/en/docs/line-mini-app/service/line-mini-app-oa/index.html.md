@@ -2,7 +2,7 @@
 
 This page introduces how to use a LINE Official Account to promote your LINE MINI App. For more information about how to create a LINE Official Account, see [Create a LINE Official Account](https://developers.line.biz/en/docs/messaging-api/getting-started/#create-oa) in the Messaging API documentation.
 
-![Promote your LINE MINI App on LINE Official Account](https://developers.line.biz/media/line-mini-app/mini_with_oa.png)
+![Promote your LINE MINI App on LINE Official Account](https://developers.line.biz/media/line-mini-app/mini_with_oa.webp)
 
 ## Send rich messages 
 

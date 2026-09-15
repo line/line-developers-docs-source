@@ -104,7 +104,7 @@
 
 上記で指定したメッセージは、トーク上で次のようなクイックリプライボタンとして表示されます。
 
-![クイックリプライのサンプル2](https://developers.line.biz/media/messaging-api/using-quick-reply/quickReplySample2.png)
+![クイックリプライのサンプル2](https://developers.line.biz/media/messaging-api/using-quick-reply/quickReplySample2.webp)
 
 ## クイックリプライボタンが非表示になるタイミング 
 

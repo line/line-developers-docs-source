@@ -52,7 +52,7 @@ If you grant the Member role to a developer on a provider, you can add the devel
 
 **Import from provider** is only available to a developer account with the Admin role both in the channel and the provider.
 
-![Import from provider](https://developers.line.biz/media/line-developers-console/managing-roles-en.png)
+![Import from provider](https://developers.line.biz/media/line-developers-console/managing-roles-en.webp)
 
 <!-- tip end -->
 

@@ -12,7 +12,7 @@
 
 ［**モジュール**］タブでは、モジュールチャネルのWebhook URLおよびWebhook利用のオン・オフと、[LINE公式アカウントの管理者に認可を要求する](https://developers.line.biz/ja/docs/partner-docs/module-technical-attach-channel/#request-auth-from-line-oa-admin)際に指定する`redirect_uri`を設定できます。
 
-![LINE Developersコンソール上のモジュールタブ](https://developers.line.biz/media/partner-docs/module-technical/module-tab-in-console-ja.png)
+![LINE Developersコンソール上のモジュールタブ](https://developers.line.biz/media/partner-docs/module-technical/module-tab-in-console-ja.webp)
 
 ## 1. モジュールタブ 
 

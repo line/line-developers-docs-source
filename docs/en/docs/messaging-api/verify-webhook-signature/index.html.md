@@ -2,7 +2,7 @@
 
 When the bot server receives a webhook event, verify the signature included in the request header before processing the [webhook event objects](https://developers.line.biz/en/reference/messaging-api/#webhook-event-objects). This verification step is important to confirm that the webhook came from the LINE Platform and wasn’t tampered with during transmission.
 
-![Signature verification](https://developers.line.biz/media/partner-docs/webbhook-signature-verification-en.png)
+![Signature verification](https://developers.line.biz/media/partner-docs/webbhook-signature-verification-en.webp)
 
 <!-- tip start -->
 
@@ -44,7 +44,7 @@ The LINE Platform will not reissue a channel secret without the developer's cons
 
 Signature verification means that both the webhook sender (the LINE Platform) and the receiver (the bot server operated by the developer) perform a calculation using the same hash key, and verify the legitimacy of the webhook by checking that the resulting signature matches.
 
-![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/webhook-validation-flow.png)
+![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/webhook-validation-flow.webp)
 
 Here is a step-by-step explanation of how signature verification works.
 
@@ -60,7 +60,7 @@ The LINE Platform creates a signature when sending a webhook by following these 
 2. The generated signature is set to the `x-line-signature` header.
 3. Sends the webhook event and signature (`x-line-signature`) to the bot server.
 
-![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/line-platform-sends-webhook-request.png)
+![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/line-platform-sends-webhook-request.webp)
 
 ### The bot server receives the webhook 
 
@@ -85,7 +85,7 @@ The bot server verifies webhooks sent from the LINE Platform as follows:
 3. If the signatures match, it's guaranteed that the received webhook was sent from the LINE Platform and reached the bot server without being tampered with.
 4. If the signatures match, take action based on the content of the webhook event.
 
-![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/signature-validation.png)
+![](https://developers.line.biz/media/messaging-api/verify-webhook-signature/signature-validation.webp)
 
 If the two signatures don't match or the signature isn't included in the webhook request header, don't process the webhook event and end the process with an error. If the signatures don't match, it may be due to these reasons:
 

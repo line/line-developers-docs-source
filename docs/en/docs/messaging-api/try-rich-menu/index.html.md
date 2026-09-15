@@ -38,7 +38,7 @@ The rich menus of Rich Menu Playground have four main components:
 3. Action button: Triggers the action set on the button. If an action requires parameters, a parameter gets a button each for you to try.
 4. Help button: Opens the document for the target action.
 
-![Main Menu](https://developers.line.biz/media/messaging-api/rich-menu-playground/menu-descriptions.png)
+![Main Menu](https://developers.line.biz/media/messaging-api/rich-menu-playground/menu-descriptions.webp)
 
 ### Action detail 
 
@@ -62,7 +62,7 @@ With Rich Menu Playground you can test:
 
 This tab lets you trigger a [message action](https://developers.line.biz/en/reference/messaging-api/#message-action) to send a message from the rich menu.
 
-![Try Message Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/01-message-action-ja.png)
+![Try Message Action](https://developers.line.biz/media/messaging-api/rich-menu-playground/01-message-action-ja.webp)
 
 <!-- tip start -->
 
@@ -80,7 +80,7 @@ When a user sends a message through the rich menu in a chat with your LINE Offic
 
 This tab lets you trigger a [postback action](https://developers.line.biz/en/reference/messaging-api/#postback-action) from the rich menu. When you trigger this action, the LINE Platform sends the bot server a [postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) with the string specified in the `data` property of the postback action object.
 
-![Try Postback Action (1)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-postback-action-ja.png)
+![Try Postback Action (1)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-postback-action-ja.webp)
 
 <!-- tip start -->
 
@@ -109,7 +109,7 @@ To show text in a chat as a message from the user when a postback action is trig
 
 In this tab you can try the [postback actions](https://developers.line.biz/en/reference/messaging-api/#postback-action) of opening and closing the rich menu. When the postback action is executed, a [postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) containing the string specified in the `data` property is sent from the LINE Platform to the bot server.
 
-![Try Postback Action (2)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-2-postback-action-ja.png)
+![Try Postback Action (2)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-2-postback-action-ja.webp)
 
 | Button label | Action | Action object |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ In this tab you can try the [postback actions](https://developers.line.biz/en/re
 
 In this tab, you can try out the rich menu with [postback actions](https://developers.line.biz/en/reference/messaging-api/#postback-action) set to open keyboard and voice message input modes. Once the postback action is executed, a [postback event](https://developers.line.biz/en/reference/messaging-api/#postback-event) containing the string specified in the `data` property is sent from the LINE Platform to the bot server.
 
-![Try Postback Action (3)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-3-postback-action-ja.png)
+![Try Postback Action (3)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-3-postback-action-ja.webp)
 
 | Button label | Action | Action object |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ In this tab, you can try out the rich menu with [postback actions](https://devel
 
 In this tab, you can trigger a [URI action](https://developers.line.biz/en/reference/messaging-api/#uri-action) from the rich menu. When you trigger this action, the `uri` set for the action is opened in a web browser.
 
-![Try URI action](https://developers.line.biz/media/messaging-api/rich-menu-playground/03-uri-action-ja.png)
+![Try URI action](https://developers.line.biz/media/messaging-api/rich-menu-playground/03-uri-action-ja.webp)
 
 | Button label | Action | Action object |
 | --- | --- | --- |

@@ -104,7 +104,7 @@ LINEの位置情報画面を開くアクションです。このアクション�
 
 クリップボードにテキストをコピーするためのアクションです。ユーザーがこのアクションが関連づけられたコントロールをタップすると、`clipboardText`プロパティに指定されたテキストが、端末のクリップボードにコピーされます。
 
-![](https://developers.line.biz/media/news/2024/clipbord-action-example-ja.png)
+![](https://developers.line.biz/media/news/2024/clipbord-action-example-ja.webp)
 
 上記の例で示した、メッセージにクリップボードアクションを設定したリクエストボディは以下のようになります。詳しくは、『Messaging APIリファレンス』の「[クリップボードアクション](https://developers.line.biz/ja/reference/messaging-api/#clipboard-action)」を参照してください。
 

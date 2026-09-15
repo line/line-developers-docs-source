@@ -30,7 +30,7 @@ LINE Developersコンソールへログインできたら、プロバイダー�
 
    **プロバイダー**は、LINEプラットフォームを通じてサービスを提供する個人、企業、またはそのほかの組織を意味する情報です。プロバイダー名には、あなたの名前や企業名を入力してください。
 
-   ![プロバイダー作成画面](https://developers.line.biz/media/liff/getting-started/create-provider-ja.png)
+   ![プロバイダー作成画面](https://developers.line.biz/media/liff/getting-started/create-provider-ja.webp)
 
 ### 2. チャネルを作成する 
 

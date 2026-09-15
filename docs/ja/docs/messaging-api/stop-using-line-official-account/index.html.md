@@ -13,7 +13,7 @@ Messaging APIチャネルと紐づいているLINE公式アカウントの利用
 1. [LINE Developersコンソール](https://developers.line.biz/console/)で、削除するMessaging APIチャネルを選択します。
 2. ［**チャネル基本設定**］タブが表示されます。「チャネルの削除」セクションにある［**削除**］をクリックします。
 
-![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-this-channel-ja.png)
+![](https://developers.line.biz/media/messaging-api/stop-using-line-official-account/delete-this-channel-ja.webp)
 
 3. 「このチャネルを削除しますか？」モーダルが表示されます。［**LINE Official Account Managerを表示**］をクリックします。
 

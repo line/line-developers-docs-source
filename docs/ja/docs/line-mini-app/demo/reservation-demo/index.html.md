@@ -20,7 +20,7 @@ LINEミニアプリを使って、たとえばヘアサロンや飲食店の予�
 
 お使いのスマートフォンでLINEを起動し、以下のQRコードを読み込むとデモを見ることができます。
 
-![](https://developers.line.biz/media/line-mini-app/demo/reservation-demo/reserve-qr-code.png)
+![](https://developers.line.biz/media/line-mini-app/demo/reservation-demo/reserve-qr-code.webp)
 
 <!-- note start -->
 

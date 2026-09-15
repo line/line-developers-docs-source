@@ -52,7 +52,7 @@ Messaging APIを使うことで、ボットから以下のようなメッセー�
 
 ユーザーがプレビュー用の画像をタップすると、以下のようにオリジナルの画像が表示されます。URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認してください。詳しくは、『Messaging APIリファレンス』の「[画像メッセージ](https://developers.line.biz/ja/reference/messaging-api/#image-message)」を参照してください。
 
-![画像メッセージ](https://developers.line.biz/media/messaging-api/messages/image.png) ![フルサイズの画像メッセージ](https://developers.line.biz/media/messaging-api/messages/image-full.png)
+![画像メッセージ](https://developers.line.biz/media/messaging-api/messages/image.png) ![フルサイズの画像メッセージ](https://developers.line.biz/media/messaging-api/messages/image-full.webp)
 
 ## 動画メッセージ 
 
@@ -74,7 +74,7 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 位置情報メッセージは、ユーザーに位置情報を送信するメッセージです。[メッセージオブジェクト](https://developers.line.biz/ja/reference/messaging-api/#message-objects)にタイトルと住所、緯度と経度の座標を指定します。詳しくは、『Messaging APIリファレンス』の「[位置情報メッセージ](https://developers.line.biz/ja/reference/messaging-api/#location-message)」を参照してください。
 
-![位置情報メッセージ](https://developers.line.biz/media/messaging-api/messages/location-ja.png)
+![位置情報メッセージ](https://developers.line.biz/media/messaging-api/messages/location-ja.webp)
 
 ## クーポンメッセージ 
 
@@ -88,7 +88,7 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 イメージマップメッセージは、複数のタップ可能な領域を設定した画像を送信するメッセージです。タップ可能な領域を設定して、ウェブページを開いたり、ユーザーに代わってメッセージを送信したりできます。また、画像の上で動画を再生し、再生が終わるとリンクテキストを表示するように設定することもできます。詳しくは、『Messaging APIリファレンス』の「[イメージマップメッセージ](https://developers.line.biz/ja/reference/messaging-api/#imagemap-message)」を参照してください。
 
-![イメージマップメッセージ](https://developers.line.biz/media/messaging-api/messages/imagemap.png)
+![イメージマップメッセージ](https://developers.line.biz/media/messaging-api/messages/imagemap.webp)
 
 ## テンプレートメッセージ 
 
@@ -133,7 +133,7 @@ URLのプロトコルがHTTPS（TLS 1.2以降）であることを確認して�
 
 Flex Messageはレイアウトをカスタマイズできるメッセージです。[CSS Flexible Box（CSS Flexbox）](https://www.w3.org/TR/css-flexbox-1/)の仕様の範囲内でレイアウトをカスタマイズできます。詳しくは、「[Flex Messageを送信する](https://developers.line.biz/ja/docs/messaging-api/using-flex-messages/)」と『Messaging APIリファレンス』の「[Flex Message](https://developers.line.biz/ja/reference/messaging-api/#flex-message)」を参照してください。
 
-![Flex Messageのサンプル](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.png)
+![Flex Messageのサンプル](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.webp)
 
 ## メッセージタイプ共通機能 
 

@@ -24,7 +24,7 @@ Messaging APIを利用することで、ボットサーバーはLINEプラット
 
 Messaging APIを体験してみましょう。お手持ちのスマートフォンでデモを見ることができます。 QRコードを読み取ると、デモ用のLINE公式アカウントを友だち追加できます。
 
-![](https://developers.line.biz/media/messaging-api/demo/messaging-api-demo-qr-code-ja.png)
+![](https://developers.line.biz/media/messaging-api/demo/messaging-api-demo-qr-code-ja.webp)
 
 <!-- note start -->
 

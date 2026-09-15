@@ -3,7 +3,7 @@
 Users must consent to their information, such as [User ID](https://developers.line.biz/en/glossary/#user-id), being obtained when they use a LINE Login channel. After consenting, users can review the terms of consent or revoke consent at any time.
 
 1. From your LINE app, tap **Settings** > **Account** > **Authorized apps**. <br> The settings screen for "Authorized apps" will be displayed.
-2. Tap the app you wish to unauthorize.<br> The authorized app screen will be displayed.<br> ![Authorized app](https://developers.line.biz/media/line-login/managing-authorized-apps/authorized-app-en.png)<br> To review the terms of consent, tap "View permissions". <br> To revoke consent, tap "Unlink".
+2. Tap the app you wish to unauthorize.<br> The authorized app screen will be displayed.<br> ![Authorized app](https://developers.line.biz/media/line-login/managing-authorized-apps/authorized-app-en.webp)<br> To review the terms of consent, tap "View permissions". <br> To revoke consent, tap "Unlink".
 
 ## When user revokes consent 
 

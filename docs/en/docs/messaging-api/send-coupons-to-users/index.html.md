@@ -102,7 +102,7 @@ Coupon messages can be sent as any of the following types of messages. You can a
 
 Users can open and get the delivered coupon and use it within the validity period.
 
-![](https://developers.line.biz/media/messaging-api/coupon/coupon-message-ja.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/coupon-message-ja.webp)
 
 ## Discontinue a coupon 
 
@@ -201,7 +201,7 @@ You can check the number of times sent coupons were viewed and used in [LINE Off
 
 Coupon images can be displayed by specifying the image URL in `imageUrl` when creating the coupon. If you specify a square image, the aspect ratio will be 1.51:1 (width:height) in the chat screen, so the top and bottom of the image will be partially cut off.
 
-![](https://developers.line.biz/media/messaging-api/coupon/how-images-look.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/how-images-look.webp)
 
 <!-- tip start -->
 

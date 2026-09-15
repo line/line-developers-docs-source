@@ -26,7 +26,7 @@ Tokyu Land Corporation has made company-wide efforts to invest in decarbonizatio
 
 ## System overview 
 
-![System configuration diagram](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/en/kirifuda-morikaranotegami-system.png)
+![System configuration diagram](https://developers.line.biz/media/line-mini-app/technicalcase/kirifuda-morikaranotegami/en/kirifuda-morikaranotegami-system.webp)
 
 ### Technical configuration of "Letters from the Forest": Seamless integration of LIFF and blockchain 
 

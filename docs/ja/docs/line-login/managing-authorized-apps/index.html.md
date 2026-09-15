@@ -3,7 +3,7 @@
 ユーザーがLINEログインチャネルを利用するときは、[ユーザーID](https://developers.line.biz/ja/glossary/#user-id)の取得などに同意する必要があります。同意後、ユーザーはいつでも同意内容を確認したり、同意を取り消したりできます。
 
 1. LINEで［**設定**］ > ［**アカウント**］ > ［**連動アプリ**］の順に選択します。<br> ［連動アプリ］設定画面が表示されます。
-2. 同意を取り消すアプリをタップします。<br> 連動アプリの画面が表示されます。<br> ![Authorized app](https://developers.line.biz/media/line-login/managing-authorized-apps/authorized-app-ja.png)<br> 同意内容を確認するには、［許可する権限］をタップします。<br> 同意を取り消すには、［連動を解除］をタップします。
+2. 同意を取り消すアプリをタップします。<br> 連動アプリの画面が表示されます。<br> ![Authorized app](https://developers.line.biz/media/line-login/managing-authorized-apps/authorized-app-ja.webp)<br> 同意内容を確認するには、［許可する権限］をタップします。<br> 同意を取り消すには、［連動を解除］をタップします。
 
 ## ユーザーが同意を取り消したときは 
 

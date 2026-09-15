@@ -20,7 +20,7 @@ After selecting a [template](https://developers.line.biz/en/docs/partner-docs/li
 
 The types of templates, items and buttons available are different for Japan, Thailand and Taiwan, and are automatically determined by the LINE Official Account from which the message is sent. You can't change the header and footer of the message.
 
-![Sample of a LINE notification message (template)](https://developers.line.biz/media/line-notification-message/notification-messages-template.png)
+![Sample of a LINE notification message (template)](https://developers.line.biz/media/line-notification-message/notification-messages-template.webp)
 
 For example, the above message can be sent by creating the following JSON:
 
@@ -71,7 +71,7 @@ You can check the number of LINE notification messages (template) using the API.
 
 By sending a LINE notification message (template) with the key (`Key`) of the template specified, the title (`Title`) and description (`Description`) of the target template are displayed at the top of the message.
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-templates.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-templates.webp)
 
 <!-- templates -->
 
@@ -79,7 +79,7 @@ By sending a LINE notification message (template) with the key (`Key`) of the te
 
 You can include multiple items in the template by specifying the key (`Key`) of the item. You can set any string as the value of the specified item.
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-items.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-items.webp)
 
 <!-- templates -->
 
@@ -87,6 +87,6 @@ You can include multiple items in the template by specifying the key (`Key`) of 
 
 You can include multiple buttons in the template by specifying the key (`Key`) of the button. You can set any URL as the transition destination for the button.
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-buttons.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-buttons.webp)
 
 <!-- templates -->

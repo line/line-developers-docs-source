@@ -78,7 +78,7 @@ LINE SDK for iOS Swiftがダウンロードされ、Xcodeのワークスペー�
 
 `Carthage/Build/iOS`フォルダーから`LineSDK.framework`ファイルをドラッグして、アプリのターゲットの［General］設定タブの［Linked Frameworks and Libraries］セクションにドロップします。
 
-![LINE SDK Framework ファイルが、Finder からアプリターゲットのLinked Frameworks and Libraries セクションに移動されています。](https://developers.line.biz/media/ios-sdk-swift/install-link.png)
+![LINE SDK Framework ファイルが、Finder からアプリターゲットのLinked Frameworks and Libraries セクションに移動されています。](https://developers.line.biz/media/ios-sdk-swift/install-link.webp)
 
 #### ビルドフェーズで`LineSDK.framework`ファイルをコピーする 
 
@@ -102,7 +102,7 @@ LINE SDK for iOS Swiftがダウンロードされ、Xcodeのワークスペー�
 
 実行スクリプトは以下のようになるはずです。
 
-![実行スクリプトセクションが展開されて、[Shell]、[Input Files]、[Input File Lists]、および [Output Files] が表示されます。](https://developers.line.biz/media/ios-sdk-swift/install-carthage-copy.png)
+![実行スクリプトセクションが展開されて、[Shell]、[Input Files]、[Input File Lists]、および [Output Files] が表示されます。](https://developers.line.biz/media/ios-sdk-swift/install-carthage-copy.webp)
 
 ## アプリをチャネルにリンクする 
 

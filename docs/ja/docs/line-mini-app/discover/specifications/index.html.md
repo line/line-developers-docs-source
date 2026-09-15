@@ -47,7 +47,7 @@ LINEミニアプリは、[LIFF](https://developers.line.biz/ja/docs/liff/overvie
 
 LINE未使用ユーザー、もしくは[ディープリンク](https://en.wikipedia.org/wiki/Mobile_deep_linking)が動作しない状況にあるLINEユーザーが、[外部ブラウザ](https://developers.line.biz/ja/glossary/#external-browser)でLINEミニアプリを開くと、以下の図のようなページが表示され、LINEミニアプリをスマートフォン版LINE（[LIFFブラウザ](https://developers.line.biz/ja/glossary/#liff-browser)）で開くように案内されます。ページ内の［**ウェブブラウザで開く**］をタップすると、LIFFのエンドポイントURLのページがウェブブラウザで表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/landing-page-ja.png)
+![](https://developers.line.biz/media/line-mini-app/landing-page-ja.webp)
 
 ## LIFFの対応バージョン 
 

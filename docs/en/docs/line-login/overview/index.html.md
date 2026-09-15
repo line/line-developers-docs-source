@@ -25,7 +25,7 @@ LINE Login not only works with native iOS and Android apps but also with web app
 
 For example, the e-book store [BOOK WALKER](https://bookwalker.jp/top/) (Japanese site) integrates various social logins, including LINE Login, so that users can easily register the membership and continue using the site.
 
-![E-bookstore login screen](https://developers.line.biz/media/line-login/overview/line-login-bookwalker-01-ja.png)
+![E-bookstore login screen](https://developers.line.biz/media/line-login/overview/line-login-bookwalker-01-ja.webp)
 
 <!-- tip end -->
 
@@ -33,7 +33,7 @@ For example, the e-book store [BOOK WALKER](https://bookwalker.jp/top/) (Japanes
 
 Try using the demo to experience LINE Login for yourself. You can view the demo on your smartphone by scanning the QR code to access the demo site.
 
-![](https://developers.line.biz/media/line-login/demo/login-demo-qr-code-en.png)
+![](https://developers.line.biz/media/line-login/demo/login-demo-qr-code-en.webp)
 
 <!-- note start -->
 
@@ -67,7 +67,7 @@ Use our SDKs to add LINE Login to your app and let LINE handle user authenticati
 The LINE Rangers game, for example, uses LINE Login to let users easily create an account for the game with their LINE accounts.
 
 ![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.webp)
-![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.png)
+![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.webp)
 
 ## LINE Login authentication methods 
 

@@ -214,7 +214,7 @@ You can obtain your LIFF ID by following the above procedure. Set this as the se
 
    Send the LIFF URL to a LINE chat room and tap the LIFF URL on the chat room to open the LIFF app on LINE's [LIFF browser](https://developers.line.biz/en/glossary/#liff-browser).
 
-   ![LIFF app](https://developers.line.biz/media/liff/trying-liff-app/screenshot-mobile.png)
+   ![LIFF app](https://developers.line.biz/media/liff/trying-liff-app/screenshot-mobile.webp)
 
 <!-- tip start -->
 

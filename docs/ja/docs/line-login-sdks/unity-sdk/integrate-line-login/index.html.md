@@ -20,7 +20,7 @@ LINE SDK for Unityをプロジェクトにインポートする前に、プロ�
 
 Unityプロジェクトを開いたまま、ダウンロードした`.unitypackage`ファイルをダブルクリックします。以下のように、パッケージ内のすべてのファイルをインポートします。
 
-![Import Unity package](https://developers.line.biz/media/unity-sdk/importing.png)
+![Import Unity package](https://developers.line.biz/media/unity-sdk/importing.webp)
 
 ## LineSDKプレハブをシーンに追加する 
 

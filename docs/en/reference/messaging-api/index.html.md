@@ -12649,7 +12649,7 @@ Returns statistics about how users interact with narrowcast messages or broadcas
 
 You can get statistics per message or per bubble.
 
-![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.png)
+![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.webp)
 
 <!-- note start -->
 
@@ -13039,7 +13039,7 @@ You can check the per-unit statistics of how users interact with push messages a
 
 You can get statistics on a per-message and per-message bubble basis for each unit.
 
-![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.png)
+![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.webp)
 
 If you send messages with the same unit name, the statistics are aggregated together, regardless of message contents or the number and order of message bubbles.
 

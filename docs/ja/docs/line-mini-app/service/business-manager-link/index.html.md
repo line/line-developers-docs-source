@@ -81,7 +81,7 @@ LINEミニアプリチャネルの［**ビジネスマネージャー接続**］
 
 ビジネスマネージャーの組織の管理者が接続リクエスト用URLを開くと、リクエストの承認画面が表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/service/approve-send-link-request-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/approve-send-link-request-ja.webp)
 
 LINEミニアプリチャネルと組織に誤りがないこと、および注意事項を確認し、［**承認する**］をクリックします。
 
@@ -242,7 +242,7 @@ LINEミニアプリチャネルをLINE公式アカウントと接続する流れ
 
 開発者がビジネスマネージャーの組織の管理者でもある場合は、LINEミニアプリチャネルの［**ビジネスマネージャー接続**］タブの「LINE公式アカウント接続」セクションから、ビジネスマネージャーの「LINE公式アカウントと接続」画面を開くことができます。
 
-![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-from-line-mini-app-channel-ja.png)
+![](https://developers.line.biz/media/line-mini-app/service/line-official-account-linking-from-line-mini-app-channel-ja.webp)
 
 <!-- tip end -->
 

@@ -25,7 +25,7 @@ LINEログインは、ウェブアプリ（ウェブサイト）、iOSアプリ�
 
 たとえば、電子書籍ストア「[BOOK☆WALKER](https://bookwalker.jp/top/)」では、ユーザーが簡単に会員登録、継続利用できるように、LINEログインをはじめとするさまざまなソーシャルログインが組み込まれています。
 
-![電子書籍ストアのログイン画面](https://developers.line.biz/media/line-login/overview/line-login-bookwalker-01-ja.png)
+![電子書籍ストアのログイン画面](https://developers.line.biz/media/line-login/overview/line-login-bookwalker-01-ja.webp)
 
 <!-- tip end -->
 
@@ -67,7 +67,7 @@ LINE SDKを使用してLINEログインをアプリに組み込めば、LINEで�
 たとえば、LINEレンジャーゲームにはLINEログインが組み込まれており、ユーザーは自分のLINEアカウントで簡単にゲームのアカウントを作成することができます。
 
 ![LINE Rangers 1](https://developers.line.biz/media/line-login/overview/line-login-rangers-1.webp)
-![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.png)
+![LINE Rangers 3](https://developers.line.biz/media/line-login/overview/line-login-rangers-3.webp)
 
 ## LINEログインの認証方法 
 

@@ -33,7 +33,7 @@ The sample app has already defined its own sample channel id, and its value is `
 
 Run the sample app using an Android device or Android Emulator. When you first log in, you must agree to let the app access your profile information.
 
-![LINE SDK Sample App Main screen](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-home-screen.jpg)
+![LINE SDK Sample App Main screen](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-home-screen.webp)
 
 ### Using the "Log in with LINE" button 
 
@@ -70,7 +70,7 @@ For more information, see [Logging out users](https://developers.line.biz/en/doc
 
 ### Trying out the features available on the LINE SDK 
 
-![LINE SDK Sample App Api List screen](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-api-list-screen.jpg)
+![LINE SDK Sample App Api List screen](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-api-list-screen.webp)
 
 Once you've logged in to the app, you can tap the **API List Page** button to try out the following features of the LINE SDK.
 

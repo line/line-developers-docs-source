@@ -64,13 +64,13 @@ LINEミニアプリにクイック入力を組み込む際は、以下のよう�
 
 自動入力するフォーム以外の画面でモーダルを表示することは禁止されています。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-01.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-01.webp)
 
 #### 入力フォームに存在しない項目を取得する 
 
 入力フォームに存在しない項目を取得することは禁止されています。たとえば会員登録フォームにフリガナの項目がないにも関わらず、フリガナの情報を取得することは禁止です。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-02.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-02.webp)
 
 #### フォームへの自動入力を飛ばして確認画面へ遷移する 
 
@@ -92,7 +92,7 @@ LINEミニアプリにクイック入力を組み込む際は、以下を遵守�
 
 ボタンは変形や加工、アニメーション、効果（拡大、回転、装飾）などを加えず、そのまま使用してください。禁止事項について詳しくは、「[自動入力ボタンの禁止事項](https://developers.line.biz/ja/docs/line-mini-app/quick-fill/design-regulations/#auto-fill-button-prohibition)」を参照してください。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-02.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-02.webp)
 
 ### 自動入力ボタンの配置 
 
@@ -100,17 +100,17 @@ LINEミニアプリにクイック入力を組み込む際は、以下を遵守�
 
 #### 左揃えの例 
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-03.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-03.webp)
 
 #### 中央揃えの例 
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-04.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-04.webp)
 
 #### 配置する際の注意事項 
 
 自動入力ボタンは、ボタンを押したことによって入力されるフォームが認識できる適切な位置に配置してください。
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-05.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-05.webp)
 
 #### ボタンの周囲にはクリアスペースを確保してください 
 

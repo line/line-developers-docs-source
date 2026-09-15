@@ -2,7 +2,7 @@
 
 You can display an option to add the LINE Official Account as a friend when a user logs in to your app. This is called the **add friend option**. Specify the LINE Official Account to be added as a friend on the LINE Developers Console.
 
-![Consent screen](https://developers.line.biz/media/line-login/link-a-bot/consent-screen-with-bot-en.png)
+![Consent screen](https://developers.line.biz/media/line-login/link-a-bot/consent-screen-with-bot-en.webp)
 
 If the user enables **Add as friend** on the above consent screen when logging in, the LINE Official Account will be added as a friend. For more information on creating bots, see [Messaging API overview](https://developers.line.biz/en/docs/messaging-api/overview/) in the Messaging API documentation.
 
@@ -83,7 +83,7 @@ The option to add a LINE Official Account as a friend is displayed as follows ac
 
 If the LINE Login channel is under the certified provider, the option on the consent screen that appears when `bot_prompt=normal` is selected by default.
 
-![](https://developers.line.biz/media/line-login/link-a-bot/add-friend-option-on-certified-provider-en.png)
+![](https://developers.line.biz/media/line-login/link-a-bot/add-friend-option-on-certified-provider-en.webp)
 
 For more information on certified providers, see [Certified provider](https://developers.line.biz/en/docs/line-developers-console/overview/#certified-provider) in the LINE Developers Console documentation.
 

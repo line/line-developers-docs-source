@@ -20,7 +20,7 @@ LINE通知メッセージ（テンプレート）は日本、タイ、台湾のL
 
 使用できるテンプレート、アイテム、およびボタンの種類は日本、タイ、台湾ごとに異なり、送信元のLINE公式アカウントによって自動で決まります。メッセージのヘッダーとフッターは変更できません。
 
-![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/notification-messages-template.png)
+![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/notification-messages-template.webp)
 
 たとえば上記のメッセージは、次のようなJSONを作成することで送信できます。
 
@@ -71,7 +71,7 @@ LINE通知メッセージ（テンプレート）は日本、タイ、台湾のL
 
 テンプレートのキー（`Key`）を指定してLINE通知メッセージ（テンプレート）を送ることで、対象テンプレートのタイトル（`Title`）と概要（`Description`）がメッセージ上部に表示されます。
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-templates.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-templates.webp)
 
 <!-- templates -->
 
@@ -79,7 +79,7 @@ LINE通知メッセージ（テンプレート）は日本、タイ、台湾のL
 
 アイテムのキー（`Key`）を指定することで、テンプレート内に複数のアイテムを含めることができます。アイテムには、値として任意の文字列を設定できます。
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-items.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-items.webp)
 
 <!-- templates -->
 
@@ -87,6 +87,6 @@ LINE通知メッセージ（テンプレート）は日本、タイ、台湾のL
 
 ボタンのキー（`Key`）を指定することで、テンプレート内に複数のボタンを含めることができます。ボタンの遷移先として任意のURLを設定できます。
 
-![](https://developers.line.biz/media/line-notification-message/notification-messages-template-buttons.png)
+![](https://developers.line.biz/media/line-notification-message/notification-messages-template-buttons.webp)
 
 <!-- templates -->

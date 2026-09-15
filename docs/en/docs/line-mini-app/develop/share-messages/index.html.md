@@ -4,7 +4,7 @@ LINE MINI Apps come with a built-in action button in the (A) [header](https://de
 
 However, if you implement a custom action button in the (B) body, you can customize the content of the share message before sharing the LINE MINI App.
 
-![](https://developers.line.biz/media/line-mini-app/mini_concept.png)
+![](https://developers.line.biz/media/line-mini-app/mini_concept.webp)
 
 ## Guidelines 
 

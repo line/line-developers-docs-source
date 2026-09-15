@@ -73,4 +73,4 @@ To display the notification center, click on the bell icon in the top-right corn
 
 If you click on this icon, you will see the notification center. From here, your can check recent updates and activities.
 
-![The dropdown menu of the notification center of the LINE Developers Console](https://developers.line.biz/media/line-developers-console/notification-01-en.png)
+![The dropdown menu of the notification center of the LINE Developers Console](https://developers.line.biz/media/line-developers-console/notification-01-en.webp)

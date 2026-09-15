@@ -127,7 +127,7 @@ Drag and drop the `LineSDK.framework` and `LineSDKObjC.framework` files from the
 
 The "Build Phases" tab should look like this:
 
-![iOS SDK Swift ObjC Link Build Phases tab, showing the Link Binary with Libraries, Copy Bundle Resources, and Run Script sub tabs.](https://developers.line.biz/media/ios-sdk-swift/install-carthage-objc.png)
+![iOS SDK Swift ObjC Link Build Phases tab, showing the Link Binary with Libraries, Copy Bundle Resources, and Run Script sub tabs.](https://developers.line.biz/media/ios-sdk-swift/install-carthage-objc.webp)
 
 ##### Enabling the "Always Embed Swift Standard Libraries" option 
 

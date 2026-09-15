@@ -18,7 +18,7 @@ LINE通知メッセージには、用意されたテンプレートやアイテ�
 
 以下は、LINE通知メッセージ（テンプレート）のサンプルです。
 
-![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/line-notification-messages-sample-ja.png)
+![LINE通知メッセージ（テンプレート）のサンプル](https://developers.line.biz/media/line-notification-message/line-notification-messages-sample-ja.webp)
 
 詳しくは、[LINE通知メッセージAPIの技術仕様](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/)や、[LINE通知メッセージAPIリファレンス](https://developers.line.biz/ja/reference/line-notification-messages/)を参照してください。
 
@@ -34,7 +34,7 @@ LINE通知メッセージの利用用途は、弊社がユーザーにとって�
 
 LINE通知メッセージは、通常のメッセージと区別できるように、LINE公式アカウントのアイコンの右側に「重要なお知らせ」と表示されます。対象バージョンは、iOS版LINE、Android版LINE、iPad版LINEのバージョン15.9.0以降です。
 
-![LINE通知メッセージはアイコンの右側に「重要なお知らせ」と表示される](https://developers.line.biz/media/line-notification-message/notification-messages-important-ja.jpg)
+![LINE通知メッセージはアイコンの右側に「重要なお知らせ」と表示される](https://developers.line.biz/media/line-notification-message/notification-messages-important-ja.webp)
 
 なおLINE通知メッセージを受信したLINEアプリの言語設定によって、表示されるテキストは異なります。
 

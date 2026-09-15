@@ -8,7 +8,7 @@ LINE公式アカウントがユーザーからのメッセージを受信した�
 
 [ローディングのアニメーションを表示する](https://developers.line.biz/ja/reference/messaging-api/#display-a-loading-indicator)エンドポイントを使用すると、トークの画面にローディングのアニメーションを表示できます。アニメーションは指定した秒数（5秒〜60秒）が経過するか、表示中にLINE公式アカウントからメッセージが届くと自動的に消えます。
 
-![](https://developers.line.biz/media/messaging-api/loading-indicator/loading-animation.gif)
+![](https://developers.line.biz/media/messaging-api/loading-indicator/loading-animation.webp)
 
 表示先としてユーザーIDを指定することで、ユーザーとLINE公式アカウントの1対1のトークにアニメーションを表示できます。グループトークまたは複数人トークは指定できません。
 

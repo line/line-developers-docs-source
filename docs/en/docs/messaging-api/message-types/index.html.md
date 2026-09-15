@@ -52,7 +52,7 @@ Image messages deliver a single image file to users. When you send an image, spe
 
 When the user taps the preview image, the full image is displayed as shown below. Make sure the URLs have the HTTPS (TLS 1.2 or later) protocol. For more information, see the [Image message](https://developers.line.biz/en/reference/messaging-api/#image-message) in the Messaging API reference.
 
-![Image message](https://developers.line.biz/media/messaging-api/messages/image.png) ![Full image message](https://developers.line.biz/media/messaging-api/messages/image-full.png)
+![Image message](https://developers.line.biz/media/messaging-api/messages/image.png) ![Full image message](https://developers.line.biz/media/messaging-api/messages/image-full.webp)
 
 ## Video message 
 
@@ -74,7 +74,7 @@ Make sure the URL has the HTTPS (TLS 1.2 or later) protocol. For more informatio
 
 Location messages deliver location information to users. Specify in the [message object](https://developers.line.biz/en/reference/messaging-api/#message-objects) the title, address, latitude coordinate, and longitude coordinate. For more information, see [Location message](https://developers.line.biz/en/reference/messaging-api/#location-message) in the Messaging API reference.
 
-![Location message](https://developers.line.biz/media/messaging-api/messages/location-en.png)
+![Location message](https://developers.line.biz/media/messaging-api/messages/location-en.webp)
 
 ## Coupon message 
 
@@ -88,7 +88,7 @@ For more information, see [Coupon message](https://developers.line.biz/en/refere
 
 Imagemap messages are messages with an image that has multiple tappable areas. You can set a tappable area to open a webpage or send a message on the user's behalf. You can also set to play a video over the image and display a link text when the playback is finished. For more information, see [Imagemap message](https://developers.line.biz/en/reference/messaging-api/#imagemap-message) in the Messaging API reference.
 
-![Imagemap message](https://developers.line.biz/media/messaging-api/messages/imagemap.png)
+![Imagemap message](https://developers.line.biz/media/messaging-api/messages/imagemap.webp)
 
 ## Template message 
 
@@ -133,7 +133,7 @@ Image carousel templates contain multiple images that users can cycle through. F
 
 Flex Messages are messages with a customizable layout. You can customize the layout within the boundary of the [CSS Flexible Box (CSS Flexbox)](https://www.w3.org/TR/css-flexbox-1/) specification. For more information, see [Send Flex Messages](https://developers.line.biz/en/docs/messaging-api/using-flex-messages/) and [Flex Message](https://developers.line.biz/en/reference/messaging-api/#flex-message) in the Messaging API reference.
 
-![Flex Message examples](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.png)
+![Flex Message examples](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.webp)
 
 ## Common features 
 

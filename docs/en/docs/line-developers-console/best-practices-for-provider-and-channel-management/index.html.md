@@ -36,7 +36,7 @@ If the only developer with an admin role for providers and channels is no longer
 
 For example, suppose Brown and Cony have admin roles for the provider "Beverage Manufacturer A" and the LINE Login channel "Brown Coffee". Even if Brown suddenly resigns, Cony also has the admin roles and can continue to operate the provider and channel without any problems.
 
-![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/grant-admin-role-to-several-developers-en.png)
+![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/grant-admin-role-to-several-developers-en.webp)
 
 Note that provider and channel roles are independent, so granting an admin role for a provider doesn't mean that admin roles have been granted for the channels under the provider.
 
@@ -50,7 +50,7 @@ When deleting developers from a provider on the [LINE Developers Console](https:
 
 However, as a result of deleting the selected developers from the channels under the provider might leave zero developers with an admin role for the channel. Therefore, if you check **Also delete the selected developer(s) from the channels that belong to this provider.**, make sure that there are other developers with admin roles for the channels.
 
-![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/delete-developer-from-provider-en.png)
+![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/delete-developer-from-provider-en.webp)
 
 <!-- note end -->
 
@@ -65,7 +65,7 @@ A service provider (service company in the LINE MINI App) is an individual devel
 
 For example, suppose Beverage Manufacturer B, the US subsidiary of Beverage Manufacturer A, wants to develop a LINE Bot for "Sally Cola". In this case, instead of creating a Messaging API channel under the provider "Beverage Manufacturer A", Beverage Manufacturer B creates a provider for itself and creates a Messaging API channel under the provider.
 
-![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/create-provider-for-each-service-provider-1-en.png)
+![](https://developers.line.biz/media/line-developers-console/best-practices-for-provider-and-channel-management/create-provider-for-each-service-provider-1-en.webp)
 
 If a company (outsourcer) outsources the development of services using the LINE Platform to other companies, a provider should be created for the outsourcer as the main service provider.
 

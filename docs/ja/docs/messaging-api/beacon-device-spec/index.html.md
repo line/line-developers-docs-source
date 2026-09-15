@@ -25,7 +25,7 @@ LINE Beaconパケットは、152.5ミリ秒間隔で送信することを強く�
 
 アドバタイジングパケットは、以下の図のように、3つのAD structureから構成してください。
 
-![LINE Beaconパケット](https://developers.line.biz/media/messaging-api/beacon-device-spec/advDataFormat.png)
+![LINE Beaconパケット](https://developers.line.biz/media/messaging-api/beacon-device-spec/advDataFormat.webp)
 
 アドバタイジングパケットの仕様は以下のとおりです。値カラムの16進数の値は、説明カラムの括弧書きの値と同等です。
 

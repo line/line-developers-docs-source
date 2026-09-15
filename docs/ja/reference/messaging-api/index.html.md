@@ -12650,7 +12650,7 @@ LINE公式アカウントから送信したナローキャストメッセージ�
 
 1メッセージ（message）単位、および1吹き出し（bubble）単位で統計情報を取得できます。
 
-![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.png)
+![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.webp)
 
 <!-- note start -->
 
@@ -13040,7 +13040,7 @@ LINE公式アカウントから送信したプッシュメッセージやマル�
 
 統計情報はユニットごとに、1メッセージ（message）単位、および1吹き出し（bubble）単位で取得できます。
 
-![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.png)
+![message and bubbles](https://developers.line.biz/media/messaging-api/get-message-event.webp)
 
 なお、ユニット名が同じメッセージを複数送った場合、メッセージの内容や吹き出し数、吹き出しの順番が異なっていても、統計情報はユニットごとにまとめて集計されます。
 

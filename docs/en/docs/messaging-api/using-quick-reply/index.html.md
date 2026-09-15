@@ -104,7 +104,7 @@ Here is an example of the message with quick reply buttons. The lines marked wit
 
 Here are the quick reply buttons the user sees in a chat with the message specified above.
 
-![Quick reply sample 2](https://developers.line.biz/media/messaging-api/using-quick-reply/quickReplySample2.png)
+![Quick reply sample 2](https://developers.line.biz/media/messaging-api/using-quick-reply/quickReplySample2.webp)
 
 ## Quick reply buttons disappear 
 

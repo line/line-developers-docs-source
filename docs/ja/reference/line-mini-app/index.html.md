@@ -444,7 +444,7 @@ _エラーレスポンスの例_
 
 モーダルの表示例：
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-modal-screen.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-modal-screen.webp)
 
 _例_
 
@@ -650,7 +650,7 @@ new Error("liff.$commonProfile API is available only in LIFF browser.");
 
 モーダルの表示例：
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-dummy-modal-screen.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-dummy-modal-screen.webp)
 
 _例_
 

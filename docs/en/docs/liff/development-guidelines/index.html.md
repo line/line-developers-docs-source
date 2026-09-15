@@ -69,7 +69,7 @@ When a user unregisters from your LIFF app, or when a user terminates the link b
 
 The following use cases require deauthorization.
 
-![Steps from linking your account to deauthorize app](https://developers.line.biz/media/line-login/development-guidelines/deauthorize-your-app-en.png)
+![Steps from linking your account to deauthorize app](https://developers.line.biz/media/line-login/development-guidelines/deauthorize-your-app-en.webp)
 
 When a user logs in to the app that integrates LINE Login with their LINE account and [authorize the app](https://developers.line.biz/en/docs/line-login/integrate-line-login/#authorization-process) on the channel consent screen, the target app will appear in **Settings** > **Account** > **Authorized apps** in the LINE app. Deauthorize the app so that the permissions don't remain authorized after the user unregisters from your app.
 

@@ -64,13 +64,13 @@ We prohibit the following types of screen transitions when Integrating Quick-fil
 
 It is prohibited to display a modal on a screen that doesn't have a form that automatically fills in the fields.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-01.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-01.webp)
 
 #### Getting items that don't exist in the form 
 
 It is prohibited to get items that don't exist on the form. For example, you must not get phonetic information even though there is no phonetic field on the registration form.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-02.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/prohibited-screen-transition-02.webp)
 
 #### Move to the confirmation screen without auto-filling the form 
 
@@ -92,7 +92,7 @@ There are 4 types, with a total of 13 different Auto-fill buttons. Use the butto
 
 Use the button as it is, without modifying or editing it, or adding animation or effects (zoom, rotate, decorate, etc.). For more information on prohibited items, see [Prohibited items for Auto-fill button](https://developers.line.biz/en/docs/line-mini-app/quick-fill/design-regulations/#auto-fill-button-prohibition).
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-02.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-02.webp)
 
 ### Location of the Auto-fill button 
 
@@ -100,17 +100,17 @@ To improve user visibility, align the Auto-fill button with the left or center o
 
 #### Example of left alignment 
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-03.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-03.webp)
 
 #### Example of center alignment 
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-04.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-04.webp)
 
 #### Notes on placement 
 
 Place the Auto-fill button in a appropriate position where the user can see the form that will be filled in after tapping the button.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-05.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/auto-fill-button-guideline-05.webp)
 
 #### Leave a clear space around the button 
 

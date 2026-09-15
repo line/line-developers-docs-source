@@ -104,7 +104,7 @@ The rich menu switch action makes rich menus switchable. You can set this action
 
 The clipboard action copies text to the clipboard. When a user taps a control associated with this action, the text specified in the `clipboardText` property is copied to the device clipboard.
 
-![](https://developers.line.biz/media/news/2024/clipbord-action-example-en.png)
+![](https://developers.line.biz/media/news/2024/clipbord-action-example-en.webp)
 
 This is a request body set with the clipboard action for the message shown in the example above. For more information, see [Clipboard action](https://developers.line.biz/en/reference/messaging-api/#clipboard-action) in the Messaging API reference.
 

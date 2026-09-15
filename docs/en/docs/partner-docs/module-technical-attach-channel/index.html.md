@@ -18,7 +18,7 @@ Following the flow of the OAuth 2.0 authorization mechanism, you can attach the 
 
 The first screen and the fifth screen should be prepared by the company in charge of developing the module channel.
 
-![Flow of attaching module channels using the OAuth 2.0 auth mechanism](https://developers.line.biz/media/partner-docs/module-technical/flow-en.png)
+![Flow of attaching module channels using the OAuth 2.0 auth mechanism](https://developers.line.biz/media/partner-docs/module-technical/flow-en.webp)
 
 <!-- note start -->
 
@@ -180,7 +180,7 @@ You can specify the following scopes with the `scope` parameter. To specify mult
 
 When the admin of the LINE Official Account accesses the URL for authentication and authorization, the LINE Official Account Manager linkage screen will be displayed. The linkage screen shows what you applied for when creating a module channel. You can check the settings in the [LINE Developers Console](https://developers.line.biz/console/).
 
-![Linkage screen](https://developers.line.biz/media/partner-docs/attach-disp-en.png)
+![Linkage screen](https://developers.line.biz/media/partner-docs/attach-disp-en.webp)
 
 ### 3. Receive the authorization code or error response 
 

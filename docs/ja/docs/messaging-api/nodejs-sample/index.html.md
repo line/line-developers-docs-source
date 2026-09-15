@@ -6,7 +6,7 @@ Messaging APIは、サービスとLINEユーザーとの間で双方向のコミ
 
 このチュートリアルを最後まで進めると、ユーザーが送信したメッセージに自動的に応答するアプリが作成できます。
 
-![サンプルボットとの会話イメージ](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.png)
+![サンプルボットとの会話イメージ](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.webp)
 
 ## 始める前に 
 
@@ -363,7 +363,7 @@ git push heroku main
 
 LINEでボットにメッセージを送ってみてください。このようなメッセージが届くはずです。
 
-![サンプルボットとの会話イメージ](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.png)
+![サンプルボットとの会話イメージ](https://developers.line.biz/media/messaging-api/node-js-sample/sample-bot-test.webp)
 
 ### トラブルシューティング 
 

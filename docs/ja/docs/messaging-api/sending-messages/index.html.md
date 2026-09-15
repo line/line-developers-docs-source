@@ -489,7 +489,7 @@ curl -v -X GET 'https://api.line.me/v2/bot/message/progress/narrowcast?requestId
 
 Messaging APIを使って、過去のメッセージを引用したメッセージを送信できます。
 
-![](https://developers.line.biz/media/messaging-api/sending-messages/quote-message.png)
+![](https://developers.line.biz/media/messaging-api/sending-messages/quote-message.webp)
 
 過去のメッセージを引用したメッセージを送るには、引用対象となるメッセージの引用トークン（`quoteToken`）を指定します。引用トークンの取得方法について詳しくは、「[引用トークンを取得する](https://developers.line.biz/ja/docs/messaging-api/get-quote-tokens/)」を参照してください。
 

@@ -26,7 +26,7 @@ Flex Message Simulatorの画面は3つの部分で構成されています。
 - **ツリービューエリア**：Flex Messageのデータ構造を編集したり表示したりする部分。
 - **プロパティエリア**：ツリービューエリアで選択した項目のプロパティを設定する部分。この領域で入力したデータを基に、Flex Message SimulatorはFlex Messageを生成します。
 
-![Flex Message エリア](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/ja-areas.png)
+![Flex Message エリア](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/ja-areas.webp)
 
 ツリービューエリアの項目の上にマウスを置くと、該当する部分がプレビューエリアでハイライトされます。この動作は次の動画で確認できます。
 
@@ -49,7 +49,7 @@ Flex Message Simulatorでは、定義済みのFlex Messageレイアウトが提�
 
 <!-- note end -->
 
-![Flex Message Simulator Showcase](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/showcase.png)
+![Flex Message Simulator Showcase](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/showcase.webp)
 
 #### 作成したFlex MessageのJSONをコピーできます 
 
@@ -66,7 +66,7 @@ Flex Message Simulatorでは、定義済みのFlex Messageレイアウトが提�
 1. ダウンロードしたJSONファイルの中身をコピーし、モーダルにペーストします。
 1. ［**適用**］をクリックして変更を保存します。ペーストしたFlex Messageがプレビューエリアに表示されます。
 
-![サンプルのJSONデータから作成したFlex Messageをプレビューする](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/ja-confirm-example-code-output.png)
+![サンプルのJSONデータから作成したFlex Messageをプレビューする](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/ja-confirm-example-code-output.webp)
 
 ## 1. コンテナタイプを選ぶ 
 
@@ -74,7 +74,7 @@ Flex Message Simulatorでは、定義済みのFlex Messageレイアウトが提�
 
 バブルタイプのFlex Messageコンテナを作成するには、右上の［**New**］をクリックし、ドロップダウンメニューから［**bubble**］を選択します。
 
-![Bubbleタイプのコンテナを選択する](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/select-bubble-type.png)
+![Bubbleタイプのコンテナを選択する](https://developers.line.biz/media/messaging-api/using-flex-message-simulator/select-bubble-type.webp)
 
 <!-- tip start -->
 

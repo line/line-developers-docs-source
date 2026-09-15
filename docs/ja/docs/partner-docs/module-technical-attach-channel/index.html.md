@@ -18,7 +18,7 @@ OAuth 2.0の認可の仕組みのフローに従って、LINE公式アカウン�
 
 1つ目の画面と5つ目の画面は、モジュールチャネルの開発担当企業が準備してください。
 
-![OAuth 2.0の認可の仕組みを使ったモジュールチャネルのアタッチするフロー](https://developers.line.biz/media/partner-docs/module-technical/flow-ja.png)
+![OAuth 2.0の認可の仕組みを使ったモジュールチャネルのアタッチするフロー](https://developers.line.biz/media/partner-docs/module-technical/flow-ja.webp)
 
 <!-- note start -->
 
@@ -180,7 +180,7 @@ String
 
 LINE公式アカウントの管理者が、認証と認可のためのURLにアクセスすると、LINE Official Account Managerの連携画面が表示されます。連携画面には、モジュールチャネル作成時に申請した内容が表示されます。設定内容は、[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
 
-![連携画面](https://developers.line.biz/media/partner-docs/attach-disp-ja.png)
+![連携画面](https://developers.line.biz/media/partner-docs/attach-disp-ja.webp)
 
 ### 3. 認可コードまたはエラーコードを受け取る 
 

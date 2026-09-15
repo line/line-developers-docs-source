@@ -37,7 +37,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 ユーザーが[アクションボタン](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#action-button)からLINEミニアプリのページをシェアしたときに、[LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、送信先のトークルームに表示されます。
 
-![アクションボタン](https://developers.line.biz/media/line-mini-app/mini_share_builtin_share.png)
+![アクションボタン](https://developers.line.biz/media/line-mini-app/mini_share_builtin_share.webp)
 
 | 情報 | 設定 |
 | --- | --- |
@@ -59,7 +59,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 [LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、「[アクセス許可要求画面](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid)」に表示されます。
 
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-ja.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-ja.webp)
 
 | 情報 | 設定 |
 | --- | --- |
@@ -73,7 +73,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 [LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、[チャネル同意画面](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#authorization-flow-disabled)に表示されます。
 
-![チャネル同意画面](https://developers.line.biz/media/line-mini-app/mini-permission-request-ja.png)
+![チャネル同意画面](https://developers.line.biz/media/line-mini-app/mini-permission-request-ja.webp)
 
 | 情報 | 設定 |
 | --- | --- |
@@ -108,7 +108,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 [LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、サービスメッセージのフッターセクションに表示されます。サービスメッセージについて詳しくは、「[サービスメッセージを送信する](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/)」を参照してください。
 
-![サービスメッセージ](https://developers.line.biz/media/line-mini-app/mini_service_notifier.png)
+![サービスメッセージ](https://developers.line.biz/media/line-mini-app/mini_service_notifier.webp)
 
 | 情報             | 設定                                                    |
 | ---------------- | ------------------------------------------------------- |
@@ -119,7 +119,7 @@ LINEミニアプリチャネルの設定のうち、ユーザーに表示され�
 
 [LINE Developersコンソール](https://developers.line.biz/console/)に登録した以下の情報が、ショートカット追加画面に表示されます。ショートカット追加画面について詳しくは、「[ユーザー端末のホーム画面にLINEミニアプリへのショートカットを追加する](https://developers.line.biz/ja/docs/line-mini-app/develop/add-to-home-screen/)」を参照してください。
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.webp)
 
 | 情報 | 設定 |
 | --- | --- |

@@ -38,7 +38,7 @@ LINE Payを利用する際は、以下のような流れで決済を処理しま
 
 2. ユーザーがLINE Payで決済内容を確認して、LINE Payの認証情報を入力します。
 
-   LINE Payが表示する画面：<br>![](https://developers.line.biz/media/line-mini-app/mini_linepay_flow02.png)
+   LINE Payが表示する画面：<br>![](https://developers.line.biz/media/line-mini-app/mini_linepay_flow02.webp)
 
 3. 注文の確認ページを表示します。
 

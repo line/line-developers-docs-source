@@ -52,7 +52,7 @@ To register IP addresses, visit the [LINE Developers Console](https://developers
 
 We recommend that you use a [Channel access token with a user-specified expiration (Channel access token v2.1)](https://developers.line.biz/en/docs/basics/channel-access-token/#user-specified-expiration) in the Messaging API.
 
-![](https://developers.line.biz/media/messaging-api/build-bot/security-settings-input-en.png)
+![](https://developers.line.biz/media/messaging-api/build-bot/security-settings-input-en.webp)
 
 ## Verify that webhook works 
 

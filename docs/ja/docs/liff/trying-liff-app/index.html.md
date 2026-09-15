@@ -214,7 +214,7 @@ LIFFスターターアプリをLIFFアプリとして開くためには、LIFF I
 
    LIFF URLをLINEの任意のトークルームに送信し、トークルーム上のLIFF URLをタップすると、LINEの[LIFFブラウザ](https://developers.line.biz/ja/glossary/#liff-browser)でLIFFアプリが開けます。
 
-   ![LIFFアプリ](https://developers.line.biz/media/liff/trying-liff-app/screenshot-mobile.png)
+   ![LIFFアプリ](https://developers.line.biz/media/liff/trying-liff-app/screenshot-mobile.webp)
 
 <!-- tip start -->
 

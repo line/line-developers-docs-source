@@ -65,7 +65,7 @@ LINEミニアプリは、弊社による認証審査に通過しているかど�
 
 LINEミニアプリのページは、（A）ヘッダーおよび（B）ボディで構成されています。詳しくは、「[LINEミニアプリの構造](https://developers.line.biz/ja/docs/line-mini-app/discover/ui-components/)」を参照してください。
 
-![LINEミニアプリの構造](https://developers.line.biz/media/line-mini-app/mini_concept.png)
+![LINEミニアプリの構造](https://developers.line.biz/media/line-mini-app/mini_concept.webp)
 
 ## ユーザーがLINEミニアプリにアクセスする方法 
 
@@ -84,7 +84,7 @@ LINEミニアプリのページは、（A）ヘッダーおよび（B）ボデ�
 
 LINE公式アカウントからもLINEミニアプリにアクセスできます。たとえば、LINE公式アカウントの友だちに送信するリッチメッセージや、LINE公式アカウントとのトーク画面に表示されるリッチメニューに、LINEミニアプリを開くリンクを追加できます。詳しくは、[LINE公式アカウントを活用する](https://developers.line.biz/ja/docs/line-mini-app/service/line-mini-app-oa/)を参照してください。
 
-![LINE公式アカウントでLINEミニアプリのプロモーションができる](https://developers.line.biz/media/line-mini-app/mini_with_oa.png)
+![LINE公式アカウントでLINEミニアプリのプロモーションができる](https://developers.line.biz/media/line-mini-app/mini_with_oa.webp)
 
 ### ホームタブ 
 
@@ -112,7 +112,7 @@ LINEの検索機能からも、LINEミニアプリにアクセスできます。
 
 友だち同士で、LINEミニアプリを簡単にシェアできます。[ビルトインのアクションボタン](https://developers.line.biz/ja/docs/line-mini-app/discover/builtin-features/#action-button)を使用するだけでなく、[カスタムアクションボタン](https://developers.line.biz/ja/docs/line-mini-app/develop/share-messages/)を使用して、LINEミニアプリのページをLINEメッセージでシェアできます。
 
-![シェアメッセージ](https://developers.line.biz/media/line-mini-app/mini_access_share.png)
+![シェアメッセージ](https://developers.line.biz/media/line-mini-app/mini_access_share.webp)
 
 ## LIFFアプリでできてLINEミニアプリでできないこと 
 

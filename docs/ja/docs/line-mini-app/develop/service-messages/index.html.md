@@ -33,7 +33,7 @@ LINEミニアプリから送られたサービスメッセージは、LINEミニ
 
 サービスメッセージは、あらかじめ用意されているテンプレートを利用して送信します。テンプレートは店舗の予約や順番待ち、配送通知といったカテゴリ別に、6言語（日本語、英語、中国語繁体字、タイ語、インドネシア語、韓国語）で用意されており、[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
 
-![サービスメッセージのテンプレートはコンソールで確認できる](https://developers.line.biz/media/line-mini-app/service-message-template-ja.png)
+![サービスメッセージのテンプレートはコンソールで確認できる](https://developers.line.biz/media/line-mini-app/service-message-template-ja.webp)
 
 ## サービスメッセージのプレビューを確認する 
 
@@ -41,7 +41,7 @@ LINEミニアプリから送られたサービスメッセージは、LINEミニ
 
 この画面でテンプレートを選択してJSONを編集することで、メッセージのプレビューが確認できると共に、テストメッセージも送信できます。テストメッセージは、LINE DevelopersコンソールにログインしているユーザーのLINE開発者アカウントに紐づいているLINEアカウントに対して送信されます。
 
-![JSONを変更するとプレビューに反映される](https://developers.line.biz/media/line-mini-app/preview-service-message-ja.png)
+![JSONを変更するとプレビューに反映される](https://developers.line.biz/media/line-mini-app/preview-service-message-ja.webp)
 
 ## サービスメッセージを送信する際の流れ 
 
@@ -138,7 +138,7 @@ LINEヤフー株式会社が提供しているテンプレートの中から、[
 | ラベル | セクション | 説明 |
 | --- | --- | --- |
 | A | タイトル | タイトルセクションは、以下の要素で構成されます。<ul><li>タイトル（A-1）</li><li>サブタイトル（A-2）</li></ul> |
-| B | 詳細内容 | 詳細内容セクションには、テンプレートの種類に応じて次の2種類のレイアウトがあります。 <ul><li>「detailed」：1個のキーが必須です。キーの最大数は選択したテンプレートによって異なります。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_detailed.png)</li><li>「simple」: 最大1個のキーを指定できます。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_simple.png)</li></ul> |
+| B | 詳細内容 | 詳細内容セクションには、テンプレートの種類に応じて次の2種類のレイアウトがあります。 <ul><li>「detailed」：1個のキーが必須です。キーの最大数は選択したテンプレートによって異なります。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_detailed.webp)</li><li>「simple」: 最大1個のキーを指定できます。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_simple.webp)</li></ul> |
 | C | ボタン | 選択したテンプレートによって、使用できるボタンの数は異なります。また、URLを設定したボタンのみが表示されます。URLは、LINEミニアプリのページの[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。<ul><li>1個目のボタンは必須で、［**詳細はこちら**］として表示されます。</li><li>2個目以降のボタンは任意で、選択したテンプレートによってあらかじめ定義されています。</li></ul> |
 | D | フッター | ［**チャネル基本設定**］タブの［**チャネルアイコン**］で設定したアイコンと、［**チャネル名**］で設定したチャネル名が表示されます。ユーザーがフッターをタップすると、そのLINEミニアプリのトップページが表示されます。 |
 

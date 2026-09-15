@@ -83,7 +83,7 @@ LINEで利用できるURLスキームは以下のとおりです。なお、指�
 
 ![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.webp)
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
@@ -103,7 +103,7 @@ LINEで利用できるURLスキームは以下のとおりです。なお、指�
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/location.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/location.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
@@ -113,7 +113,7 @@ LINEで利用できるURLスキームは以下のとおりです。なお、指�
 
 このLINE URLスキームを使うと、指定したLINE公式アカウントをユーザーやユーザーの友だちにおすすめして、LINE公式アカウントを友だち追加するように促すことができます。
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/bot-add-friend-ja.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/bot-add-friend-ja.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
@@ -232,7 +232,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 このLINE URLスキームを使うと、ユーザーの「プロフィール」画面を開きます。この画面では、表示名、ステータスメッセージ、およびLINE IDを設定できます。また、さまざまなLINEプロフィール情報を確認できます。
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/my-profile.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/my-profile.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
@@ -280,7 +280,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 このLINE URLスキームを使うと、公式スタンプやクリエイターズスタンプの購入を促すために、LINE内でスタンプショップを開くことができます。
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/sticker-shop-categories.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/sticker-shop-categories.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |
@@ -305,7 +305,7 @@ LINE公式アカウントのLINE IDは[LINE Official Account Manager](https://ma
 
 このLINE URLスキームを使うと、公式着せかえやクリエイターズ着せかえの購入を促すために、LINE内で着せかえショップを開くことができます。
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/theme-shop.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/theme-shop.webp)
 
 | LINE URLスキーム | 説明 |
 | --- | --- |

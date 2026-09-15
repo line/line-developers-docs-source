@@ -489,7 +489,7 @@ curl -v -X GET 'https://api.line.me/v2/bot/message/progress/narrowcast?requestId
 
 You can send messages that quote past messages using the Messaging API.
 
-![](https://developers.line.biz/media/messaging-api/sending-messages/quote-message.png)
+![](https://developers.line.biz/media/messaging-api/sending-messages/quote-message.webp)
 
 To send a message quoting a past message, specify the quote token (`quoteToken`) of the message to be quoted. For more information about how to retrieve quote tokens, see [Get quote tokens](https://developers.line.biz/en/docs/messaging-api/get-quote-tokens/).
 

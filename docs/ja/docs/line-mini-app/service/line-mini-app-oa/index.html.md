@@ -2,7 +2,7 @@
 
 このページでは、LINEミニアプリのプロモーションにLINE公式アカウントを活用する方法を紹介します。LINE公式アカウントを作成する方法について詳しくは、『Messaging APIドキュメント』の「[LINE公式アカウントを作成する](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)」を参照してください。
 
-![あなたのLINEミニアプリをLINE公式アカウントで宣伝](https://developers.line.biz/media/line-mini-app/mini_with_oa.png)
+![あなたのLINEミニアプリをLINE公式アカウントで宣伝](https://developers.line.biz/media/line-mini-app/mini_with_oa.webp)
 
 ## リッチメッセージを送る 
 

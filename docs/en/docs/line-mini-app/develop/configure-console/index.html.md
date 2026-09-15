@@ -37,7 +37,7 @@ The following information on the LINE MINI App channel settings is displayed to 
 
 When a user shares a LINE MINI App page from the [action button](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#action-button), the following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is displayed in the chat room to which the page is shared.
 
-![Action button](https://developers.line.biz/media/line-mini-app/mini_share_builtin_share.png)
+![Action button](https://developers.line.biz/media/line-mini-app/mini_share_builtin_share.webp)
 
 | Information        | Settings                                  |
 | ------------------ | ----------------------------------------- |
@@ -59,7 +59,7 @@ When a user taps the [action button](https://developers.line.biz/en/docs/line-mi
 
 The following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is displayed on the [verification screen](https://developers.line.biz/en/docs/line-mini-app/develop/channel-consent-simplification/#request-permissions-other-than-openid).
 
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-en.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-en.webp)
 
 | Information | Settings |
 | --- | --- |
@@ -73,7 +73,7 @@ The following information registered on the [LINE Developers Console](https://de
 
 The following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is displayed on the [channel consent screen](https://developers.line.biz/en/docs/line-mini-app/develop/channel-consent-simplification/#authorization-flow-disabled).
 
-![Channel consent screen](https://developers.line.biz/media/line-mini-app/mini-permission-request-en.png)
+![Channel consent screen](https://developers.line.biz/media/line-mini-app/mini-permission-request-en.webp)
 
 | Information | Settings |
 | --- | --- |
@@ -108,7 +108,7 @@ The LINE MINI App name and description on the Channel consent screen are display
 
 From the footer section of the service message, the following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is used. For more information on service messages, see [Sending service messages](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/).
 
-![Service messages](https://developers.line.biz/media/line-mini-app/mini_service_notifier.png)
+![Service messages](https://developers.line.biz/media/line-mini-app/mini_service_notifier.webp)
 
 | Information        | Settings                                  |
 | ------------------ | ----------------------------------------- |
@@ -119,7 +119,7 @@ From the footer section of the service message, the following information regist
 
 The following information registered on the [LINE Developers Console](https://developers.line.biz/console/) is displayed on the Add Shortcut screen. For more information about the Add Shortcut screen, see [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/develop/add-to-home-screen/).
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.webp)
 
 | Information                | Settings                                    |
 | -------------------------- | ------------------------------------------- |

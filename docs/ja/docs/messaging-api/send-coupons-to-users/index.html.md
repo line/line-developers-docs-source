@@ -102,7 +102,7 @@ curl -v -X POST https://api.line.me/v2/bot/message/broadcast \
 
 ユーザーは届いたクーポンを開いて獲得することで、有効期間内にクーポンを使用できます。
 
-![](https://developers.line.biz/media/messaging-api/coupon/coupon-message-ja.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/coupon-message-ja.webp)
 
 ## クーポンを終了する 
 
@@ -201,7 +201,7 @@ Messaging APIで作成したクーポンだけでなく、LINE Official Account 
 
 クーポンの画像は、クーポンの作成時に`imageUrl`で画像のURLを指定することで表示できます。正方形の画像を指定した場合、トーク画面ではアスペクト比が1.51:1（幅：高さ）になるため、画像の上下が一部切れた状態で表示されます。
 
-![](https://developers.line.biz/media/messaging-api/coupon/how-images-look.jpg)
+![](https://developers.line.biz/media/messaging-api/coupon/how-images-look.webp)
 
 <!-- tip start -->
 

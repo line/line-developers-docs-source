@@ -12,7 +12,7 @@ Only corporate users who have submitted the required applications can use the fu
 
 In addition to agreeing to receive LINE notification messages, users must authenticate their phone number by SMS (SMS verification) once every 180 days to receive LINE notification messages.
 
-![User flow when receiving LINE notification messages](https://developers.line.biz/media/line-notification-message/pnp-receive-flow-en.png)
+![User flow when receiving LINE notification messages](https://developers.line.biz/media/line-notification-message/pnp-receive-flow-en.webp)
 
 - [Flow for the case where a user has already agreed to receive LINE notification messages and doesn't need SMS authentication](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/flow-when-receiving-message/#receiving-line-notification-messages)
 - [Flow for the case where the LINE notification message reception settings are "not set" and SMS authentication isn't needed](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/flow-when-receiving-message/#user-consent-flow-for-receiving-line-notification-messages-1)
@@ -55,7 +55,7 @@ SMS authentication isn't needed when receiving a LINE notification message in th
 
 | Number | Image | Description |
 | --- | --- | --- |
-| 1 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.png) | If a user has already agreed to receive LINE notification messages and doesn't need SMS authentication, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
+| 1 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.webp) | If a user has already agreed to receive LINE notification messages and doesn't need SMS authentication, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
 
 ### Flow for the case where the LINE notification message reception settings are "not set" and SMS authentication isn't needed 
 
@@ -63,7 +63,7 @@ SMS authentication isn't needed when receiving a LINE notification message in th
 | --- | --- | --- |
 | 1 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-1-ja.webp) | If the LINE notification message [reception settings](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#user-consent-state) are "not set" and SMS authentication isn't needed, when the user receives a LINE notification message, the user will receive a "You have received a LINE notification message" and "Set up to receive LINE notification messages" message from the "LINE" system account. |
 | 2 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-2-ja.webp) | Clicking the "Set" button under "Set up to receive LINE notification messages" will take the user to the consent screen for receiving LINE notification messages. |
-| 3 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.png) | If the user agrees to the "Set up to receive LINE notification messages", the user will receive a message from the "LINE" system account stating that you've received a LINE notification message. The requested LINE notification message is then sent to the user. |
+| 3 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.webp) | If the user agrees to the "Set up to receive LINE notification messages", the user will receive a message from the "LINE" system account stating that you've received a LINE notification message. The requested LINE notification message is then sent to the user. |
 
 ### Flow for the case where the LINE notification message reception settings are "not set" and SMS authentication is needed 
 
@@ -72,8 +72,8 @@ SMS authentication isn't needed when receiving a LINE notification message in th
 | 1 | ![](https://developers.line.biz/media/line-notification-message/type3-pnpflow-1-ja.webp) | If the LINE notification message [reception settings](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#user-consent-state) are "not set" and SMS authentication is needed, the "LINE" system account will send the user a "You have received a LINE notification message" and "Set up to receive LINE notification messages" message when the user receives a LINE notification message. |
 | 2 | ![](https://developers.line.biz/media/line-notification-message/type3-pnpflow-2-ja.webp) | Clicking the "Set" button under "Set up to receive LINE notification messages" will take the user to the consent screen for receiving LINE notification messages. |
 | 3 | ![](https://developers.line.biz/media/line-notification-message/type3-pnpflow-3-ja.webp) | If the user agrees to the "Set up to receive LINE notification messages", a confirmation dialog box for sending an SMS message to the phone number registered in the LINE account will be displayed. Note that if the user taps **Change** in this dialog to change the phone number to which the SMS is sent (the phone number registered in the LINE account), LINE notification messages sent to the old phone number won't be delivered to the user. |
-| 4 | ![](https://developers.line.biz/media/line-notification-message/type3-pnpflow-4-ja.png) | An SMS message will be sent to the specified phone number. Enter the PIN number provided in the message. |
-| 5 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.png) | Once the SMS verification is completed, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
+| 4 | ![](https://developers.line.biz/media/line-notification-message/type3-pnpflow-4-ja.webp) | An SMS message will be sent to the specified phone number. Enter the PIN number provided in the message. |
+| 5 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.webp) | Once the SMS verification is completed, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
 
 ### Flow for the case where a user has already agreed to receive LINE notification messages and SMS authentication is needed 
 
@@ -82,8 +82,8 @@ SMS authentication isn't needed when receiving a LINE notification message in th
 | 1 | ![](https://developers.line.biz/media/line-notification-message/type2-pnpflow-1-ja.webp) | If a user has already agreed to receive LINE notification messages and SMS authentication is needed, the "LINE" system account will send the user a "LINE notification message received" message and a "phone number authentication" message when the user receives a LINE notification message. |
 | 2 | ![](https://developers.line.biz/media/line-notification-message/type2-pnpflow-2-ja.webp) | Clicking "Set" in the "Phone number authentication" message will take the user to the phone number authentication screen. |
 | 3 | ![](https://developers.line.biz/media/line-notification-message/type2-pnpflow-3-ja.webp) | When the "Send SMS" button is pressed, a confirmation dialog box for sending an SMS message to the phone number registered in the LINE account will be displayed. Note that if the user taps **Change** in this dialog to change the phone number to which the SMS is sent (the phone number registered in the LINE account), LINE notification messages sent to the old phone number won't be delivered to the user. |
-| 4 | ![](https://developers.line.biz/media/line-notification-message/type2-pnpflow-4-ja.png) | An SMS message will be sent to the specified phone number. Enter the PIN number provided in the message. |
-| 5 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.png) | Once the SMS verification is completed, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
+| 4 | ![](https://developers.line.biz/media/line-notification-message/type2-pnpflow-4-ja.webp) | An SMS message will be sent to the specified phone number. Enter the PIN number provided in the message. |
+| 5 | ![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-3-ja.webp)<br><br>![](https://developers.line.biz/media/line-notification-message/type1-pnpflow-4-ja.webp) | Once the SMS verification is completed, the "LINE" system account will send a "LINE Notification Message Received" message to the user. At the same time, the requested LINE notification message will be sent to the user. |
 
 ## Note: Flow for changing the phone number registered to the LINE account 
 
@@ -101,7 +101,7 @@ You can also change your phone number by going to **Settings** > **Profile** > *
 | --- | --- | --- |
 | 1 | ![](https://developers.line.biz/media/line-notification-message/change-phone-number-1-en.png) | Enter the phone number you wish to change and click "Next". |
 | 2 | ![](https://developers.line.biz/media/line-notification-message/change-phone-number-2-en.png) | An SMS message will be sent to the specified phone number. Enter the PIN code provided in the message. |
-| 3 | ![](https://developers.line.biz/media/line-notification-message/change-phone-number-3-ja.png) | After successfully authenticating your phone number via SMS, you'll receive a "Your phone number has been changed" message from your LINE account. |
+| 3 | ![](https://developers.line.biz/media/line-notification-message/change-phone-number-3-ja.webp) | After successfully authenticating your phone number via SMS, you'll receive a "Your phone number has been changed" message from your LINE account. |
 
 <style scoped>
 .table-user-content-flow td:nth-child(2) {

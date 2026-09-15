@@ -20,7 +20,7 @@ Before you import LINE SDK for Unity into your project, backup your project and/
 
 With your Unity project open, double-click on the downloaded `.unitypackage` file. Import everything in the package, as seen here:
 
-![Import Unity package](https://developers.line.biz/media/unity-sdk/importing.png)
+![Import Unity package](https://developers.line.biz/media/unity-sdk/importing.webp)
 
 ## Add LineSDK prefab to your scene 
 

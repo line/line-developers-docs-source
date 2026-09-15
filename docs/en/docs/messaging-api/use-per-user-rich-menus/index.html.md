@@ -114,6 +114,6 @@ Note that if the default rich menu is set, the default rich menu will be display
 
 You can provide users with a rich menu with tab switching using per-user rich menus. To switch between rich menus with ease, like switching between tabs, use [rich menu aliases](https://developers.line.biz/en/glossary/#rich-menu-alias) and [rich menu switch action](https://developers.line.biz/en/reference/messaging-api/#richmenu-switch-action).
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.webp)
 
 For more information, see [Switch between tabs on rich menus](https://developers.line.biz/en/docs/messaging-api/switch-rich-menus/).

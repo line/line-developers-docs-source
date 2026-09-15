@@ -14,7 +14,7 @@ Flex Messageでは、テキストの書字方向を左から右（左横書き�
 
 <!-- note end -->
 
-![Flex Messageのサンプル](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.png)
+![Flex Messageのサンプル](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.webp)
 
 他のメッセージタイプと同様に、Flex MessageはJSON形式で記述します。Flex Messageについて詳しくは、以下のページを参照してください。
 
@@ -39,7 +39,7 @@ Flex Messageは、すべてのバージョンのLINEでサポートされます�
 
 [Flex Message Simulator](https://developers.line.biz/flex-simulator/)を使うと、メッセージを実際に送信しなくても、描画された状態を確認できます。
 
-![Flex Message Simulator](https://developers.line.biz/media/messaging-api/using-flex-messages/flex-message-simulator-ja.png)
+![Flex Message Simulator](https://developers.line.biz/media/messaging-api/using-flex-messages/flex-message-simulator-ja.webp)
 
 Flex Message Simulatorについて詳しくは、「[チュートリアル - Flex Message Simulatorでデジタル名刺を作成する](https://developers.line.biz/ja/docs/messaging-api/using-flex-message-simulator/)」を参照してください。
 

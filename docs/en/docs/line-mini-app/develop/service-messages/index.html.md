@@ -10,7 +10,7 @@ This feature is only available for verified MINI Apps. For unverified MINI Apps,
 
 Service messages is a feature of LINE MINI App that enables you to notify the user with information that the user should know as a response to or in confirmation of a particular user action on LINE MINI App. For example, if a user makes a reservation for a restaurant or accommodation on the LINE MINI App, you can send users for a single reservation action up to 5 service messages such as reservation completion or reminder the day before.
 
-![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini-service-messages-en.png)
+![LINE MINI App Notice](https://developers.line.biz/media/line-mini-app/mini-service-messages-en.webp)
 
 <!-- note start -->
 
@@ -33,7 +33,7 @@ Service messages sent from LINE MINI Apps are displayed in chat rooms determined
 
 You can send service messages using provided templates. These templates are organized by category, such as store reservations, queue management, and delivery notifications, and are available in six languages: Japanese, English, Traditional Chinese, Thai, Indonesian, and Korean. You can view them in the [LINE Developers Console](https://developers.line.biz/console/).
 
-![You can check service message templates in the console](https://developers.line.biz/media/line-mini-app/service-message-template-en.png)
+![You can check service message templates in the console](https://developers.line.biz/media/line-mini-app/service-message-template-en.webp)
 
 ## Preview service messages 
 
@@ -41,7 +41,7 @@ Select the LINE MINI App channel in the [LINE Developers Console](https://develo
 
 On this screen, you can preview messages and send test messages by selecting a template and editing the JSON. Test messages are sent to the LINE account associated with the LINE developer account of the user currently logged in to the LINE Developers Console.
 
-![Changes to JSON are reflected in the preview](https://developers.line.biz/media/line-mini-app/preview-service-message-en.png)
+![Changes to JSON are reflected in the preview](https://developers.line.biz/media/line-mini-app/preview-service-message-en.webp)
 
 ## Flow of sending a service message 
 
@@ -138,7 +138,7 @@ A service message consists of (A) title, (B) detail, (C) button, and (D) footer.
 | Label | Section | Description |
 | --- | --- | --- |
 | A | Title | The title section consists of these elements.<ul><li>Title (A-1)</li><li>Subtitle (A-2)</li></ul> |
-| B | Detail | The detail section has two different layouts depending on template type: <ul><li>"detailed": One key required. the maximum number of keys depends on the template you select. For more information about counting characters, see [Maximum number of characters for each element](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters).<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_detailed.png)</li><li> "simple": You can select up to one key. For more information about counting characters, see [Maximum number of characters for each element](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters).<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_simple.png)</li></ul> |
+| B | Detail | The detail section has two different layouts depending on template type: <ul><li>"detailed": One key required. the maximum number of keys depends on the template you select. For more information about counting characters, see [Maximum number of characters for each element](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters).<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_detailed.webp)</li><li> "simple": You can select up to one key. For more information about counting characters, see [Maximum number of characters for each element](https://developers.line.biz/en/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters).<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_simple.webp)</li></ul> |
 | C | Button | The number of buttons you can use differs per template. Also, only buttons with configured URLs are displayed. Specify the [Permanent link](https://developers.line.biz/en/docs/line-mini-app/develop/permanent-links/) of your LINE MINI App page as the URL.<ul><li>The first button is required and is displayed as the first link in the message.</li><li>The second button (and beyond) is optional and predefined based on the template you choose.</li></ul> |
 | D | Footer | The icon set in the **Channel icon** and the channel name set in the **Channel Name** in the **Basic settings** tab are displayed. When the user taps the footer, your LINE MINI App top page will be displayed. |
 

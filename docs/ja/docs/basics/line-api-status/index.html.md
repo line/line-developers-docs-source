@@ -16,7 +16,7 @@ LINEヤフー株式会社は、LINE API Statusにおいて障害状況の情報�
 
 <!-- note end -->
 
-- [LINE API Status](https://api.line-status.info/)<br>![](https://developers.line.biz/media/basics/line-api-status.png)
+- [LINE API Status](https://api.line-status.info/)<br>![](https://developers.line.biz/media/basics/line-api-status.webp)
 
 ### ATOMやRSSのフィードの提供 
 

@@ -38,7 +38,7 @@
 3. アクションボタン：ボタンに設定されたアクションを実行する。設定可能なパラメータがアクションにある場合は、パラメータごとのボタンが表示されます。
 4. ヘルプボタン：対象のアクションのドキュメントを開く。
 
-![メインメニュー](https://developers.line.biz/media/messaging-api/rich-menu-playground/menu-descriptions.png)
+![メインメニュー](https://developers.line.biz/media/messaging-api/rich-menu-playground/menu-descriptions.webp)
 
 ### アクションの詳細 
 
@@ -62,7 +62,7 @@
 
 このタブでは、リッチメニューからメッセージを送信するための[メッセージアクション](https://developers.line.biz/ja/reference/messaging-api/#message-action)を実行することができます。
 
-![メッセージアクションを試す](https://developers.line.biz/media/messaging-api/rich-menu-playground/01-message-action-ja.png)
+![メッセージアクションを試す](https://developers.line.biz/media/messaging-api/rich-menu-playground/01-message-action-ja.webp)
 
 <!-- tip start -->
 
@@ -80,7 +80,7 @@ LINE公式アカウントとのトークで、ユーザーがリッチメニュ�
 
 このタブでは、リッチメニューから[ポストバックアクション](https://developers.line.biz/ja/reference/messaging-api/#postback-action)を実行することができます。このアクションを実行すると、LINEプラットフォームはポストバックアクションオブジェクトの`data`プロパティに指定された文字列を含む[ポストバックイベント](https://developers.line.biz/ja/reference/messaging-api/#postback-event)をボットサーバーに対して送信します。
 
-![ポストバックアクションを試す(1)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-postback-action-ja.png)
+![ポストバックアクションを試す(1)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-postback-action-ja.webp)
 
 <!-- tip start -->
 
@@ -109,7 +109,7 @@ LINE公式アカウントとのトークで、ユーザーがリッチメニュ�
 
 このタブでは、リッチメニューを開く、および閉じる[ポストバックアクション](https://developers.line.biz/ja/reference/messaging-api/#postback-action)を試せます。ポストバックアクションを実行すると、`data`プロパティに指定された文字列を含む[ポストバックイベント](https://developers.line.biz/ja/reference/messaging-api/#postback-event)がLINEプラットフォームからボットサーバーへ送信されます。
 
-![ポストバックアクションを試す(2)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-2-postback-action-ja.png)
+![ポストバックアクションを試す(2)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-2-postback-action-ja.webp)
 
 | ボタン | 説明 | 設定値（アクションオブジェクトの値） |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ LINE公式アカウントとのトークで、ユーザーがリッチメニュ�
 
 このタブでは、キーボードおよびボイスメッセージ入力モードを開く[ポストバックアクション](https://developers.line.biz/ja/reference/messaging-api/#postback-action)が設定されたリッチメニューを試せます。ポストバックアクションの実行と同時に、`data`プロパティに指定された文字列を含む[ポストバックイベント](https://developers.line.biz/ja/reference/messaging-api/#postback-event)がLINEプラットフォームからボットサーバーへ送信されます。
 
-![ポストバックアクションを試す(3)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-3-postback-action-ja.png)
+![ポストバックアクションを試す(3)](https://developers.line.biz/media/messaging-api/rich-menu-playground/02-3-postback-action-ja.webp)
 
 | ボタン | 説明 | 設定値（アクションオブジェクトの値） |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ LINE公式アカウントとのトークで、ユーザーがリッチメニュ�
 
 このタブでは、リッチメニューから[URIアクション](https://developers.line.biz/ja/reference/messaging-api/#uri-action)を実行することができます。このアクションを実行すると、アクションに設定されたURIがウェブブラウザで開かれます。
 
-![URIアクションを試す](https://developers.line.biz/media/messaging-api/rich-menu-playground/03-uri-action-ja.png)
+![URIアクションを試す](https://developers.line.biz/media/messaging-api/rich-menu-playground/03-uri-action-ja.webp)
 
 | ボタン | 説明 | 設定値（アクションオブジェクトの値） |
 | --- | --- | --- |

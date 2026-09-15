@@ -31,7 +31,7 @@ The behavior against authorization code interception attacks differs depending o
 
 If you access a web app that incorporates PKCE-implemented LINE login from the [Yahoo! JAPAN app](https://promo-mobile.yahoo.co.jp/yjapp/), the [auto login](https://developers.line.biz/en/docs/line-login/integrate-line-login/#line-auto-login) function that lets you skip the login process using your email address and password will be enabled.
 
-![Auto login from the Yahoo! JAPAN app](https://developers.line.biz/media/line-login/yja-to-line-login-en.png)
+![Auto login from the Yahoo! JAPAN app](https://developers.line.biz/media/line-login/yja-to-line-login-en.webp)
 
 <!-- tip end -->
 

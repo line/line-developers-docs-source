@@ -31,7 +31,7 @@ LINEログインを組み込んだウェブアプリに、PKCEを実装した場
 
 PKCE実装済みのLINEログインを組み込んだウェブアプリに、[**Yahoo! JAPANアプリ**](https://promo-mobile.yahoo.co.jp/yjapp/)からアクセスすると、メールアドレスとパスワードによるログインの工程をスキップできる[自動ログイン](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#line-auto-login)機能が有効になります。
 
-![Yahoo! JAPANアプリからの自動ログイン](https://developers.line.biz/media/line-login/yja-to-line-login-ja.png)
+![Yahoo! JAPANアプリからの自動ログイン](https://developers.line.biz/media/line-login/yja-to-line-login-ja.webp)
 
 <!-- tip end -->
 

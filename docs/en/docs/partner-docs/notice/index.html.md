@@ -32,7 +32,7 @@ For more information, see [Notification email example](https://developers.line.b
 
 LINE notification messages are now displayed with “Important notification” to the right of the LINE Official Account icon to distinguish them from other messages.
 
-![LINE notification messages are displayed with “Important notification” to the right of the icon](https://developers.line.biz/media/line-notification-message/notification-messages-important-en.jpg)
+![LINE notification messages are displayed with “Important notification” to the right of the icon](https://developers.line.biz/media/line-notification-message/notification-messages-important-en.webp)
 
 For more information, see [Difference in appearance from other messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/overview/#difference-from-other-messages) in the LINE notification messages documentation.
 

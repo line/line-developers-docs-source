@@ -161,7 +161,7 @@ LINEミニアプリが認証済ミニアプリの場合、チャネル名やLIFF
 - LINEヤフー株式会社による審査時に、LINEミニアプリのサービス内容を把握するため
 - LINEの「アプリ」タブ内にある「今日の人気ランキング」コーナーにおいて、AIでLINEミニアプリのカテゴリを設定し、説明文を自動生成する際の情報源として使用するため（日本のみ）
 
-![チャネル説明](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-description-ja.png)
+![チャネル説明](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-description-ja.webp)
 
 ［**チャネル説明**］の入力例については、以下の表を参考にしてください。
 

@@ -62,7 +62,7 @@ LINE Developersコンソールでは、サービス提供者を**プロバイダ
 
 認証プロバイダーになると、ユーザーが確認するチャネル同意画面に「認証済」とテキストで表示されます。また[プロバイダーページ](https://developers.line.biz/ja/docs/partner-docs/provider-page/)を設定、公開できます。
 
-![](https://developers.line.biz/media/line-developers-console/consent-screen-certified-provider-ja.png)
+![](https://developers.line.biz/media/line-developers-console/consent-screen-certified-provider-ja.webp)
 
 認証プロバイダーとは、LINEヤフー株式会社が、プロバイダーを作成したサービス提供者の正当性を確認済みであることを示すものです。LINEヤフー株式会社が確認する内容は以下のとおりです。
 

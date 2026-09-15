@@ -299,7 +299,7 @@ liff
 
    `liff.init()`メソッドの処理中にエラーが発生した場合、またはログイン時にユーザーが認可をキャンセルした場合は、`errorCallback`が実行されます。
 
-![フロー図](https://developers.line.biz/media/liff/initializing-liff-app-flow.png)
+![フロー図](https://developers.line.biz/media/liff/initializing-liff-app-flow.webp)
 
 <!-- note start -->
 
@@ -602,7 +602,7 @@ liff.getFriendship().then((data) => {
 
 LINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウを表示します。
 
-![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-ja.png)
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-ja.webp)
 
 - LINE公式アカウントと友だちになっていない場合は、友だち追加を促すサブウィンドウが表示されます。
 - LINE公式アカウントをブロックしている場合は、ブロック解除を促すサブウィンドウが表示されます。
@@ -775,7 +775,7 @@ LIFFアプリのURLを、`line://app/{liffId}`（非推奨）の形式でシェ�
 
 LIFFブラウザでは、LIFFアプリからLIFFアプリでない外部サイトを開いた場合、「外部サイトに遷移した」ということを示すポップアップが表示されます。
 
-![外部サイトに遷移した時のポップアップ](https://developers.line.biz/media/news/2022/liff-opening-external-site-ja.jpg)
+![外部サイトに遷移した時のポップアップ](https://developers.line.biz/media/news/2022/liff-opening-external-site-ja.webp)
 
 ポップアップは、同じウィンドウで外部サイトを開いた場合にのみ表示されます。別のウィンドウで外部サイトを開いた場合は、ポップアップは表示されません。
 

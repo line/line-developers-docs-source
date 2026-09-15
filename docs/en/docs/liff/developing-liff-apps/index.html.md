@@ -299,7 +299,7 @@ To use LINE Login in an external browser, call the `liff.init()` method twice as
 
    If an error occurs during the processing of the `liff.init()` method, or if the user cancels authorization at the time of login, `errorCallback` will be executed.
 
-![Flow diagram](https://developers.line.biz/media/liff/initializing-liff-app-flow.png)
+![Flow diagram](https://developers.line.biz/media/liff/initializing-liff-app-flow.webp)
 
 <!-- note start -->
 
@@ -602,7 +602,7 @@ When [adding a LIFF app to your channel](https://developers.line.biz/en/docs/lif
 
 Displays a subwindow that prompts the user to add the LINE Official Account as a friend, or to unblock it.
 
-![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-en.png)
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-en.webp)
 
 - If the user has not added the LINE Official Account as a friend, a subwindow that prompts the user to add it as a friend is displayed.
 - If the user has blocked the LINE Official Account, a subwindow that prompts the user to unblock it is displayed.
@@ -775,7 +775,7 @@ When sharing the URL of the LIFF app in the format of `line://app/{liffId}` (dep
 
 When opening an external site that isn't a LIFF app from a LIFF app opened in the LIFF browser, a popup will appear indicating that "This is an external page".
 
-![A popup when moving to the external site](https://developers.line.biz/media/news/2022/liff-opening-external-site-en.jpg)
+![A popup when moving to the external site](https://developers.line.biz/media/news/2022/liff-opening-external-site-en.webp)
 
 The popup will only appear when opening the external site in the same window. If the external site is opened in a different window, the popup doesn't appear.
 

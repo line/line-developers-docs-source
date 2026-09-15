@@ -1915,7 +1915,7 @@ String
 
 LINEミニアプリが要求する権限の「アクセス許可要求画面」を表示します。
 
-![アクセス許可要求画面](https://developers.line.biz/media/line-mini-app/verification-screen-ja.png)
+![アクセス許可要求画面](https://developers.line.biz/media/line-mini-app/verification-screen-ja.webp)
 
 <!-- note start -->
 
@@ -2250,7 +2250,7 @@ _例_
 
 LINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウを表示します。
 
-![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-ja.png)
+![](https://developers.line.biz/media/liff/request-friendship/request-friendship-add-friend-ja.webp)
 
 - LINE公式アカウントと友だちになっていない場合は、友だち追加を促すサブウィンドウが表示されます。
 - LINE公式アカウントをブロックしている場合は、ブロック解除を促すサブウィンドウが表示されます。
@@ -3317,7 +3317,7 @@ String
 
 [LINEミニアプリ](https://developers.line.biz/ja/docs/line-mini-app/)へのショートカットを、ユーザー端末のホーム画面に追加する画面を表示します。
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-ja.webp)
 
 詳しくは、『LINEミニアプリドキュメント』の「[ユーザー端末のホーム画面にLINEミニアプリへのショートカットを追加する](https://developers.line.biz/ja/docs/line-mini-app/develop/add-to-home-screen/)」を参照してください。
 

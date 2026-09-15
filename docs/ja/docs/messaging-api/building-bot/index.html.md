@@ -52,7 +52,7 @@ IPアドレスを登録するには、[LINE Developersコンソール](https://d
 
 なおMessaging APIで使用するチャネルアクセストークンは、[任意の有効期間を指定できるチャネルアクセストークン（チャネルアクセストークンv2.1）](https://developers.line.biz/ja/docs/basics/channel-access-token/#user-specified-expiration)を推奨しています。
 
-![](https://developers.line.biz/media/messaging-api/build-bot/security-settings-input-ja.png)
+![](https://developers.line.biz/media/messaging-api/build-bot/security-settings-input-ja.webp)
 
 ## Webhookの動作を確認する 
 

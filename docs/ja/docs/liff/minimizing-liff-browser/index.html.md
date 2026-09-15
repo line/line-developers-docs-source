@@ -56,7 +56,7 @@ LIFFブラウザを最小化するには、以下の3つの方法があります
 
 [アクションボタン](https://developers.line.biz/ja/docs/liff/overview/#action-button)からドロップダウンメニューを開き、［**ページを最小化**］オプションをタップします。
 
-![](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-ja.png)
+![](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-ja.webp)
 
 ### アプリ内通知をタップする 
 
@@ -74,7 +74,7 @@ LIFFブラウザを下方向へスワイプします。
 
 [アクションボタン](https://developers.line.biz/ja/docs/liff/overview/#action-button)から[マルチタブビュー](https://developers.line.biz/ja/docs/liff/overview/#multi-tab-view)を開き、［**ページを最小化**］オプションをタップします。
 
-![LIFFブラウザの最小化（アクションボタンのオプションをタップする）](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-option-ja.png)
+![LIFFブラウザの最小化（アクションボタンのオプションをタップする）](https://developers.line.biz/media/liff/minimizing-liff-app/tap-action-button-option-ja.webp)
 
 ## LIFFブラウザを最大化する 
 
@@ -111,7 +111,7 @@ LINEバージョン15.20.0未満の場合、最小化したLIFFブラウザを�
 
 LINEバージョン15.20.0以降の場合、最小化したLIFFブラウザの右上に表示される閉じるボタンを押すと、LIFFブラウザを閉じることができます。
 
-![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-line-15-20-0-or-later-ja.png)
+![最小化したLIFFブラウザを閉じる](https://developers.line.biz/media/liff/minimizing-liff-app/close-minimized-liff-browser-line-15-20-0-or-later-ja.webp)
 
 ## LIFFブラウザのアイコン表示の優先順位 
 

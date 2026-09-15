@@ -53,7 +53,7 @@ For example, by setting a unique name as a Custom Path, users will be able to id
 
 The user can add a shortcut to your LINE MINI App to the home screen of the user's device. This allows the user to access your LINE MINI App directly from the home screen of the user's device.
 
-![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.png)
+![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/add-shortcut-screen-ios-en.webp)
 ![](https://developers.line.biz/media/line-mini-app/develop/add-to-home-screen/shortcut-ios-en.webp)
 
 Using this feature for services that users frequently use, such as membership cards and mobile ordering, can improve the user experience.
@@ -82,7 +82,7 @@ With LINE MINI App, you can induce users to add your Official Account as a frien
 
 For more information, see [Add a LINE Official Account as a friend in a LINE MINI App (add friend option)](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/).
 
-![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-en.png)
+![bot link feature 1](https://developers.line.biz/media/line-mini-app/miniguide-incremental-01-en.webp)
 ![bot link feature 2](https://developers.line.biz/media/line-mini-app/miniguide-incremental-02-en.webp)
 
 You can also use the [`liff.requestFriendship()`](https://developers.line.biz/en/reference/liff/#request-friendship) method to display a subwindow at any time, prompting users to add your LINE Official Account as a friend or unblock it.
@@ -91,7 +91,7 @@ You can also use the [`liff.requestFriendship()`](https://developers.line.biz/en
 
 The [built-in action button](https://developers.line.biz/en/docs/line-mini-app/discover/builtin-features/#action-button) is provided to enable users to easily share LINE MINI App among friends, but there is also the option of [implementing a custom action button](https://developers.line.biz/en/docs/line-mini-app/develop/share-messages/).
 
-![](https://developers.line.biz/media/line-mini-app/mini_share_custom.png)
+![](https://developers.line.biz/media/line-mini-app/mini_share_custom.webp)
 
 ## Using payment systems 
 

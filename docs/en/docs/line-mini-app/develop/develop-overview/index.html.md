@@ -24,7 +24,7 @@ A [Channel](https://developers.line.biz/en/docs/line-developers-console/overview
 
 2. Click in the order of **Channels** > **Create a new channel** > **LINE MINI App**.
 
-   ![LINE MINI App channel](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-en.png)
+   ![LINE MINI App channel](https://developers.line.biz/media/line-mini-app/line-mini-app-channel-en.webp)
 
 3. Enter the information in the items below to create a LINE MINI App channel.
 

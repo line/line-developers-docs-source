@@ -25,7 +25,7 @@ We strongly recommend that you send LINE Beacon packets at 152.5ms intervals.
 
 Compose advertising packets with three AD structures, as illustrated below.
 
-![LINE Beacon packet](https://developers.line.biz/media/messaging-api/beacon-device-spec/advDataFormat.png)
+![LINE Beacon packet](https://developers.line.biz/media/messaging-api/beacon-device-spec/advDataFormat.webp)
 
 The advertising packet specification is as follows. The hexadecimal values in the value column are equivalent to the bracketed values in the description column.
 

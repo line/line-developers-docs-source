@@ -8,7 +8,7 @@ This page contains articles migrated from the LINE API Use Case site (closed on 
 
 <!-- tip end -->
 
-Personalized mobility experiences can be delivered by combining MaaS Tech Japan’s integrated mobility data platform, [TraISARE](https://traisare.maas.co.jp/) (only available in Japanese), with LINE.
+Personalized mobility experiences can be delivered by combining MaaS Tech Japan’s integrated mobility data platform, TraISARE, with LINE.
 
 From the end user perspective, this enables the purchase of excursion tickets, transit updates, and access to personalized recommendations and coupons based on usage history—all conveniently available on LINE, an app users already use daily.
 

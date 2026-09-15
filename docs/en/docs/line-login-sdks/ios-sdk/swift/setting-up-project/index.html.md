@@ -78,7 +78,7 @@ Now you can add the built `LineSDK.framework` file to your Xcode project by foll
 
 Drag and drop the `LineSDK.framework` file from the `Carthage/Build/iOS` folder to the "Linked Frameworks and Libraries" section on your application target’s "General" settings tab.
 
-![LINE SDK Framework file being moved from Finder to the Linked Frameworks and Libraries section in your app target.](https://developers.line.biz/media/ios-sdk-swift/install-link.png)
+![LINE SDK Framework file being moved from Finder to the Linked Frameworks and Libraries section in your app target.](https://developers.line.biz/media/ios-sdk-swift/install-link.webp)
 
 #### Copying the `LineSDK.framework` file during the build phase 
 
@@ -102,7 +102,7 @@ Drag and drop the `LineSDK.framework` file from the `Carthage/Build/iOS` folder 
 
 The run script should look like this:
 
-![Run script section expanded to show Shell, Input Files, Input File Lists, and Output Files.](https://developers.line.biz/media/ios-sdk-swift/install-carthage-copy.png)
+![Run script section expanded to show Shell, Input Files, Input File Lists, and Output Files.](https://developers.line.biz/media/ios-sdk-swift/install-carthage-copy.webp)
 
 ## Linking your app to your channel 
 

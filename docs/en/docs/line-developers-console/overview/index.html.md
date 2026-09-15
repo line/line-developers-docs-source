@@ -62,7 +62,7 @@ These restrictions apply to the number of providers that can be created.
 
 Once you become a certified provider, "Certified" is displayed as text on the channel consent screen that users review. You can also configure and publish a [Provider page](https://developers.line.biz/en/docs/partner-docs/provider-page/).
 
-![](https://developers.line.biz/media/line-developers-console/consent-screen-certified-provider-en.png)
+![](https://developers.line.biz/media/line-developers-console/consent-screen-certified-provider-en.webp)
 
 A certified provider indicates that LY Corporation has confirmed the authenticity of the service provider that created the provider. LY Corporation checks the following:
 

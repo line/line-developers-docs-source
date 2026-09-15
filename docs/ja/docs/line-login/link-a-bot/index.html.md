@@ -2,7 +2,7 @@
 
 ユーザーがアプリにログインするときに、LINE公式アカウントを友だち追加するオプションを表示するように設定できます。これを、**友だち追加オプション**と呼びます。友だち追加するLINE公式アカウントは、LINE Developersコンソールで指定します。
 
-![同意画面](https://developers.line.biz/media/line-login/link-a-bot/consent-screen-with-bot-ja.png)
+![同意画面](https://developers.line.biz/media/line-login/link-a-bot/consent-screen-with-bot-ja.webp)
 
 上記の同意画面でユーザーが［**友だち追加する**］を有効にしてログインすると、LINE公式アカウントがユーザーの友だちとして追加されます。ボットの作成について詳しくは、『Messaging APIドキュメント』の「[Messaging APIの概要](https://developers.line.biz/ja/docs/messaging-api/overview/)」を参照してください。
 
@@ -83,7 +83,7 @@ https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id={CHANN
 
 LINEログインのチャネルが認証プロバイダー配下に存在する場合、`bot_prompt=normal`のときに表示される同意画面上のオプションは、デフォルトで有効になります。
 
-![](https://developers.line.biz/media/line-login/link-a-bot/add-friend-option-on-certified-provider-ja.png)
+![](https://developers.line.biz/media/line-login/link-a-bot/add-friend-option-on-certified-provider-ja.webp)
 
 認証プロバイダーについて詳しくは、『LINE Developersコンソールドキュメント』の「[認証プロバイダーについて](https://developers.line.biz/ja/docs/line-developers-console/overview/#certified-provider)」を参照してください。
 

@@ -2,7 +2,7 @@
 
 ユーザー単位のリッチメニューを活用して、タブ切り替えが可能なリッチメニューをユーザーに提供できます。[リッチメニューエイリアス](https://developers.line.biz/ja/glossary/#rich-menu-alias)と[リッチメニュー切替アクション](https://developers.line.biz/ja/reference/messaging-api/#richmenu-switch-action)を使うことで、タブ切り替えのように、複数のリッチメニューを簡単に切り替えられます。
 
-![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.png)
+![](https://developers.line.biz/media/messaging-api/rich-menu/switching-richmenu-ja.webp)
 
 たとえばリッチメニューAとリッチメニューBを切り替えたい場合、以下の手順に従って設定します。
 
@@ -22,7 +22,7 @@
 
 | リッチメニューAの画像 | リッチメニューBの画像 |
 | :-: | :-: |
-| ![リッチメニューAの画像](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-a.png) | ![リッチメニューBの画像](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-b.png) |
+| ![リッチメニューAの画像](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-a.webp) | ![リッチメニューBの画像](https://developers.line.biz/media/messaging-api/rich-menu/richmenu-b.webp) |
 
 ## 2. リッチメニューAを作成する 
 

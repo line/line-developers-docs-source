@@ -58,7 +58,7 @@ LINE Social Pluginsが生成する［**友だち追加**］ボタンを利用す
 
 たとえば、[`https://line.me/R/ti/p/%40linedevelopers`](https://line.me/R/ti/p/%40linedevelopers)を開くと、LINE DevelopersのLINE公式アカウントのビジネスプロフィールページが表示されます。このLINE URLスキームについて詳しくは、「[LINE公式アカウントをシェアする](https://developers.line.biz/ja/docs/messaging-api/using-line-url-scheme/#sharing-line-official-account)」を参照してください。
 
-![](https://developers.line.biz/media/messaging-api/sharing-bot/add-line-developers-oa-ja.png)
+![](https://developers.line.biz/media/messaging-api/sharing-bot/add-line-developers-oa-ja.webp)
 
 ## ユーザーからLINE上の友だちにLINE公式アカウントをおすすめしてもらう 
 

@@ -83,7 +83,7 @@ You can open the camera or camera roll with the URL scheme only from LINE chats,
 
 ![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-screen.webp)
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/camera-roll.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |
@@ -103,7 +103,7 @@ You can let users view location information with this URL scheme only in one-on-
 
 <!-- note end -->
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/location.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/location.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |
@@ -113,7 +113,7 @@ You can let users view location information with this URL scheme only in one-on-
 
 With the LINE URL scheme, you can recommend and encourage users and their friends to add your LINE Official Account.
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/bot-add-friend-en.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/bot-add-friend-en.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ Make sure `{text_message}` is [percent encoded](https://developer.mozilla.org/en
 
 With the LINE URL scheme, you can let users open their "My profile" screen. On this screen, users can update their display name and status message, set their LINE ID and view profile settings.
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/my-profile.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/my-profile.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |
@@ -280,7 +280,7 @@ With the LINE URL scheme, you can open different settings menu.
 
 With the LINE URL scheme, you can let users open Sticker Shop in LINE to encourage purchase of official and creators' sticker sets.
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/sticker-shop-categories.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/sticker-shop-categories.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |
@@ -305,7 +305,7 @@ To create your own sticker sets for users, visit [LINE Creators Market](https://
 
 With the LINE URL scheme, you can let user open Theme Shop in LINE to encourage purchase of official and creators' theme.
 
-![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/theme-shop.png)
+![](https://developers.line.biz/media/messaging-api/using-line-url-scheme/theme-shop.webp)
 
 | LINE URL scheme | Description |
 | --- | --- |

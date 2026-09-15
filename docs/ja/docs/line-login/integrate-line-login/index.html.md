@@ -181,7 +181,7 @@ LINEログインを組み込むウェブアプリ側で、認証の機能を実�
 
 以下のように、ログイン時に自動的にLINEアプリが起動し、ユーザーの操作なしでログインが完了します。
 
-![](https://developers.line.biz/media/line-login/integrate-login-web/auto-ligin-animation.gif)
+![](https://developers.line.biz/media/line-login/integrate-login-web/auto-login-animation.webp)
 
 <!-- note start -->
 

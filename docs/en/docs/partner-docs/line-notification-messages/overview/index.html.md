@@ -18,7 +18,7 @@ There are two types of LINE notification messages: [LINE notification messages (
 
 The following is a sample of a LINE notification message (template):
 
-![Sample of LINE notification messages (template)](https://developers.line.biz/media/line-notification-message/line-notification-messages-sample-ja.png)
+![Sample of LINE notification messages (template)](https://developers.line.biz/media/line-notification-message/line-notification-messages-sample-ja.webp)
 
 For more information, see [Technical specifications of the LINE notification messages API](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/) and the [LINE notification messages API reference](https://developers.line.biz/en/reference/line-notification-messages/).
 
@@ -34,7 +34,7 @@ The purpose of use for LINE notification messages is limited to those that we de
 
 LINE notification messages are displayed with “Important notification” to the right of the LINE Official Account icon to distinguish them from other messages. This function is available in LINE version 15.9.0 or later for iOS, Android, and iPad.
 
-![LINE notification messages are displayed with “Important notification” to the right of the icon](https://developers.line.biz/media/line-notification-message/notification-messages-important-en.jpg)
+![LINE notification messages are displayed with “Important notification” to the right of the icon](https://developers.line.biz/media/line-notification-message/notification-messages-important-en.webp)
 
 The text displayed may vary depending on the language settings of the LINE app that received the LINE notification message.
 

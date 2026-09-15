@@ -49,7 +49,7 @@ In the Messaging API, a bubble refers to a single message object. Message object
 
 This illustration shows an example of a message composed of three bubbles. Although bubble 2 and 3 don't have the same speech bubble shape as the text message object in bubble 1, each is treated as bubbles for impression measurement.
 
-![](https://developers.line.biz/media/messaging-api/measure-impressions/message-and-bubbles-en.png)
+![](https://developers.line.biz/media/messaging-api/measure-impressions/message-and-bubbles-en.webp)
 
 When this message is sent and the user opens the chat to view it, the single bubble that's displayed triggers the counting of `overview.uniqueImpression`. `messages[].uniqueImpression` and `messages[].impression` are counted separately for each bubble.
 
@@ -87,10 +87,10 @@ These are examples of bubbles that are 100% visible and those that aren't.
 
 | Display | Description | Image |
 | --- | --- | --- |
-| ✅️ 100% visible | The bubble displayed in the green area is fully visible, so it's counted as an impression. | ![The entire bubble is displayed](https://developers.line.biz/media/messaging-api/measure-impressions/impression-100per.png) |
-| ❌️ Not 100% visible | The bubble displayed in the red area overlaps with the rich menu and isn't fully visible, so it isn't counted as an impression. | ![The entire bubble isn't displayed because it overlaps with the rich menu](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-richmenu.png) |
-| ❌️ Not 100% visible | The bubble in the red area overlaps with the [service menu bar](https://www.lycbiz.com/jp/manual/OfficialAccountManager/servicemenubar/) and isn't fully visible, so it isn't counted as an impression. | ![The entire bubble isn't displayed because it overlaps with the service menu bar](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-service-menu-ber.png) |
-| ❌️ Not 100% visible | The bubble in the red area is too tall to fit within the chat window, so it isn't fully visible and therefore not counted as an impression. | ![The message is too tall to fit entirely within the bubble](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-too-long.png) |
+| ✅️ 100% visible | The bubble displayed in the green area is fully visible, so it's counted as an impression. | ![The entire bubble is displayed](https://developers.line.biz/media/messaging-api/measure-impressions/impression-100per.webp) |
+| ❌️ Not 100% visible | The bubble displayed in the red area overlaps with the rich menu and isn't fully visible, so it isn't counted as an impression. | ![The entire bubble isn't displayed because it overlaps with the rich menu](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-richmenu.webp) |
+| ❌️ Not 100% visible | The bubble in the red area overlaps with the [service menu bar](https://www.lycbiz.com/jp/manual/OfficialAccountManager/servicemenubar/) and isn't fully visible, so it isn't counted as an impression. | ![The entire bubble isn't displayed because it overlaps with the service menu bar](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-service-menu-ber.webp) |
+| ❌️ Not 100% visible | The bubble in the red area is too tall to fit within the chat window, so it isn't fully visible and therefore not counted as an impression. | ![The message is too tall to fit entirely within the bubble](https://developers.line.biz/media/messaging-api/measure-impressions/impression-not-100per-too-long.webp) |
 
 <!-- tip start -->
 
@@ -116,7 +116,7 @@ If you send a message that uses a [carousel](https://developers.line.biz/en/docs
 
 For messages using a carousel, the impression is counted once when all edges (top, bottom, left, and right) of the bubble are displayed.
 
-![](https://developers.line.biz/media/messaging-api/measure-impressions/carousel-100per-scroll.png)
+![](https://developers.line.biz/media/messaging-api/measure-impressions/carousel-100per-scroll.webp)
 
 ## Usage precautions 
 

@@ -39,7 +39,7 @@ The "Channel consent simplification" feature can be configured only if all of th
 
 For LINE MINI App channels created before January 8, 2026, to enable the "Channel consent simplification" feature, turn on the toggle in the Channel consent simplification section on the **Web app settings** tab of the LINE MINI App channel in the [LINE Developers Console](https://developers.line.biz/console/).
 
-![](https://developers.line.biz/media/line-mini-app/simplification-feature-setup-en.png)
+![](https://developers.line.biz/media/line-mini-app/simplification-feature-setup-en.webp)
 
 Note that because the "Channel consent simplification" feature simplifies consent for getting the user ID (the `openid` scope), enabling it also automatically enables `openid` in the Scope section.
 
@@ -69,7 +69,7 @@ If additional permissions are required, see [Request permissions other than the 
 
 When you execute methods that require permissions other than the `openid` scope, such as the [`liff.getProfile()`](https://developers.line.biz/en/reference/liff/#get-profile) method or the [`liff.sendMessages()`](https://developers.line.biz/en/reference/liff/#send-messages) method, the verification screen is displayed. On the verification screen, the additional permissions requested by the LINE MINI App are shown, and users are asked whether they want to grant those permissions.
 
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-en.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-playground-verification-screen-en.webp)
 
 The following methods require permissions other than the `openid` scope:
 
@@ -105,7 +105,7 @@ Therefore, if you've designed your LINE MINI App so that immediately after it's 
 
 In the LINE MINI App, you can use the [add friend option](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) to prompt users to add your LINE Official Account from the verification screen or the channel consent screen.
 
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-verification-screen-en.png) ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-channel-consent-screen-en.png)
+![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-verification-screen-en.webp) ![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/add-friend-option-channel-consent-screen-en.webp)
 
 However, if only `openid` is specified in the Scope section of the **Web app settings** tab in your LINE MINI App channel, enabling the "Channel consent simplification" feature will prevent the verification screen and the channel consent screen from appearing. As a result, you can't prompt users to add friends using the add friend option.
 
@@ -119,4 +119,4 @@ When users access a LINE MINI App where the "Channel consent simplification" fea
 
 When users tap **Allow**, they can start using the LINE MINI App.
 
-![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/line-mini-app-playground-channel-consent-screen-en.png)
+![](https://developers.line.biz/media/line-mini-app/channel-consent-simplification/line-mini-app-playground-channel-consent-screen-en.webp)

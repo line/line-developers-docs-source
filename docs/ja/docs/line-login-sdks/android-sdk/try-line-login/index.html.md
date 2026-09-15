@@ -33,7 +33,7 @@ LINEヤフー株式会社が提供するサンプルチャネルを使ってサ�
 
 お手元のAndroid端末、またはAndroidエミュレーターを使ってサンプルアプリを実行します。初回ログイン時のみ、アプリのプロフィール情報取得に同意する必要があります。
 
-![サンプルアプリのメイン画面](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-home-screen.jpg)
+![サンプルアプリのメイン画面](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-home-screen.webp)
 
 ### ［Log in with LINE］ボタンを使う 
 
@@ -65,7 +65,7 @@ LINEヤフー株式会社が提供するサンプルチャネルを使ってサ�
 
 ### LINE SDKの機能を試す 
 
-![LINE SDKサンプルアプリリスト画面](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-api-list-screen.jpg)
+![LINE SDKサンプルアプリリスト画面](https://developers.line.biz/media/line-login/try-line-login/line-sdk-sample-app-api-list-screen.webp)
 
 アプリにログインした後で［**API List Page**］ボタンをタップして、LINE SDKの以下の機能を試すことができます。
 

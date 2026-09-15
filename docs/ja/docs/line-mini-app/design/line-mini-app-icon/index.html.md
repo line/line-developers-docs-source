@@ -18,7 +18,7 @@ LINEミニアプリのアイコンの主な掲載場所は以下のとおりで�
 ![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/channel-consent-screen-ja.webp)
 ![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/home-tab-ja.webp)
 ![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/line-message-ja.webp)
-![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/service-messages-ja.png)
+![](https://developers.line.biz/media/line-mini-app/line-mini-app-icon/service-messages-ja.webp)
 
 ## ガイドライン 
 

@@ -14,7 +14,7 @@ The same Flex Message may be rendered differently depending on the environment o
 
 <!-- note end -->
 
-![Flex Message examples](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.png)
+![Flex Message examples](https://developers.line.biz/media/messaging-api/using-flex-messages/bubbleSamples-Update1.webp)
 
 Like other message types, you define Flex Messages in JSON. For more information on Flex Messages, see:
 
@@ -39,7 +39,7 @@ Flex Messages are supported in all LINE versions. The features listed below aren
 
 With the [Flex Message Simulator](https://developers.line.biz/flex-simulator/), you can check the layout of Flex Messages without sending messages to see the rendered version.
 
-![Flex Message Simulator](https://developers.line.biz/media/messaging-api/using-flex-messages/flex-message-simulator-en.png)
+![Flex Message Simulator](https://developers.line.biz/media/messaging-api/using-flex-messages/flex-message-simulator-en.webp)
 
 For more information on Flex Message Simulator, see [Tutorial - Create a digital business card with Flex Message Simulator](https://developers.line.biz/en/docs/messaging-api/using-flex-message-simulator/).
 
