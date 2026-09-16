@@ -61,7 +61,8 @@ For example, the above message can be sent by creating the following JSON:
         "url": "https://example.com/ContactUs/"
       }
     ]
-  }
+  },
+  "customAggregationUnits": ["shipping"]
 }
 ```
 

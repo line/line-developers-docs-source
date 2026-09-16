@@ -53,3 +53,4 @@ For more information about the language setting of the LINE app, see [Changing t
 - [LINE notification messages API reference](https://developers.line.biz/en/reference/line-notification-messages/)
 - [Webhook delivery completion event](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/message-sending-complete-webhook-event/)
 - [Flow when receiving a LINE notification message](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/flow-when-receiving-message/)
+- [Get statistics of LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/statistics/)

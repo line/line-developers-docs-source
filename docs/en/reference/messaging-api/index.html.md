@@ -4966,12 +4966,12 @@ For more information about assigning a unit name, see [Assign a unit name](https
 
 **Unit names may not be assigned**
 
-During the current month (from the 1st to the last day of the month), you can send messages with up to 1,000 different unit names. If you try to assign the 1,001st or later unit name, the messages will be sent. However, the unit name won't be assigned.
+During the current month (from the 1st to the last day of the month), you can assign up to 1,000 different unit name types to push messages, multicast messages, and LINE notification messages. The number of unit name types is counted across all message types. If you send messages with a 1,001st or subsequent type of unit name, the messages will be sent, but those unit names won't be assigned to the messages.
 
 If you have many types of unit names, confirm that unit names can be assigned or have been assigned using one of the following methods:
 
-- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000
-- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists
+- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000.
+- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists.
 
 <!-- note end -->
 
@@ -5032,7 +5032,7 @@ Returns the following HTTP status code and an error response:
 
 | Code | Description |
 | --- | --- |
-| `400` | Couldn't send the message. Consider these reasons:<ul><li>A user ID that doesn't exist in this channel is specified, such as a user ID obtained from channels under other providers.</li><li>A non-existent group or a group that your LINE Official Account doesn't participate in is specified.</li><li>A non-existent multi-person chat or a multi-person chat that your LINE Official Account doesn't participate in is specified.</li><li>An invalid message object is specified.</li></ul> |
+| `400` | Couldn't send the message. Consider these reasons:<ul><li>A user ID that doesn't exist in this channel is specified, such as a user ID obtained from channels under other providers.</li><li>A non-existent group or a group that your LINE Official Account doesn't participate in is specified.</li><li>A non-existent multi-person chat or a multi-person chat that your LINE Official Account doesn't participate in is specified.</li><li>An invalid message object is specified.</li><li>A unit name longer than the maximum number of characters (30) is specified in the `customAggregationUnits` property.</li><li>A unit name containing an invalid character is specified in the `customAggregationUnits` property.</li></ul> |
 | `409` | A request containing the same retry key has already been accepted. For more information, see [Response if the request has already been accepted](https://developers.line.biz/en/reference/messaging-api/#retry-api-request-response) in the Retrying an API request. |
 | `429` | The number of requests has exceeded the limit. Consider these reasons:<ul><li>Exceeded the [rate limit](https://developers.line.biz/en/reference/messaging-api/#send-push-message-rate-limit) for this endpoint.</li><li>A large number of messages were sent to the same user.</li><li>Exceeded [the target limit for sending messages this month](https://developers.line.biz/en/reference/messaging-api/#get-quota).</li></ul>For more information about the target limit for sending messages, see [Messaging API pricing](https://developers.line.biz/en/docs/messaging-api/pricing/) in the Messaging API documentation. |
 
@@ -5048,6 +5048,17 @@ _Example error response_
 // If you failed to send a message (400 Bad Request)
 {
   "message": "Failed to send messages"
+}
+
+// If the unit name contains invalid characters (400 Bad Request)
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
+    }
+  ]
 }
 ```
 
@@ -5181,12 +5192,12 @@ For more information about assigning a unit name, see [Assign a unit name](https
 
 **Unit names may not be assigned**
 
-During the current month (from the 1st to the last day of the month), you can send messages with up to 1,000 different unit names. If you try to assign the 1,001st or later unit name, the messages will be sent. However, the unit name won't be assigned.
+During the current month (from the 1st to the last day of the month), you can assign up to 1,000 different unit name types to push messages, multicast messages, and LINE notification messages. The number of unit name types is counted across all message types. If you send messages with a 1,001st or subsequent type of unit name, the messages will be sent, but those unit names won't be assigned to the messages.
 
 If you have many types of unit names, confirm that unit names can be assigned or have been assigned using one of the following methods:
 
-- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000
-- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists
+- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000.
+- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists.
 
 <!-- note end -->
 
@@ -5212,7 +5223,7 @@ Returns the following HTTP status code and an error response:
 
 | Code | Description |
 | --- | --- |
-| `400` | Couldn't send the message. Consider these reasons:<ul><li>A user ID that doesn't exist in this channel is specified, such as a user ID obtained from channels under other providers.</li><li>A non-user ID, such as a group ID, is specified.</li><li>An invalid message object is specified.</li></ul> |
+| `400` | Couldn't send the message. Consider these reasons:<ul><li>A user ID that doesn't exist in this channel is specified, such as a user ID obtained from channels under other providers.</li><li>A non-user ID, such as a group ID, is specified.</li><li>An invalid message object is specified.</li><li>A unit name longer than the maximum number of characters (30) is specified in the `customAggregationUnits` property.</li><li>A unit name containing an invalid character is specified in the `customAggregationUnits` property.</li></ul> |
 | `409` | A request containing the same retry key has already been accepted. For more information, see [Response if the request has already been accepted](https://developers.line.biz/en/reference/messaging-api/#retry-api-request-response) in the Retrying an API request. |
 | `429` | The number of requests has exceeded the limit. Consider these reasons:<ul><li>Exceeded the [rate limit](https://developers.line.biz/en/reference/messaging-api/#send-multicast-rate-limit) for this endpoint.</li><li>Exceeded [the target limit for sending messages this month](https://developers.line.biz/en/reference/messaging-api/#get-quota).</li></ul>For more information about the target limit for sending messages, see [Messaging API pricing](https://developers.line.biz/en/docs/messaging-api/pricing/) in the Messaging API documentation. |
 
@@ -5228,6 +5239,17 @@ _Example error response_
 // If your request contains invalid parameters（400 Bad Request）
 {
   "message": "The property, to[1], in the request body is invalid (line: -, column: -)"
+}
+
+// If the unit name contains invalid characters (400 Bad Request)
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
+    }
+  ]
 }
 ```
 
@@ -13035,7 +13057,7 @@ For more information, see [Status codes](https://developers.line.biz/en/referenc
 
 Endpoint: `GET` `https://api.line.me/v2/bot/insight/message/event/aggregation?customAggregationUnit={customAggregationUnit}&from={from}&to={to}`
 
-You can check the per-unit statistics of how users interact with push messages and multicast messages sent from your LINE Official Account.
+You can check the per-unit statistics of how users interact with push messages, multicast messages, or LINE notification messages sent from your LINE Official Account.
 
 You can get statistics on a per-message and per-message bubble basis for each unit.
 
@@ -13062,6 +13084,14 @@ Sending another message with the same unit name later doesn't extend the period 
 Use this endpoint to get statistics per narrowcast message or broadcast message.
 
 - [Get user interaction statistics](https://developers.line.biz/en/reference/messaging-api/#get-message-event)
+
+<!-- tip end -->
+
+<!-- tip start -->
+
+**When statistics for LINE notification messages are updated**
+
+For LINE notification messages, even if the API request is accepted, updates to the statistics for that message don't begin until the message is actually sent. For more information, see [Statistics are updated after the message is actually sent](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent) in the LINE notification messages documentation.
 
 <!-- tip end -->
 
@@ -13470,7 +13500,15 @@ _Example error response_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/aggregation/info`
 
-You can get the number of unit name types assigned to messages during this month. For more information about the limit on unit names assigned when sending messages, see [Maximum number of unit name types](https://developers.line.biz/en/docs/messaging-api/unit-based-statistics-aggregation/#limit-to-the-number-of-units) in the Messaging API documentation.
+You can get the number of unit name types assigned to push messages, multicast messages, or LINE notification messages during this month. For more information about the limit on unit names assigned when sending messages, see [Maximum number of unit name types](https://developers.line.biz/en/docs/messaging-api/unit-based-statistics-aggregation/#limit-to-the-number-of-units) in the Messaging API documentation.
+
+<!-- tip start -->
+
+**When unit names for LINE notification messages are reflected**
+
+For LINE notification messages, even if the API request is accepted, the specified unit name isn't counted toward the number of unit name types until the message is actually sent. For more information, see [Statistics are updated after the message is actually sent](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent) in the LINE notification messages documentation.
+
+<!-- tip end -->
 
 _Example request_
 
@@ -13509,7 +13547,7 @@ numOfCustomAggregationUnits
 
 Number
 
-Number of unit name types assigned to messages during this month.
+Number of unit name types assigned to push messages, multicast messages, or LINE notification messages during this month.
 
 <!-- parameter end -->
 
@@ -13533,7 +13571,15 @@ For more information, see [Status codes](https://developers.line.biz/en/referenc
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/aggregation/list`
 
-You can get a unique list of unit names assigned to messages during this month.
+You can get a unique list of unit names assigned to push messages, multicast messages, or LINE notification messages during this month.
+
+<!-- tip start -->
+
+**When unit names for LINE notification messages are reflected**
+
+For LINE notification messages, even if the API request is accepted, the specified unit name isn't included in the list until the message is actually sent. For more information, see [Statistics are updated after the message is actually sent](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent) in the LINE notification messages documentation.
+
+<!-- tip end -->
 
 _Example request_
 
@@ -13596,7 +13642,7 @@ customAggregationUnits
 
 Array of strings
 
-An array of strings indicating the unit names. The array uniquely contains the unit names assigned to messages during this month.
+An array of strings indicating the unit names. The array uniquely contains the unit names assigned to push messages, multicast messages, or LINE notification messages during this month.
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="Not always included") -->

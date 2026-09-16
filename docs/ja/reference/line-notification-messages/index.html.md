@@ -90,7 +90,10 @@ curl -v -X POST https://api.line.me/v2/bot/message/pnp/templated/push \
                 "url": "https://example.com/ContactUs/"
             }
         ]
-    }
+    },
+    "customAggregationUnits": [
+        "shipping"
+    ]
 }'
 ```
 
@@ -192,6 +195,33 @@ Object
 - `emphasizedItem`：強調したい[アイテム](https://developers.line.biz/ja/reference/line-notification-messages/#send-line-notification-message-template-items)
 - `items`：[アイテム](https://developers.line.biz/ja/reference/line-notification-messages/#send-line-notification-message-template-items)の配列
 - `buttons`：[ボタン](https://developers.line.biz/ja/reference/line-notification-messages/#send-line-notification-message-template-buttons)の配列
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+customAggregationUnits
+
+Array of strings
+
+任意の集計単位のユニット名。大文字と小文字は区別されます。たとえば`promotion_a`と`promotion_A`は別のユニットとして扱われます。\
+最大ユニット数：1\
+最大文字数：30\
+使用可能文字種：半角英数字（`a`〜`z`、`A`〜`Z`、`0`〜`9`）、アンダースコア（`_`）
+
+ユニット名の付与について詳しくは、『Messaging APIドキュメント』の「[ユニット名を付与する](https://developers.line.biz/ja/docs/messaging-api/unit-based-statistics-aggregation/#assign-names-to-units-when-sending-messages)」を参照してください。
+
+<!-- note start -->
+
+**ユニット名が付与されないことがあります**
+
+当月中（その月の1日から末日）に、プッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに最大で1,000種類のユニット名を付与して送信できます。メッセージの種類にかかわらず、ユニット名の種類数は合計でカウントされます。1,001種類目以降のユニット名を付与してメッセージを送信すると、メッセージ自体は送られますが、1,001種類目以降のユニット名は付与されません。
+
+ユニット名の種類が多い場合は、以下のいずれかの方法でユニット名が付与できる、あるいは付与できたことを確認してください。
+
+- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する。
+- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する。
+
+<!-- note end -->
 
 <!-- parameter end -->
 <!-- parameter start (props: optional) -->
@@ -321,7 +351,7 @@ _レスポンスの例_
 
 | コード | 説明 |
 | --- | --- |
-| `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li><li>このLINE公式アカウントでは指定したテンプレートは使用できません。</li></ul> |
+| `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li><li>`customAggregationUnits`プロパティに最大文字数（30文字）より長いユニット名が指定されています。</li><li>`customAggregationUnits`プロパティに無効な文字を含むユニット名が指定されています。</li><li>このLINE公式アカウントでは指定したテンプレートは使用できません。</li></ul> |
 | `403` | このエンドポイントを使う権限がありません。 |
 | `422` | LINE通知メッセージ（テンプレート）の送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが、LINEのプライバシーポリシー（2022年3月改定以降のもの）に同意していません。</li></ul> |
 
@@ -372,6 +402,17 @@ _エラーレスポンスの例_
     {
       "message": "The value must be a valid SHA-256 digest.",
       "property": "to"
+    }
+  ]
+}
+
+// ユニット名に無効な文字が含まれている場合（400 Bad Request）
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
     }
   ]
 }
@@ -550,6 +591,9 @@ curl -v -X POST https://api.line.me/bot/pnp/push \
             "type":"text",
             "text":"Hello, world2"
         }
+    ],
+    "customAggregationUnits": [
+        "shipping"
     ]
 }'
 
@@ -569,6 +613,9 @@ curl -v -X POST https://api.line.me/bot/pnp/push \
             "type":"text",
             "text":"Hello, world2"
         }
+    ],
+    "customAggregationUnits": [
+        "shipping"
     ]
 }'
 ```
@@ -661,6 +708,33 @@ messages
 詳しくは、「[LINE通知メッセージAPIで送信可能なメッセージタイプ](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#message-types-that-can-be-sent)」を参照してください。
 
 <!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+customAggregationUnits
+
+Array of strings
+
+任意の集計単位のユニット名。大文字と小文字は区別されます。たとえば`promotion_a`と`promotion_A`は別のユニットとして扱われます。\
+最大ユニット数：1\
+最大文字数：30\
+使用可能文字種：半角英数字（`a`〜`z`、`A`〜`Z`、`0`〜`9`）、アンダースコア（`_`）
+
+ユニット名の付与について詳しくは、『Messaging APIドキュメント』の「[ユニット名を付与する](https://developers.line.biz/ja/docs/messaging-api/unit-based-statistics-aggregation/#assign-names-to-units-when-sending-messages)」を参照してください。
+
+<!-- note start -->
+
+**ユニット名が付与されないことがあります**
+
+当月中（その月の1日から末日）に、プッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに最大で1,000種類のユニット名を付与して送信できます。メッセージの種類にかかわらず、ユニット名の種類数は合計でカウントされます。1,001種類目以降のユニット名を付与してメッセージを送信すると、メッセージ自体は送られますが、1,001種類目以降のユニット名は付与されません。
+
+ユニット名の種類が多い場合は、以下のいずれかの方法でユニット名が付与できる、あるいは付与できたことを確認してください。
+
+- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する。
+- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する。
+
+<!-- note end -->
+
+<!-- parameter end -->
 
 #### レスポンス
 
@@ -682,7 +756,7 @@ _レスポンスの例_
 
 | コード | 説明 |
 | --- | --- |
-| `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li></ul> |
+| `400` | リクエストに問題があります。次のような理由が考えられます。<ul><li>メッセージの送信先が無効です。</li><li>無効なメッセージオブジェクトが指定されています。</li><li>`customAggregationUnits`プロパティに最大文字数（30文字）より長いユニット名が指定されています。</li><li>`customAggregationUnits`プロパティに無効な文字を含むユニット名が指定されています。</li></ul> |
 | `422` | LINE通知メッセージの送信に失敗しました。以下のような理由が考えられます。<ul><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが存在しません。</li><li>メッセージ送信対象に指定した電話番号は、LINE通知メッセージのサービス対象国で発行されたものではありません。詳しくは、「[LINE通知メッセージが送信される条件](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages)」を参照してください。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーが[LINE通知メッセージの受信を拒否](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages)しています。</li><li>メッセージ送信対象に指定した電話番号に紐づくLINEユーザーは、LINEのプライバシーポリシー（2022年3月改定以降のもの）に同意していません。</li></ul> |
 
 詳しくは、『Messaging APIリファレンス』の「[ステータスコード](https://developers.line.biz/ja/reference/messaging-api/#status-codes)」および「[エラーレスポンス](https://developers.line.biz/ja/reference/messaging-api/#error-responses)」を参照してください。
@@ -699,6 +773,17 @@ _エラーレスポンスの例_
     {
       "message": "The value must be a valid SHA-256 digest.",
       "property": "to"
+    }
+  ]
+}
+
+// ユニット名に無効な文字が含まれている場合（400 Bad Request）
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
     }
   ]
 }

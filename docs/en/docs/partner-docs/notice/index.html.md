@@ -2,6 +2,14 @@
 
 Notice for corporate customers. See also the [News](https://developers.line.biz/en/news/).
 
+2026/09/16
+
+## You can now get statistics per unit for LINE notification messages 
+
+You can now get statistics per unit for LINE notification messages (template) and LINE notification messages (flexible). Specify a unit name in the `customAggregationUnits` property when sending a LINE notification message, then use the [Get statistics per unit](https://developers.line.biz/en/reference/messaging-api/#get-statistics-per-unit) endpoint to get statistics for messages sent with the same unit name.
+
+For more information, see [Get statistics of LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/statistics/) in the LINE notification messages documentation.
+
 2026/05/18
 
 ## We'll stop accepting new applications for the Mark as read API (old) at the end of October 2026 

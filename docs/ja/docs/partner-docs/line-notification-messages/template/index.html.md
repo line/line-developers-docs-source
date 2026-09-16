@@ -61,7 +61,8 @@ LINE通知メッセージ（テンプレート）は日本、タイ、台湾のL
         "url": "https://example.com/ContactUs/"
       }
     ]
-  }
+  },
+  "customAggregationUnits": ["shipping"]
 }
 ```
 

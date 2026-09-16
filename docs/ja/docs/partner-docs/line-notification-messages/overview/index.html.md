@@ -53,3 +53,4 @@ LINEアプリの言語設定について詳しくは、ヘルプセンターの�
 - [LINE通知メッセージAPIリファレンス](https://developers.line.biz/ja/reference/line-notification-messages/)
 - [Webhookの配信完了イベント](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/message-sending-complete-webhook-event/)
 - [LINE通知メッセージ受信時のフロー](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/flow-when-receiving-message/)
+- [LINE通知メッセージの統計情報を取得する](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/statistics/)

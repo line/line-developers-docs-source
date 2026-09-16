@@ -4967,12 +4967,12 @@ Array of strings
 
 **ユニット名が付与されないことがあります**
 
-ユニット名は、当月中（その月の1日〜末日）に最大で1,000種類まで付与できます。1,001種類目以降のユニット名を付与してメッセージを送ろうとした場合、メッセージは送信されますがユニット名はメッセージに付与されません。
+当月中（その月の1日から末日）に、プッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに最大で1,000種類のユニット名を付与して送信できます。メッセージの種類にかかわらず、ユニット名の種類数は合計でカウントされます。1,001種類目以降のユニット名を付与してメッセージを送信すると、メッセージ自体は送られますが、1,001種類目以降のユニット名は付与されません。
 
 ユニット名の種類が多い場合は、以下のいずれかの方法でユニット名が付与できる、あるいは付与できたことを確認してください。
 
-- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する
-- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する
+- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する。
+- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する。
 
 <!-- note end -->
 
@@ -5033,7 +5033,7 @@ _レスポンスの例_
 
 | コード | 説明 |
 | --- | --- |
-| `400` | メッセージを送信できませんでした。次のような理由が考えられます。<ul><li>他のプロバイダー配下のチャネルで取得したユーザーIDなど、チャネルに存在しないユーザーのIDが指定されている。</li><li>存在しないグループやLINE公式アカウントが参加していないグループが指定されている。</li><li>存在しない複数人トークやLINE公式アカウントが参加していない複数人トークが指定されている。</li><li>無効なメッセージオブジェクトが指定されている。</li></ul> |
+| `400` | メッセージを送信できませんでした。次のような理由が考えられます。<ul><li>他のプロバイダー配下のチャネルで取得したユーザーIDなど、チャネルに存在しないユーザーのIDが指定されている。</li><li>存在しないグループやLINE公式アカウントが参加していないグループが指定されている。</li><li>存在しない複数人トークやLINE公式アカウントが参加していない複数人トークが指定されている。</li><li>無効なメッセージオブジェクトが指定されている。</li><li>`customAggregationUnits`プロパティに最大文字数（30文字）より長いユニット名が指定されている。</li><li>`customAggregationUnits`プロパティに無効な文字を含むユニット名が指定されている。</li></ul> |
 | `409` | 同じリトライキーを含むリクエストがすでに受理されています。詳しくは、「APIリクエストを再試行する」の「[すでにリクエストが受理されていた場合のレスポンス](https://developers.line.biz/ja/reference/messaging-api/#retry-api-request-response)」を参照してください。 |
 | `429` | リクエスト数が上限を超過しました。次のような理由が考えられます。<ul><li>このエンドポイントの[レート制限](https://developers.line.biz/ja/reference/messaging-api/#send-push-message-rate-limit)を超過した。</li><li>同一のユーザーに大量のメッセージを送信した。</li><li>[当月に送信できるメッセージ数の上限目安](https://developers.line.biz/ja/reference/messaging-api/#get-quota)を超過した。</li></ul>メッセージ数の上限目安について詳しくは、『Messaging APIドキュメント』の「[Messaging APIの料金](https://developers.line.biz/ja/docs/messaging-api/pricing/)」を参照してください。 |
 
@@ -5049,6 +5049,17 @@ _エラーレスポンスの例_
 // メッセージの送信に失敗した場合（400 Bad Request）
 {
   "message": "Failed to send messages"
+}
+
+// ユニット名に無効な文字が含まれている場合（400 Bad Request）
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
+    }
+  ]
 }
 ```
 
@@ -5182,12 +5193,12 @@ Array of strings
 
 **ユニット名が付与されないことがあります**
 
-ユニット名は、当月中（その月の1日〜末日）に最大で1,000種類まで付与できます。1,001種類目以降のユニット名を付与してメッセージを送ろうとした場合、メッセージは送信されますがユニット名はメッセージに付与されません。
+当月中（その月の1日から末日）に、プッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに最大で1,000種類のユニット名を付与して送信できます。メッセージの種類にかかわらず、ユニット名の種類数は合計でカウントされます。1,001種類目以降のユニット名を付与してメッセージを送信すると、メッセージ自体は送られますが、1,001種類目以降のユニット名は付与されません。
 
 ユニット名の種類が多い場合は、以下のいずれかの方法でユニット名が付与できる、あるいは付与できたことを確認してください。
 
-- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する
-- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する
+- 当月のユニット名がまだ1,000種類に達していないことを、メッセージの送信前に「[当月中に付与したユニット名の種類数を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month)」エンドポイントで確認する。
+- メッセージの送信後に「[当月中に付与したユニット名のリストを取得する](https://developers.line.biz/ja/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month)」エンドポイントで、付与したユニット名が存在することを確認する。
 
 <!-- note end -->
 
@@ -5213,7 +5224,7 @@ _レスポンスの例_
 
 | コード | 説明 |
 | --- | --- |
-| `400` | メッセージを送信できませんでした。次のような理由が考えられます。<ul><li>他のプロバイダー配下のチャネルで取得したユーザーIDなど、チャネルに存在しないユーザーのIDが指定されている。</li><li>グループIDなど、ユーザーIDではないIDが指定されている。</li><li>無効なメッセージオブジェクトが指定されている。</li></ul> |
+| `400` | メッセージを送信できませんでした。次のような理由が考えられます。<ul><li>他のプロバイダー配下のチャネルで取得したユーザーIDなど、チャネルに存在しないユーザーのIDが指定されている。</li><li>グループIDなど、ユーザーIDではないIDが指定されている。</li><li>無効なメッセージオブジェクトが指定されている。</li><li>`customAggregationUnits`プロパティに最大文字数（30文字）より長いユニット名が指定されている。</li><li>`customAggregationUnits`プロパティに無効な文字を含むユニット名が指定されている。</li></ul> |
 | `409` | 同じリトライキーを含むリクエストがすでに受理されています。詳しくは、「APIリクエストを再試行する」の「[すでにリクエストが受理されていた場合のレスポンス](https://developers.line.biz/ja/reference/messaging-api/#retry-api-request-response)」を参照してください。 |
 | `429` | リクエスト数が上限を超過しました。次のような理由が考えられます。<ul><li>このエンドポイントの[レート制限](https://developers.line.biz/ja/reference/messaging-api/#send-multicast-rate-limit)を超過した。</li><li>[当月に送信できるメッセージ数の上限目安](https://developers.line.biz/ja/reference/messaging-api/#get-quota)を超過した。</li></ul>メッセージ数の上限目安について詳しくは、『Messaging APIドキュメント』の「[Messaging APIの料金](https://developers.line.biz/ja/docs/messaging-api/pricing/)」を参照してください。 |
 
@@ -5229,6 +5240,17 @@ _エラーレスポンスの例_
 // リクエストに無効なパラメータが含まれていた場合（400 Bad Request）
 {
   "message": "The property, to[1], in the request body is invalid (line: -, column: -)"
+}
+
+// ユニット名に無効な文字が含まれている場合（400 Bad Request）
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
+    }
+  ]
 }
 ```
 
@@ -13036,7 +13058,7 @@ _レスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/insight/message/event/aggregation?customAggregationUnit={customAggregationUnit}&from={from}&to={to}`
 
-LINE公式アカウントから送信したプッシュメッセージやマルチキャストメッセージに対して、ユーザーがどのように操作したかを示す統計情報をユニットごとに確認できます。
+LINE公式アカウントから送信したプッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに対して、ユーザーがどのように操作したかを示す統計情報をユニットごとに確認できます。
 
 統計情報はユニットごとに、1メッセージ（message）単位、および1吹き出し（bubble）単位で取得できます。
 
@@ -13063,6 +13085,14 @@ LINE公式アカウントから送信したプッシュメッセージやマル�
 ナローキャストメッセージまたはブロードキャストメッセージについて、メッセージごとの統計情報を取得したい場合は、次のエンドポイントを使用してください。
 
 - [ユーザーの操作に基づく統計情報を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-message-event)
+
+<!-- tip end -->
+
+<!-- tip start -->
+
+**LINE通知メッセージの統計情報が更新されるタイミング**
+
+LINE通知メッセージの場合、APIリクエストが受け付けられても、メッセージが実際に送信されるまでは、そのメッセージの統計情報の更新は始まりません。詳しくは、『LINE通知メッセージドキュメント』の「[統計情報は実際にメッセージが送信されてから更新される](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent)」を参照してください。
 
 <!-- tip end -->
 
@@ -13471,7 +13501,15 @@ _エラーレスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/aggregation/info`
 
-当月中にメッセージに付与したユニット名の種類数を取得します。メッセージ送信時にユニット名を付与する際の制限については、『Messaging APIドキュメント』の「[ユニット名の種類数の上限](https://developers.line.biz/ja/docs/messaging-api/unit-based-statistics-aggregation/#limit-to-the-number-of-units)」を参照してください。
+当月中にプッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに付与したユニット名の種類数を取得します。メッセージ送信時にユニット名を付与する際の制限については、『Messaging APIドキュメント』の「[ユニット名の種類数の上限](https://developers.line.biz/ja/docs/messaging-api/unit-based-statistics-aggregation/#limit-to-the-number-of-units)」を参照してください。
+
+<!-- tip start -->
+
+**LINE通知メッセージのユニット名が反映されるタイミング**
+
+LINE通知メッセージの場合、APIリクエストが受け付けられても、メッセージが実際に送信されるまでは、指定したユニット名は種類数にカウントされません。詳しくは、『LINE通知メッセージドキュメント』の「[統計情報は実際にメッセージが送信されてから更新される](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent)」を参照してください。
+
+<!-- tip end -->
 
 _リクエストの例_
 
@@ -13510,7 +13548,7 @@ numOfCustomAggregationUnits
 
 Number
 
-当月中にメッセージに付与したユニット名の種類数。
+当月中にプッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに付与したユニット名の種類数。
 
 <!-- parameter end -->
 
@@ -13534,7 +13572,15 @@ _レスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/aggregation/list`
 
-当月中にメッセージに付与したユニット名の、一意なリストを取得します。
+当月中にプッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに付与したユニット名の、一意なリストを取得します。
+
+<!-- tip start -->
+
+**LINE通知メッセージのユニット名が反映されるタイミング**
+
+LINE通知メッセージの場合、APIリクエストが受け付けられても、メッセージが実際に送信されるまでは、指定したユニット名はリストに含まれません。詳しくは、『LINE通知メッセージドキュメント』の「[統計情報は実際にメッセージが送信されてから更新される](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/statistics/#statistics-are-aggregated-when-the-message-is-sent)」を参照してください。
+
+<!-- tip end -->
 
 _リクエストの例_
 
@@ -13597,7 +13643,7 @@ customAggregationUnits
 
 Array of strings
 
-ユニット名を表す文字列の配列です。配列には、当月中にメッセージに付与したユニット名が一意に含まれています。
+ユニット名を表す文字列の配列です。配列には、当月中にプッシュメッセージ、マルチキャストメッセージ、またはLINE通知メッセージに付与したユニット名が一意に含まれています。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="含まれないことがあります") -->

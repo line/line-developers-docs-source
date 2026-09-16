@@ -90,7 +90,10 @@ curl -v -X POST https://api.line.me/v2/bot/message/pnp/templated/push \
                 "url": "https://example.com/ContactUs/"
             }
         ]
-    }
+    },
+    "customAggregationUnits": [
+        "shipping"
+    ]
 }'
 ```
 
@@ -192,6 +195,33 @@ The body object of the template you want to send. Specify the content of the mes
 - `emphasizedItem`: The [item](https://developers.line.biz/en/reference/line-notification-messages/#send-line-notification-message-template-items) to emphasize.
 - `items`: The array of [items](https://developers.line.biz/en/reference/line-notification-messages/#send-line-notification-message-template-items).
 - `buttons`: The array of [buttons](https://developers.line.biz/en/reference/line-notification-messages/#send-line-notification-message-template-buttons).
+
+<!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+customAggregationUnits
+
+Array of strings
+
+Name of aggregation unit. Case-sensitive. For example, `Promotion_a` and `Promotion_A` are regarded as different unit names.\
+Max unit number: 1\
+Max character limit: 30\
+Supported character types: Half-width alphanumeric characters (`a-z`, `A-Z`, `0-9`) and underscore (`_`)
+
+For more information about assigning a unit name, see [Assign a unit name](https://developers.line.biz/en/docs/messaging-api/unit-based-statistics-aggregation/#assign-names-to-units-when-sending-messages) in the Messaging API documentation.
+
+<!-- note start -->
+
+**Unit names may not be assigned**
+
+During the current month (from the 1st to the last day of the month), you can assign up to 1,000 different unit name types to push messages, multicast messages, and LINE notification messages. The number of unit name types is counted across all message types. If you send messages with a 1,001st or subsequent type of unit name, the messages will be sent, but those unit names won't be assigned to the messages.
+
+If you have many types of unit names, confirm that unit names can be assigned or have been assigned using one of the following methods:
+
+- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000.
+- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists.
+
+<!-- note end -->
 
 <!-- parameter end -->
 <!-- parameter start (props: optional) -->
@@ -321,7 +351,7 @@ Returns the following HTTP status code and an error response:
 
 | Code | Description |
 | --- | --- |
-| `400` | Problem with the request. Consider these reasons:<ul><li>An invalid message destination is specified.</li><li>An invalid message object is specified.</li><li>Your LINE Official Account can't use the specified template.</li></ul> |
+| `400` | Problem with the request. Consider these reasons:<ul><li>An invalid message destination is specified.</li><li>An invalid message object is specified.</li><li>A unit name longer than the maximum number of characters (30) is specified in the `customAggregationUnits` property.</li><li>A unit name containing an invalid character is specified in the `customAggregationUnits` property.</li><li>Your LINE Official Account can't use the specified template.</li></ul> |
 | `403` | Not authorized to use this endpoint. |
 | `422` | Failed to send a LINE notification message using the LINE notification messages API. Consider these reasons:<ul><li>There is no LINE user associated with the phone number specified as the target for sending messages.</li><li>The phone number specified as the message sending target wasn't issued in LINE notification message service target country. For more information, see [Conditions for sending LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages).</li><li>The LINE user associated with the phone number specified as the message sending target has [refused to receive LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages).</li><li>The LINE user associated with the phone number specified as the message sending target hasn't agreed to LINE's Privacy Policy (revised in March 2022 or later).</li></ul> |
 
@@ -372,6 +402,17 @@ _Example error response_
     {
       "message": "The value must be a valid SHA-256 digest.",
       "property": "to"
+    }
+  ]
+}
+
+// If the unit name contains invalid characters (400 Bad Request)
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
     }
   ]
 }
@@ -513,7 +554,7 @@ API for sending a LINE notification message (flexible) by specifying the user's 
 
 **The name of the existing &quot;LINE notification messages&quot; has been changed to &quot;LINE notification messages (flexible)&quot;**
 
-A new feature called "LINE notification messages (template)" has been added, allowing you to easily create messages by combining premade templates, items, etc.
+A new feature called "[LINE notification messages (template)](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/template/)" has been added, allowing you to easily create messages by combining premade templates, items, etc.
 
 Consequently, the previous "LINE notification messages" that required UX review have been renamed "LINE notification messages (flexible)".
 
@@ -550,6 +591,9 @@ curl -v -X POST https://api.line.me/bot/pnp/push \
             "type":"text",
             "text":"Hello, world2"
         }
+    ],
+    "customAggregationUnits": [
+        "shipping"
     ]
 }'
 
@@ -569,6 +613,9 @@ curl -v -X POST https://api.line.me/bot/pnp/push \
             "type":"text",
             "text":"Hello, world2"
         }
+    ],
+    "customAggregationUnits": [
+        "shipping"
     ]
 }'
 ```
@@ -661,6 +708,33 @@ Message to be sent. Max: 5
 For more information, see [Message types that can be sent in LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#message-types-that-can-be-sent).
 
 <!-- parameter end -->
+<!-- parameter start (props: optional) -->
+
+customAggregationUnits
+
+Array of strings
+
+Name of aggregation unit. Case-sensitive. For example, `Promotion_a` and `Promotion_A` are regarded as different unit names.\
+Max unit number: 1\
+Max character limit: 30\
+Supported character types: Half-width alphanumeric characters (`a-z`, `A-Z`, `0-9`) and underscore (`_`)
+
+For more information about assigning a unit name, see [Assign a unit name](https://developers.line.biz/en/docs/messaging-api/unit-based-statistics-aggregation/#assign-names-to-units-when-sending-messages) in the Messaging API documentation.
+
+<!-- note start -->
+
+**Unit names may not be assigned**
+
+During the current month (from the 1st to the last day of the month), you can assign up to 1,000 different unit name types to push messages, multicast messages, and LINE notification messages. The number of unit name types is counted across all message types. If you send messages with a 1,001st or subsequent type of unit name, the messages will be sent, but those unit names won't be assigned to the messages.
+
+If you have many types of unit names, confirm that unit names can be assigned or have been assigned using one of the following methods:
+
+- Before sending a message, use the [Get the number of unit name types assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-the-number-of-unit-name-types-assigned-during-this-month) endpoint to confirm that the number of unit names for the current month has not yet reached 1,000.
+- After sending a message, use the [Get a list of unit names assigned during this month](https://developers.line.biz/en/reference/messaging-api/#get-a-list-of-unit-names-assigned-during-this-month) endpoint to confirm that the assigned unit name exists.
+
+<!-- note end -->
+
+<!-- parameter end -->
 
 #### Response 
 
@@ -682,7 +756,7 @@ Returns the following HTTP status code and an error response:
 
 | Code | Description |
 | --- | --- |
-| `400` | Problem with the request. Consider these reasons:<ul><li>An invalid message destination is specified.</li><li>An invalid message object is specified.</li></ul> |
+| `400` | Problem with the request. Consider these reasons:<ul><li>An invalid message destination is specified.</li><li>An invalid message object is specified.</li><li>A unit name longer than the maximum number of characters (30) is specified in the `customAggregationUnits` property.</li><li>A unit name containing an invalid character is specified in the `customAggregationUnits` property.</li></ul> |
 | `422` | Failed to send a LINE notification message using the LINE notification messages API. Consider these reasons:<ul><li>There is no LINE user associated with the phone number specified as the target for sending messages.</li><li>The phone number specified as the message sending target wasn't issued in LINE notification message service target country. For more information, see [Conditions for sending LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#conditions-for-sending-line-notification-messages).</li><li>The LINE user associated with the phone number specified as the message sending target has [refused to receive LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/technical-specs/#how-to-consent-for-line-notification-messages).</li><li>The LINE user associated with the phone number specified as the message sending target hasn't agreed to LINE's Privacy Policy (revised in March 2022 or later).</li></ul> |
 
 For more information, see [Status codes](https://developers.line.biz/en/reference/messaging-api/#status-codes) and [Error responses](https://developers.line.biz/en/reference/messaging-api/#error-responses) in the Messaging API reference.
@@ -699,6 +773,17 @@ _Example error response_
     {
       "message": "The value must be a valid SHA-256 digest.",
       "property": "to"
+    }
+  ]
+}
+
+// If the unit name contains invalid characters (400 Bad Request)
+{
+  "message": "The request body has 1 error(s)",
+  "details": [
+    {
+      "message": "Invalid characters are included in custom aggregation unit",
+      "property": "customAggregationUnits[0]"
     }
   ]
 }

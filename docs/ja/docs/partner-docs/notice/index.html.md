@@ -2,6 +2,14 @@
 
 法人ユーザー向けのお知らせです。[ニュース](https://developers.line.biz/ja/news/)もあわせてご参照ください。
 
+2026/09/16
+
+## LINE通知メッセージの統計情報をユニットごとに取得できるようになりました 
+
+LINE通知メッセージ（テンプレート）およびLINE通知メッセージ（フレキシブル）の統計情報を、ユニットごとに取得できるようになりました。LINE通知メッセージを送信する際に`customAggregationUnits`プロパティにユニット名を指定すると、同じユニット名を付与して送信したメッセージの統計情報を「[ユニットごとの統計情報を取得する](https://developers.line.biz/ja/reference/messaging-api/#get-statistics-per-unit)」エンドポイントで取得できます。
+
+詳しくは、『LINE通知メッセージドキュメント』の「[LINE通知メッセージの統計情報を取得する](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/statistics/)」を参照してください。
+
 2026/05/18
 
 ## 2026年10月末をもって、既読API（旧）の新規利用申請の受付を終了します 
