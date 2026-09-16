@@ -61,7 +61,7 @@ After your application has been accepted to use Quick-fill, specify the scope of
 
 To specify the scope for a verified MINI App, you must click the **Search enable** button in the **Review request** tab to enable search for the LINE MINI App.
 
-![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-scope-ja.png)
+![](https://developers.line.biz/media/line-mini-app/quick-fill/quick-fill-scope-en.png)
 
 For more information about the types of scope that you can use with Quick-fill, see [Types of scope that can be selected in the LINE Developers Console](https://developers.line.biz/en/docs/line-mini-app/quick-fill/overview/#scope).
 
