@@ -976,7 +976,7 @@ In order to encourage users to update to the fixed version of LINE, an alert wil
 
 The alerts that will be displayed is as follows:
 
-![LINEアプリをLINE 12.0.1以降にアップデートしてください。Please update your LINE app to LINE 12.0.1 or later.](https://developers.line.biz/media/news/liff-send-messages-v2-18-2.png)
+![LINEアプリをLINE 12.0.1以降にアップデートしてください。Please update your LINE app to LINE 12.0.1 or later.](https://developers.line.biz/media/news/2022/liff-send-messages-v2-18-2.png)
 
 ### We've fixed a bug where scanning a 2D code encoded in UTF-8 with the liff.scanCodeV2() method would cause character corruption 
 
@@ -1564,7 +1564,7 @@ For security reasons, URL fragments that contain credential information such as 
 
 If the LIFF URL is `https://liff.line.me/{liffId}/path` and the endpoint URL is `https://example.com`, you'll be redirected as follows:
 
-![When confidential information is excluded](https://developers.line.biz/media/news/remove_credential_information-en.png)
+![When confidential information is excluded](https://developers.line.biz/media/news/2021/remove_credential_information-en.png)
 
 | Number | Item | URL |
 | --- | --- | --- |
@@ -1643,8 +1643,8 @@ Below is a comparison between LIFF v2.9.1 or earlier and LIFF v2.10.0 of when ac
 
 | LIFF <br> version | Flow of storing context tokens in the localStorage |
 | --- | --- |
-| v2.9.1 or earlier | ![Previous timing of when context tokens were discarded](https://developers.line.biz/media/news/context_token_v2-9-1-en.png) |
-| v2.10.0 | ![Timing of when context tokens are discarded in v2.10.0 or later](https://developers.line.biz/media/news/context_token_v2-10-0-en.png) |
+| v2.9.1 or earlier | ![Previous timing of when context tokens were discarded](https://developers.line.biz/media/news/2021/context_token_v2-9-1-en.png) |
+| v2.10.0 | ![Timing of when context tokens are discarded in v2.10.0 or later](https://developers.line.biz/media/news/2021/context_token_v2-10-0-en.png) |
 
 <!-- note start -->
 
@@ -1748,8 +1748,8 @@ Because in LIFF v2.8.0, `liff.init()` is resolved for the first time after being
 
 | LIFF Version | Timing when `liff.init()` is resolved |
 | --- | --- |
-| v2.7.1 or earlier | ![resolve-timing-v2-7-0](https://developers.line.biz/media/news/resolve_timing_v2-7-0_en.png) |
-| v2.8.0 | ![resolve-timing-v2-8-0](https://developers.line.biz/media/news/resolve_timing_v2-8-0_en.png) |
+| v2.7.1 or earlier | ![resolve-timing-v2-7-0](https://developers.line.biz/media/news/2021/resolve_timing_v2-7-0_en.png) |
+| v2.8.0 | ![resolve-timing-v2-8-0](https://developers.line.biz/media/news/2021/resolve_timing_v2-8-0_en.png) |
 
 ### Fixed bug of unintentional decoding of URL encoded query parameters 
 
@@ -1823,7 +1823,7 @@ In LIFF v2.7.0, the bug was fixed and usernames written in Unicode characters su
 
 **If you get an ID token with `コニー` as the user name**
 
-![user profile of conny](https://developers.line.biz/media/news/conny_en.png)
+![user profile of conny](https://developers.line.biz/media/news/2021/conny_en.png)
 
 | LIFF v2.6.0 or earlier | LIFF v2.7.0 |
 | :---: | :---: |
@@ -2278,7 +2278,7 @@ For more information, see [Use the npm package](https://developers.line.biz/en/d
 
 As announced on [July 6, 2020](https://developers.line.biz/en/news/2020/07/06/liff-header-design-improvement/), a new feature has been added to the LIFF header.
 
-![LIFF header design to be improved](https://developers.line.biz/media/news/liff-header-design-improvement.png)
+![LIFF header design to be improved](https://developers.line.biz/media/news/2020/liff-header-design-improvement.png)
 
 - [The LIFF app icon is no longer displayed](https://developers.line.biz/en/docs/liff/release-notes/#remove-liff-app-icon-07-15)
 - [The share button has been added](https://developers.line.biz/en/docs/liff/release-notes/#liff-share-button-07-15)
@@ -2559,7 +2559,7 @@ We added `liff.shareTargetPicker()` and `liff.ready` to LIFF v2.
 
 Execute the `liff.shareTargetPicker()` method to display the target picker (screen for selecting a group or friend) and send the message created by the developer to the selected target. This message appears to your group or friends as if you had sent it.
 
-![target picker](https://developers.line.biz/media/news/share-target-picker.png)
+![target picker](https://developers.line.biz/media/news/2020/share-target-picker.png)
 
 For more information, see [Sending messages to a user's friend (share target picker)](https://developers.line.biz/en/docs/liff/developing-liff-apps/#share-target-picker) in the LIFF documentation.
 
@@ -2784,7 +2784,7 @@ For more information, see [LINE Front-end Framework](https://developers.line.biz
 
 We have improved the consent screen bundled with the LINE Front-end Framework (LIFF). The improvement is automatically applied to all LIFF apps. There's no need for additional development work.
 
-![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.webp)
+![New consent screen](https://developers.line.biz/media/news/2019/liff-consent-screen-changed-01.webp)
 
 As before this update, the user can choose to not allow the LIFF app to send messages to chats. But if they do so, unlike before, the consent screen will reappear the next time the user launches the LIFF app.
 

@@ -976,7 +976,7 @@ LIFF v2.18.2では以下の改善を行いました。
 
 表示されるアラートは以下のとおりです。
 
-![LINEアプリをLINE 12.0.1以降にアップデートしてください。Please update your LINE app to LINE 12.0.1 or later.](https://developers.line.biz/media/news/liff-send-messages-v2-18-2.png)
+![LINEアプリをLINE 12.0.1以降にアップデートしてください。Please update your LINE app to LINE 12.0.1 or later.](https://developers.line.biz/media/news/2022/liff-send-messages-v2-18-2.png)
 
 ### liff.scanCodeV2()メソッドでUTF-8エンコーディングの二次元コードを読み取ると、結果が文字化けする不具合を修正しました 
 
@@ -1563,7 +1563,7 @@ LIFF v2.11.0では、セキュリティ上の観点から以下の修正を行�
 
 LIFF URLが`https://liff.line.me/{liffId}/path`で、エンドポイントURLが`https://example.com`だった場合、以下のようにリダイレクトされます。
 
-![機密情報が除外されるタイミング](https://developers.line.biz/media/news/remove_credential_information-ja.png)
+![機密情報が除外されるタイミング](https://developers.line.biz/media/news/2021/remove_credential_information-ja.png)
 
 | 番号 | 項目 | URL |
 | --- | --- | --- |
@@ -1642,8 +1642,8 @@ LIFF v2.10.0では、アクセストークンの有効期限を確認する処�
 
 | LIFFの<br>バージョン | コンテキストトークンがlocalStorageに保存される流れ |
 | --- | --- |
-| v2.9.1以前 | ![以前のコンテキストトークン破棄のタイミング](https://developers.line.biz/media/news/context_token_v2-9-1.png) |
-| v2.10.0 | ![v2.10.0以降のコンテキストトークン破棄のタイミング](https://developers.line.biz/media/news/context_token_v2-10-0.png) |
+| v2.9.1以前 | ![以前のコンテキストトークン破棄のタイミング](https://developers.line.biz/media/news/2021/context_token_v2-9-1.png) |
+| v2.10.0 | ![v2.10.0以降のコンテキストトークン破棄のタイミング](https://developers.line.biz/media/news/2021/context_token_v2-10-0.png) |
 
 <!-- note start -->
 
@@ -1746,8 +1746,8 @@ LIFF v2.8.0では、2次リダイレクト先URLにリダイレクトされた�
 
 | LIFFのバージョン | `liff.init()`がresolveされるタイミング |
 | --- | --- |
-| v2.7.1以前 | ![resolve-timing-v2-7-0](https://developers.line.biz/media/news/resolve_timing_v2-7-0.png) |
-| v2.8.0 | ![resolve-timing-v2-8-0](https://developers.line.biz/media/news/resolve_timing_v2-8-0.png) |
+| v2.7.1以前 | ![resolve-timing-v2-7-0](https://developers.line.biz/media/news/2021/resolve_timing_v2-7-0.png) |
+| v2.8.0 | ![resolve-timing-v2-8-0](https://developers.line.biz/media/news/2021/resolve_timing_v2-8-0.png) |
 
 ### URLエンコードされたクエリパラメータが意図せずデコードされる不具合を修正しました 
 
@@ -1819,7 +1819,7 @@ LIFF v2.7.0では不具合を修正し、日本語などユニコード文字で
 
 **ユーザー名が`コニー`のユーザーのIDトークンを取得した場合：**
 
-![user profile of conny](https://developers.line.biz/media/news/conny.png)
+![user profile of conny](https://developers.line.biz/media/news/2021/conny.png)
 
 | LIFF v2.6.0以前 | LIFF v2.7.0 |
 | :---: | :---: |
@@ -2275,7 +2275,7 @@ LIFF SDKのnpmパッケージのインストールおよびLIFFアプリへの�
 
 [2020年7月6日にお知らせ](https://developers.line.biz/ja/news/2020/07/06/liff-header-design-improvement/)したとおり、LIFFのヘッダーに機能を追加しました。
 
-![LIFF header design to be improved](https://developers.line.biz/media/news/liff-header-design-improvement.png)
+![LIFF header design to be improved](https://developers.line.biz/media/news/2020/liff-header-design-improvement.png)
 
 - [LIFFアプリのアイコンが非表示になりました](https://developers.line.biz/ja/docs/liff/release-notes/#remove-liff-app-icon-07-15)
 - [シェアボタンが表示されるようになりました](https://developers.line.biz/ja/docs/liff/release-notes/#liff-share-button-07-15)
@@ -2555,7 +2555,7 @@ LIFF v2に、`liff.shareTargetPicker()`および`liff.ready`が追加されま�
 
 ターゲットピッカー（グループまたは友だちを選択する画面）を表示し、ターゲットピッカーで選択した相手に、開発者が作成したメッセージを送信するメソッドが追加されました。このメッセージは、ユーザーが送信したかのように、グループまたは友だちに表示されます。
 
-![target picker](https://developers.line.biz/media/news/share-target-picker.png)
+![target picker](https://developers.line.biz/media/news/2020/share-target-picker.png)
 
 詳しくは、『LIFFドキュメント』の「[ユーザーの友だちにメッセージを送信する](https://developers.line.biz/ja/docs/liff/developing-liff-apps/#share-target-picker)」を参照してください。
 
@@ -2784,7 +2784,7 @@ LINE Front-end Framework（LIFF）で、ユーザーがLIFFアプリを起動し
 
 新画面（イメージ）
 
-![New consent screen](https://developers.line.biz/media/news/liff-consent-screen-changed-01.webp)
+![New consent screen](https://developers.line.biz/media/news/2019/liff-consent-screen-changed-01.webp)
 
 なお、ユーザーに「トークへのメッセージ送信」の認可を求めるLIFFアプリでは、同意画面でユーザーが許可しない場合があります。この場合は、次にユーザーがLIFFアプリを起動したときに同意画面が再表示されます。
 
