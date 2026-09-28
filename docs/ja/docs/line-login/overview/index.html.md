@@ -29,20 +29,6 @@ LINEログインは、ウェブアプリ（ウェブサイト）、iOSアプリ�
 
 <!-- tip end -->
 
-## デモサイトでLINEログインを体験する 
-
-デモサイトで実際にLINEログインを体験してみましょう。お使いのスマートフォンでLINEを起動し、以下のQRコードを読み込むとデモを見ることができます。
-
-![](https://developers.line.biz/media/line-login/demo/login-demo-qr-code.png)
-
-<!-- note start -->
-
-**デモサイトで取得するデータについて**
-
-LINEログインのデモサイトでは、デモを利用したユーザーのLINEアカウントの「プロフィール情報（表示名、プロフィール画像のURL、ユーザーID）」を取得します。 ユーザーIDのみをサーバーに保存しますが、保存されたデータは毎日削除されます。上記をご理解の上、ご利用ください。
-
-<!-- note end -->
-
 ## LINEログインを組み込む開発を始める 
 
 LINEログインを組み込む開発を始めるには、先ずはLINEログイン用のチャネルが必要です。詳しくは、「[LINEログインを始めよう](https://developers.line.biz/ja/docs/line-login/getting-started/)」を参照してください。

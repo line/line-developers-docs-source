@@ -20,20 +20,6 @@ Messaging APIを利用することで、ボットサーバーはLINEプラット
 
 ![](https://developers.line.biz/media/messaging-api/overview/messaging-api-architecture.png)
 
-## デモを試す 
-
-Messaging APIを体験してみましょう。お手持ちのスマートフォンでデモを見ることができます。 QRコードを読み取ると、デモ用のLINE公式アカウントを友だち追加できます。
-
-![](https://developers.line.biz/media/messaging-api/demo/messaging-api-demo-qr-code-ja.webp)
-
-<!-- note start -->
-
-**デモアプリで取得するデータについて**
-
-デモ用のLINE公式アカウントには、端末の「位置情報」を送信する機能があります。「位置情報」を送信する機能を希望しない場合は、ご利用の端末の「位置情報共有」をOFFにしてからご利用ください。なお、皆さまのLINEアカウントから、「プロフィール情報の一部（ユーザーID）」を取得します。ただし、これらの情報はサーバーには保存されません。上記をご理解のうえ、ご利用ください。
-
-<!-- note end -->
-
 ## Messaging APIでできること 
 
 Messaging APIでできることは以下のとおりです。
