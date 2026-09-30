@@ -18,17 +18,91 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 
-[LIFF v2.31.0: August 31, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-31-0)
+[LIFF v2.31.1: September 30, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-31-1)
 
 ### Version list 
 
-When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.31.0/sdk.js`), you can use the features of the specified LIFF version.
+When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.31.1/sdk.js`), you can use the features of the specified LIFF version.
 
 <!-- table of contents -->
+
+2026/09/30
+
+## LIFF v2.31.1 released 
+
+We've released LIFF v2.31.1.
+
+In LIFF v2.31.1, we've fixed the following bug.
+
+### We've fixed an issue with potential security implications 
+
+<!-- warning start -->
+
+**LIFF v2.20.0 - v2.31.0 have been deprecated**
+
+LIFF v2.20.0 - v2.31.0 have been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.0 - v2.31.0, update to LIFF v2.31.1 immediately.
+
+<!-- warning end -->
+
+#### Affected versions 
+
+LIFF v2.20.0 - v2.31.0
+
+If you're using an affected version, update to LIFF v2.31.1 immediately because the issue may have security implications. For more information, see [How to update to LIFF v2.31.1](https://developers.line.biz/en/docs/liff/release-notes/#how-to-update-to-liff-v2-31-1-20260930).
+
+#### Conditions 
+
+This issue occurs when a LIFF app is opened in an [external browser](https://developers.line.biz/en/glossary/#external-browser) using a URL containing crafted query parameters.
+
+#### Changes 
+
+We've modified the internal processing of the LIFF SDK to enhance security. There are no changes to LIFF app functionality.
+
+We'll provide more information about the impact of this issue at a later date.
+
+### How to update to LIFF v2.31.1 
+
+The required action depends on how you've integrated the LIFF SDK.
+
+- [If you're using the CDN edge path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-edge-path-20260930)
+- [If you're using a CDN fixed path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-fixed-path-20260930)
+- [If you're using the npm package](https://developers.line.biz/en/docs/liff/release-notes/#npm-package-20260930)
+
+#### If you're using the CDN edge path 
+
+If you're using the CDN edge path, it has been automatically updated to v2.31.1. No additional action is required.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+```
+
+#### If you're using a CDN fixed path 
+
+If you're using a CDN fixed path, change the version in the path to v2.31.1.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.31.1/sdk.js"></script>
+```
+
+#### If you're using the npm package 
+
+If you're using the npm package, update `@line/liff` to v2.31.1.
+
+```sh
+npm install @line/liff@2.31.1
+```
 
 2026/08/31
 
 ## LIFF v2.31.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.31.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.31.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.31.0.
 
@@ -45,6 +119,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/08/17
 
 ## LIFF v2.30.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.30.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.30.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.30.0.
 
@@ -72,6 +154,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.29.2 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.29.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.29.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.29.2.
 
 In LIFF v2.29.2, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -87,6 +177,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/06/29
 
 ## LIFF v2.29.1 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.29.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.29.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.29.1.
 
@@ -104,6 +202,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.29.0 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.29.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.29.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.29.0.
 
 In LIFF v2.29.0, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -119,6 +225,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/03/24
 
 ## LIFF v2.28.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.28.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.28.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.28.0.
 
@@ -142,6 +256,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.27.3 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.27.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.27.3.
 
 In LIFF v2.27.3, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -157,6 +279,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/09/08
 
 ## LIFF v2.27.2 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.27.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.27.2.
 
@@ -191,6 +321,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.27.1 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.27.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.27.1.
 
 In LIFF v2.27.1, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -206,6 +344,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/6/25
 
 ## LIFF v2.27.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.27.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.27.0.
 
@@ -254,6 +400,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/5/26
 
 ## LIFF v2.26.1 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.26.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.26.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.26.1.
 
@@ -314,6 +468,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.26.0 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.26.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.26.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.26.0.
 
 In LIFF v2.26.0, we've fixed the following bug.
@@ -344,6 +506,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.25.1 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.25.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.25.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.25.1.
 
 In LIFF v2.25.1, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -359,6 +529,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2024/11/12
 
 ## LIFF v2.25.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.25.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.25.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.25.0.
 
@@ -392,6 +570,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.24.0 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.24.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.24.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.24.0.
 
 In LIFF v2.24.0, we've added the following feature.
@@ -417,6 +603,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2024/2/15
 
 ## LIFF v2.23.2 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.23.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.23.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.23.2.
 
@@ -450,6 +644,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.23.1 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.23.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.23.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 <!-- note start -->
 
 **Updated on January 23, 2024**
@@ -480,6 +682,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.23.0 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.23.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.23.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.23.0.
 
 In LIFF v2.23.0, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -495,6 +705,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/10/2
 
 ## LIFF v2.22.4 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.22.4 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.4, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.22.4.
 
@@ -526,6 +744,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.22.3 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.22.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.22.3.
 
 In LIFF v2.22.3, we've made changes to the internal behavior of the LIFF SDK. There is no change in features.
@@ -541,6 +767,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/6/27
 
 ## LIFF v2.22.2 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.22.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.22.2.
 
@@ -615,6 +849,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.22.1 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.22.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.22.1.
 
 In LIFF v2.22.1, we've refactored the LIFF SDK. Also, we've made the following fix.
@@ -641,6 +883,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/3/29
 
 ## LIFF v2.22.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.22.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.22.0.
 
@@ -718,6 +968,14 @@ import liff from "@line/liff/core";
 
 ## LIFF v2.21.4 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.21.4 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.4, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.21.4.
 
 ### We've officially released the LIFF SDK npm package 
@@ -739,6 +997,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/11/10
 
 ## LIFF v2.21.3 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.21.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.21.3.
 
@@ -762,6 +1028,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.21.2 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.21.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.21.2.
 
 In LIFF v2.21.2, we've refactored the LIFF SDK to improve the stability of the LIFF SDK. There is no change in features.
@@ -776,6 +1050,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.21.1 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.21.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.21.1.
 
 In LIFF v2.21.1, we've refactored the LIFF SDK. There is no change in features.
@@ -789,6 +1071,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/8/4
 
 ## LIFF v2.21.0 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.21.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 We've released LIFF v2.21.0.
 
@@ -833,6 +1123,14 @@ import { Profile } from "@liff/get-profile";
 
 ## LIFF v2.20.3 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.20.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.20.3.
 
 In LIFF v2.20.3, we've fixed the following bug.
@@ -859,6 +1157,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 ## LIFF v2.20.2 released 
 
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.20.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
+
 We've released LIFF v2.20.2.
 
 In LIFF v2.20.2, we've made internal improvements.
@@ -872,6 +1178,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/5/24
 
 ## LIFF v2.20.1 released 
+
+<!-- warning start -->
+
+**Added on September 30, 2026**
+
+LIFF v2.20.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 <!-- note start -->
 

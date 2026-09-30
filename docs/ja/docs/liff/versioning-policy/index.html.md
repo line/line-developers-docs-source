@@ -52,7 +52,7 @@ LIFFでは、LIFF v2.1.13リリース以降、以下の2種類のCDNパスを用
 | CDNパス | 説明 |
 | --- | --- |
 | CDNエッジパス | メジャーバージョンのみを含むCDNパスです。常に最新の機能を使用する場合は、このCDNパスを使用します。メジャーバージョンがアップデートされたときのみURLを更新する必要があります。<br>例：https://static.line-scdn.net/liff/edge/**2**/sdk.js |
-| CDN固定パス | パッチバージョンまで含むCDNパスです。特定のバージョンの機能を使用する場合は、このCDNパスを使用します。LIFFアプリを更新しない限り、指定したパッチバージョンを使い続けることができます。LIFFの新機能や、セキュリティ改善、バグ修正を反映したいときのみURLを更新してください。自動的に更新されないため、LIFF SDKのアップデートの影響を受けません。<br>例：https://static.line-scdn.net/liff/edge/**versions/2.22.3**/sdk.js |
+| CDN固定パス | パッチバージョンまで含むCDNパスです。特定のバージョンの機能を使用する場合は、このCDNパスを使用します。LIFFアプリを更新しない限り、指定したパッチバージョンを使い続けることができます。LIFFの新機能や、セキュリティ改善、バグ修正を反映したいときのみURLを更新してください。自動的に更新されないため、LIFF SDKのアップデートの影響を受けません。<br>例：https://static.line-scdn.net/liff/edge/**versions/2.31.1**/sdk.js |
 
 <!-- note start -->
 
@@ -65,7 +65,7 @@ CDN固定パスを使用している開発者は、LIFFアプリを更新する�
 CDN固定パスを指定する例：
 
 ```html
-<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.22.3/sdk.js"></script>
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.31.1/sdk.js"></script>
 ```
 
 <!-- tip start -->
