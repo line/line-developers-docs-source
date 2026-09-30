@@ -1535,7 +1535,8 @@ _Example response_
         "productId": "iap_ln_002",
         "userId": "U91FC5A...",
         "purchaseTimestamp": 1738672496,
-        "channelId": "12345..."
+        "channelId": "12345...",
+        "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
       }
     }
   ],
@@ -1635,6 +1636,16 @@ String
 The channel ID of the LINE MINI App channel.
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+paymentBenefitProgram
+
+String
+
+Indicates the fee reduction program applied to the payment. If the fee was reduced through the [Mini Apps Partner Program](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/) offered by Apple Inc., `APPLE_MINI_APPS_PARTNER_PROGRAM` is returned.\
+If no fee reduction was applied, this property isn't included.
+
+<!-- parameter end -->
 
 _Example_
 
@@ -1647,7 +1658,8 @@ _Example_
   "productId": "iap_ln_002",
   "userId": "U91FC5A...",
   "purchaseTimestamp": 1738672496,
-  "channelId": "12345..."
+  "channelId": "12345...",
+  "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
 }
 ```
 
@@ -1716,6 +1728,16 @@ String
 The channel ID of the LINE MINI App channel.
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="Not always included") -->
+
+paymentBenefitProgram
+
+String
+
+Indicates the fee reduction program applied to the original payment. If the fee was reduced through the [Mini Apps Partner Program](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/) offered by Apple Inc., `APPLE_MINI_APPS_PARTNER_PROGRAM` is returned.\
+If no fee reduction was applied, this property isn't included.
+
+<!-- parameter end -->
 
 _Example_
 
@@ -1728,7 +1750,8 @@ _Example_
   "productId": "iap_ln_002",
   "userId": "U91FC5A...",
   "purchaseTimestamp": 1738672496,
-  "channelId": "12345..."
+  "channelId": "12345...",
+  "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
 }
 ```
 

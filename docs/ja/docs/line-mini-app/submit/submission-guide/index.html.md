@@ -64,6 +64,10 @@ LINEヤフー株式会社による審査が終了すると、[LINE Developersコ
 
 予約、支払、注文などのアクションを含むサービスの場合は、審査の申し込みを送信するときに［**審査のための補足資料**］にテストシナリオ（アカウント、製品、店舗など）を入力する必要があります。
 
+#### LINEミニアプリがゲームの場合 
+
+審査対象のLINEミニアプリがゲームの場合は、［**審査のための補足資料**］にゲームに関する説明資料を必ず添付してください。説明資料は原則として、[ゲーム審査申告フォーマット](https://workers-hub.ent.box.com/s/fqd8gfw2kwadj0yuvgxg965qc252xawn/file/2373127350923)をダウンロードし、必要事項を入力したものを使用してください。
+
 #### チャネル説明について 
 
 LINEヤフー株式会社による審査は、[LINE Developersコンソール](https://developers.line.biz/console/)の［**チャネル基本設定**］タブにある［**チャネル説明**］に記載された内容をもとに行われます。このため、以下の例を参考に、正しいサービス内容を記載してください。
@@ -86,6 +90,21 @@ LINEヤフー株式会社による審査は、[LINE Developersコンソール](h
 アプリ内課金の審査中は、認証審査の申請はできません。
 
 また、認証審査中は、アプリ内課金の利用申請はできません。
+
+##### Mini Apps Partner Programに申し込む 
+
+アプリ内課金の利用申請が承認されたLINEミニアプリは、認証審査を申請するときに、Apple Inc.が提供する[Mini Apps Partner Program](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/)の適用を申し込むことができます。Mini Apps Partner Programへの申し込みはLINEミニアプリごとに任意です。
+
+Mini Apps Partner Programの適用を申し込む場合は、次の手順に従ってください。
+
+1. ［**審査申請**］タブ内の［**アプリ内課金 公開申請**］のトグルボタンがオンになっていることを確認します。
+2. 「Mini Apps Partner Programへの申し込み」に表示される注意事項を確認します。
+3. ［**上記の注意事項に同意のうえ、Apple Mini Apps Partner Programに申し込む。**］を選択します。
+4. 審査を申請します。
+
+適用条件や注意事項は、申し込み時にLINE Developersコンソールに表示される内容を確認してください。
+
+すでに公開中の認証済ミニアプリでMini Apps Partner Programに申し込む場合も、再度認証審査を受ける必要があります。
 
 ### 2. 承認された後の操作 
 

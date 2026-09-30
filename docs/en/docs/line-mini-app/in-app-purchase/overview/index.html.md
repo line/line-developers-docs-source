@@ -25,6 +25,12 @@ For more information on implementation, see [Integrate the in-app purchase featu
 
 Service fees apply when using the in-app purchase feature. The fee rate is displayed in the **In-app purchase** tab when you apply for the service via LINE Developers Console.
 
+#### Mini Apps Partner Program 
+
+The [Mini Apps Partner Program](https://developer.apple.com/programs/mini-apps-partner/) is a fee reduction program offered by Apple Inc. LINE MINI Apps that have been approved to use in-app purchase can apply for the program.
+
+For more information, see [Reduced App Store fees through the Mini Apps Partner Program](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/).
+
 ## Flow to start using in-app purchase 
 
 The flow to start using in-app purchase is as follows. For more information, see each document.
@@ -34,7 +40,7 @@ The flow to start using in-app purchase is as follows. For more information, see
 | Step 1: [Apply to use in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/request-iap-review/) | Apply to use from the **In-app purchase** tab of your LINE MINI App channel on the [LINE Developers Console](https://developers.line.biz/console/). When applying, enter all information accurately, including the company name.<br>Only verified LINE MINI Apps can offer in-app purchase to users. However, you can apply to use in-app purchase even with unverified MINI Apps. |
 | Step 2: [Set up in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/iap-settings/) | Once your application to use in-app purchase has the status of "Approved", register the webhook URL and testers for test payment in the **In-app purchase settings** tab within the **In-app purchase** tab. |
 | Step 3: [Integrate in-app purchase](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/) into your LINE MINI App channel for Developing and [perform test payment](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#test-payment-guide) | Integrate the in-app purchase feature on your LINE MINI App channel for Developing and perform test payments. |
-| Step 4: [Apply for a verification review](https://developers.line.biz/en/docs/line-mini-app/submit/submission-guide/) | Apply for review from the **Review request** tab on the LINE Developers Console to publish as a verified MINI App. When applying, turn on the **Release the in-app purchase feature** toggle button in the **Review request** tab.<br>If you have integrated in-app purchase into an app that is already published as a verified MINI App, you need to undergo review again. |
+| Step 4: [Apply for a verification review](https://developers.line.biz/en/docs/line-mini-app/submit/submission-guide/) | Apply for review from the **Review request** tab on the LINE Developers Console to publish as a verified MINI App. When applying, turn on the **Release the in-app purchase feature** toggle button in the **Review request** tab. You can also apply for the Mini Apps Partner Program on the same screen.<br>If you have integrated in-app purchase into an app that is already published as a verified MINI App, you need to undergo review again. |
 | Step 5: Release the LINE MINI App with in-app purchase | Once Step 4, the verification review, is approved, you can release the LINE MINI App with in-app purchase.<br />If it was already a verified MINI App, the procedure is different. For more information, see [Submitting LINE MINI App](https://developers.line.biz/en/docs/line-mini-app/submit/submission-guide/). |
 
 ## System architecture 

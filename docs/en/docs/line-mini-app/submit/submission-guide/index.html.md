@@ -64,6 +64,10 @@ If you've restricted access to your LINE MINI App, which is the subject of the r
 
 For services that include actions such as reservations, payments, and orders, when submitting an application for review, you must enter test scenarios (accounts, products, stores, etc.) in **Reference materials for the review**.
 
+#### If your LINE MINI App is a game 
+
+If the LINE MINI App you're submitting for review is a game, you must attach materials describing the game in **Reference materials for the review**. In principle, download the [Game review declaration form](https://workers-hub.ent.box.com/s/fqd8gfw2kwadj0yuvgxg965qc252xawn/file/2373127350923) (only available in Japanese), fill in the required information, and attach the completed form as the explanatory material.
+
 #### Channel description 
 
 The review by LY Corporation will be based on the information provided in the **Channel description** on the **Basic settings** tab in the [LINE Developers Console](https://developers.line.biz/console/). For this reason, refer to the following example to provide the correct service details:
@@ -86,6 +90,21 @@ Once your application for in-app purchase has been approved, turn on the **Apply
 While your in-app purchase application is under review, you can't submit an application for verification review.
 
 Also, during the verification review, you can't apply to use the in-app purchase feature.
+
+##### Apply for the Mini Apps Partner Program 
+
+When submitting your LINE MINI App for a verification review, you can apply for the [Mini Apps Partner Program](https://developers.line.biz/en/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/) offered by Apple Inc. if the LINE MINI App has been approved to use in-app purchase. Applying for the Mini Apps Partner Program is optional for each LINE MINI App.
+
+To apply for the Mini Apps Partner Program, follow these steps:
+
+1. Make sure the **Apply to publish in-app purchase** toggle button in the **Review request** tab is turned on.
+2. Review the notes displayed under "Apply for the Mini Apps Partner Program".
+3. Select **I agree to the important notices above and apply for the Apple Mini Apps Partner Program.**
+4. Submit the application for review.
+
+Check the application requirements and notes displayed in the LINE Developers Console when applying.
+
+Even if your verified MINI App is already published, you must submit it for another verification review to apply for the Mini Apps Partner Program.
 
 ### 2. After your LINE MINI App has been approved 
 

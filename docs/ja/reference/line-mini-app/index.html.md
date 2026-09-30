@@ -1539,7 +1539,8 @@ _レスポンスの例_
         "productId": "iap_ln_002",
         "userId": "U91FC5A...",
         "purchaseTimestamp": 1738672496,
-        "channelId": "12345..."
+        "channelId": "12345...",
+        "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
       }
     }
   ],
@@ -1639,6 +1640,16 @@ String
 LINEミニアプリチャネルのチャネルID。
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="含まれないことがあります") -->
+
+paymentBenefitProgram
+
+String
+
+決済に適用された手数料優遇プログラムを示します。Apple Inc.が提供する[Mini Apps Partner Program](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/)によって手数料が減額された場合、`APPLE_MINI_APPS_PARTNER_PROGRAM`が返されます。\
+手数料優遇が適用されていない場合、このプロパティは含まれません。
+
+<!-- parameter end -->
 
 _例_
 
@@ -1651,7 +1662,8 @@ _例_
   "productId": "iap_ln_002",
   "userId": "U91FC5A...",
   "purchaseTimestamp": 1738672496,
-  "channelId": "12345..."
+  "channelId": "12345...",
+  "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
 }
 ```
 
@@ -1720,6 +1732,16 @@ String
 LINEミニアプリチャネルのチャネルID。
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="含まれないことがあります") -->
+
+paymentBenefitProgram
+
+String
+
+元の決済に適用された手数料優遇プログラムを示します。Apple Inc.が提供する[Mini Apps Partner Program](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/)によって手数料が減額された場合、`APPLE_MINI_APPS_PARTNER_PROGRAM`が返されます。\
+手数料優遇が適用されていない場合、このプロパティは含まれません。
+
+<!-- parameter end -->
 
 _例_
 
@@ -1732,7 +1754,8 @@ _例_
   "productId": "iap_ln_002",
   "userId": "U91FC5A...",
   "purchaseTimestamp": 1738672496,
-  "channelId": "12345..."
+  "channelId": "12345...",
+  "paymentBenefitProgram": "APPLE_MINI_APPS_PARTNER_PROGRAM"
 }
 ```
 

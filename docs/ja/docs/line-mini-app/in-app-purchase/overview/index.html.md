@@ -25,6 +25,12 @@
 
 アプリ内課金機能を利用するには、所定の手数料がかかります。手数料率は、LINE Developersコンソールから利用申請を行う際の［**アプリ内課金**］タブ内に表示されます。
 
+#### Mini Apps Partner Program 
+
+[Mini Apps Partner Program](https://developer.apple.com/jp/programs/mini-apps-partner/)は、Apple Inc.が提供する手数料の減額プログラムです。アプリ内課金の利用が承認されたLINEミニアプリが申し込むことができます。
+
+詳しくは、「[Mini Apps Partner ProgramによるApp Store決済の手数料減額](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/apple-mini-apps-partner-program/)」を参照してください。
+
 ## アプリ内課金を利用開始するまでの流れ 
 
 アプリ内課金を利用開始するまでの流れは、次のとおりです。詳しくは、各ドキュメントを参照してください。
@@ -34,7 +40,7 @@
 | Step 1：[アプリ内課金の利用を申請する](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/request-iap-review/) | [LINE Developersコンソール](https://developers.line.biz/console/)で、LINEミニアプリチャネルの［**アプリ内課金**］タブから利用申請を行います。申請時は、事業者名を含むすべての情報を正確に入力してください。<br>実際にユーザーがアプリ内課金を利用できるのは、認証済ミニアプリのみです。ただし、アプリ内課金の利用申請は、未認証ミニアプリでも可能です。 |
 | Step 2：[アプリ内課金の設定](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/iap-settings/)を行う | アプリ内課金の利用申請が「承認済み」のステータスになったら、［**アプリ内課金**］タブ内の［**アプリ内課金の設定**］タブで、Webhook URLやテスト決済のテスターを登録します。 |
 | Step 3：開発用LINEミニアプリチャネルで[アプリ内課金を組み込み](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/)、[テスト決済する](https://developers.line.biz/ja/docs/line-mini-app/in-app-purchase/implement-in-app-purchase/#test-payment-guide) | 開発用LINEミニアプリチャネルでアプリ内課金を組み込み、テスト決済を実施します。 |
-| Step 4：[認証審査を申請](https://developers.line.biz/ja/docs/line-mini-app/submit/submission-guide/)する | LINE Developersコンソールの［**審査申請**］タブから、認証審査（認証済ミニアプリとして公開するための審査）を申請します。申請の際は、［**審査申請**］タブ内の［**アプリ内課金機能を公開する**］のトグルボタンをオンにしてください。<br>すでに認証済ミニアプリとして公開していたアプリにアプリ内課金を組み込んだ場合も、再度認証審査を受ける必要があります。 |
+| Step 4：[認証審査を申請](https://developers.line.biz/ja/docs/line-mini-app/submit/submission-guide/)する | LINE Developersコンソールの［**審査申請**］タブから、認証審査（認証済ミニアプリとして公開するための審査）を申請します。申請の際は、［**審査申請**］タブ内の［**アプリ内課金機能を公開する**］のトグルボタンをオンにしてください。Mini Apps Partner Programの適用を希望する場合は、同じ画面から申し込むことができます。<br>すでに認証済ミニアプリとして公開していたアプリにアプリ内課金を組み込んだ場合も、再度認証審査を受ける必要があります。 |
 | Step 5：アプリ内課金機能が組み込まれたLINEミニアプリをリリースする | Step 4の認証審査が承認されると、アプリ内課金機能が組み込まれたLINEミニアプリがリリースできます。<br />すでに認証済ミニアプリだった場合は、手順が異なります。詳しくは、「[審査を依頼する](https://developers.line.biz/ja/docs/line-mini-app/submit/submission-guide/)」を参照してください。 |
 
 ## システム構成 
