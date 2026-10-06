@@ -53,9 +53,12 @@ LIFF SDKで取得した[アクセストークン](https://developers.line.biz/ja
 
 - LINEミニアプリが認証済ミニアプリである（※）。
 - LINEミニアプリのLIFF SDKのバージョンがv2.13.x以降である。
-- LINEミニアプリが[LIFF間遷移](https://developers.line.biz/ja/docs/liff/opening-liff-app/#move-liff-to-liff)で開かれていない。
 
 ※ 未認証ミニアプリでは、開発用と審査用のLINEミニアプリでのみ動作します。
+
+#### LIFF間遷移で「チャネル同意の簡略化」が動作する条件 
+
+上記の[「チャネル同意の簡略化」機能の動作条件](https://developers.line.biz/ja/docs/line-mini-app/develop/channel-consent-simplification/#operating-conditions)を満たすLINEミニアプリを[LIFF間遷移](https://developers.line.biz/ja/docs/liff/opening-liff-app/#move-liff-to-liff)で開く場合、遷移先のURLが[LIFF URL](https://developers.line.biz/ja/glossary/#liff-url)であれば「チャネル同意の簡略化」機能は動作します。一方、遷移先のURLがエンドポイントURLの場合は動作しません。
 
 ## 「チャネル同意の簡略化」機能が有効なLINEミニアプリでの認可フロー 
 
