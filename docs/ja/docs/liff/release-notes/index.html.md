@@ -18,13 +18,97 @@ LIFFでは、CDN固定パスとCDNエッジパスの2種類のCDNパスを用意
 
 CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使用する場合は、常にLIFF v2の最新機能を利用できます。
 
-[LIFF v2.31.1：2026年9月30日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-31-1)
+[LIFF v2.31.2：2026年10月7日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-31-2)
 
 ### バージョンリスト 
 
-CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.31.1/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
+CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
 
 <!-- table of contents -->
+
+2026/10/07
+
+## LIFF v2.31.2をリリースしました 
+
+LIFF v2.31.2をリリースしました。
+
+LIFF v2.31.2では、以下の変更を行いました。
+
+### LIFF URLのクエリパラメータの値に含まれる`?`の処理を変更しました 
+
+[2026年8月31日](https://developers.line.biz/ja/news/2026/08/31/liff-query-parameter-change/)にお知らせしたとおり、[LIFF URL](https://developers.line.biz/ja/glossary/#liff-url)のクエリパラメータの値に含まれる`?`の処理を変更しました。
+
+LIFFアプリでは、ユーザーがLIFF URLにアクセスすると、1次リダイレクト先URLに遷移した後、[2次リダイレクト先URLに遷移します](https://developers.line.biz/ja/docs/liff/opening-liff-app/#redirect-flow)。LIFF v2.31.2では、[LIFFブラウザ](https://developers.line.biz/ja/glossary/#liff-browser)でLIFF URLのクエリパラメータの値を2次リダイレクト先URLに復元する際の処理を変更しました。以下の[具体例](https://developers.line.biz/ja/docs/liff/release-notes/#query-parameter-examples-20261007)に示すように、クエリパラメータの値に含まれる`?`を`&`に置き換えなくなりました。
+
+なお、今回の変更はLIFFアプリをLIFFブラウザで開いた場合が対象です。LIFFアプリを[外部ブラウザ](https://developers.line.biz/ja/glossary/#external-browser)で開いた場合は、今回の変更による挙動の変化はありません。
+
+#### 具体例 
+
+LIFFアプリのエンドポイントURLが`https://example.com`の場合に、`https://liff.line.me/{liffId}/?key=foo?bar`にアクセスすると、2次リダイレクト先URLは以下のようになります。
+
+| 変更前（LIFF v2.31.1以前）        | 変更後（LIFF v2.31.2以降）        |
+| --------------------------------- | --------------------------------- |
+| `https://example.com?key=foo&bar` | `https://example.com?key=foo?bar` |
+
+また、クエリパラメータの値に含まれる`?`をパーセントエンコードして、`https://liff.line.me/{liffId}/?key=foo%3Fbar`のようなLIFF URLにアクセスする場合も、アクセス方法によっては影響があります。LIFFアプリをLIFFブラウザで開く方法ごとの挙動は、以下のとおりです。
+
+| アクセス方法 | 変更前（LIFF v2.31.1以前） | 変更後（LIFF v2.31.2以降） |
+| --- | --- | --- |
+| iOS端末でLINEアプリ以外からアクセス | `https://example.com?key=foo&bar` | `https://example.com?key=foo?bar` |
+| iOS端末でLINEアプリからアクセス | `https://example.com?key=foo%3Fbar` | 変更なし |
+| Android端末でアクセス | `https://example.com?key=foo%3Fbar` | 変更なし |
+
+#### 仕様変更に伴う注意点 
+
+LIFFブラウザでLIFFアプリを開く際、URLを値として持つクエリパラメータを使用していると、今回の変更の影響を受ける可能性があります（例：`return_url`に遷移元のURLを保持する場合）。また、クエリパラメータの値をパーセントエンコードしている場合も、アクセス方法によっては影響を受けることがあります。
+
+LIFF SDKをv2.31.2にアップデートする際は、仕様変更後の挙動でもLIFFアプリが正常に動作することを確認してください。
+
+### LIFF v2.31.2へのアップデート方法 
+
+LIFF SDKの組み込み方法によって、必要な対応が異なります。
+
+- [CDNエッジパスを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#cdn-edge-path-20261007)
+- [CDN固定パスを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#cdn-fixed-path-20261007)
+- [npmパッケージを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#npm-package-20261007)
+
+#### CDNエッジパスを利用している場合 
+
+CDNエッジパスを利用している場合は、自動でv2.31.2にアップデートされています。追加の対応は不要です。
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+```
+
+#### CDN固定パスを利用している場合 
+
+CDN固定パスを利用している場合は、読み込むバージョンをv2.31.2に変更してください。
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js"></script>
+```
+
+#### npmパッケージを利用している場合 
+
+npmパッケージを利用している場合は、`@line/liff`をv2.31.2にアップデートしてください。
+
+```sh
+# npmの場合
+npm install @line/liff@2.31.2
+
+# yarnの場合
+yarn add @line/liff@2.31.2
+```
+
+LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメント』の「[LIFFアプリにLIFF SDKを組み込む](https://developers.line.biz/ja/docs/liff/developing-liff-apps/#integrating-sdk)」を参照してください。
+
+<!-- warning start -->
+
+**LIFF v2.20.0 〜 v2.31.0は非推奨になりました**
+
+LIFF v2.20.0 〜 v2.31.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.20.0 〜 v2.31.0を利用している場合は速やかにLIFF v2.31.1以降へアップデートしてください。詳しくは、[2026年9月30日のニュース](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)を参照してください。
+
+<!-- warning end -->
 
 2026/09/30
 

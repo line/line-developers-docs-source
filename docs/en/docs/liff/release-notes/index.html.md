@@ -18,13 +18,97 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 
-[LIFF v2.31.1: September 30, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-31-1)
+[LIFF v2.31.2: October 7, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-31-2)
 
 ### Version list 
 
-When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.31.1/sdk.js`), you can use the features of the specified LIFF version.
+When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js`), you can use the features of the specified LIFF version.
 
 <!-- table of contents -->
+
+2026/10/07
+
+## LIFF v2.31.2 released 
+
+We've released LIFF v2.31.2.
+
+In LIFF v2.31.2, we've made the following change.
+
+### We've changed how the `?` character is handled in LIFF URL query parameter values 
+
+As announced on [August 31, 2026](https://developers.line.biz/en/news/2026/08/31/liff-query-parameter-change/), we've changed how the `?` character is handled in query parameter values included in a [LIFF URL](https://developers.line.biz/en/glossary/#liff-url).
+
+When a user accesses a LIFF URL, the LIFF app first navigates to the primary redirect URL and then to the [secondary redirect URL](https://developers.line.biz/en/docs/liff/opening-liff-app/#redirect-flow). In LIFF v2.31.2, we've changed the processing used in the [LIFF browser](https://developers.line.biz/en/glossary/#liff-browser) to restore query parameter values in the LIFF URL to the secondary redirect URL. As shown in the [examples](https://developers.line.biz/en/docs/liff/release-notes/#query-parameter-examples-20261007) below, `?` characters in query parameter values are no longer replaced with `&`.
+
+This change applies when a LIFF app is opened in the LIFF browser. The behavior hasn't changed when a LIFF app is opened in an [external browser](https://developers.line.biz/en/glossary/#external-browser).
+
+#### Examples 
+
+For example, suppose that the LIFF app's endpoint URL is `https://example.com` and a user accesses `https://liff.line.me/{liffId}/?key=foo?bar`. The secondary redirect URL will be as follows:
+
+| Before change (LIFF v2.31.1 or earlier) | After change (LIFF v2.31.2 or later) |
+| --- | --- |
+| `https://example.com?key=foo&bar` | `https://example.com?key=foo?bar` |
+
+When accessing a LIFF URL such as `https://liff.line.me/{liffId}/?key=foo%3Fbar` with the `?` character in a query parameter value percent-encoded, the LIFF app may also be affected depending on how the URL is accessed. The behavior for each method of opening the LIFF app in the LIFF browser is as follows:
+
+| Access method | Before change (LIFF v2.31.1 or earlier) | After change (LIFF v2.31.2 or later) |
+| --- | --- | --- |
+| On an iOS device, from an app other than the LINE app | `https://example.com?key=foo&bar` | `https://example.com?key=foo?bar` |
+| On an iOS device, from the LINE app | `https://example.com?key=foo%3Fbar` | No change |
+| On an Android device | `https://example.com?key=foo%3Fbar` | No change |
+
+#### Notes on the specification change 
+
+If your LIFF app uses query parameters whose values are URLs, it may be affected by this change when opened in the LIFF browser (e.g. if `return_url` contains the URL of the page from which the user navigated). Even if you percent-encode the query parameter values, the LIFF app may be affected depending on how the LIFF URL is accessed.
+
+When updating the LIFF SDK to v2.31.2, check that your LIFF app works correctly after the change.
+
+### How to update to LIFF v2.31.2 
+
+The required action depends on how you've integrated the LIFF SDK.
+
+- [If you're using the CDN edge path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-edge-path-20261007)
+- [If you're using a CDN fixed path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-fixed-path-20261007)
+- [If you're using the npm package](https://developers.line.biz/en/docs/liff/release-notes/#npm-package-20261007)
+
+#### If you're using the CDN edge path 
+
+If you're using the CDN edge path, it has been automatically updated to v2.31.2. No additional action is required.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+```
+
+#### If you're using a CDN fixed path 
+
+If you're using a CDN fixed path, change the version you load to v2.31.2.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js"></script>
+```
+
+#### If you're using the npm package 
+
+If you're using the npm package, update `@line/liff` to v2.31.2.
+
+```sh
+# For npm
+npm install @line/liff@2.31.2
+
+# For yarn
+yarn add @line/liff@2.31.2
+```
+
+For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK with the LIFF app](https://developers.line.biz/en/docs/liff/developing-liff-apps/#integrating-sdk) in the LIFF documentation.
+
+<!-- warning start -->
+
+**LIFF v2.20.0 - v2.31.0 have been deprecated**
+
+LIFF v2.20.0 - v2.31.0 have been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.0 - v2.31.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from [September 30, 2026](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
+
+<!-- warning end -->
 
 2026/09/30
 
