@@ -1,6 +1,6 @@
 # Using universal links
 
-You can improve the security of your app with Apple's [universal links](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) feature that securely communicates information between apps. If you set up a universal link, LINE tries to open your app with the universal link first. If the universal link is invalid, LINE falls back to a URL based on your iOS bundle ID (see [Linking your app to your channel](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/#linking-app-to-channel)).
+You can improve the security of your app with Apple's [universal links](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app) feature that securely communicates information between apps. If you set up a universal link, LINE tries to open your app with the universal link first. If the universal link is invalid, LINE falls back to a URL based on your iOS bundle ID (see [Linking your app to your channel](https://developers.line.biz/en/docs/line-login-sdks/ios-sdk/swift/setting-up-project/#linking-app-to-channel)).
 
 <!-- note start -->
 

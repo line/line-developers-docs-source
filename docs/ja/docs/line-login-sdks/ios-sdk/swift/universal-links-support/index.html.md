@@ -1,6 +1,6 @@
 # ユニバーサルリンクを利用する
 
-Appleの[ユニバーサルリンク](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)機能を使ってアプリのセキュリティを高めることができます。ユニバーサルリンクを設定すると、LINEにより、まずユニバーサルリンクを使ってアプリの起動が試行されます。ユニバーサルリンクが無効な場合は、iOSバンドルIDに基づいたURLがフォールバックとして使用されます（詳しくは、「[アプリをチャネルにリンクする](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/swift/setting-up-project/#linking-app-to-channel)」を参照してください）。
+Appleの[ユニバーサルリンク](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)機能を使ってアプリのセキュリティを高めることができます。ユニバーサルリンクを設定すると、LINEにより、まずユニバーサルリンクを使ってアプリの起動が試行されます。ユニバーサルリンクが無効な場合は、iOSバンドルIDに基づいたURLがフォールバックとして使用されます（詳しくは、「[アプリをチャネルにリンクする](https://developers.line.biz/ja/docs/line-login-sdks/ios-sdk/swift/setting-up-project/#linking-app-to-channel)」を参照してください）。
 
 <!-- note start -->
 
