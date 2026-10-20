@@ -182,6 +182,14 @@ npm install @line/liff@2.31.1
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.31.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.31.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.31.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -203,6 +211,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/08/17
 
 ## LIFF v2.30.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.30.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -240,6 +256,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.29.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.29.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.29.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -261,6 +285,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/06/29
 
 ## LIFF v2.29.1 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.29.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -288,6 +320,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.29.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.29.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.29.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -309,6 +349,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2026/03/24
 
 ## LIFF v2.28.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.28.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -342,6 +390,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.27.3, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.27.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -363,6 +419,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/09/08
 
 ## LIFF v2.27.2 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.27.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -407,6 +471,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.27.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.27.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.27.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -428,6 +500,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/6/25
 
 ## LIFF v2.27.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.27.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -484,6 +564,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2025/5/26
 
 ## LIFF v2.26.1 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.26.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -554,6 +642,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.26.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.26.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.26.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -592,6 +688,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.25.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.25.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.25.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -613,6 +717,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2024/11/12
 
 ## LIFF v2.25.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.25.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -656,6 +768,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.24.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.24.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.24.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -687,6 +807,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2024/2/15
 
 ## LIFF v2.23.2 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.23.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -730,6 +858,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.23.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.23.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.23.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -768,6 +904,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.23.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.23.0 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.23.0, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -789,6 +933,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/10/2
 
 ## LIFF v2.22.4 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.22.4, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -830,6 +982,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.22.3, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.22.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -851,6 +1011,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/6/27
 
 ## LIFF v2.22.2 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.22.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -935,6 +1103,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.22.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.22.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.22.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -967,6 +1143,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2023/3/29
 
 ## LIFF v2.22.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.22.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1054,6 +1238,14 @@ import liff from "@line/liff/core";
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.21.4, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.21.4 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.4, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -1081,6 +1273,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/11/10
 
 ## LIFF v2.21.3 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.21.3, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1114,6 +1314,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.21.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.21.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -1136,6 +1344,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.21.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.21.1 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.21.1, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -1155,6 +1371,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/8/4
 
 ## LIFF v2.21.0 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.21.0, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1209,6 +1433,14 @@ import { Profile } from "@liff/get-profile";
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.20.3, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.20.3 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.3, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -1243,6 +1475,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 
 <!-- warning start -->
 
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.20.2, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **Added on September 30, 2026**
 
 LIFF v2.20.2 has been [deprecated](https://developers.line.biz/en/glossary/#deprecated) because an issue with potential security implications was identified. If you're using LIFF v2.20.2, update to LIFF v2.31.1 or later. For more information, see [LIFF v2.31.1 released](https://developers.line.biz/en/news/2026/09/30/release-liff-2-31-1/).
@@ -1262,6 +1502,14 @@ For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK 
 2022/5/24
 
 ## LIFF v2.20.1 released 
+
+<!-- warning start -->
+
+**Added on October 20, 2026**
+
+To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 through v2.31.0) around November 24, 2026. If you are using LIFF v2.20.1, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
 
 <!-- warning start -->
 

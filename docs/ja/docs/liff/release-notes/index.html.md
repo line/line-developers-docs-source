@@ -182,6 +182,14 @@ npm install @line/liff@2.31.1
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.31.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.31.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.31.0を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -203,6 +211,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2026/08/17
 
 ## LIFF v2.30.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.30.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -240,6 +256,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.29.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.29.2は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.29.2を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -261,6 +285,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2026/06/29
 
 ## LIFF v2.29.1をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.29.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -288,6 +320,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.29.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.29.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.29.0を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -309,6 +349,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2026/03/24
 
 ## LIFF v2.28.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.28.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -342,6 +390,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.27.3を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.27.3は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.27.3を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -363,6 +419,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2025/09/08
 
 ## LIFF v2.27.2をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.27.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -407,6 +471,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.27.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.27.1は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.27.1を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -428,6 +500,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2025/06/25
 
 ## LIFF v2.27.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.27.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -484,6 +564,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2025/05/26
 
 ## LIFF v2.26.1をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.26.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -554,6 +642,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.26.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.26.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.26.0を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -592,6 +688,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.25.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.25.1は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.25.1を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -613,6 +717,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2024/11/12
 
 ## LIFF v2.25.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.25.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -656,6 +768,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.24.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.24.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.24.0を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -687,6 +807,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2024/2/15
 
 ## LIFF v2.23.2をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.23.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -730,6 +858,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.23.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.23.1は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.23.1を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -768,6 +904,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.23.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.23.0は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.23.0を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -789,6 +933,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2023/10/2
 
 ## LIFF v2.22.4をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.22.4を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -830,6 +982,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.22.3を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.22.3は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.22.3を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -851,6 +1011,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2023/6/27
 
 ## LIFF v2.22.2をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.22.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -935,6 +1103,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.22.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.22.1は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.22.1を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -967,6 +1143,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2023/3/29
 
 ## LIFF v2.22.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.22.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1054,6 +1238,14 @@ import liff from "@line/liff/core";
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.21.4を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.21.4は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.21.4を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -1081,6 +1273,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2022/11/10
 
 ## LIFF v2.21.3をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.21.3を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1114,6 +1314,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.21.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.21.2は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.21.2を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -1136,6 +1344,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.21.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.21.1は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.21.1を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -1155,6 +1371,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2022/8/4
 
 ## LIFF v2.21.0をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.21.0を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
@@ -1209,6 +1433,14 @@ import { Profile } from "@liff/get-profile";
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.20.3を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.20.3は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.20.3を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -1243,6 +1475,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 
 <!-- warning start -->
 
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.20.2を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+<!-- warning start -->
+
 **2026年9月30日追記**
 
 LIFF v2.20.2は、セキュリティ上の影響が生じる可能性のある不具合が確認されたため、[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となりました。LIFF v2.20.2を利用している場合は、LIFF v2.31.1以降にアップデートしてください。詳しくは、2026年9月30日のニュース、「[LIFF v2.31.1をリリースしました](https://developers.line.biz/ja/news/2026/09/30/release-liff-2-31-1/)」を参照してください。
@@ -1262,6 +1502,14 @@ LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメン�
 2022/5/24
 
 ## LIFF v2.20.1をリリースしました 
+
+<!-- warning start -->
+
+**2026年10月20日追記**
+
+ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。LIFF v2.20.1を利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
 
 <!-- warning start -->
 
