@@ -175,7 +175,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://miniapp.line.me/123456-abcedfg" // Specify the top page of the LINE MINI App.
+              "uri": "https://miniapp.line.me/123456-abcedfg" // Specify the LIFF URL of the LINE MINI App.
             }
           }
         ],
@@ -430,7 +430,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://miniapp.line.me/123456-abcedfg" // Specify the top page of the LINE MINI App.
+              "uri": "https://miniapp.line.me/123456-abcedfg" // Specify the LIFF URL of the LINE MINI App.
             }
           }
         ],

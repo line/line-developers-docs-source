@@ -175,7 +175,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://miniapp.line.me/123456-abcedfg" // LINEミニアプリのトップページを指定してください
+              "uri": "https://miniapp.line.me/123456-abcedfg" // LINEミニアプリのLIFF URLを指定してください
             }
           }
         ],
@@ -430,7 +430,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://miniapp.line.me/123456-abcedfg" // LINEミニアプリのトップページを指定してください
+              "uri": "https://miniapp.line.me/123456-abcedfg" // LINEミニアプリのLIFF URLを指定してください
             }
           }
         ],

@@ -51,7 +51,7 @@ LINEミニアプリでは、現在開いているページを友だちと共有�
 | C | サブタイトル | ※ | メッセージの副題です。 |
 | D | 詳細 | ※ | ラベルと説明を含めた項目を挿入してください。標準タイプと画像リストタイプで挿入できる項目の最大数が異なります。<ul><li>標準タイプ：最大10件</li><li>画像リストタイプ：最大5件</li></ul> |
 | E | ボタン | 必須  | <ul><li>ボタンを3個まで挿入できます。</li><li>最低1つのボタンは、シェアする内容を詳しく説明するページ（詳細ページ）を表示するように設定してください。</li></ul> |
-| F | フッター | 必須  | LINEミニアプリのアイコン、LINEミニアプリの名前、および画像（ ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png)）を挿入してください。この画像は変更しないでください。この画像をタップしたときに、LINEミニアプリのトップページ（`https://miniapp.line.me/{your-liffId}`）を表示するようにURIアクションを指定してください。 |
+| F | フッター | 必須  | LINEミニアプリのアイコン、LINEミニアプリの名前、および画像（ ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png)）を挿入してください。この画像は変更しないでください。この画像をタップしたときに、LINEミニアプリのエンドポイントURLのページを表示するよう、URIアクションにLIFF URL（`https://miniapp.line.me/{your-liffId}`）を指定してください。 |
 
 ※サブタイトル（C）または詳細（D）のいずれか一方を挿入する必要があります。両方を挿入することもできます。
 
@@ -282,8 +282,8 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
 | E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1〜E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li><li>`"margin": "lg"`</li></ul> |
-| E-1 | ボタン<br>（linkスタイルのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
-| E-2 | ボタン<br>（primaryスタイルを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul></li></ul> |
+| E-1 | ボタン<br>（linkスタイルのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのエンドポイントURLのページ以外を表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
+| E-2 | ボタン<br>（primaryスタイルを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのエンドポイントURLのページ以外を表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
 
 primaryスタイルを使用する場合：
 
@@ -352,7 +352,7 @@ primaryスタイルを使用する場合：
 | F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1〜F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
 | F-1 | LINEミニアプリのアイコン | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "{画像のURL}"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li></ul> |
 | F-2 | LINEミニアプリの名前 | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{LINEミニアプリの名前}"`<br>最大行数：1行</li><li>`"flex": 19`</li><li>`"size": "xs"`</li><li>`"color": "#999999"`</li><li>`"weight": "bold"`</li><li>`"gravity": "center"`</li><li>`"wrap": false`</li></ul> |
-| F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのトップページ（`https://miniapp.line.me/{your-liffId}`）を表示するようにURIアクションを指定してください。</li></ul> |
+| F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのエンドポイントURLのページを表示するよう、URIアクションにLIFF URL（`https://miniapp.line.me/{your-liffId}`）を指定してください。</li></ul> |
 
 ```json
 {
@@ -651,8 +651,8 @@ JSONファイルの例は、「[ガイドラインに従ったJSONファイル�
 | ラベル | セクション | 要素 | 説明 |
 | --- | --- | --- | --- |
 | E | ボタン | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | E-1〜E-2を入れるボックスです。<ul><li>`"layout": "vertical"`</li><li>`"spacing": "xs"`</li></ul> |
-| E-1 | ボタン<br>（linkのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
-| E-2 | ボタン<br>（primaryを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのトップページ以外のページを表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul></li></ul> |
+| E-1 | ボタン<br>（linkのみを使用する場合） | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>`"style": "link"`</li><li>`"height": "sm"`</li><li>`"color": "{文字の色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのエンドポイントURLのページ以外を表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
+| E-2 | ボタン<br>（primaryを使用する場合) | [ボタン](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#button) | <ul><li>一番上のボタンに`"style": "primary"`、それ以外のボタンに`"style": "link"`を指定してください。`"secondary"`は使用できません。</li><li>`"height": "md"`</li><li>`"color": "{文字の色または背景色}"`</li><li>`"action" : { ... }`<br>このボタンをタップしたときに、LINEミニアプリのページを表示するようにURIアクションを指定してください。LINEミニアプリのエンドポイントURLのページ以外を表示する場合は、[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。</li></ul> |
 
 primaryを使用する場合：
 
@@ -718,7 +718,7 @@ primaryを使用する場合：
 | F | フッター | [ボックス](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#box) | F-1〜F-3を入れるボックスです。<ul><li>`"layout": "horizontal"`</li><li>`"flex": 1`</li><li>`"spacing": "md"`</li><li>`"margin": "md"`</li></ul> |
 | F-1 | LINEミニアプリのアイコン | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "{画像のURL}"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li></ul> |
 | F-2 | LINEミニアプリの名前 | [テキスト](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#text) | <ul><li>`"text": "{LINEミニアプリの名前}"`<br>最大行数：1行</li><li>`"flex": 19`</li><li>`"size": "xs"`</li><li>`"color": "#999999"`</li><li>`"weight": "bold"`</li><li>`"gravity": "center"`</li><li>`"wrap": false`</li></ul> |
-| F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのトップページ（`https://miniapp.line.me/{your-liffId}`）を表示するようにURIアクションを指定してください。</li></ul> |
+| F-3 | ![>](https://vos.line-scdn.net/service-notifier/footer_go_btn.png) | [画像](https://developers.line.biz/ja/docs/messaging-api/flex-message-elements/#image) | <ul><li>`"url": "https://vos.line-scdn.net/service-notifier/footer_go_btn.png"`</li><li>`"flex": 1`</li><li>`"gravity": "center"`</li><li>`"size": "xxs"`</li><li>`"action" : { ... }`<br>この画像をタップしたときに、LINEミニアプリのエンドポイントURLのページを表示するよう、URIアクションにLIFF URL（`https://miniapp.line.me/{your-liffId}`）を指定してください。</li></ul> |
 
 ```json
 {

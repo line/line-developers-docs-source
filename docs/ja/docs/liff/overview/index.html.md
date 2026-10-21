@@ -118,6 +118,7 @@ LINEバージョン26.7.0以降では、アクションボタンをタップす�
 | --- | --- |
 | **すべてのタブ** | [マルチタブビュー](https://developers.line.biz/ja/docs/liff/overview/#multi-tab-view)を表示します。 |
 | **更新** | 現在開いているページを再読み込みします。 |
+| **このアプリのホーム画面に移動** | LIFFアプリのエンドポイントURLのページに遷移します。LINEバージョン26.16.0以降で利用可能です。 |
 | **ページを最小化** | LIFFブラウザを最小化します。詳しくは、「[LIFFブラウザを最小化する](https://developers.line.biz/ja/docs/liff/minimizing-liff-browser/)」を参照してください。 |
 | **シェア** | 現在開いているページの[パーマネントリンク](https://developers.line.biz/ja/glossary/#permanent-link-liff)を、LINEメッセージでシェアします。 |
 | **権限設定** | 権限設定画面を開きます。権限設定画面では、現在開いているLIFFアプリのカメラやマイクへのアクセス権を確認できます。変更はできません。LINEバージョン14.6.0以降で利用可能です。 |

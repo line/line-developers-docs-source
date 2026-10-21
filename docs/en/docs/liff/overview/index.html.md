@@ -118,9 +118,10 @@ In LINE version 26.7.0 or later, tapping the action button displays the followin
 | --- | --- |
 | **All tabs** | Displays the [Multi-tab view](https://developers.line.biz/en/docs/liff/overview/#multi-tab-view). |
 | **Refresh** | Reloads the current page. |
+| **Go to app home screen** | Opens the page at the endpoint URL of the LIFF app. Available in LINE version 26.16.0 or later. |
 | **Minimize browser** | Minimizes LIFF browser. For more information, see [Minimizing LIFF browser](https://developers.line.biz/en/docs/liff/minimizing-liff-browser/). |
 | **Share** | Shares the [permanent link](https://developers.line.biz/en/glossary/#permanent-link-liff) of the current page via a LINE message. |
-| **Permission settings** | Opens the Permission Settings screen. The Permission Settings screen allows the user to view the camera and microphone permissions of the currently open LIFF app. No changes can be made. Available in LINE versions 14.6.0 or later. |
+| **Permission settings** | Opens the Permission Settings screen. The Permission Settings screen allows the user to view the camera and microphone permissions of the currently open LIFF app. No changes can be made. Available in LINE version 14.6.0 or later. |
 
 <!-- note start -->
 

@@ -38,11 +38,12 @@ In LINE version 26.7.0 or later, tapping the action button displays the followin
 | --- | --- |
 | **All tabs** | Displays the [multi-tab view](https://developers.line.biz/en/docs/liff/overview/#multi-tab-view). |
 | **Refresh** | Refresh the current page on the screen. |
+| **Go to app home screen** | Opens the page at the endpoint URL of the LINE MINI App. Available in LINE version 26.16.0 or later. |
 | **Minimize browser** | Minimize LIFF browser. This feature can only be used for verified MINI Apps. For more information, see [Minimizing LIFF browser](https://developers.line.biz/en/docs/liff/minimizing-liff-browser/) in the LIFF documentation. |
 | **Share** | Share the LIFF URL or permanent link of the current page as a LINE message. If the current page doesn't start with the endpoint URL of the LINE MINI App, the LIFF URL of the LINE MINI App will be shared instead. The share message includes the following elements:<ul><li>URL: The permanent link of the current page.</li><li>Title: The LIFF app name entered in the **LIFF app name** on the **Web app settings** tab of the [LINE Developers Console](https://developers.line.biz/console/).</li><li>Description: Automatically set text</li><li>Image: Image registered as **Channel icon** on the **Channel Basic settings** tab on the [LINE Developers Console](https://developers.line.biz/console/)</li></ul> |
 | **Add to Home** | The Add Shortcut screen to the current page will be displayed. If the current page doesn't start with the endpoint URL of the LINE MINI App, an error will occur. Available for verified MINI Apps in LINE version 14.3.0 or later. For more information, see [Add a shortcut to your LINE MINI App to the home screen of the user's device](https://developers.line.biz/en/docs/line-mini-app/develop/add-to-home-screen/). |
 | **Favorites** | <p>Add the current LINE MINI App to the user's favorites. This feature is only available if all of the following conditions are met:</p><p><ul><li>The LINE MINI App is a [verified MINI App](https://developers.line.biz/en/docs/line-mini-app/discover/introduction/#verified-mini-app).</li><li>The user is located in Japan.</li><li>The user's LINE version is 15.18.0 or later.</li></ul></p><p>LINE MINI Apps that have been added to the user's favorites can be viewed in the MINI tab of the LINE app.</p> |
-| **Permission settings** | <p>Opens the Permission Settings screen. The Permission Settings screen allows the user to view and change the camera and microphone permissions of the currently open LINE MINI App. Available in LINE versions 14.6.0 or later.</p><p>If a user changes the permissions, the changes may not be reflected unless the page is reloaded on the LINE MINI App.</p> |
+| **Permission settings** | <p>Opens the Permission Settings screen. The Permission Settings screen allows the user to view and change the camera and microphone permissions of the currently open LINE MINI App. Available in LINE version 14.6.0 or later.</p><p>If a user changes the permissions, the changes may not be reflected unless the page is reloaded on the LINE MINI App.</p> |
 | **About the service** | Display the [Provider page](https://developers.line.biz/en/docs/partner-docs/provider-page/). This feature can only be used for verified MINI Apps. |
 | **Report** | <p>Open the LINE app inquiry form in an external browser. This feature is only available if all of the following conditions are met:</p><ul><li>**Region to provide the service** on the **Basic settings** tab of the LINE MINI App channel is set to "Japan".</li><li>The user's LINE version is 15.6.0 or later.</li></ul> |
 
@@ -50,7 +51,7 @@ In LINE version 26.7.0 or later, tapping the action button displays the followin
 
 **Note**
 
-To share the current page, users need to tap the action button on a LINE version that officially supports LINE MINI App. In case of LINE versions lower than the [supported versions](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/#supported-platforms-and-versions), the action button in the header will always lead to the LINE MINI App's top page, regardless of the individual page being shared.
+To share the current page, users need to tap the action button on a LINE version that officially supports LINE MINI App. In case of LINE versions lower than the [supported versions](https://developers.line.biz/en/docs/line-mini-app/discover/specifications/#supported-platforms-and-versions), the LINE MINI App's LIFF URL will always be shared, regardless of the individual page being shared.
 
 <!-- note end -->
 

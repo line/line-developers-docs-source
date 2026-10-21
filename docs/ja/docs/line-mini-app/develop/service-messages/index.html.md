@@ -140,7 +140,7 @@ LINEヤフー株式会社が提供しているテンプレートの中から、[
 | A | タイトル | タイトルセクションは、以下の要素で構成されます。<ul><li>タイトル（A-1）</li><li>サブタイトル（A-2）</li></ul> |
 | B | 詳細内容 | 詳細内容セクションには、テンプレートの種類に応じて次の2種類のレイアウトがあります。 <ul><li>「detailed」：1個のキーが必須です。キーの最大数は選択したテンプレートによって異なります。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_detailed.webp)</li><li>「simple」: 最大1個のキーを指定できます。文字数については、「[各要素の最大文字数](https://developers.line.biz/ja/docs/line-mini-app/develop/service-messages/#maximum-number-of-characters)」を参照してください。<br />![](https://developers.line.biz/media/line-mini-app/mini_detail_simple.webp)</li></ul> |
 | C | ボタン | 選択したテンプレートによって、使用できるボタンの数は異なります。また、URLを設定したボタンのみが表示されます。URLは、LINEミニアプリのページの[パーマネントリンク](https://developers.line.biz/ja/docs/line-mini-app/develop/permanent-links/)を指定してください。<ul><li>1個目のボタンは必須で、［**詳細はこちら**］として表示されます。</li><li>2個目以降のボタンは任意で、選択したテンプレートによってあらかじめ定義されています。</li></ul> |
-| D | フッター | ［**チャネル基本設定**］タブの［**チャネルアイコン**］で設定したアイコンと、［**チャネル名**］で設定したチャネル名が表示されます。ユーザーがフッターをタップすると、そのLINEミニアプリのトップページが表示されます。 |
+| D | フッター | ［**チャネル基本設定**］タブの［**チャネルアイコン**］で設定したアイコンと、［**チャネル名**］で設定したチャネル名が表示されます。ユーザーがフッターをタップすると、そのLINEミニアプリのエンドポイントURLのページが表示されます。 |
 
 <!-- note start -->
 
