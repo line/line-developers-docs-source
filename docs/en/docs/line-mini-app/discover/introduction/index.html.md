@@ -86,17 +86,17 @@ Users can also access LINE MINI Apps from the LINE Official Account. For example
 
 ![You can promote your LINE MINI App on the LINE Official Account](https://developers.line.biz/media/line-mini-app/mini_with_oa.webp)
 
+### MINI Apps tab 
+
+On the **MINI Apps** tab in the LINE app, users can access LINE MINI Apps from their history or favorites. The tab also features recommended and popular LINE MINI Apps.
+
+The MINI Apps tab is only available to users in Japan.
+
+![](https://developers.line.biz/media/line-mini-app/mini-access-mini-apps-tab-en.webp)
+
 ### Home Tab 
 
-<!-- note start -->
-
-**The feature to pin LINE MINI Apps to the Home tab in LINE has been discontinued**
-
-For more information, see the news from January 9, 2024, [Users can now access recently used LINE MINI Apps from the LINE Home tab](https://developers.line.biz/en/news/2024/01/09/line-mini-app-history/).
-
-<!-- note end -->
-
-Users can access recently used LINE MINI Apps from **Services** on the **Home** tab of LINE. The **Services** section displays up to 8 recently used LINE MINI Apps in the order of their last use. This feature is only available for verified MINI Apps.
+Users can access recently used LINE MINI Apps from **Recently used** on the **Home** tab in the LINE app. The **Recently used** section displays up to 3 recently used LINE MINI Apps in the order of their last use. This feature is only available for verified MINI Apps.
 
 The Home tab display policy varies by region to provide the service.
 
@@ -106,7 +106,7 @@ The Home tab display policy varies by region to provide the service.
 
 You can also access LINE MINI Apps from the LINE search feature. This feature is only available for verified MINI Apps.
 
-![Access from search](https://developers.line.biz/media/line-mini-app/mini_access_search.png)
+![Access from search](https://developers.line.biz/media/line-mini-app/mini-access-search-en.webp)
 
 ### LINE Message 
 

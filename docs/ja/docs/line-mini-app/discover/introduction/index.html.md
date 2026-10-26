@@ -86,17 +86,17 @@ LINE公式アカウントからもLINEミニアプリにアクセスできます
 
 ![LINE公式アカウントでLINEミニアプリのプロモーションができる](https://developers.line.biz/media/line-mini-app/mini_with_oa.webp)
 
+### ミニアプリタブ 
+
+LINEアプリの［**ミニアプリ**］タブでは、履歴やお気に入りからLINEミニアプリにアクセスできます。また、おすすめのLINEミニアプリや人気のLINEミニアプリも紹介しています。
+
+なお、ミニアプリタブは日本のユーザーのみ利用できます。
+
+![](https://developers.line.biz/media/line-mini-app/mini-access-mini-apps-tab-ja.webp)
+
 ### ホームタブ 
 
-<!-- note start -->
-
-**LINEミニアプリをLINEのホームタブに固定する機能は廃止されました**
-
-詳しくは、2024年1月9日のニュース、「[最近利用したLINEミニアプリにLINEのホームタブからアクセスできるようになりました](https://developers.line.biz/ja/news/2024/01/09/line-mini-app-history/)」を参照してください。
-
-<!-- note end -->
-
-LINEの［**ホーム**］タブの［**サービス**］から、最近利用したLINEミニアプリにアクセスできます。［**サービス**］には、最近利用したLINEミニアプリが、利用履歴の新しい順に最大で8件まで表示されます。この機能は、認証済ミニアプリでのみ利用できます。
+LINEアプリの［**ホーム**］タブの［**最近の履歴**］から、最近利用したLINEミニアプリにアクセスできます。［**最近の履歴**］には、最近利用したLINEミニアプリが、利用履歴の新しい順に最大で3件まで表示されます。この機能は、認証済ミニアプリでのみ利用できます。
 
 ホームタブの表示ポリシーは、サービスを提供する地域によって異なります。
 
@@ -106,7 +106,7 @@ LINEの［**ホーム**］タブの［**サービス**］から、最近利用�
 
 LINEの検索機能からも、LINEミニアプリにアクセスできます。この機能は、認証済ミニアプリでのみ利用できます。
 
-![検索機能からアクセス](https://developers.line.biz/media/line-mini-app/mini_access_search.png)
+![検索機能からアクセス](https://developers.line.biz/media/line-mini-app/mini-access-search-ja.webp)
 
 ### LINEメッセージ 
 
