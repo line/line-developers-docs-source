@@ -24916,7 +24916,7 @@ uri
 
 String
 
-URI opened when the action is performed (Max character limit: 1000)\
+URI opened when the action is performed (Max character limit: 10,000)\
 The available schemes are `http`, `https`, `line`, and `tel`. For more information about the LINE URL scheme, see [Use LINE features with the LINE URL scheme](https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/).
 
 The URI should be percent-encoded using UTF-8. For more information, see [About the encoding of a URL specified in a request body property](https://developers.line.biz/en/reference/messaging-api/#url-encoding).
@@ -24928,7 +24928,7 @@ altUri.desktop
 
 String
 
-URI opened on LINE for macOS and Windows when the action is performed (Max character limit: 1000)\
+URI opened on LINE for macOS and Windows when the action is performed (Max character limit: 10,000)\
 If the `altUri.desktop` property is set, the `uri` property is ignored on LINE for macOS and Windows.\
 The available schemes are `http`, `https`, `line`, and `tel`. For more information about the LINE URL scheme, see [Use LINE features with the LINE URL scheme](https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/).
 

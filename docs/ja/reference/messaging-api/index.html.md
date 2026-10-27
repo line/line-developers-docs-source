@@ -24916,7 +24916,7 @@ uri
 
 String
 
-アクションの実行時に開かれるURI（最大文字数：1000）\
+アクションの実行時に開かれるURI（最大文字数：10,000）\
 使用できるスキームは、`http`、`https`、`line`、および`tel`です。LINE URLスキームについて詳しくは、「[LINE URLスキームでLINEの機能を使う](https://developers.line.biz/ja/docs/messaging-api/using-line-url-scheme/)」を参照してください。
 
 URIはUTF-8を用いてパーセントエンコードしてください。詳しくは、「[リクエストボディのプロパティに指定するURLのエンコードについて](https://developers.line.biz/ja/reference/messaging-api/#url-encoding)」を参照してください。
@@ -24928,7 +24928,7 @@ altUri.desktop
 
 String
 
-macOS版とWindows版のLINEでアクションを実行したときに開かれるURI（最大文字数：1000）\
+macOS版とWindows版のLINEでアクションを実行したときに開かれるURI（最大文字数：10,000）\
 `altUri.desktop`を指定した場合は、macOS版とWindows版のLINEでは`uri`が無視されます。\
 使用できるスキームは、`http`、`https`、`line`、および`tel`です。LINE URLスキームについて詳しくは、「[LINE URLスキームでLINEの機能を使う](https://developers.line.biz/ja/docs/messaging-api/using-line-url-scheme/)」を参照してください。
 
