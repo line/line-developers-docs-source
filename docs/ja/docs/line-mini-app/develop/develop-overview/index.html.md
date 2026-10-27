@@ -154,13 +154,13 @@ LIFFアプリ、およびステータスが「反映済み」のLINEミニアプ
 
 <!-- tip start -->
 
-**条件を満たしているのにベーシック認証が利用できない**
+**条件を満たしているのにベーシック認証が利用できないときは**
 
 LIFF間遷移後のLINEミニアプリではベーシック認証は利用できません。LIFF間遷移について詳しくは、『LIFFドキュメント』の「[LIFFアプリから別のLIFFアプリを開いた場合の動作について（LIFF間遷移）](https://developers.line.biz/ja/docs/liff/opening-liff-app/#move-liff-to-liff)」を参照してください。
 
 <!-- tip end -->
 
-LIFFブラウザのベーシック認証に関する仕様については、『LIFFドキュメント』の[LIFFブラウザの仕様](https://developers.line.biz/ja/docs/liff/overview/#liff-browser-spec)を参照してください。
+なお、LIFFブラウザは各OSが提供するWebViewを利用しているため、ベーシック認証の挙動についてもiOSの[WKWebView](https://developer.apple.com/documentation/webkit/wkwebview)およびAndroidの[Android WebView](https://developer.android.com/reference/android/webkit/WebView)の仕様に依存します。
 
 ### ベーシック認証を利用する際の注意 
 

@@ -160,7 +160,7 @@ Basic authentication isn't available in a LINE MINI App after a LIFF-to-LIFF tra
 
 <!-- tip end -->
 
-For more information about basic authentication specifications on LIFF browser, see [LIFF browser specifications](https://developers.line.biz/en/docs/liff/overview/#liff-browser-spec) in the LIFF documentation.
+The LIFF browser uses the WebView provided by each OS. Therefore, the behavior of basic authentication depends on the specifications of [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) for iOS and [Android WebView](https://developer.android.com/reference/android/webkit/WebView) for Android.
 
 ### Notes on using basic authentication 
 

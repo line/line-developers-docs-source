@@ -48,6 +48,13 @@ LINEログインAPIで管理するアクセストークンは、LINEプラット
 
 レスポンスに含まれるアクセストークンとリフレッシュトークンは、LINEログインAPIを呼び出す際に必要です。
 
+このエンドポイントを使用するには、以下のいずれかの方法でクライアントを認証する必要があります。
+
+| 認証方法 | 概要 |
+| --- | --- |
+| ヘッダーによる認証 | `Authorization`ヘッダーに、`Basic {client_id:client_secretをBase64エンコードした文字列}`を指定する |
+| リクエストボディによる認証 | リクエストボディのパラメータに`client_id`と`client_secret`を指定する |
+
 <!-- note start -->
 
 **注意**
@@ -57,7 +64,23 @@ LINEログインAPIで管理するアクセストークンは、LINEプラット
 
 <!-- note end -->
 
-_リクエストの例_
+_リクエストの例（ヘッダーによる認証）_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/token \
+-H 'Authorization: Basic {client_id:client_secretをBase64エンコードした文字列}' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=authorization_code' \
+-d 'code=1234567890abcde' \
+--data-urlencode 'redirect_uri=https://example.com/auth?key=value' \
+-d 'code_verifier=wJKN8qz5t8SSI9lMFhBB6qwNkQBkuPZoCxzRhwLRUo1'
+```
+
+<!-- tab end -->
+
+_リクエストの例（リクエストボディによる認証）_
 
 <!-- tab start `shell` -->
 
@@ -81,6 +104,15 @@ curl -v -X POST https://api.line.me/oauth2/v2.1/token \
 Content-Type
 
 application/x-www-form-urlencoded
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="説明を参照") -->
+
+Authorization
+
+Basic `{client_id:client_secretをBase64エンコードした文字列}`
+
+ヘッダーによる認証を行う場合は必須です。
 
 <!-- parameter end -->
 
@@ -113,7 +145,7 @@ String
 [認可リクエスト](https://developers.line.biz/ja/docs/line-login/integrate-line-login/#making-an-authorization-request)時に指定した`redirect_uri`と同じ値
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="説明を参照") -->
 
 client_id
 
@@ -121,14 +153,18 @@ String
 
 チャネルID。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
 
+リクエストボディによる認証を行う場合は必須です。
+
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="説明を参照") -->
 
 client_secret
 
 String
 
 チャネルシークレット。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
+
+リクエストボディによる認証を行う場合は必須です。
 
 <!-- parameter end -->
 <!-- parameter start (props: optional) -->
@@ -348,6 +384,13 @@ _エラーレスポンスの例_
 
 ユーザーの認証が終わったときに、アクセストークンと共にリフレッシュトークンが返されます。
 
+このエンドポイントを使用するには、以下のいずれかの方法でクライアントを認証する必要があります。
+
+| 認証方法 | 概要 |
+| --- | --- |
+| ヘッダーによる認証 | `Authorization`ヘッダーに、`Basic {client_id:client_secretをBase64エンコードした文字列}`を指定する |
+| リクエストボディによる認証 | リクエストボディのパラメータに`client_id`と`client_secret`を指定する。`client_secret`の要否はアプリタイプによって異なるため、詳細は「[リクエストボディ](https://developers.line.biz/ja/reference/line-login/#refresh-token-request-body)」を参照してください。 |
+
 <!-- note start -->
 
 **注意**
@@ -357,7 +400,20 @@ _エラーレスポンスの例_
 
 <!-- note end -->
 
-_リクエストの例_
+_リクエストの例（ヘッダーによる認証）_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/token \
+-H 'Authorization: Basic {client_id:client_secretをBase64エンコードした文字列}' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=refresh_token&refresh_token={your_refresh_token}'
+```
+
+<!-- tab end -->
+
+_リクエストの例（リクエストボディによる認証）_
 
 <!-- tab start `shell` -->
 
@@ -382,6 +438,15 @@ Content-Type
 application/x-www-form-urlencoded
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="説明を参照") -->
+
+Authorization
+
+Basic `{client_id:client_secretをBase64エンコードした文字列}`
+
+ヘッダーによる認証を行う場合は必須です。
+
+<!-- parameter end -->
 
 #### リクエストボディ 
 
@@ -403,13 +468,15 @@ String
 再発行するアクセストークンに対応するリフレッシュトークン。アクセストークンが発行されてから最長90日間有効です。リフレッシュトークンの有効期限が切れた場合は、ユーザーに再度ログインを要求して新しいアクセストークンを生成する必要があります。
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="説明を参照") -->
 
 client_id
 
 String
 
 チャネルID。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
+
+リクエストボディによる認証を行う場合は必須です。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="説明を参照") -->
@@ -420,7 +487,7 @@ String
 
 チャネルシークレット。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
 
-- アプリタイプが［**ウェブアプリ**］のみのチャネルでは必須です。
+- アプリタイプが［**ウェブアプリ**］のみのチャネルで、リクエストボディによる認証を行う場合は必須です。
 - アプリタイプが［**ネイティブアプリ**］かつ［**ウェブアプリ**］のチャネルでは無視されます。
 - アプリタイプが［**ネイティブアプリ**］のみのチャネルでは無視されます。
 
@@ -515,6 +582,13 @@ _エラーレスポンスの例_
 
 ユーザーのアクセストークンを無効にします。
 
+このエンドポイントを使用するには、以下のいずれかの方法でクライアントを認証する必要があります。
+
+| 認証方法 | 概要 |
+| --- | --- |
+| ヘッダーによる認証 | `Authorization`ヘッダーに、`Basic {client_id:client_secretをBase64エンコードした文字列}`を指定する |
+| リクエストボディによる認証 | リクエストボディのパラメータに`client_id`と`client_secret`を指定する。`client_secret`の要否はアプリタイプによって異なるため、詳細は「[リクエストボディ](https://developers.line.biz/ja/reference/line-login/#revoke-token-request-body)」を参照してください。 |
+
 <!-- note start -->
 
 **注意**
@@ -524,7 +598,20 @@ _エラーレスポンスの例_
 
 <!-- note end -->
 
-_リクエストの例_
+_リクエストの例（ヘッダーによる認証）_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/revoke \
+-H "Authorization: Basic {client_id:client_secretをBase64エンコードした文字列}" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-d "access_token={access token}"
+```
+
+<!-- tab end -->
+
+_リクエストの例（リクエストボディによる認証）_
 
 <!-- tab start `shell` -->
 
@@ -549,6 +636,15 @@ Content-Type
 application/x-www-form-urlencoded
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="説明を参照") -->
+
+Authorization
+
+Basic `{client_id:client_secretをBase64エンコードした文字列}`
+
+ヘッダーによる認証を行う場合は必須です。
+
+<!-- parameter end -->
 
 #### リクエストボディ 
 
@@ -561,13 +657,15 @@ String
 アクセストークン
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="説明を参照") -->
 
 client_id
 
 String
 
 チャネルID。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
+
+リクエストボディによる認証を行う場合は必須です。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="説明を参照") -->
@@ -578,7 +676,7 @@ String
 
 チャネルシークレット。[LINE Developersコンソール](https://developers.line.biz/console/)で確認できます。
 
-- アプリタイプが［**ウェブアプリ**］のみのチャネルでは必須です。
+- アプリタイプが［**ウェブアプリ**］のみのチャネルで、リクエストボディによる認証を行う場合は必須です。
 - アプリタイプが［**ネイティブアプリ**］かつ［**ウェブアプリ**］のチャネルでは無視されます。
 - アプリタイプが［**ネイティブアプリ**］のみのチャネルでは無視されます。
 

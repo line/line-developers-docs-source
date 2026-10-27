@@ -48,6 +48,13 @@ The access tokens managed through the LINE Login API attest that an app has been
 
 LINE Login API calls require you to provide an access token or refresh token that was sent in an earlier response.
 
+To use this endpoint, you must authenticate the client using one of the following methods:
+
+| Authentication method | Description |
+| --- | --- |
+| Authenticate by the header | Specify `Basic {A Base64-encoded string of client_id:client_secret}` in the `Authorization` header. |
+| Authenticate by the request body | Specify `client_id` and `client_secret` as parameters in the request body. |
+
 <!-- note start -->
 
 **Note**
@@ -57,7 +64,23 @@ LINE Login API calls require you to provide an access token or refresh token tha
 
 <!-- note end -->
 
-_Example request_
+_Example request (Authenticate by the header)_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/token \
+-H 'Authorization: Basic {A Base64-encoded string of client_id:client_secret}' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=authorization_code' \
+-d 'code=1234567890abcde' \
+--data-urlencode 'redirect_uri=https://example.com/auth?key=value' \
+-d 'code_verifier=wJKN8qz5t8SSI9lMFhBB6qwNkQBkuPZoCxzRhwLRUo1'
+```
+
+<!-- tab end -->
+
+_Example request (Authenticate by the request body)_
 
 <!-- tab start `shell` -->
 
@@ -81,6 +104,15 @@ curl -v -X POST https://api.line.me/oauth2/v2.1/token \
 Content-Type
 
 application/x-www-form-urlencoded
+
+<!-- parameter end -->
+<!-- parameter start (props: annotation="See description") -->
+
+Authorization
+
+Basic `{A Base64-encoded string of client_id:client_secret}`
+
+Required when authenticating by the header.
 
 <!-- parameter end -->
 
@@ -113,7 +145,7 @@ String
 Same value as `redirect_uri` specified in the [authorization request](https://developers.line.biz/en/docs/line-login/integrate-line-login/#making-an-authorization-request).
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="See description") -->
 
 client_id
 
@@ -121,14 +153,18 @@ String
 
 Channel ID. Found in the [LINE Developers Console](https://developers.line.biz/console/).
 
+Required when authenticating by the request body.
+
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="See description") -->
 
 client_secret
 
 String
 
 Channel secret. Found in the [LINE Developers Console](https://developers.line.biz/console/).
+
+Required when authenticating by the request body.
 
 <!-- parameter end -->
 <!-- parameter start (props: optional) -->
@@ -348,6 +384,13 @@ Gets a new access token using a refresh token.
 
 A refresh token is returned along with an access token once user authentication is complete.
 
+To use this endpoint, you must authenticate the client using one of the following methods:
+
+| Authentication method | Description |
+| --- | --- |
+| Authenticate by the header | Specify `Basic {A Base64-encoded string of client_id:client_secret}` in the `Authorization` header. |
+| Authenticate by the request body | Specify `client_id` and `client_secret` as parameters in the request body. Whether `client_secret` is required depends on the app type. For more information, see [Request body](https://developers.line.biz/en/reference/line-login/#refresh-token-request-body). |
+
 <!-- note start -->
 
 **Note**
@@ -357,7 +400,20 @@ A refresh token is returned along with an access token once user authentication 
 
 <!-- note end -->
 
-_Example request_
+_Example request (Authenticate by the header)_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/token \
+-H 'Authorization: Basic {A Base64-encoded string of client_id:client_secret}' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=refresh_token&refresh_token={your_refresh_token}'
+```
+
+<!-- tab end -->
+
+_Example request (Authenticate by the request body)_
 
 <!-- tab start `shell` -->
 
@@ -382,6 +438,15 @@ Content-Type
 application/x-www-form-urlencoded
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="See description") -->
+
+Authorization
+
+Basic `{A Base64-encoded string of client_id:client_secret}`
+
+Required when authenticating by the header.
+
+<!-- parameter end -->
 
 #### Request body 
 
@@ -403,13 +468,15 @@ String
 The refresh token corresponding to the access token to be reissued. Valid for up to 90 days after the access token was issued. If the refresh token expires, you must prompt the user to log in again to generate a new access token.
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="See description") -->
 
 client_id
 
 String
 
 Channel ID. Found in the [LINE Developers Console](https://developers.line.biz/console/).
+
+Required when authenticating by the request body.
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="See description") -->
@@ -420,7 +487,7 @@ String
 
 Channel secret. Found in the [LINE Developers Console](https://developers.line.biz/console/).
 
-- Required for channels whose **App types** is only **Web app**.
+- Required when authenticating by the request body for channels whose **App types** is only **Web app**.
 - Ignored for channels whose **App types** is **Mobile app** and **Web app**.
 - Ignored for channels whose **App types** is only **Mobile app**.
 
@@ -515,6 +582,13 @@ _Example error response_
 
 Invalidates a user's access token.
 
+To use this endpoint, you must authenticate the client using one of the following methods:
+
+| Authentication method | Description |
+| --- | --- |
+| Authenticate by the header | Specify `Basic {A Base64-encoded string of client_id:client_secret}` in the `Authorization` header. |
+| Authenticate by the request body | Specify `client_id` and `client_secret` as parameters in the request body. Whether `client_secret` is required depends on the app type. For more information, see [Request body](https://developers.line.biz/en/reference/line-login/#revoke-token-request-body). |
+
 <!-- note start -->
 
 **Note**
@@ -524,7 +598,20 @@ Invalidates a user's access token.
 
 <!-- note end -->
 
-_Example request_
+_Example request (Authenticate by the header)_
+
+<!-- tab start `shell` -->
+
+```sh
+curl -v -X POST https://api.line.me/oauth2/v2.1/revoke \
+-H "Authorization: Basic {A Base64-encoded string of client_id:client_secret}" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-d "access_token={access token}"
+```
+
+<!-- tab end -->
+
+_Example request (Authenticate by the request body)_
 
 <!-- tab start `shell` -->
 
@@ -549,6 +636,15 @@ Content-Type
 application/x-www-form-urlencoded
 
 <!-- parameter end -->
+<!-- parameter start (props: annotation="See description") -->
+
+Authorization
+
+Basic `{A Base64-encoded string of client_id:client_secret}`
+
+Required when authenticating by the header.
+
+<!-- parameter end -->
 
 #### Request body 
 
@@ -561,13 +657,15 @@ String
 Access token
 
 <!-- parameter end -->
-<!-- parameter start (props: required) -->
+<!-- parameter start (props: annotation="See description") -->
 
 client_id
 
 String
 
 Channel ID. Found in the [LINE Developers Console](https://developers.line.biz/console/).
+
+Required when authenticating by the request body.
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="See description") -->
@@ -578,7 +676,7 @@ String
 
 Channel secret. Found in the [LINE Developers Console](https://developers.line.biz/console/).
 
-- Required for channels whose **App types** is only **Web app**.
+- Required when authenticating by the request body for channels whose **App types** is only **Web app**.
 - Ignored for channels whose **App types** is **Mobile app** and **Web app**.
 - Ignored for channels whose **App types** is only **Mobile app**.
 
