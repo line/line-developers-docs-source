@@ -64,10 +64,6 @@ If you've restricted access to your LINE MINI App, which is the subject of the r
 
 For services that include actions such as reservations, payments, and orders, when submitting an application for review, you must enter test scenarios (accounts, products, stores, etc.) in **Reference materials for the review**.
 
-#### If your LINE MINI App is a game 
-
-If the LINE MINI App you're submitting for review is a game, you must attach materials describing the game in **Reference materials for the review**. In principle, download the [Game review declaration form](https://workers-hub.ent.box.com/s/fqd8gfw2kwadj0yuvgxg965qc252xawn/file/2373127350923) (only available in Japanese), fill in the required information, and attach the completed form as the explanatory material.
-
 #### Channel description 
 
 The review by LY Corporation will be based on the information provided in the **Channel description** on the **Basic settings** tab in the [LINE Developers Console](https://developers.line.biz/console/). For this reason, refer to the following example to provide the correct service details:
@@ -90,6 +86,10 @@ Once your application for in-app purchase has been approved, turn on the **Apply
 While your in-app purchase application is under review, you can't submit an application for verification review.
 
 Also, during the verification review, you can't apply to use the in-app purchase feature.
+
+##### If your LINE MINI App is a game that uses in-app purchase 
+
+If the LINE MINI App you're submitting for review is a game that uses in-app purchase, you must attach the required declaration materials to the **Reference materials for the review**. As a general rule, download the "[declaration form for games using in-app purchase](https://workers-hub.ent.box.com/s/fqd8gfw2kwadj0yuvgxg965qc252xawn/file/2373127350923)" (only available in Japanese), fill in the required information, and attach the completed form.
 
 ##### Apply for the Mini Apps Partner Program 
 
