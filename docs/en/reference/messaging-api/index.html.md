@@ -24938,7 +24938,7 @@ The URI should be percent-encoded using UTF-8. For more information, see [About 
 
 **Note**
 
-The `altUri.desktop` is supported when you set URI actions in Flex Messages, but it doesn't work in quick reply.
+The `altUri.desktop` property is supported when you set URI actions in Flex Messages, but it doesn't work in quick reply.
 
 <!-- note end -->
 
