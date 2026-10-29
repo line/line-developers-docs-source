@@ -2,6 +2,14 @@
 
 リッチメニュープレイグラウンドは、リッチメニューの機能を試すことができるLINE公式アカウントです。本アカウントは、日本語のみに対応しています。[日時選択アクション](https://developers.line.biz/ja/reference/messaging-api/#datetime-picker-action)による日付選択、[リッチメニューエイリアス](https://developers.line.biz/ja/docs/messaging-api/switch-rich-menus/)によるリッチメニューの切り替えなど、リッチメニューのさまざまな機能を試すことができます。
 
+<!-- note start -->
+
+**リッチメニュープレイグラウンドは現在利用できません**
+
+2026年10月29日より、リッチメニュープレイグラウンドはサービスを一時的に停止しております。そのため、「[リッチメニュープレイグラウンドで試せるアクション](https://developers.line.biz/ja/docs/messaging-api/try-rich-menu/#actions-you-can-try-out-on-the-richmenu-playground)」で紹介しているアクションを試せません。ご迷惑をお掛けしますが、再開までしばらくお待ちください。
+
+<!-- note end -->
+
 ![リッチメニュープレイグラウンドメイン画面](https://developers.line.biz/media/messaging-api/rich-menu-playground/richmenu-playground-bot-overview.webp)
 
 ## リッチメニュープレイグラウンドを友だちとして追加する 
