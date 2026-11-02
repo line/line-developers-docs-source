@@ -2,6 +2,14 @@
 
 Notice for corporate customers. See also the [News](https://developers.line.biz/en/news/).
 
+2026/11/02
+
+## We stopped accepting new applications for the Mark as read API (old) on October 31, 2026 
+
+As announced on [May 18, 2026](https://developers.line.biz/en/docs/partner-docs/notice/#partner-news-20260518), we stopped accepting new applications for the [Mark as read API (old)](https://developers.line.biz/en/docs/partner-docs/mark-as-read/) on October 31, 2026. LINE Official Accounts currently using the Mark as read API (old) can continue to use it.
+
+The Mark as read API (old) may be [deprecated](https://developers.line.biz/en/glossary/#deprecated) in the future. If you're implementing functionality to mark messages from users as read going forward, use the Messaging API's [Mark messages as read](https://developers.line.biz/en/reference/messaging-api/#mark-as-read) endpoint. If you're already using the Mark as read API (old), also consider migrating to the same endpoint. The "Mark messages as read" endpoint requires no application and can be used in conjunction with the chat feature.
+
 2026/09/16
 
 ## You can now get statistics per unit for LINE notification messages 

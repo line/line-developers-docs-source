@@ -2,6 +2,14 @@
 
 法人ユーザー向けのお知らせです。[ニュース](https://developers.line.biz/ja/news/)もあわせてご参照ください。
 
+2026/11/02
+
+## 2026年10月31日をもって、既読API（旧）の新規利用申請の受付を終了しました 
+
+[2026年5月18日](https://developers.line.biz/ja/docs/partner-docs/notice/#partner-news-20260518)にお知らせしたとおり、2026年10月31日をもって、[既読API（旧）](https://developers.line.biz/ja/docs/partner-docs/mark-as-read/)の新規利用申請の受付を終了しました。既読API（旧）を利用中のLINE公式アカウントでは、引き続き既読API（旧）を利用できます。
+
+なお、既読API（旧）は、今後[非推奨](https://developers.line.biz/ja/glossary/#deprecated)となる可能性があります。ユーザーからのメッセージに既読をつける処理をこれから実装する場合は、Messaging APIの「[メッセージに既読をつける](https://developers.line.biz/ja/reference/messaging-api/#mark-as-read)」エンドポイントを使用してください。また、すでに既読API（旧）を利用している場合は、同エンドポイントへの移行を検討してください。「メッセージに既読をつける」エンドポイントは申請なしに使用でき、チャット機能との併用も可能です。
+
 2026/09/16
 
 ## LINE通知メッセージの統計情報をユニットごとに取得できるようになりました 
