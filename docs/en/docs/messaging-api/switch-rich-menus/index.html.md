@@ -231,7 +231,7 @@ You can [change the aliases](https://developers.line.biz/en/reference/messaging-
 
 ## 9. Stop displaying rich menu 
 
-Suppose we want to stop displaying the rich menu. With the Messaging API, withdraw the rich menu in this order:
+Suppose we want to stop displaying the rich menu. With the Messaging API, withdraw the rich menu in this order. For more information, see [Stop displaying rich menus](https://developers.line.biz/en/docs/messaging-api/stop-displaying-rich-menu/).
 
 1. [Clear the default menu setting of the rich menu](https://developers.line.biz/en/reference/messaging-api/#clear-default-rich-menu).
 1. [Delete the rich menu aliases](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu-alias).

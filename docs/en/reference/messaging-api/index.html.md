@@ -19695,6 +19695,16 @@ Operation to the rich menu linked to the user. One of:
 
 If you specify `unlinkAll`, `type` other than `unlinkAll` can't be included in the `operations` property.
 
+<!-- note start -->
+
+**If you are using tab switching (rich menu aliases)**
+
+Even if you specify `unlink` or `unlinkAll`, it isn't always possible to unlink all users. If a user switches to another rich menu using a rich menu alias while the unlinking process is in progress, the link to the rich menu may remain without being unlinked.
+
+To unlink the links that remained without being unlinked due to tab switching, wait for a while and re-execute the unlinking process. For more information, see [If you are using tab switching (rich menu aliases)](https://developers.line.biz/en/docs/messaging-api/stop-displaying-rich-menu/#if-you-are-using-tab-switching) in the Messaging API documentation.
+
+<!-- note end -->
+
 <!-- parameter end -->
 <!-- parameter start (props: annotation="Required if type is link or unlink") -->
 

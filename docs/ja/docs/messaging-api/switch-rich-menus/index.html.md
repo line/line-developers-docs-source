@@ -231,7 +231,7 @@ curl -v -X POST https://api.line.me/v2/bot/richmenu/alias \
 
 ## 9. リッチメニューの表示を終了する 
 
-リッチメニューの表示を終了したい場合は、Messaging APIで以下の手順で実施します。
+リッチメニューの表示を終了したい場合は、Messaging APIで以下の手順で実施します。詳しくは、「[リッチメニューの表示を終了する](https://developers.line.biz/ja/docs/messaging-api/stop-displaying-rich-menu/)」を参照してください。
 
 1. [デフォルトのリッチメニューを解除する](https://developers.line.biz/ja/reference/messaging-api/#clear-default-rich-menu)
 1. [リッチメニューエイリアスを削除する](https://developers.line.biz/ja/reference/messaging-api/#delete-rich-menu-alias)

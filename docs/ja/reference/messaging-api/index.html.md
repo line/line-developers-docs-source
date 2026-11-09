@@ -19696,6 +19696,16 @@ String
 
 `unlinkAll`を指定した場合、`unlinkAll`以外の`type`を`operations`プロパティに含めることはできません。
 
+<!-- note start -->
+
+**タブ切り替え（リッチメニューエイリアス）を利用している場合**
+
+`unlink`および`unlinkAll`を指定した場合でも、すべてのユーザーとのリンクを必ず解除できるとは限りません。リンク解除の処理中にユーザーがリッチメニューエイリアスで別のリッチメニューに切り替えた場合、リッチメニューとのリンクが解除されずに残ってしまうことがあります。
+
+タブ切り替えにより解除されず残ってしまったリンクを解除するためには、時間をおいてリンクの解除を再実行してください。詳しくは、『Messaging APIドキュメント』の「[タブ切り替え（リッチメニューエイリアス）を利用している場合](https://developers.line.biz/ja/docs/messaging-api/stop-displaying-rich-menu/#if-you-are-using-tab-switching)」を参照してください。
+
+<!-- note end -->
+
 <!-- parameter end -->
 <!-- parameter start (props: annotation="typeがlinkまたはunlinkの場合必須") -->
 
