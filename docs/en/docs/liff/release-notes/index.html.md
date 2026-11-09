@@ -18,13 +18,75 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 
-[LIFF v2.31.2: October 7, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-31-2)
+[LIFF v2.32.0: November 9, 2026](https://developers.line.biz/en/docs/liff/release-notes/#liff-v2-32-0)
 
 ### Version list 
 
-When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js`), you can use the features of the specified LIFF version.
+When you use the CDN fixed path (e.g. `https://static.line-scdn.net/liff/edge/versions/2.32.0/sdk.js`), you can use the features of the specified LIFF version.
 
 <!-- table of contents -->
+
+2026/11/09
+
+## LIFF v2.32.0 released 
+
+We've released LIFF v2.32.0.
+
+In LIFF v2.32.0, we've made the following change.
+
+### We've resumed the feature to switch the LINE Official Account displayed on the channel consent screen in LINE MINI Apps 
+
+We've resumed the feature to [switch the LINE Official Account displayed on the channel consent screen](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/#channel-consent-screen) for the [add friend option](https://developers.line.biz/en/docs/line-mini-app/service/add-friend-option/) in LINE MINI Apps.
+
+As part of resuming this feature, we've changed its requirements and how to specify which LINE Official Account to display on the channel consent screen.
+
+For more information, see the news from November 9, 2026, [For the add friend option in LINE MINI Apps, we've resumed the feature to switch the LINE Official Account displayed on the channel consent screen](https://developers.line.biz/en/news/2026/11/09/add-friend-option/).
+
+### How to update to LIFF v2.32.0 
+
+<!-- warning start -->
+
+**Update to LIFF v2.31.1 or later immediately**
+
+A cross-site scripting (XSS) vulnerability was identified in LIFF v2.20.0 - v2.31.0. To ensure user safety, we plan to restrict the use of older versions of the LIFF SDK (v2.20.0 - v2.31.0) around November 24, 2026. If you're using an affected version, update to LIFF v2.31.1 or later immediately. For more information, see the news from October 20, 2026, [Overview of the LIFF SDK vulnerability in LIFF/LINE MINI App and restrictions on using older versions](https://developers.line.biz/en/news/2026/10/20/liff-sdk-issue/).
+
+<!-- warning end -->
+
+The required action depends on how you've integrated the LIFF SDK.
+
+- [If you're using the CDN edge path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-edge-path-20261109)
+- [If you're using a CDN fixed path](https://developers.line.biz/en/docs/liff/release-notes/#cdn-fixed-path-20261109)
+- [If you're using the npm package](https://developers.line.biz/en/docs/liff/release-notes/#npm-package-20261109)
+
+#### If you're using the CDN edge path 
+
+If you're using the CDN edge path, it has been automatically updated to v2.32.0. No additional action is required.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+```
+
+#### If you're using a CDN fixed path 
+
+If you're using a CDN fixed path, change the version you load to v2.32.0.
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.32.0/sdk.js"></script>
+```
+
+#### If you're using the npm package 
+
+If you're using the npm package, update `@line/liff` to v2.32.0.
+
+```sh
+# For npm
+npm install @line/liff@2.32.0
+
+# For yarn
+yarn add @line/liff@2.32.0
+```
+
+For more information on integrating the LIFF SDK, see [Integrating the LIFF SDK with the LIFF app](https://developers.line.biz/en/docs/liff/developing-liff-apps/#integrating-sdk) in the LIFF documentation.
 
 2026/10/07
 

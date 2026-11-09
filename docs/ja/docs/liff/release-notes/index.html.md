@@ -18,13 +18,75 @@ LIFFでは、CDN固定パスとCDNエッジパスの2種類のCDNパスを用意
 
 CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使用する場合は、常にLIFF v2の最新機能を利用できます。
 
-[LIFF v2.31.2：2026年10月7日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-31-2)
+[LIFF v2.32.0：2026年11月9日](https://developers.line.biz/ja/docs/liff/release-notes/#liff-v2-32-0)
 
 ### バージョンリスト 
 
-CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.31.2/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
+CDN固定パス（例：`https://static.line-scdn.net/liff/edge/versions/2.32.0/sdk.js`）を使用する場合は、LIFFの特定のバージョンの機能を利用できます。
 
 <!-- table of contents -->
+
+2026/11/09
+
+## LIFF v2.32.0をリリースしました 
+
+LIFF v2.32.0をリリースしました。
+
+LIFF v2.32.0では、以下の変更を行いました。
+
+### LINEミニアプリで「チャネル同意画面のLINE公式アカウントを切り替える」機能の提供を再開しました 
+
+LINEミニアプリの[友だち追加オプション](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/)において、「[チャネル同意画面に表示するLINE公式アカウントを切り替える](https://developers.line.biz/ja/docs/line-mini-app/service/add-friend-option/#channel-consent-screen)」機能の提供を再開しました。
+
+提供の再開にあたり、本機能の利用条件と、チャネル同意画面に表示するLINE公式アカウントの指定方法を変更しました。
+
+詳しくは、2026年11月9日のニュース、「[LINEミニアプリの友だち追加オプションにおいて、「チャネル同意画面に表示するLINE公式アカウントを切り替える」機能の提供を再開しました](https://developers.line.biz/ja/news/2026/11/09/add-friend-option/)」を参照してください。
+
+### LIFF v2.32.0へのアップデート方法 
+
+<!-- warning start -->
+
+**速やかにLIFF v2.31.1以降にアップデートしてください**
+
+LIFF v2.20.0 〜 v2.31.0で、クロスサイトスクリプティング（XSS）の脆弱性が確認されています。ユーザーの安全を確保するため、2026年11月24日頃にLIFF SDKの旧バージョン（v2.20.0 〜 v2.31.0）の利用制限を実施する予定です。該当するバージョンを利用している場合は、速やかにLIFF v2.31.1以降にアップデートしてください。詳しくは、2026年10月20日のニュース、「[LIFF/LINEミニアプリにおけるLIFF SDKの脆弱性の概要および旧バージョンの利用制限について](https://developers.line.biz/ja/news/2026/10/20/liff-sdk-issue/)」を参照してください。
+
+<!-- warning end -->
+
+LIFF SDKの組み込み方法によって、必要な対応が異なります。
+
+- [CDNエッジパスを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#cdn-edge-path-20261109)
+- [CDN固定パスを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#cdn-fixed-path-20261109)
+- [npmパッケージを利用している場合](https://developers.line.biz/ja/docs/liff/release-notes/#npm-package-20261109)
+
+#### CDNエッジパスを利用している場合 
+
+CDNエッジパスを利用している場合は、自動でv2.32.0にアップデートされています。追加の対応は不要です。
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+```
+
+#### CDN固定パスを利用している場合 
+
+CDN固定パスを利用している場合は、読み込むバージョンをv2.32.0に変更してください。
+
+```html
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.32.0/sdk.js"></script>
+```
+
+#### npmパッケージを利用している場合 
+
+npmパッケージを利用している場合は、`@line/liff`をv2.32.0にアップデートしてください。
+
+```sh
+# npmの場合
+npm install @line/liff@2.32.0
+
+# yarnの場合
+yarn add @line/liff@2.32.0
+```
+
+LIFF SDKの組み込み方法について詳しくは、『LIFFドキュメント』の「[LIFFアプリにLIFF SDKを組み込む](https://developers.line.biz/ja/docs/liff/developing-liff-apps/#integrating-sdk)」を参照してください。
 
 2026/10/07
 

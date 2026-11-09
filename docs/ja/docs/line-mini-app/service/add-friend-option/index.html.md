@@ -144,19 +144,25 @@ try {
 
 ##### チャネル同意画面に表示するLINE公式アカウントを切り替える 
 
+チャネル同意画面に表示するLINE公式アカウントを切り替えるには、[LIFF URL](https://developers.line.biz/ja/glossary/#liff-url)または[パーマネントリンク](https://developers.line.biz/ja/glossary/#permanent-link-liff)に`liff_prompt_bot_id`クエリパラメータを付与します。この機能を利用するには、LIFF SDKがv2.32.0以上である必要があります。
+
+`liff_prompt_bot_id`クエリパラメータには、友だち追加を促すLINE公式アカウントのIDを、ベーシックIDまたは[プレミアムID](https://developers.line.biz/ja/glossary/#premium-id)で指定します。
+
+```
+https://miniapp.line.me/123456-abcedfg?liff_prompt_bot_id=@819...
+```
+
+```
+https://liff.line.me/123456-abcedfg?liff_prompt_bot_id=@819...
+```
+
 <!-- note start -->
 
-**「チャネル同意画面に表示するLINE公式アカウントを切り替える」機能は提供を一時停止しています**
+**liff_prompt_bot_idはLIFF URLまたはパーマネントリンクに付与してください**
 
-「チャネル同意画面に表示するLINE公式アカウントを切り替える」機能は、技術的な問題があり、提供を一時停止しています。詳しくは、[2026年9月15日](https://developers.line.biz/ja/news/2026/09/15/use-multiple-accounts/)のニュースを参照してください。
+`liff_prompt_bot_id`クエリパラメータはLIFF URLまたはパーマネントリンクに付与してください。エンドポイントURLに`liff_prompt_bot_id`クエリパラメータを付与した場合の動作は保証されません。
 
 <!-- note end -->
-
-チャネル同意画面に表示するLINE公式アカウントを切り替えるには、[LIFF URL](https://developers.line.biz/ja/glossary/#liff-url)または[パーマネントリンク](https://developers.line.biz/ja/glossary/#permanent-link-liff)に`prompt_bot_id`クエリパラメータを付与します。`prompt_bot_id`クエリパラメータには、友だち追加を促すLINE公式アカウントのIDを、ベーシックIDまたは[プレミアムID](https://developers.line.biz/ja/glossary/#premium-id)で指定します。
-
-```
-https://miniapp.line.me/123456-abcedfg?prompt_bot_id=@819...
-```
 
 ##### LINE公式アカウントの友だち追加、またはブロック解除を促すサブウィンドウに表示するLINE公式アカウントを切り替える 
 
