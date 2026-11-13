@@ -231,7 +231,7 @@ You can [change the aliases](https://developers.line.biz/en/reference/messaging-
 
 ## 9. Stop displaying rich menu 
 
-Suppose we want to stop displaying the rich menu. With the Messaging API, withdraw the rich menu in this order. For more information, see [Stop displaying rich menus](https://developers.line.biz/en/docs/messaging-api/stop-displaying-rich-menu/).
+If you want to stop displaying rich menu A and rich menu B configured in the previous steps, follow the steps below using the Messaging API.
 
 1. [Clear the default menu setting of the rich menu](https://developers.line.biz/en/reference/messaging-api/#clear-default-rich-menu).
 1. [Delete the rich menu aliases](https://developers.line.biz/en/reference/messaging-api/#delete-rich-menu-alias).
@@ -245,6 +245,8 @@ You can unlink a rich menu from a user who is a friend of your LINE Official Acc
 - [Unlink rich menus from multiple users](https://developers.line.biz/en/reference/messaging-api/#unlink-rich-menu-from-users)
 
 The moment you unlink a rich menu from a user, the rich menu disappears from the chat room right away.
+
+For more information on how to stop displaying a rich menu on an active LINE Official Account, see [Stop displaying rich menus](https://developers.line.biz/en/docs/messaging-api/stop-displaying-rich-menu/).
 
 ## When the intended rich menu isn't displayed 
 
