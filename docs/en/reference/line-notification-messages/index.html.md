@@ -35,16 +35,6 @@ API for sending a LINE notification message (template) by specifying the user's 
 
 For more information, see [LINE notification messages (template)](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/template/) in the LINE notification messages documentation.
 
-<!-- warning start -->
-
-**Don't restrict the request source IP addresses**
-
-When sending LINE notification messages, don't register server IP addresses that can call LINE Platform APIs in the [**Security Settings**] tab of the Messaging API channel. Sending a LINE notification message with the source IP addresses restricted may result in sending failure.
-
-For more information about how to check if you are restricting the requesting IP addresses, see [Restrict who can call the API when using a long-lived channel access token (optional)](https://developers.line.biz/en/docs/messaging-api/building-bot/#configure-security-settings) in the Messaging API documentation.
-
-<!-- warning end -->
-
 _Example request_
 
 <!-- tab start `shell` -->
@@ -561,16 +551,6 @@ Consequently, the previous "LINE notification messages" that required UX review 
 For more information, see the notice for corporate customers from June 2, 2025, [LINE notification messages (template) now available](https://developers.line.biz/en/docs/partner-docs/notice/#partner-news-20250602).
 
 <!-- tip end -->
-
-<!-- warning start -->
-
-**Don't restrict the request source IP addresses**
-
-When sending LINE notification messages, don't register server IP addresses that can call LINE Platform APIs in the [**Security Settings**] tab of the Messaging API channel. Sending a LINE notification message with the source IP addresses restricted may result in sending failure.
-
-For more information about how to check if you are restricting the requesting IP addresses, see [Restrict who can call the API when using a long-lived channel access token (optional)](https://developers.line.biz/en/docs/messaging-api/building-bot/#configure-security-settings) in the Messaging API documentation.
-
-<!-- warning end -->
 
 _Example request_
 

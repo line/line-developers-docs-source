@@ -35,16 +35,6 @@ LINE通知メッセージAPIのレスポンスには、以下のHTTPヘッダー
 
 詳しくは、『LINE通知メッセージドキュメント』の「[LINE通知メッセージ（テンプレート）](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/template/)」を参照してください。
 
-<!-- warning start -->
-
-**リクエスト元IPアドレスの制限はしないでください**
-
-LINE通知メッセージを送る場合、Messaging APIチャネルの［**セキュリティ設定**］タブで、LINEプラットフォームのAPIを呼び出せるサーバーのIPアドレスを登録しないでください。リクエスト元のIPアドレスを制限した状態でLINE通知メッセージを送ると、送信に失敗することがあります。
-
-リクエスト元のIPアドレスを制限しているか確認する方法については、『Messaging APIドキュメント』の「[長期のチャネルアクセストークン利用時にAPIの呼び出し元を制限する（任意）](https://developers.line.biz/ja/docs/messaging-api/building-bot/#configure-security-settings)」を参照してください。
-
-<!-- warning end -->
-
 _リクエストの例_
 
 <!-- tab start `shell` -->
@@ -561,16 +551,6 @@ LINE通知メッセージに、用意されたテンプレートやアイテム�
 詳しくは、2025年6月2日の『法人ユーザー向けお知らせ』、「[LINE通知メッセージ（テンプレート）の提供を開始しました](https://developers.line.biz/ja/docs/partner-docs/notice/#partner-news-20250602)」を参照してください。
 
 <!-- tip end -->
-
-<!-- warning start -->
-
-**リクエスト元IPアドレスの制限はしないでください**
-
-LINE通知メッセージを送る場合、Messaging APIチャネルの［**セキュリティ設定**］タブで、LINEプラットフォームのAPIを呼び出せるサーバーのIPアドレスを登録しないでください。リクエスト元のIPアドレスを制限した状態でLINE通知メッセージを送ると、送信に失敗することがあります。
-
-リクエスト元のIPアドレスを制限しているか確認する方法については、『Messaging APIドキュメント』の「[長期のチャネルアクセストークン利用時にAPIの呼び出し元を制限する（任意）](https://developers.line.biz/ja/docs/messaging-api/building-bot/#configure-security-settings)」を参照してください。
-
-<!-- warning end -->
 
 _リクエストの例_
 
