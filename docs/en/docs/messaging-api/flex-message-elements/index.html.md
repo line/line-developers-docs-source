@@ -183,6 +183,8 @@ Component is a unit that composes a [block](https://developers.line.biz/en/docs/
 
 This component defines a horizontal or vertical layout orientation and holds components together. Any component can be contained, including a box. For more information on layout information, see [Flex Message layout](https://developers.line.biz/en/docs/messaging-api/flex-message-layout/). For more information on the JSON schema, see [Box](https://developers.line.biz/en/reference/messaging-api/#box) in the Messaging API reference.
 
+You can nest boxes inside each other up to a maximum of 20 levels. The outermost box counts as level 1, its child box as level 2, and so on. You can still place components other than boxes inside a box at level 20.
+
 ### Button 
 
 This component renders a button. You can set an [action](https://developers.line.biz/en/docs/messaging-api/actions/) to be executed when a user taps the button. You have three button styles to choose from as shown below. You can change the color of the button of all button styles.

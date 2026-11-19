@@ -183,6 +183,8 @@ Flex Messageは、3層の階層構造で構成されています。最上位層�
 
 ボックスは、水平または垂直にコンポーネントをレイアウトするためのコンポーネントです。ボックスを含む、他のコンポーネントを含めることができます。レイアウトについて詳しくは、「[Flex Messageのレイアウト](https://developers.line.biz/ja/docs/messaging-api/flex-message-layout/)」を参照してください。JSONスキーマについて詳しくは、『Messaging APIリファレンス』の「[ボックス](https://developers.line.biz/ja/reference/messaging-api/#box)」を参照してください。
 
+ボックスを繰り返しネストできる深さは、最大20階層です。一番外側のボックスを1階層目、その子ボックスを2階層目として、順に数えます。なお、20階層目のボックスにも、ボックス以外のコンポーネントは配置できます。
+
 ### ボタン 
 
 ボタンを描画するコンポーネントです。ユーザーが、ボタンをタップしたときに実行される、[アクション](https://developers.line.biz/ja/docs/messaging-api/actions/)を指定できます。以下のように、ボタンには3つのスタイルがあり、それぞれでボタンの色を変更できます。
