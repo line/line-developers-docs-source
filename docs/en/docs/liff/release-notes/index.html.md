@@ -14,7 +14,7 @@ For more information, see [LIFF SDK (sdk.js) update policy](https://developers.l
 
 <!-- tip end -->
 
-### Current version
+### Current version 
 
 When you use the CDN edge path (`https://static.line-scdn.net/liff/edge/2/sdk.js`), you can always use the latest features of LIFF v2.
 

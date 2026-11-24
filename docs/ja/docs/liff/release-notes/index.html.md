@@ -14,7 +14,7 @@ LIFFでは、CDN固定パスとCDNエッジパスの2種類のCDNパスを用意
 
 <!-- tip end -->
 
-### 現在のバージョン
+### 現在のバージョン 
 
 CDNエッジパス（`https://static.line-scdn.net/liff/edge/2/sdk.js`）を使用する場合は、常にLIFF v2の最新機能を利用できます。
 
