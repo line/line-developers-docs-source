@@ -2,34 +2,40 @@
 
 <!-- note start -->
 
-**オプション機能を利用するには手続きが必要です**
+**エラー通知を利用するには手続きが必要です**
 
-本ドキュメントに記載の機能は、所定の申請等を行った法人ユーザーのみがご利用いただけます。自社のLINE公式アカウントでご利用になりたいお客様は、担当営業までご連絡いただくか、[弊社パートナー](https://www.lycbiz.com/jp/partner/sales/)にお問い合わせください。
+エラー通知は、認証プロバイダー配下のMessaging APIチャネルでのみ利用できます。自社のLINE公式アカウントでご利用になりたいお客様は、担当営業までご連絡いただくか、[弊社パートナー](https://www.lycbiz.com/jp/partner/sales/)にお問い合わせください。
 
 <!-- note end -->
 
 ## 概要 
 
-ユーザーが、LINE公式アカウントを友だち追加したり、LINE公式アカウントにメッセージを送ったりすると、[LINE Developersコンソール](https://developers.line.biz/console/)の「Webhook URL」で指定したURL（ボットサーバー）に対して、LINEプラットフォームからWebhookイベントが送られます。
+ユーザーが、LINE公式アカウントを友だち追加したり、LINE公式アカウントにメッセージを送ったりすると、[LINE Developersコンソール](https://developers.line.biz/console/)の［**Webhook URL**］で指定したURL（ボットサーバー）に対して、LINEプラットフォームからWebhookイベントが送られます。
 
-このWebhookイベント送信に対して、ボットサーバーが応答を返さない、あるいはステータスコード`200`番台以外の応答を返したとき、チャネルの管理者はエラーの発生を知らせる通知メールを受け取れます。このオプション機能を「エラー通知」と呼びます。
+このWebhookイベント送信に対して、ボットサーバーが応答を返さない、あるいはステータスコード`200`番台以外の応答を返したとき、エラーの発生を知らせる通知メールを受け取ることができます。このオプション機能を「エラー通知」と呼びます。
 
 ![ボットサーバーからエラーが返ってくると通知メールが送られます](https://developers.line.biz/media/partner-docs/normal-error-notification-ja.webp)
 
-## 送信されるメール 
+## エラー通知メールを有効にする 
 
-エラー通知で送信されるメールについて説明します。
+エラー通知メールは、デフォルトでは無効になっています。有効にするには、[LINE Developersコンソール](https://developers.line.biz/console/)で次の操作を行います。
+
+1. Messaging APIチャネルの［**Messaging API設定**］タブをクリックする。
+1. ［**Webhookの利用**］をオンにする。
+1. ［**エラー通知メール**］をオンにする。
+
+## 送信されるメール 
 
 ### メールの宛先 
 
-エラー通知のメールは、以下のメールアドレス宛に送信されます。
+エラー通知メールは、以下のメールアドレス宛に送信されます。
 
-- 対象チャネルの［**チャネル基本設定**］ページに登録されているメールアドレス
-- 対象チャネルに対してAdmin権限を持つユーザーの登録メールアドレス
+- 対象チャネルの［**チャネル基本設定**］タブの［**メールアドレス**］
+- 対象チャネルのAdmin権限を持つ開発者のメールアドレス
 
 ### メールの種類 
 
-エラー通知のメールには、以下の種類があります。
+エラー通知メールには、以下の種類があります。
 
 - [LINEプラットフォームがエラーの発生を検知したとき](https://developers.line.biz/ja/docs/partner-docs/error-notification/#detected-error)
 - [LINEプラットフォームがWebhookの再送を停止したとき](https://developers.line.biz/ja/docs/partner-docs/error-notification/#webhook-redelivery-stopped)（Webhookの再送が有効の場合のみ）

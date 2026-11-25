@@ -6,7 +6,7 @@ This page describes how to use these optional functions:
 
 | Optional function | Overview |
 | --- | --- |
-| [Error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) | If the bot server returns an error when sending webhook events from the LINE Platform, you can notify a channel administrator by email. |
+| [Error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) | You can receive email notifications when the LINE Platform detects a webhook delivery error or stops webhook redelivery. |
 | [Provider page](https://developers.line.biz/en/docs/partner-docs/provider-page/) | A list of all the services that the [Provider](https://developers.line.biz/en/glossary/#provider) offers on the LINE Platform. |
 | [Mission stickers](https://developers.line.biz/en/docs/partner-docs/mission-stickers/) | Mission stickers are provided to user upon completion of certain objectives. |
 | [LINE notification messages](https://developers.line.biz/en/docs/partner-docs/line-notification-messages/overview/) | You can send messages to users by specifying their phone number, even without knowing their user IDs. |

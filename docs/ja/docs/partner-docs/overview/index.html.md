@@ -6,7 +6,7 @@
 
 | オプション機能 | 概要 |
 | --- | --- |
-| [エラー通知](https://developers.line.biz/ja/docs/partner-docs/error-notification/) | LINEプラットフォームからのWebhookイベント送信に、ボットサーバーがエラーを返した場合、チャネルの管理者にメールで通知できます。 |
+| [エラー通知](https://developers.line.biz/ja/docs/partner-docs/error-notification/) | LINEプラットフォームがWebhookの送信エラーを検知したときや、Webhookの再送を停止したときに、メールで通知を受け取ることができます。 |
 | [プロバイダーページ](https://developers.line.biz/ja/docs/partner-docs/provider-page/) | [プロバイダー](https://developers.line.biz/ja/glossary/#provider)がLINEプラットフォーム上で提供している各種サービスの一覧ページです。 |
 | [ミッションスタンプ](https://developers.line.biz/ja/docs/partner-docs/mission-stickers/) | ミッションの達成を条件としてユーザーにスタンプを提供することができます。 |
 | [LINE通知メッセージ](https://developers.line.biz/ja/docs/partner-docs/line-notification-messages/overview/) | ユーザーIDを知らないユーザーにも、電話番号を指定することでメッセージを送信できます。 |

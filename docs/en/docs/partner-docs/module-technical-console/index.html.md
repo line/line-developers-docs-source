@@ -36,6 +36,10 @@ You can set whether or not to resend the webhook event from the LINE Platform wh
 
 You can set whether or not to display stats about webhook event reception failures on the **Webhook errors** tab.
 
+### Error notification emails 
+
+You can set whether or not to receive email notifications when the LINE Platform detects a webhook delivery error or stops webhook redelivery. For more information, see [Error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) in the options for corporate customers documentation.
+
 ## 3. Redirect settings 
 
 ### Redirect URL 

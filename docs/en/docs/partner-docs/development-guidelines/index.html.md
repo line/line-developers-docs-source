@@ -174,18 +174,6 @@ This image depicts asynchronized processing.
 
 ![Processing flow when receiving a webhook request](https://developers.line.biz/media/partner-docs/flow-when-receiving-a-webhook-en.png)
 
-### If a problem occurs when sending a webhook request 
-
-For Messaging API channels under the certified provider, if the HTTP status code `2xx` isn't sent within 2 seconds after getting the webhook event, a [`request_timeout`](https://developers.line.biz/en/docs/messaging-api/check-webhook-error-statistics/#check-error-reason) [error notification](https://developers.line.biz/en/docs/partner-docs/error-notification/) is sent to the channel administrator.
-
-<!-- note start -->
-
-**Use of error notification function**
-
-The error notification feature is only available for Messaging API channels that are under the certified provider.
-
-<!-- note end -->
-
 ### Other precautions 
 
 #### One webhook can contain multiple webhook event objects 

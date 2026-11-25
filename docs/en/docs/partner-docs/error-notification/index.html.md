@@ -2,34 +2,40 @@
 
 <!-- note start -->
 
-**Use of optional functions requires an application**
+**Use of error notification requires an application**
 
-Only corporate users who have submitted the required applications can use the functions described in this document. To use these functions with your LINE Official Account, contact your sales representative or contact [our Sales partners](https://www.lycbiz.com/jp/partner/sales/).
+Error notification is only available for Messaging API channels under a certified provider. To use this function with your LINE Official Account, contact your sales representative or contact [our Sales partners](https://www.lycbiz.com/jp/partner/sales/).
 
 <!-- note end -->
 
 ## Summary 
 
-If the user adds your LINE Official Account as a friend or sends a message to your LINE Official Account, LINE Platform sends a webhook event to the URL (bot server) specified in the [LINE Developers Console](https://developers.line.biz/console/) "Webhook URL".
+If the user adds your LINE Official Account as a friend or sends a message to your LINE Official Account, the LINE Platform sends a webhook event to the URL (bot server) specified in **Webhook URL** in the [LINE Developers Console](https://developers.line.biz/console/).
 
-If the bot server doesn't respond or returns a response other than status code `2xx` to this webhook event request, the channel administrator will receive a notification email informing them of the occurrence of the error. This option is called the "error notification" function.
+If the bot server doesn't respond or returns a response other than status code `2xx` to this webhook event request, you can receive a notification email informing you of the error. This option is called the "error notification" function.
 
 ![You will receive a notification email when an error is returned from the bot server](https://developers.line.biz/media/partner-docs/normal-error-notification-en.webp)
 
-## Notification email 
+## Enable error notification emails 
 
-This topic explains the email sent by the error notification function.
+Error notification emails are disabled by default. To enable them, follow these steps in the [LINE Developers Console](https://developers.line.biz/console/):
+
+1. Click the **Messaging API** tab of your Messaging API channel.
+1. Turn on **Use webhook**.
+1. Turn on **Error notification emails**.
+
+## Notification email 
 
 ### Email recipients 
 
-Notification email will be sent to the following email addresses:
+Error notification emails are sent to the following email addresses:
 
-- Email address registered on the **Basic settings** page of the target channel
-- Registered email address of a user with the Admin role for the target channel
+- **Email address** on the **Basic settings** tab of the target channel
+- Email addresses of developers with the Admin role for the target channel
 
 ### Email types 
 
-Notification emails can be of the following types:
+Error notification emails can be of the following types:
 
 - [When the LINE Platform detected an error](https://developers.line.biz/en/docs/partner-docs/error-notification/#detected-error)
 - [When the LINE Platform stopped webhook redelivery](https://developers.line.biz/en/docs/partner-docs/error-notification/#webhook-redelivery-stopped) (only if Webhook redelivery is enabled)

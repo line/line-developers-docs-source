@@ -2,6 +2,14 @@
 
 法人ユーザー向けのお知らせです。[ニュース](https://developers.line.biz/ja/news/)もあわせてご参照ください。
 
+2026/11/25
+
+## エラー通知の受信設定を変更できるようになりました 
+
+認証プロバイダー配下のMessaging APIチャネルにおいて、[エラー通知](https://developers.line.biz/ja/docs/partner-docs/error-notification/)の受信設定を[LINE Developersコンソール](https://developers.line.biz/console/)から変更できるようになりました。
+
+詳しくは、『法人ユーザー向けオプションドキュメント』の「[エラー通知メールを有効にする](https://developers.line.biz/ja/docs/partner-docs/error-notification/#enable-error-notification-emails)」を参照してください。
+
 2026/11/02
 
 ## 2026年10月31日をもって、既読API（旧）の新規利用申請の受付を終了しました 

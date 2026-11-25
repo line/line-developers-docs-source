@@ -174,18 +174,6 @@ Webhookリクエストの処理が後続の処理に遅延を与えないよう�
 
 ![Webhookリクエスト受信時の処理フロー](https://developers.line.biz/media/partner-docs/flow-when-receiving-a-webhook-ja.png)
 
-### Webhookリクエスト送信時に問題が発生した場合 
-
-認証プロバイダー配下に存在するMessaging APIチャネルにおいては、Webhookイベントを受信してから2秒以内にHTTPステータスコード`200`番台がレスポンスされなかった場合、チャネルの管理者に対し、[`request_timeout`](https://developers.line.biz/ja/docs/messaging-api/check-webhook-error-statistics/#check-error-reason)の[エラー通知](https://developers.line.biz/ja/docs/partner-docs/error-notification/)が送信されます。
-
-<!-- note start -->
-
-**エラー通知機能の利用**
-
-エラー通知機能は、認証プロバイダー配下に存在するMessaging APIチャネルでのみ利用できます。
-
-<!-- note end -->
-
 ### その他注意事項 
 
 #### 1つのWebhookに複数のWebhookイベントオブジェクトが含まれる場合があります 

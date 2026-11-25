@@ -2,6 +2,14 @@
 
 Notice for corporate customers. See also the [News](https://developers.line.biz/en/news/).
 
+2026/11/25
+
+## You can now change your error notification settings 
+
+For Messaging API channels under a certified provider, you can now change your settings for receiving [error notifications](https://developers.line.biz/en/docs/partner-docs/error-notification/) in the [LINE Developers Console](https://developers.line.biz/console/).
+
+For more information, see [Enable error notification emails](https://developers.line.biz/en/docs/partner-docs/error-notification/#enable-error-notification-emails) in the options for corporate customers documentation.
+
 2026/11/02
 
 ## We stopped accepting new applications for the Mark as read API (old) on October 31, 2026 
