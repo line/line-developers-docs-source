@@ -188,6 +188,7 @@ _エラーレスポンスの例_
 | Failed to send messages | メッセージの送信に失敗しました。指定したユーザーIDが存在しない場合などにこのエラーが発生します。 |
 | You have reached your monthly limit. | <ul><li>無料メッセージ通数を超過しました。</li><li>追加メッセージ数の上限目安を超過しました。</li></ul><p>無料メッセージ通数や、追加メッセージ数の上限目安について詳しくは、『Messaging APIドキュメント』の「[Messaging APIの料金](https://developers.line.biz/ja/docs/messaging-api/pricing/)」を参照してください。</p><p>当月に配信できるメッセージ数がまだ残っていても、`You have reached your monthly limit.`が返される場合があります。詳しくは、FAQの「[当月に配信できるメッセージ数はまだ残っているのに、メッセージ送信時に429 Too Many Requests（You have reached your monthly limit.）が返されるのはなぜですか？](https://developers.line.biz/ja/faq/#why-do-i-get-429-error-during-message-delivery)」を参照してください。</p> |
 | The API rate limit has been exceeded. Try again later. | APIコールの[レート制限](https://developers.line.biz/ja/reference/messaging-api/#rate-limits)を超過しました。 |
+| There are too many running upload jobs for the audience group id. | オーディエンスID（`audienceGroupId`）単位での[同時処理数の制限](https://developers.line.biz/ja/reference/messaging-api/#limit-on-the-number-of-concurrent-operations)を超過しました。 |
 | Not found | プロフィール情報を取得できませんでした。次のような理由が考えられます。<ul><li>対象のユーザーIDが存在していない</li><li>ユーザーがプロフィール情報の取得に同意していない</li><li>ユーザーが対象のLINE公式アカウントを友だち追加していない</li><li>ユーザーが対象のLINE公式アカウントを友だち追加した後にブロックした</li></ul>詳しくは、『Messaging APIドキュメント』の「[ユーザーのプロフィール情報取得の同意](https://developers.line.biz/ja/docs/messaging-api/user-consent/)」を参照してください。 |
 
 ### その他の共通仕様 
@@ -6637,11 +6638,11 @@ _エラーレスポンスの例_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/quota`
 
-当月に送信できるメッセージ数の上限目安を取得します。無料メッセージ数と追加メッセージ数を合わせた値が返されます。
+当月に送信できるメッセージ数の上限目安を取得します。無料メッセージ通数と追加メッセージ数の上限目安を合わせた値が返されます。
 
 このエンドポイントで取得できるメッセージ数には、LINE Official Account Managerから送信するメッセージの数も含まれます。
 
-追加メッセージの上限は、LINE Official Account Managerで設定します。設定方法について詳しくは、『LINEヤフー for Business』の「[利用と請求（プラン変更やお支払い関連の管理）](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings_plan/?list=7171)」を参照してください。
+追加メッセージ数の上限目安は、LINE Official Account Managerで設定します。設定方法について詳しくは、『LINEヤフー for Business』の「[利用と請求（プラン変更やお支払い関連の管理）](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings_plan/?list=7171)」を参照してください。
 
 _リクエストの例_
 
@@ -6682,8 +6683,8 @@ String
 
 上限目安が設定されているかどうかを示す値。以下のどちらかになります。
 
-- `none`：上限目安が未設定であることを示します。
-- `limited`：上限目安が設定されていることを示します。
+- `none`：上限目安が未設定であることを示します。この値が返されるのは、LINEヤフー株式会社への別途の申し込みにより、[「地方公共団体プラン」](https://linegov.com/)などの特別なプランが適用されている一部のLINE公式アカウントに限られます。
+- `limited`：上限目安が設定されていることを示します。LINE Official Account Managerで[コミュニケーションプラン、ライトプラン、またはスタンダードプラン](https://developers.line.biz/ja/docs/messaging-api/pricing/#examples-of-subscription-plans)を申し込み、利用しているLINE公式アカウントでは、この値が返されます。
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="含まれないことがあります") -->
@@ -6692,7 +6693,7 @@ value
 
 Number
 
-当月に送信できるメッセージ数の上限目安。`type`プロパティが`limited`の場合にのみ返されます。
+当月に送信できるメッセージ数の上限目安。`type`プロパティが`limited`の場合にのみ返されます。[スタンダードプラン](https://developers.line.biz/ja/docs/messaging-api/pricing/#examples-of-subscription-plans)で追加メッセージ数の上限目安を設定している場合は、スタンダードプランの無料メッセージ通数と設定値の合計が返されます。
 
 <!-- parameter end -->
 
@@ -6722,6 +6723,8 @@ Endpoint: `GET` `https://api.line.me/v2/bot/message/quota/consumption`
 この操作により取得されるメッセージ数には、LINE Official Account Managerから送信するメッセージの数も含まれます。
 
 この操作により取得されるメッセージ数は概算です。正確なメッセージ送信数を取得するには、LINE Official Account Managerを使用するか、送信済みのメッセージ数を取得するAPI操作を実行してください。
+
+[ナローキャストメッセージ](https://developers.line.biz/ja/reference/messaging-api/#send-narrowcast-message-cautions)やLINE Official Account Managerの絞り込み配信では、配信予定のメッセージ通数が一時的に予約され、`totalUsage`に含まれます。実際の送信件数が確定すると、送信されなかった分は予約が解除され、`totalUsage`から差し引かれます。
 
 _リクエストの例_
 
@@ -6760,7 +6763,7 @@ totalUsage
 
 Number
 
-当月に送信されたメッセージの数
+当月に送信されたメッセージの数。配信予定のメッセージの一時的な予約分を含む場合があります。
 
 <!-- parameter end -->
 

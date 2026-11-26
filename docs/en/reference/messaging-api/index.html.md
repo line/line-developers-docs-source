@@ -188,6 +188,7 @@ The main error messages that are found in the `message` property of the JSON err
 | Failed to send messages | Appears when the message fails to be sent. One reason this may appear is if the user ID specified doesn't exist. |
 | You have reached your monthly limit. | <ul><li>Exceeded the number of free messages.</li><li>Exceeded your maximum number of additional messages allowed to be sent.</li></ul><p>For more information about the number of free messages and the maximum number of additional messages allowed to be sent, see [Messaging API pricing](https://developers.line.biz/en/docs/messaging-api/pricing/) in the Messaging API documentation.</p><p>You may also receive this error even if you still have messages available to send for the current month. For more information, see [Why do I get a 429 Too Many Requests error (You have reached your monthly limit.) even though I still have messages available to send for the current month?](https://developers.line.biz/en/faq/#why-do-i-get-429-error-during-message-delivery) in the FAQ.</p> |
 | The API rate limit has been exceeded. Try again later. | Exceeded the [rate limit](https://developers.line.biz/en/reference/messaging-api/#rate-limits) for requests. |
+| There are too many running upload jobs for the audience group id. | You exceeded the [limit on the number of concurrent operations](https://developers.line.biz/en/reference/messaging-api/#limit-on-the-number-of-concurrent-operations) for the audience ID (`audienceGroupId`). |
 | Not found | Unable to get profile information. Consider these reasons:<ul><li>Target user ID doesn't exist</li><li>The user hasn't consented to their profile information being obtained</li><li>The user hasn't added the target LINE Official Account as a friend</li><li>The user blocked the target LINE Official Account after adding it as a friend</li></ul>For more information, see [Consent on getting user profile information](https://developers.line.biz/en/docs/messaging-api/user-consent/) in the Messaging API documentation. |
 
 ### Other common specifications 
@@ -6636,11 +6637,11 @@ _Example error response_
 
 Endpoint: `GET` `https://api.line.me/v2/bot/message/quota`
 
-Gets the target limit for sending messages in the current month. The total number of the free messages and the additional messages is returned.
+This endpoint gets the target limit for sending messages in the current month. It returns the sum of the number of free messages and the target limit for additional messages.
 
-The number of messages retrieved by this endpoint includes the number of messages sent from LINE Official Account Manager.
+The target limit returned by this endpoint includes the number of messages sent from LINE Official Account Manager.
 
-Set a target limit for the additional messages with LINE Official Account Manager. For more information about configuration, see [Using and billing (plan changes and payment management)](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings_plan/?list=7171) (only available in Japanese) in LINE for Business.
+Set the target limit for additional messages in LINE Official Account Manager. For more information, see [Using and billing (plan changes and payment management)](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings_plan/?list=7171) (only available in Japanese) in LINE for Business.
 
 _Example request_
 
@@ -6679,10 +6680,10 @@ type
 
 String
 
-One of the following values to indicate whether a target limit is set or not.
+The `type` property indicates whether your account has a target limit. The endpoint returns one of these values:
 
-- `none`: This indicates that a target limit is not set.
-- `limited`: This indicates that a target limit is set.
+- `none`: Your account doesn't have a target limit. The endpoint returns this value only for some LINE Official Accounts on special plans, such as the [Local Government Plan](https://linegov.com/) (only available in Japanese). These plans require a separate application to LY Corporation.
+- `limited`: Your account has a target limit. The endpoint returns this value for the [Communication Plan, Light Plan, or Standard Plan](https://developers.line.biz/en/docs/messaging-api/pricing/#examples-of-subscription-plans) if you signed up in LINE Official Account Manager.
 
 <!-- parameter end -->
 <!-- parameter start (props: annotation="Not always included") -->
@@ -6691,7 +6692,7 @@ value
 
 Number
 
-The target limit for sending messages in the current month. This property is returned when the `type` property has a value of `limited`.
+The target limit for sending messages in the current month. The endpoint returns this property only when `type` is `limited`. If you've set a target limit for additional messages on the [Standard Plan](https://developers.line.biz/en/docs/messaging-api/pricing/#examples-of-subscription-plans), `value` is the sum of that limit and the plan's free message allowance.
 
 <!-- parameter end -->
 
@@ -6721,6 +6722,8 @@ Gets the number of messages sent in the current month.
 The number of messages retrieved by this operation includes the number of messages sent from LINE Official Account Manager.
 
 The number of messages retrieved by this operation is approximate. To get the correct number of sent messages, use LINE Official Account Manager or execute API operations for getting the number of sent messages.
+
+The LINE Platform temporarily reserves the planned number of messages for [narrowcast messages](https://developers.line.biz/en/reference/messaging-api/#send-narrowcast-message-cautions) and targeted broadcasts from LINE Official Account Manager. It includes these reservations in `totalUsage`. After finalizing the actual number of messages sent, the LINE Platform releases the reservations for unsent messages and subtracts the corresponding message count from `totalUsage`.
 
 _Example request_
 
@@ -6759,7 +6762,7 @@ totalUsage
 
 Number
 
-The number of sent messages in the current month
+The number of messages sent in the current month. This number may include messages temporarily reserved for planned deliveries.
 
 <!-- parameter end -->
 
