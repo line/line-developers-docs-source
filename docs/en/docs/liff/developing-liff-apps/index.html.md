@@ -688,7 +688,7 @@ Users can select the following types of recipients in the target picker:
 | Recipient type | Selectable recipients |
 | --- | --- |
 | Groups | Groups that the user participates in. OpenChat isn't included. |
-| Friends | The user's friends. However, LINE Official Accounts aren't displayed in the Friends section. |
+| Friends | The user's friends. If a friend has set a [subprofile](https://developers.line.biz/en/glossary/#subprofile) for the user, the subprofile is displayed.<br>LINE Official Accounts aren't displayed in the Friends section. |
 | Chats | Chats in which messages have been sent or received within a certain period. Includes groups, users, chat rooms, and LINE Official Accounts. |
 
 If `false` is specified for the `options.isMultiple` property when calling the method, only the Friends section is displayed, and users can select only one friend as the recipient.
