@@ -14015,7 +14015,7 @@ Returns the following HTTP status code and an error response:
 | Code | Description |
 | --- | --- |
 | `400` | Unable to get the statistic. Consider these reasons:<ul><li>No aggregation period date specified.</li><li>Invalid aggregation period date specified.</li></ul> |
-| `404` | No statistics exist for the specified rich menu. Consider these reasons:<ul><li>The rich menu ID is incorrect.</li><li>The rich menu was just created, and the initial aggregation of its statistics hasn't finished yet (the aggregation process of these statistics is usually completed within the next day).</li><li>The rich menu was deleted a long time ago.</li></ul> |
+| `404` | No statistics exist for the specified rich menu. Consider these reasons:<ul><li>The rich menu ID is incorrect.</li><li>The rich menu was just created, and the initial aggregation of its statistics hasn't finished yet (the aggregation process of these statistics is usually completed within the next day).</li><li>The rich menu was deleted 3 or more years ago.</li></ul> |
 
 For more information, see [Status codes](https://developers.line.biz/en/reference/messaging-api/#status-codes) and [Error responses](https://developers.line.biz/en/reference/messaging-api/#error-responses) in the [Common specifications](https://developers.line.biz/en/reference/messaging-api/#common-specifications) section.
 
@@ -14446,7 +14446,7 @@ Returns the following HTTP status code and an error response:
 | Code | Description |
 | --- | --- |
 | `400` | Unable to get the statistic. Consider these reasons:<ul><li>No aggregation period date specified.</li><li>Invalid aggregation period date specified.</li></ul> |
-| `404` | No statistics exist for the specified rich menu. Consider these reasons:<ul><li>The rich menu ID is incorrect.</li><li>The rich menu was just created, and the initial aggregation of its statistics hasn't finished yet (the aggregation process of these statistics is usually completed within the next day).</li><li>The rich menu was deleted a long time ago.</li></ul> |
+| `404` | No statistics exist for the specified rich menu. Consider these reasons:<ul><li>The rich menu ID is incorrect.</li><li>The rich menu was just created, and the initial aggregation of its statistics hasn't finished yet (the aggregation process of these statistics is usually completed within the next day).</li><li>The rich menu was deleted 3 or more years ago.</li></ul> |
 
 For more information, see [Status codes](https://developers.line.biz/en/reference/messaging-api/#status-codes) and [Error responses](https://developers.line.biz/en/reference/messaging-api/#error-responses) in the [Common specifications](https://developers.line.biz/en/reference/messaging-api/#common-specifications) section.
 
